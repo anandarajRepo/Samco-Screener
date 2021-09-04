@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+snapi_py_client/__init__.py
+snapi_py_client/api_client.py
+snapi_py_client/configuration.py
+snapi_py_client/rest.py
+snapi_py_client/snapi_bridge.py
+stocknotebridge.egg-info/PKG-INFO
+stocknotebridge.egg-info/SOURCES.txt
+stocknotebridge.egg-info/dependency_links.txt
+stocknotebridge.egg-info/requires.txt
+stocknotebridge.egg-info/top_level.txt
