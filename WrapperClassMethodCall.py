@@ -17,7 +17,7 @@ pd.set_option('display.width', None)
 #####################
 
 samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="d1c5f3f1534ef9ec92be4f99c10a1c79")
+samco.set_session_token(sessionToken="ac600c3bc1cea67cce9dff06093cad14")
 
 ################
 ### Analysis ###
@@ -25,7 +25,7 @@ samco.set_session_token(sessionToken="d1c5f3f1534ef9ec92be4f99c10a1c79")
 
 # pprint(samco.search_equity_derivative(search_symbol_name="BANKNIFTY",exchange=samco.EXCHANGE_NFO))
 
-HistoricalCandleData = samco.get_historical_candle_data(symbol_name='ADANIGAS', exchange=samco.EXCHANGE_NSE, from_date='2021-01-01', to_date='2021-05-21')
+HistoricalCandleData = samco.get_historical_candle_data(symbol_name='PENINLAND', exchange=samco.EXCHANGE_NSE, from_date='2021-04-01', to_date='2021-09-03')
 
 dictHistoricalData = json.loads(HistoricalCandleData)
 df_hist = pd.DataFrame(dictHistoricalData['historicalCandleData'])

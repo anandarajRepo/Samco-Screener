@@ -612,7 +612,7 @@ pd.set_option('display.width', None)
 ### Get inputs from config file ###
 ###################################
 config = ConfigParser()
-config.read('../Screener/config.ini')
+config.read('../FlaskScreener/config.ini')
 
 #################
 ### DB config ###

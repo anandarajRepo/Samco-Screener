@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+</head>
+<style>
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    vertical-align: top;
+}
+
+td.break {
+    float: right
+}
+
+td.left {
+    float: left
+}
+
+div {
+    padding: 5px;
+}
+
+</style>
+<body>
+<table>
+    <thead>
+        <tr>
+            <th>Company</th>
+            <th>Performance</th>
+            {% for column in columns %}
+                <th>{{column}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        {% for company, date in performance.items() %}
+            <tr>
+                <td style="vertical-align:middle">{{company}}</td>
+                <td>
+                    <div class="left">OpenClosePercent</div>
+                    <div class="left">HighLowPercent</div>
+                    <div class="left">PrevClosePercent</div>
+                    <div class="left">VolPercent</div>
+                    <div class="left">GapUpPercent</div>
+                    <div class="left">GapDownPercent</div>
+                </td>
+                {% for column in columns %}
+                <td>
+                    {% for date, performance in date.items() %}
+                        {% if performance is not number and column == date %}
+                            {% for key, value in performance.items() %}
+                                {% if 'volPercent' == key %}
+                                    {% if value >= 100 %}
+                                        <div class="left" style="background-color:lightgreen">{{value}}</div>
+                                    {% elif value <= 0 and value|abs >= 50 %}
+                                        <div class="left" style="background-color:#CD5C5C">{{value}}</div>
+                                    {% else %}
+                                        <div class="left">{{value}}</div>
+                                    {% endif %}
+                                {% elif 'gapUp' == key %}
+                                    {% if value > 0 %}
+                                        <div class="left" style="background-color:lightgreen">{{value}}</div>
+                                    {% else %}
+                                        <div class="left">N.A</div>
+                                    {% endif %}
+                                {% elif 'gapDown' == key %}
+                                    {% if value < 0 %}
+                                        <div class="left" style="background-color:#CD5C5C">{{value}}</div>
+                                    {% else %}
+                                        <div class="left">N.A</div>
+                                    {% endif %}
+                                {% elif 'openClosePercent' == key or 'highLowPercent' == key or 'prevClosePercent' == key %}
+                                    <div class="left">{{value}}</div>
+                                {% endif %}
+                            {% endfor %}
+                        {% endif %}
+                    {% endfor %}
+                </td>
+            {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

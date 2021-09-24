@@ -10,9 +10,9 @@ config.read('config.ini')
 #################
 ### DB config ###
 #################
-userId = config.get('Smaco', 'userId')
-password = config.get('Smaco', 'password')
-yob = config.get('Smaco', 'yob')
+userId = config.get('Samco', 'userId')
+password = config.get('Samco', 'password')
+yob = config.get('Samco', 'yob')
 
 samco = StocknoteAPIPythonBridge()
 
