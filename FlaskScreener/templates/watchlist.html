@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+
+.column-nowrap {
+    white-space: nowrap;
+}
+
+.sticky-header {
+    position: sticky;
+    top:0;
+    background: white;
+    z-index: 1;
+}
+
+.sticky-header-company {
+    position: sticky;
+    left:0;
+    background: white;
+    z-index: 2;
+}
+
+.positive {
+    color:green;
+    font-weight:bold;
+}
+
+.negative {
+    color:#CD5C5C;
+    font-weight:bold;
+}
+
+table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
+}
+
+table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+
+table thead th:nth-child(2) {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+table tbody th:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}
+
+
+</style>
+<body>
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th scope="col">Company</th>
+            <th scope="col">Sector</th>
+            <th scope="col">Sub-Sector</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for listOfStock in listOfStocks %}
+            <tr>
+                {% for stockDetails in listOfStock %}
+                    <th scope="row">{{stockDetails}}</th>
+                {% endfor %}
+            </tr>
+        {% endfor %}
+    </tbody>
+</table>
+</body>
+</html>

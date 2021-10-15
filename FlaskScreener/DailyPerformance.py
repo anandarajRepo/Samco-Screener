@@ -106,29 +106,9 @@ def getTheDailyPerform():
                         performance[record['nameofcompany']]["prevLow"] = record['low']
                         performance[record['nameofcompany']]["prevVol"] = int(record['volume'])
 
-    # pprint(candles_1)
-
-    # print(type(columns))
-    # pprint(columns)
-
-    ### List to pandas conversion
-    # df = pd.DataFrame(candles_1).T
-
-    ### Filter percentage across all columns
-    # for column in columns:
-    #     df = df[df[column[0]] > -3]
-
-    ### Filter percentage in one column
-    # df = df[df[datetime.date(2021, 4, 5)] > 10]
-
     context = {'columns': uniqueColumns, 'performance': performance}
-    # context = [uniqueColumns, candles_1]
-
     return context
 
-
-# df = getTheDailyPerform()
-# print(df.head(10))
 
 @app.route('/')
 def dailyPerformance():

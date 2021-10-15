@@ -2,57 +2,89 @@
 <html>
 <head>
  <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 </head>
 <style>
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
+
+.column-nowrap {
+    white-space: nowrap;
 }
 
-td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
-    padding: 8px;
-    vertical-align: top;
+.sticky-header {
+    position: sticky;
+    top:0;
+    background: white;
+    z-index: 1;
 }
 
-td.break {
-    float: right
+.sticky-header-company {
+    position: sticky;
+    left:0;
+    background: white;
+    z-index: 2;
 }
 
-td.left {
-    float: left
+.positive {
+    color:green;
+    font-weight:bold;
 }
 
-div {
-    padding: 5px;
+.negative {
+    color:#CD5C5C;
+    font-weight:bold;
 }
+
+table thead th {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background: white;
+}
+
+table thead th:first-child {
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+
+table thead th:nth-child(2) {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+table tbody th:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+  z-index: 1;
+}
+
 
 </style>
 <body>
-<table>
+<table class="table table-light">
     <thead>
         <tr>
-            <th>Company</th>
-            <th>Performance</th>
+            <th scope="col">Company</th>
+            <th scope="col">Performance</th>
             {% for column in columns %}
-                <th>{{column}}</th>
+                <th scope="col" class="column-nowrap">{{column}}</th>
             {% endfor %}
         </tr>
     </thead>
     <tbody>
         {% for company, date in performance.items() %}
             <tr>
-                <td style="vertical-align:middle">{{company}}</td>
-                <td>
+                <th scope="row">{{company}}</th>
+                <th scope="row">
                     <div class="left">OpenClosePercent</div>
                     <div class="left">HighLowPercent</div>
                     <div class="left">PrevClosePercent</div>
                     <div class="left">VolPercent</div>
                     <div class="left">GapUpPercent</div>
                     <div class="left">GapDownPercent</div>
-                </td>
+                </th>
                 {% for column in columns %}
                 <td>
                     {% for date, performance in date.items() %}
@@ -60,26 +92,26 @@ div {
                             {% for key, value in performance.items() %}
                                 {% if 'volPercent' == key %}
                                     {% if value >= 100 %}
-                                        <div class="left" style="background-color:lightgreen">{{value}}</div>
+                                        <div class="positive">{{value}}</div>
                                     {% elif value <= 0 and value|abs >= 50 %}
-                                        <div class="left" style="background-color:#CD5C5C">{{value}}</div>
+                                        <div class="negative">{{value}}</div>
                                     {% else %}
-                                        <div class="left">{{value}}</div>
+                                        <div>{{value}}</div>
                                     {% endif %}
                                 {% elif 'gapUp' == key %}
                                     {% if value > 0 %}
-                                        <div class="left" style="background-color:lightgreen">{{value}}</div>
+                                        <div  class="positive">{{value}}</div>
                                     {% else %}
-                                        <div class="left">N.A</div>
+                                        <div>N.A</div>
                                     {% endif %}
                                 {% elif 'gapDown' == key %}
                                     {% if value < 0 %}
-                                        <div class="left" style="background-color:#CD5C5C">{{value}}</div>
+                                        <div class="negative">{{value}}</div>
                                     {% else %}
-                                        <div class="left">N.A</div>
+                                        <div>N.A</div>
                                     {% endif %}
                                 {% elif 'openClosePercent' == key or 'highLowPercent' == key or 'prevClosePercent' == key %}
-                                    <div class="left">{{value}}</div>
+                                    <div>{{value}}</div>
                                 {% endif %}
                             {% endfor %}
                         {% endif %}
