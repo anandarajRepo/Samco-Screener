@@ -102,13 +102,13 @@ table tbody th:first-child {
                                     {% if value > 0 %}
                                         <div  class="positive">{{value}}</div>
                                     {% else %}
-                                        <div>N.A</div>
+                                        <div>-</div>
                                     {% endif %}
                                 {% elif 'gapDown' == key %}
                                     {% if value < 0 %}
                                         <div class="negative">{{value}}</div>
                                     {% else %}
-                                        <div>N.A</div>
+                                        <div>-</div>
                                     {% endif %}
                                 {% elif 'openClosePercent' == key or 'highLowPercent' == key or 'prevClosePercent' == key %}
                                     <div>{{value}}</div>

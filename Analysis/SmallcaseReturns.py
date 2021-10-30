@@ -43,7 +43,7 @@ for row in smallcaseCSV:
 ###### Create a empty dataframe
 data = {'From Date': [],
         'To Date': [],
-        'Monthly Returns': []
+        'Returns': []
         }
 df_smallcase = pd.DataFrame(data)
 
@@ -55,8 +55,8 @@ for row in rowRef:
     if len(prevRow) > 1:
         fromDate = prevRow[len(prevRow) - 2][0]
         toDate = row[0]
-        monthlyReturns = float(row[1]) - float(prevRow[len(prevRow) - 2][1])
-        new_row = {'From Date': fromDate, 'To Date': toDate, 'Monthly Returns': monthlyReturns}
+        monthlyReturns = round((((float(row[1]) - float(prevRow[len(prevRow) - 2][1])) * 100) / float(prevRow[len(prevRow) - 2][1])), 2)
+        new_row = {'From Date': fromDate, 'To Date': toDate, 'Returns': monthlyReturns}
         df_smallcase = df_smallcase.append(new_row, ignore_index=True)
 
 print(df_smallcase)
