@@ -7,6 +7,7 @@
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script>
     $(document).ready(function() {
+        $("#alert-favourite").hide();
         $('input[name="insturmentId"]').click(function() {
             var stockId;
             if ($(this).is(":checked")) {
@@ -20,6 +21,9 @@
                     cache: false,
                     success: function(data){
                         $("#result").html(data);
+                        $("#alert-favourite").fadeTo(2000, 500).slideUp(500, function() {
+                            $("#alert-favourite").slideUp(500);
+                        });
                     }
 		        });
             } else {
@@ -33,6 +37,9 @@
                     cache: false,
                     success: function(data){
                         $("#result").html(data);
+                        $("#alert-favourite").fadeTo(2000, 500).slideUp(500, function() {
+                            $("#alert-favourite").slideUp(500);
+                        });
                     }
 		        });
             }
@@ -53,6 +60,7 @@
                 success: function(data) {
                     var output = "";
                     console.log(data.subsector)
+                    output += "<option value=''>Choose Sub-Sector</option>"
                     $.each(data.subsector, function(key, val){
                         output += "<option value='"+val+"'>"+val+"</option>"
                     });
@@ -123,25 +131,35 @@ table tbody th:first-child {
 }
 </style>
 <body>
+
 <br/>
 <form class="form-inline" method="POST" action="{{ url_for('home') }}">
-    <div class="form-group">
-        <div class="input-group">
-            <select class="form-select"  id="sector-dropdown" name="sector-dropdown" aria-label="Default select example">
-                {% for sectorDetails in listOfSectors %}
-                  <option value="{{sectorDetails['sector']}}">{{sectorDetails['sector']}}</option>
-                {% endfor %}
-            </select>
-
-            <select class="form-select"  id="sub-category-dropdown" name="sub-category-dropdown" aria-label="Default select example">
-            </select>
-        </div>
-        <button type="submit" class="btn btn-default">Go</button>
+    <div class="row g-3 align-items-center">
+    <div class="col-auto mb-3">
+        <select class="form-select form-select-sm"  id="sector-dropdown" name="sector-dropdown" aria-label="Default select example">
+            <option value="">Choose Sector</option>
+            {% for sectorDetails in listOfSectors %}
+              <option {% if selectedSector == sectorDetails['sector'] %} Selected {% endif %} value="{{sectorDetails['sector']}}">{{sectorDetails['sector']}}</option>
+            {% endfor %}
+        </select>
     </div>
+    <div class="col-auto mb-3">
+        <select class="form-select form-select-sm"  id="sub-category-dropdown" name="sub-category-dropdown" aria-label="Default select example">
+            <option value="">Choose Sub-Sector</option>
+            {% for subSectorDetails in listOfSubSectors %}
+              <option {% if selectedSubSector == subSectorDetails['subsector'] %} Selected {% endif %} value="{{subSectorDetails['subsector']}}">{{subSectorDetails['subsector']}}</option>
+            {% endfor %}
+        </select>
+    </div>
+    <div class="col-auto mb-3">
+        <button type="submit" class="btn btn-outline-primary btn-sm">Search</button>
+    </div>
+    </div>
+
 </form>
 <br/>
 
-<table class="table table-light">
+<table class="table table-light table-bordered">
     <thead>
         <tr>
             <th scope="col">ID</th>
@@ -153,7 +171,7 @@ table tbody th:first-child {
     </thead>
     <tbody>
         {% for stockDetails in listOfStocks %}
-            <tr>
+            <tr {% if stockDetails['favourite'] == true %} class="table-success" {% endif %}>
                 <th><input type="checkbox" class="get_value" name="insturmentId" value="{{stockDetails['id']}}" {% if stockDetails['favourite'] == true %} checked {% endif %}></th>
                 <th scope="row">{{stockDetails['nameofcompany']}}</th>
                 <td scope="row">{{stockDetails['sector']}}</td>
@@ -163,9 +181,13 @@ table tbody th:first-child {
         {% endfor %}
     </tbody>
 </table>
-<button type="button" name="submit" id="submit" class="btn btn-primary btn-lg btn-block">Save Favourite Stocks</button>
-<br/>
-<h4 id="result" class="alert alert-success"></h4>
+<!--<div class="d-grid gap-2">-->
+<!--    <button type="button" name="submit" id="submit" class="btn btn-primary btn-sm">Save Favourite Stocks</button>-->
+<!--</div>-->
+<div id="alert-favourite" class="alert alert-primary alert-dismissible fade hide" role="alert">
+    <div id="result"></div>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
 
 <!-- Optional JavaScript; choose one of the two! -->
 <!-- Option 1: Bootstrap Bundle with Popper -->

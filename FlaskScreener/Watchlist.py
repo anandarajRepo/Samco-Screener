@@ -9,6 +9,7 @@ from configparser import ConfigParser
 from psycopg2.extras import RealDictCursor
 from flask import Flask, render_template, request, jsonify, redirect, url_for
 from datetime import datetime, timedelta, time
+from jinjasql import JinjaSql
 
 ################################################################
 ### Options to display complete set of data frame in console ###
@@ -36,58 +37,71 @@ nameOfCompany = 'Peninsula Land Limited'
 ### List of Stocks ###
 ######################
 def getTheListOfStocks(sectorFilter, subSectorFilter):
-    if sectorFilter:
-        conn.execute("""SELECT 
-                          id,
-                          nameofcompany, 
-                          sector, 
-                          subsector,
-                          favourite
-                        FROM 
-                          instruments
-                        WHERE sector = '{0}' and subsector = '{1}'
-                        ORDER BY subsector, nameofcompany ASC""".format(sectorFilter, subSectorFilter))
-    else:
-        conn.execute("""SELECT 
-                          id,
-                          nameofcompany, 
-                          sector, 
-                          subsector,
-                          favourite
-                        FROM 
-                          instruments
-                        WHERE sector = '{0}'
-                        ORDER BY subsector, nameofcompany ASC""".format('Real Estate'))
+    instrument_query_template = """
+        SELECT id, nameofcompany, sector, subsector, favourite
+        FROM instruments
+        {% if sectorFilter %}
+        WHERE sector = {{ sectorFilter }}
+        {% else %}
+        WHERE favourite = true
+        {% endif %}
+        {% if subSectorFilter %}
+        AND subsector = {{ subSectorFilter }}
+        {% endif %}
+        ORDER BY subsector, nameofcompany ASC
+    """
 
+    instrument_query_template_data = {
+        "sectorFilter": sectorFilter,
+        "subSectorFilter": subSectorFilter
+    }
+
+    query, bind_params = jinjaSql.prepare_query(instrument_query_template, instrument_query_template_data)
+    conn.execute(query, bind_params)
     listOfStocks = conn.fetchall()
 
     # for listOfStock in listOfStocks:
     #     pprint(listOfStock['id'])
 
-    # # Get date intervals
-    # today = datetime.today().date()
-    # today = today - timedelta(days=1)
-    #
-    # if today.weekday() == 5:
-    #     today = today - timedelta(days=1)
-    #
-    # if today.weekday() == 6:
-    #     today = today - timedelta(days=2)
-    #
-    # # Time Interval
-    # one_month = today - timedelta(days=90)
-    #
-    # if one_month.weekday() == 5:
-    #     one_month = one_month - timedelta(days=1)
-    #
-    # if one_month.weekday() == 6:
-    #     one_month = one_month - timedelta(days=1)
-    #
-    # today = datetime(2021, 10, 14)
-    # one_month = datetime(2021, 9, 14)
-    # listOfStocksWithReturns = []
-    # listOfStocksWithoutReturns = []
-    #
+    # Get date intervals
+    today = datetime.today().date() - timedelta(days=3)
+    one_week = today - timedelta(days=5)
+    one_month = today - timedelta(days=30)
+    three_month = today - timedelta(days=90)
+    six_month = today - timedelta(days=180)
+    one_year = today - timedelta(days=360)
+
+    print(today)
+    print(one_week)
+    print(one_month)
+    print(three_month)
+    print(six_month)
+    print(one_year)
+
+    conn.execute("""SELECT DISTINCT(date) as date FROM eod ORDER BY date ASC""")
+    dictDate = conn.fetchall()
+
+    for date in dictDate:
+        if today == date['date']:
+            pprint(date['date'])
+
+    if today.weekday() == 5:
+        today = today - timedelta(days=1)
+
+    if today.weekday() == 6:
+        today = today - timedelta(days=2)
+
+    if one_month.weekday() == 5:
+        one_month = one_month - timedelta(days=1)
+
+    if one_month.weekday() == 6:
+        one_month = one_month - timedelta(days=1)
+
+    today = datetime(2021, 10, 14)
+    one_month = datetime(2021, 9, 14)
+    listOfStocksWithReturns = []
+    listOfStocksWithoutReturns = []
+
     # for listOfStock in listOfStocks:
     #     conn.execute("""SELECT
     #                       close
@@ -118,6 +132,7 @@ def getTheListOfStocks(sectorFilter, subSectorFilter):
     #
     # # pprint(listOfStocksWithReturns)
     # listOfStocksWithReturns.sort(key=lambda x: x['returns'], reverse=True)
+    # listOfStocksWithReturns.sort(key=lambda x: x['subsector'])
     # listOfStocksWithReturns.extend(listOfStocksWithoutReturns)
     #
     # context = {'listOfStocks': listOfStocksWithReturns}
@@ -128,8 +143,7 @@ def getTheListOfStocks(sectorFilter, subSectorFilter):
 def getSectors():
     conn.execute("""SELECT DISTINCT(sector) as sector FROM instruments""")
     listOfSectors = conn.fetchall()
-    context = {'listOfSectors': listOfSectors}
-    return context
+    return listOfSectors
 
 
 def getSubSectors(sectorName):
@@ -151,27 +165,27 @@ def fetchSubSector():
 
 @app.route("/insert", methods=["POST", "GET"])
 def insert():
+    global msg
     if request.method == 'POST':
-        # favId = request.args['checkboxvalue']
-        # favIdList = favId.split(',')
-        # print(favIdList)
-
         checkedStockId = request.form['data']
         event = request.form['event']
         print(checkedStockId)
         print(event)
 
         try:
-            # for favStockId in checkedStockId:
             conn.execute("""UPDATE instruments SET favourite = '{1}' WHERE id = '{0}'""".format(int(checkedStockId), event))
             db.commit()
         except Exception as e:
             print(e)
-        msg = 'Favourite Stocks Updated Successfully!'
+
+        if event == 'true':
+            msg = 'Favourite Stocks Updated Successfully!'
+        elif event == 'false':
+            msg = 'Stocks removed from favourite Successfully!'
+        return jsonify(msg)
     else:
         msg = 'Favourite Stocks Not Updated'
-    return jsonify(msg)
-    # return redirect(url_for('home'))
+        return jsonify(msg)
 
 
 @app.route('/', methods=["POST", "GET"])
@@ -180,9 +194,15 @@ def home():
     subSectorFilter = request.form.get('sub-category-dropdown')
 
     contextStocks = getTheListOfStocks(sectorFilter, subSectorFilter)
-    contextSector = getSectors()
+    listOfSectors = getSectors()
+    listOfSubSectors = getSubSectors(sectorFilter)
 
-    return render_template('watchlist.html', listOfStocks=contextStocks['listOfStocks'], listOfSectors=contextSector['listOfSectors'])
+    return render_template('watchlist.html', listOfStocks=contextStocks['listOfStocks'],
+                           listOfSectors=listOfSectors,
+                           listOfSubSectors=listOfSubSectors,
+                           selectedSector=sectorFilter,
+                           selectedSubSector=subSectorFilter)
+
 
 if __name__ == '__main__':
     ###################################
@@ -208,5 +228,10 @@ if __name__ == '__main__':
         conn = db.cursor(cursor_factory=psycopg2.extras.RealDictCursor)
     except Exception as e:
         print(e)
+
+    ################
+    ### JinjaSql ###
+    ################
+    jinjaSql = JinjaSql()
 
     app.run(debug=True)
