@@ -27,7 +27,7 @@ app = Flask(__name__)
 #######################
 startDate = '2021-04-01'
 endDate = '2021-09-17'
-sector = 'Real Estate'
+sector = 'Information Technology'
 nameOfCompany = 'Peninsula Land Limited'
 
 

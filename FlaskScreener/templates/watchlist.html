@@ -159,24 +159,34 @@ table tbody th:first-child {
 </form>
 <br/>
 
-<table class="table table-light table-bordered">
+<table class="table table-hover table-bordered">
     <thead>
         <tr>
             <th scope="col">ID</th>
+            <th scope="col">Symbol</th>
             <th scope="col">Company</th>
             <th scope="col">Sector</th>
             <th scope="col">Sub-Sector</th>
-            <th scope="col">1M %Returns</th>
+            <th scope="col">1W %</th>
+            <th scope="col">1M %</th>
+            <th scope="col">3M %</th>
+            <th scope="col">6M %</th>
+            <th scope="col">1Y %</th>
         </tr>
     </thead>
     <tbody>
         {% for stockDetails in listOfStocks %}
-            <tr {% if stockDetails['favourite'] == true %} class="table-success" {% endif %}>
+            <tr {% if stockDetails['favourite'] == true %} class="table-secondary" {% endif %}>
                 <th><input type="checkbox" class="get_value" name="insturmentId" value="{{stockDetails['id']}}" {% if stockDetails['favourite'] == true %} checked {% endif %}></th>
+                <th scope="row">{{stockDetails['symbol']}}</th>
                 <th scope="row">{{stockDetails['nameofcompany']}}</th>
                 <td scope="row">{{stockDetails['sector']}}</td>
                 <td scope="row">{{stockDetails['subsector']}}</td>
-                <td scope="row"><b>{{stockDetails['returns']}}</b></td>
+                <td scope="row" {% if stockDetails['1W'] is number and stockDetails['1W'] >= 0 %} class="text-success" {% endif %} {% if stockDetails['1W'] is number and stockDetails['1W'] <= 0 %} class="text-danger" {% endif %}><b>{{stockDetails['1W']}}</b></td>
+                <td scope="row" {% if stockDetails['1M'] is number and stockDetails['1M'] >= 0 %} class="text-success" {% endif %} {% if stockDetails['1M'] is number and stockDetails['1M'] <= 0 %} class="text-danger" {% endif %}><b>{{stockDetails['1M']}}</b></td>
+                <td scope="row" {% if stockDetails['3M'] is number and stockDetails['3M'] >= 0 %} class="text-success" {% endif %} {% if stockDetails['3M'] is number and stockDetails['3M'] <= 0 %} class="text-danger" {% endif %}><b>{{stockDetails['3M']}}</b></td>
+                <td scope="row" {% if stockDetails['6M'] is number and stockDetails['6M'] >= 0 %} class="text-success" {% endif %} {% if stockDetails['6M'] is number and stockDetails['6M'] <= 0 %} class="text-danger" {% endif %}><b>{{stockDetails['6M']}}</b></td>
+                <td scope="row" {% if stockDetails['1Y'] is number and stockDetails['1Y'] >= 0 %} class="text-success" {% endif %} {% if stockDetails['1Y'] is number and stockDetails['1Y'] <= 0 %} class="text-danger" {% endif %}><b>{{stockDetails['1Y']}}</b></td>
             </tr>
         {% endfor %}
     </tbody>

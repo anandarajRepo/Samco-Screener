@@ -38,7 +38,7 @@ nameOfCompany = 'Peninsula Land Limited'
 ######################
 def getTheListOfStocks(sectorFilter, subSectorFilter):
     instrument_query_template = """
-        SELECT id, nameofcompany, sector, subsector, favourite
+        SELECT id, symbol, nameofcompany, sector, subsector, favourite
         FROM instruments
         {% if sectorFilter %}
         WHERE sector = {{ sectorFilter }}
@@ -63,81 +63,164 @@ def getTheListOfStocks(sectorFilter, subSectorFilter):
     # for listOfStock in listOfStocks:
     #     pprint(listOfStock['id'])
 
+    context = {'listOfStocks': listOfStocks}
+    return listOfStocks
+
+
+def getDateIntervals():
+    conn.execute("""SELECT DISTINCT(date) as date FROM eod ORDER BY date ASC""")
+    dictDate = conn.fetchall()
+
+    listOfDictDate = []
+    for date in dictDate:
+        listOfDictDate.append(date['date'])
+
     # Get date intervals
-    today = datetime.today().date() - timedelta(days=3)
+    today = datetime.today().date()
     one_week = today - timedelta(days=5)
     one_month = today - timedelta(days=30)
     three_month = today - timedelta(days=90)
     six_month = today - timedelta(days=180)
     one_year = today - timedelta(days=360)
 
-    print(today)
-    print(one_week)
-    print(one_month)
-    print(three_month)
-    print(six_month)
-    print(one_year)
+    # print(today)
+    # print(one_week)
+    # print(one_month)
+    # print(three_month)
+    # print(six_month)
+    # print(one_year)
+    # print('----------')
 
-    conn.execute("""SELECT DISTINCT(date) as date FROM eod ORDER BY date ASC""")
-    dictDate = conn.fetchall()
+    dictOfDateIntervals = {'today': today, 'one_week': one_week, 'one_month': one_month, 'three_month': three_month, 'six_month': six_month, 'one_year': one_year}
+    # print('Before Adjustment')
+    # pprint(dictOfDateIntervals)
 
-    for date in dictDate:
-        if today == date['date']:
-            pprint(date['date'])
+    dictOfDateIntervalsAdj = {}
+    for dateInterval in dictOfDateIntervals:
+        dateToVerify = dictOfDateIntervals[dateInterval]
+        for i in range(10):
+            if dateToVerify in listOfDictDate:
+                dictOfDateIntervalsAdj[dateInterval] = dateToVerify
+                break
+            dateToVerify = dateToVerify - timedelta(days=1)
+            if i == 9:
+                dictOfDateIntervalsAdj[dateInterval] = None
 
-    if today.weekday() == 5:
-        today = today - timedelta(days=1)
+    # print('After Adjustment')
+    # pprint(dictOfDateIntervalsAdj)
 
-    if today.weekday() == 6:
-        today = today - timedelta(days=2)
+    return dictOfDateIntervalsAdj
 
-    if one_month.weekday() == 5:
-        one_month = one_month - timedelta(days=1)
 
-    if one_month.weekday() == 6:
-        one_month = one_month - timedelta(days=1)
-
-    today = datetime(2021, 10, 14)
-    one_month = datetime(2021, 9, 14)
+def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
     listOfStocksWithReturns = []
     listOfStocksWithoutReturns = []
 
-    # for listOfStock in listOfStocks:
-    #     conn.execute("""SELECT
-    #                       close
-    #                     FROM
-    #                       eod
-    #                     WHERE date = '{0}' and instruments_id = '{1}'""".format(today, listOfStock['id']))
-    #     todayClose = conn.fetchone()
-    #
-    #     conn.execute("""SELECT
-    #                       close
-    #                     FROM
-    #                       eod
-    #                     WHERE date = '{0}' and instruments_id = '{1}'""".format(one_month, listOfStock['id']))
-    #     threeMonthClose = conn.fetchone()
-    #
-    #     # print(listOfStock[1])
-    #     # print(todayClose['close'])
-    #     # print(threeMonthClose['close'])
-    #
-    #     if todayClose and threeMonthClose:
-    #         diff = todayClose['close'] - threeMonthClose['close']
-    #         percentChange = (diff * 100) / todayClose['close']
-    #         listOfStock['returns'] = int(percentChange)
-    #         listOfStocksWithReturns.append(listOfStock)
-    #     else:
-    #         listOfStock['returns'] = "-"
-    #         listOfStocksWithoutReturns.append(listOfStock)
-    #
-    # # pprint(listOfStocksWithReturns)
-    # listOfStocksWithReturns.sort(key=lambda x: x['returns'], reverse=True)
-    # listOfStocksWithReturns.sort(key=lambda x: x['subsector'])
-    # listOfStocksWithReturns.extend(listOfStocksWithoutReturns)
-    #
+    for listOfStock in listOfStocks:
+
+        # conn.execute("""SELECT
+        #                     (SELECT close FROM eod WHERE date = '{1}' and instruments_id = '{0}') as todayClose,
+        #                     (SELECT close FROM eod WHERE date = '{2}' and instruments_id = '{0}') as oneWeekClose,
+        #                     (SELECT close FROM eod WHERE date = '{3}' and instruments_id = '{0}') as oneMonthClose,
+        #                     (SELECT close FROM eod WHERE date = '{4}' and instruments_id = '{0}') as threeMonthClose,
+        #                     (SELECT close FROM eod WHERE date = '{5}' and instruments_id = '{0}') as sixMonthClose
+        #                 FROM
+        #                     eod""".format(listOfStock['id'],
+        #                                 dictOfDateIntervalsAdj['today'],
+        #                                 dictOfDateIntervalsAdj['one_week'],
+        #                                 dictOfDateIntervalsAdj['one_month'],
+        #                                 dictOfDateIntervalsAdj['three_month'],
+        #                                 dictOfDateIntervalsAdj['six_month']))
+        #
+        # closePrice = conn.fetchone()
+
+        if dictOfDateIntervalsAdj['today']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['today'], listOfStock['id']))
+            todayClose = conn.fetchone()
+        else:
+            todayClose = None
+
+        if dictOfDateIntervalsAdj['one_week']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_week'], listOfStock['id']))
+            oneWeekClose = conn.fetchone()
+        else:
+            oneWeekClose = None
+
+        if dictOfDateIntervalsAdj['one_month']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_month'], listOfStock['id']))
+            oneMonthClose = conn.fetchone()
+        else:
+            oneMonthClose = None
+
+        if dictOfDateIntervalsAdj['three_month']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['three_month'], listOfStock['id']))
+            threeMonthClose = conn.fetchone()
+        else:
+            threeMonthClose = None
+
+        if dictOfDateIntervalsAdj['six_month']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['six_month'], listOfStock['id']))
+            sixMonthClose = conn.fetchone()
+        else:
+            sixMonthClose = None
+
+        if dictOfDateIntervalsAdj['one_year']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_year'], listOfStock['id']))
+            oneYearClose = conn.fetchone()
+        else:
+            oneYearClose = None
+
+        if todayClose and oneWeekClose:
+            diff = todayClose['close'] - oneWeekClose['close']
+            percentChange = ((diff * 100) / todayClose['close'])
+            listOfStock['1W'] = int(percentChange)
+            listOfStocksWithReturns.append(listOfStock)
+        else:
+            listOfStock['1W'] = "-"
+            listOfStocksWithoutReturns.append(listOfStock)
+
+        if todayClose and oneMonthClose:
+            diff = todayClose['close'] - oneMonthClose['close']
+            percentChange = ((diff * 100) / todayClose['close'])
+            listOfStock['1M'] = int(percentChange)
+            # listOfStocksWithReturns.append(listOfStock))
+        else:
+            listOfStock['1M'] = "-"
+            # listOfStocksWithoutReturns.append(listOfStock)
+
+        if todayClose and threeMonthClose:
+            diff = todayClose['close'] - threeMonthClose['close']
+            percentChange = ((diff * 100) / todayClose['close'])
+            listOfStock['3M'] = int(percentChange)
+            # listOfStocksWithReturns.append(listOfStock)
+        else:
+            listOfStock['3M'] = "-"
+            # listOfStocksWithoutReturns.append(listOfStock)
+
+        if todayClose and sixMonthClose:
+            diff = todayClose['close'] - sixMonthClose['close']
+            percentChange = ((diff * 100) / todayClose['close'])
+            listOfStock['6M'] = int(percentChange)
+            # listOfStocksWithReturns.append(listOfStock)
+        else:
+            listOfStock['6M'] = "-"
+            # listOfStocksWithoutReturns.append(listOfStock)
+
+        if todayClose and oneYearClose:
+            diff = todayClose['close'] - oneYearClose['close']
+            percentChange = ((diff * 100) / todayClose['close'])
+            listOfStock['1Y'] = int(percentChange)
+            # listOfStocksWithReturns.append(listOfStock)
+        else:
+            listOfStock['1Y'] = "-"
+            # listOfStocksWithoutReturns.append(listOfStock)
+
+    listOfStocksWithReturns.sort(key=lambda x: x['1W'], reverse=True)
+    listOfStocksWithReturns.sort(key=lambda x: x['subsector'])
+    listOfStocksWithReturns.extend(listOfStocksWithoutReturns)
+
     # context = {'listOfStocks': listOfStocksWithReturns}
-    context = {'listOfStocks': listOfStocks}
-    return context
+    return listOfStocksWithReturns
 
 
 def getSectors():
@@ -193,11 +276,13 @@ def home():
     sectorFilter = request.form.get('sector-dropdown')
     subSectorFilter = request.form.get('sub-category-dropdown')
 
-    contextStocks = getTheListOfStocks(sectorFilter, subSectorFilter)
+    listOfStocks = getTheListOfStocks(sectorFilter, subSectorFilter)
+    dictOfDateIntervalsAdj = getDateIntervals()
+    listOfStocksWithReturns = calculatePerformance(listOfStocks, dictOfDateIntervalsAdj)
     listOfSectors = getSectors()
     listOfSubSectors = getSubSectors(sectorFilter)
 
-    return render_template('watchlist.html', listOfStocks=contextStocks['listOfStocks'],
+    return render_template('watchlist.html', listOfStocks=listOfStocksWithReturns,
                            listOfSectors=listOfSectors,
                            listOfSubSectors=listOfSubSectors,
                            selectedSector=sectorFilter,
