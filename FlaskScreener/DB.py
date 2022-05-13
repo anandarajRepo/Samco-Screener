@@ -1,7 +1,9 @@
 import psycopg2
 import json
+import traceback
 
 from configparser import ConfigParser
+from psycopg2.extras import RealDictCursor
 
 ### File Path
 jsonFilePath = '../Output/EQUITY_L.json'
@@ -32,18 +34,62 @@ try:
     conn = db.cursor()
 
     for nse_company in nse_companies:
-        if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
-            conn.execute("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}')""".format(nse_company['SYMBOL'],
-                                                                                                                     nse_company['NAMEOFCOMPANY'].replace("'", ""),
-                                                                                                                     nse_company['ISINNUMBER'],
-                                                                                                                     nse_company['DATEOFLISTING'],
-                                                                                                                     nse_company['PAIDUPVALUE'],
-                                                                                                                     nse_company['MARKETLOT'],
-                                                                                                                     nse_company['ISINNUMBER'],
-                                                                                                                     nse_company['FACEVALUE'],
-                                                                                                                     nse_company['SECTOR'],
-                                                                                                                     nse_company['SUBSECTOR']))
+        conn.execute("""SELECT COUNT(*) FROM instruments WHERE isinnumber = '{0}'""".format(nse_company['ISINNUMBER']))
+        print("""SELECT COUNT(*) FROM instruments WHERE isinnumber = '{0}'""".format(nse_company['ISINNUMBER']))
+        record = conn.fetchone()
+        for row in record:
+            print(row)
+        if row > 0:
+            if "SECTOR" in nse_company or "SUBSECTOR" in nse_company:
+                conn.execute("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE WHERE isinnumber = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['ISINNUMBER']))
+                print("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE  WHERE isinnumber = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['ISINNUMBER']))
+        else:
+            if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
+                conn.execute("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', TRUE)""".format(
+                        nse_company['SYMBOL'],
+                        nse_company['NAMEOFCOMPANY'].replace("'", ""),
+                        nse_company['SERIES'],
+                        nse_company['DATEOFLISTING'],
+                        nse_company['PAIDUPVALUE'].replace(".", ""),
+                        nse_company['MARKETLOT'],
+                        nse_company['ISINNUMBER'],
+                        nse_company['FACEVALUE'],
+                        nse_company['SECTOR'],
+                        nse_company['SUBSECTOR']))
+                print("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', TRUE)""".format(
+                        nse_company['SYMBOL'],
+                        nse_company['NAMEOFCOMPANY'].replace("'", ""),
+                        nse_company['SERIES'],
+                        nse_company['DATEOFLISTING'],
+                        nse_company['PAIDUPVALUE'].replace(".", ""),
+                        nse_company['MARKETLOT'],
+                        nse_company['ISINNUMBER'],
+                        nse_company['FACEVALUE'],
+                        nse_company['SECTOR'],
+                        nse_company['SUBSECTOR']))
     db.commit()
 except Exception as e:
     db.rollback()
     print(e)
+    print(traceback.print_exc())
+
+
+### Update active column in instrument table to False when instrument is not available in EQUITY_L.json
+try:
+    conn = db.cursor()
+    conn.execute("""SELECT isinnumber FROM instruments""")
+    records = conn.fetchall()
+
+    # Converting the nse_companies json object to list of isinnumber
+    isinnumber_list = [i['ISINNUMBER'] for i in nse_companies]
+
+    # for row in records:
+    for record in records:
+        if not (record[0] in isinnumber_list):
+            print(record[0])
+            # conn.execute("""UPDATE instruments SET active = FALSE WHERE isinnumber = '{0}'""".format(row["isinnumber"]))
+    db.commit()
+except Exception as e:
+    db.rollback()
+    print(e)
+    print(traceback.print_exc())

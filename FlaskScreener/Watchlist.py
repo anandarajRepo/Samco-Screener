@@ -27,9 +27,9 @@ app = Flask(__name__)
 #######################
 ### Global Variable ###
 #######################
-startDate = '2021-04-01'
-endDate = '2021-09-17'
-sector = 'Financials'
+startDate = '2022-01-01'
+endDate = '2022-05-06'
+sector = 'Technology Services'
 nameOfCompany = 'Peninsula Land Limited'
 
 
@@ -41,9 +41,9 @@ def getTheListOfStocks(sectorFilter, subSectorFilter):
         SELECT id, symbol, nameofcompany, sector, subsector, favourite
         FROM instruments
         {% if sectorFilter %}
-        WHERE sector = {{ sectorFilter }}
+        WHERE sector = {{ sectorFilter }} AND active = TRUE
         {% else %}
-        WHERE favourite = true
+        WHERE favourite = true AND active = TRUE
         {% endif %}
         {% if subSectorFilter %}
         AND subsector = {{ subSectorFilter }}
@@ -224,7 +224,8 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
 
 def getSectors():
-    conn.execute("""SELECT DISTINCT(sector) as sector FROM instruments""")
+    conn.execute("""SELECT DISTINCT(sector) as sector FROM instruments WHERE sector NOT IN (SELECT DISTINCT(sector) as sector FROM instruments WHERE sector IN ('', 
+    'None')) ORDER BY sector ASC""")
     listOfSectors = conn.fetchall()
     return listOfSectors
 
