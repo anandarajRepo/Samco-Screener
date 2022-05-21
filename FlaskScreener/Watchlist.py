@@ -77,6 +77,7 @@ def getDateIntervals():
 
     # Get date intervals
     today = datetime.today().date()
+    one_day = today - timedelta(days=1)
     one_week = today - timedelta(days=5)
     one_month = today - timedelta(days=30)
     three_month = today - timedelta(days=90)
@@ -91,7 +92,8 @@ def getDateIntervals():
     # print(one_year)
     # print('----------')
 
-    dictOfDateIntervals = {'today': today, 'one_week': one_week, 'one_month': one_month, 'three_month': three_month, 'six_month': six_month, 'one_year': one_year}
+    dictOfDateIntervals = {'today': today, 'one_day': one_day, 'one_week': one_week, 'one_month': one_month, 'three_month': three_month, 'six_month': six_month,
+                           'one_year': one_year}
     # print('Before Adjustment')
     # pprint(dictOfDateIntervals)
 
@@ -140,6 +142,12 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
         else:
             todayClose = None
 
+        if dictOfDateIntervalsAdj['one_day']:
+            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_day'], listOfStock['id']))
+            prevDayClose = conn.fetchone()
+        else:
+            prevDayClose = None
+
         if dictOfDateIntervalsAdj['one_week']:
             conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_week'], listOfStock['id']))
             oneWeekClose = conn.fetchone()
@@ -170,18 +178,39 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
         else:
             oneYearClose = None
 
-        if todayClose and oneWeekClose:
-            diff = todayClose['close'] - oneWeekClose['close']
-            percentChange = ((diff * 100) / todayClose['close'])
-            listOfStock['1W'] = int(percentChange)
+        if todayClose:
+            listOfStock['LTP'] = todayClose['close']
+
+        if todayClose and prevDayClose:
+            diff = todayClose['close'] - prevDayClose['close']
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / prevDayClose['close'])
+            listOfStock['1D'] = percentChange
             listOfStocksWithReturns.append(listOfStock)
         else:
-            listOfStock['1W'] = "-"
+            listOfStock['1D'] = "-"
             listOfStocksWithoutReturns.append(listOfStock)
+
+        if todayClose and oneWeekClose:
+            diff = todayClose['close'] - oneWeekClose['close']
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / oneWeekClose['close'])
+            listOfStock['1W'] = int(percentChange)
+            # listOfStocksWithReturns.append(listOfStock)
+        else:
+            listOfStock['1W'] = "-"
+            # listOfStocksWithoutReturns.append(listOfStock)
 
         if todayClose and oneMonthClose:
             diff = todayClose['close'] - oneMonthClose['close']
-            percentChange = ((diff * 100) / todayClose['close'])
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / oneMonthClose['close'])
             listOfStock['1M'] = int(percentChange)
             # listOfStocksWithReturns.append(listOfStock))
         else:
@@ -190,7 +219,10 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
         if todayClose and threeMonthClose:
             diff = todayClose['close'] - threeMonthClose['close']
-            percentChange = ((diff * 100) / todayClose['close'])
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / threeMonthClose['close'])
             listOfStock['3M'] = int(percentChange)
             # listOfStocksWithReturns.append(listOfStock)
         else:
@@ -199,7 +231,10 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
         if todayClose and sixMonthClose:
             diff = todayClose['close'] - sixMonthClose['close']
-            percentChange = ((diff * 100) / todayClose['close'])
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / sixMonthClose['close'])
             listOfStock['6M'] = int(percentChange)
             # listOfStocksWithReturns.append(listOfStock)
         else:
@@ -208,7 +243,10 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
         if todayClose and oneYearClose:
             diff = todayClose['close'] - oneYearClose['close']
-            percentChange = ((diff * 100) / todayClose['close'])
+            if diff >= 0:
+                percentChange = ((diff * 100) / todayClose['close'])
+            else:
+                percentChange = ((diff * 100) / oneYearClose['close'])
             listOfStock['1Y'] = int(percentChange)
             # listOfStocksWithReturns.append(listOfStock)
         else:
