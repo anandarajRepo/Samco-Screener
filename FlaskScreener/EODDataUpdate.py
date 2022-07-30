@@ -20,7 +20,7 @@ pd.set_option('display.width', None)
 ### Session Token ###
 #####################
 samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="a7cf1b7f3905dd7fdab0655fddd41714")
+samco.set_session_token(sessionToken="969779debb0a72d15c3aedf1aea33dac")
 
 #################
 ### File Path ###
@@ -77,7 +77,7 @@ try:
         instrument_id = conn.fetchone()
         print(nse_company["SYMBOL"])
         time.sleep(1)
-        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2021-05-01', to_date='2021-12-31')
+        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2022-07-01', to_date='2022-07-15')
         dictHistoricalData = json.loads(HistoricalCandleData)
         if dictHistoricalData["status"] == "Success" and instrument_id:
             for eachDayEod in dictHistoricalData['historicalCandleData']:

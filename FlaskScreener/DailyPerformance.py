@@ -25,9 +25,9 @@ app = Flask(__name__)
 #######################
 ### Global Variable ###
 #######################
-startDate = '2022-01-01'
-endDate = '2022-05-14'
-sector = 'Technology Services'
+startDate = '2022-05-01'
+endDate = '2022-07-01'
+sector = 'Industrial Services'
 nameOfCompany = 'Peninsula Land Limited'
 
 

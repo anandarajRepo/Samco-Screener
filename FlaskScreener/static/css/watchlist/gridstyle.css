@@ -1,0 +1,53 @@
+.column-nowrap {
+    white-space: nowrap;
+}
+
+.sticky-header {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
+}
+
+.sticky-header-company {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 2;
+}
+
+.positive {
+    color: green;
+    font-weight: bold;
+}
+
+.negative {
+    color: #CD5C5C;
+    font-weight: bold;
+}
+
+table thead th {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background: white;
+}
+
+table thead th:first-child {
+    position: sticky;
+    left: 0;
+    z-index: 3;
+}
+
+table thead th:nth-child(2) {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+table tbody th:first-child {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 1;
+}

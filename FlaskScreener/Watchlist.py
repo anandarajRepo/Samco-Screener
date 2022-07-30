@@ -333,7 +333,7 @@ if __name__ == '__main__':
     ### Get inputs from config file ###
     ###################################
     config = ConfigParser()
-    config.read('../config.ini')
+    config.read("config.ini")
 
     #################
     ### DB config ###
