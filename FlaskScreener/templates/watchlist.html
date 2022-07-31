@@ -9,8 +9,11 @@
     <link rel="stylesheet" href="https://drvic10k.github.io/bootstrap-sortable/Contents/bootstrap-sortable.css" />
     <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 
-    <!-- My CSS -->
+    <!-- Grid Style -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/watchlist/gridstyle.css') }}">
+
+    <!-- Favourite Stock Notification Style -->
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/watchlist/favouritestock.css') }}">
 </head>
 <!-- JQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
@@ -19,8 +22,11 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.19.1/moment.js"></script>
 <script src="https://drvic10k.github.io/bootstrap-sortable/Scripts/bootstrap-sortable.js"></script>
 
-<!-- My Jquery -->
+<!-- Favourite Stock Notification -->
 <script src="{{ url_for('static', filename='js/watchlist/favouritestock.js') }}"></script>
+
+<!-- Generate Subsector -->
+<script src="{{ url_for('static', filename='js/watchlist/SubsectorGenrator.js') }}"></script>
 
 <body>
     <br />
@@ -54,7 +60,7 @@
     </form>
     <br />
 
-    <table class="table table-bordered table-sm sortable">
+    <table id="stocktable" class="table table-bordered table-sm sortable">
         <thead>
             <tr>
                 <th scope="col">ID</th>
@@ -103,11 +109,15 @@
             {% endfor %}
         </tbody>
     </table>
-    <!--<div class="d-grid gap-2">-->
-    <!--    <button type="button" name="submit" id="submit" class="btn btn-primary btn-sm">Save Favourite Stocks</button>-->
-    <!--</div>-->
-    <div id="alert-favourite" class="alert alert-primary alert-dismissible fade hide" role="alert">
-        <div id="result"></div>
+
+    <!-- Favorite Stock Notification -->
+    <div id="alert-favourite-success" class="alert alert-success alert-dismissible fade hide" role="alert">
+        <div id="result-success"></div>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <div id="alert-favourite-warning" class="alert alert-warning alert-dismissible fade hide" role="alert">
+        <div id="result-warning"></div>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
