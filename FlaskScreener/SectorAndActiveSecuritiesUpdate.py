@@ -6,11 +6,11 @@ from configparser import ConfigParser
 from psycopg2.extras import RealDictCursor
 
 ### File Path
-jsonFilePath = '../Output/EQUITY_L.json'
+jsonFilePath = 'Output/EQUITY_L.json'
 
 ### Get inputs from config file
 config = ConfigParser()
-config.read('../config.ini')
+config.read('config.ini')
 
 ### DB config
 databaseName = config.get('Database', 'databaseName')
@@ -29,7 +29,7 @@ try:
 except FileNotFoundError as error:
     print("Json file not found error: ", error)
 
-### Insert instrument to DB
+### Insert new instrument to DB and update the sector & sub-sector details
 try:
     conn = db.cursor()
 
@@ -44,29 +44,29 @@ try:
                 conn.execute("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE WHERE isinnumber = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['ISINNUMBER']))
                 print("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE  WHERE isinnumber = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['ISINNUMBER']))
         else:
-            if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
-                conn.execute("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', TRUE)""".format(
-                        nse_company['SYMBOL'],
-                        nse_company['NAMEOFCOMPANY'].replace("'", ""),
-                        nse_company['SERIES'],
-                        nse_company['DATEOFLISTING'],
-                        nse_company['PAIDUPVALUE'].replace(".", ""),
-                        nse_company['MARKETLOT'],
-                        nse_company['ISINNUMBER'],
-                        nse_company['FACEVALUE'],
-                        nse_company['SECTOR'],
-                        nse_company['SUBSECTOR']))
-                print("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}', '{9}', TRUE)""".format(
-                        nse_company['SYMBOL'],
-                        nse_company['NAMEOFCOMPANY'].replace("'", ""),
-                        nse_company['SERIES'],
-                        nse_company['DATEOFLISTING'],
-                        nse_company['PAIDUPVALUE'].replace(".", ""),
-                        nse_company['MARKETLOT'],
-                        nse_company['ISINNUMBER'],
-                        nse_company['FACEVALUE'],
-                        nse_company['SECTOR'],
-                        nse_company['SUBSECTOR']))
+            # if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
+            conn.execute("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', NULLIF('{8}', ''), NULLIF('{9}', ''), TRUE)""".format(
+                    nse_company['SYMBOL'],
+                    nse_company['NAMEOFCOMPANY'].replace("'", ""),
+                    nse_company['SERIES'],
+                    nse_company['DATEOFLISTING'],
+                    nse_company['PAIDUPVALUE'].replace(".", ""),
+                    nse_company['MARKETLOT'],
+                    nse_company['ISINNUMBER'],
+                    nse_company['FACEVALUE'],
+                    nse_company['SECTOR'],
+                    nse_company['SUBSECTOR']))
+            print("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', NULLIF('{8}', ''), NULLIF('{9}', ''), TRUE)""".format(
+                    nse_company['SYMBOL'],
+                    nse_company['NAMEOFCOMPANY'].replace("'", ""),
+                    nse_company['SERIES'],
+                    nse_company['DATEOFLISTING'],
+                    nse_company['PAIDUPVALUE'].replace(".", ""),
+                    nse_company['MARKETLOT'],
+                    nse_company['ISINNUMBER'],
+                    nse_company['FACEVALUE'],
+                    nse_company['SECTOR'],
+                    nse_company['SUBSECTOR']))
     db.commit()
 except Exception as e:
     db.rollback()
@@ -87,7 +87,7 @@ try:
     for record in records:
         if not (record[0] in isinnumber_list):
             print(record[0])
-            # conn.execute("""UPDATE instruments SET active = FALSE WHERE isinnumber = '{0}'""".format(row["isinnumber"]))
+            conn.execute("""UPDATE instruments SET active = FALSE WHERE isinnumber = '{0}'""".format(record[0]))
     db.commit()
 except Exception as e:
     db.rollback()
