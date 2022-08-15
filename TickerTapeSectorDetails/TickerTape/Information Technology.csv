@@ -1,234 +1,82 @@
-﻿Name,Ticker,Sub-Sector
-3i Infotech Ltd,3IINFOLTD,IT Services & Consulting
-63 Moons Technologies Ltd,63MOONS,IT Services & Consulting
-AAA Technologies Ltd,AAATECH,IT Services & Consulting
-ABM Knowledgeware Ltd,ABMKNO,Software Services
-ACI Infocom Ltd,ACIIN,IT Services & Consulting
-ADC India Communications Ltd,ADCINDIA,Communication & Networking
-ASM Technologies Ltd,ASMTEC,IT Services & Consulting
-Aarvi Encon Ltd,AARVI,Outsourced services
-Accedere Ltd,ECOM,IT Services & Consulting
-Accelya Solutions India Ltd,ACCELYA,Software Services
-Adroit Infotech Ltd,ADROITINFO,IT Services & Consulting
-Affordable Robotic & Automation Ltd,AFFORDABLE,Software Services
+Name,Ticker,Sub-Sector
+Tata Consultancy Services Ltd,TCS,IT Services & Consulting
+HCL Technologies Ltd,HCLTECH,IT Services & Consulting
+Wipro Ltd,WIPRO,IT Services & Consulting
+Tech Mahindra Ltd,TECHM,IT Services & Consulting
+Larsen & Toubro Infotech Ltd,LTI,IT Services & Consulting
+Bharat Electronics Ltd,BEL,Electronic Equipments
+Hexaware Technologies Ltd,HEXAWARE,IT Services & Consulting
+Persistent Systems Ltd,PERSISTENT,Software Services
+Tata Elxsi Ltd,TATAELXSI,Software Services
+Redington (India) Ltd,REDINGTON,Technology Hardware
+Firstsource Solutions Ltd,FSL,Outsourced services
+Sonata Software Ltd,SONATSOFTW,IT Services & Consulting
+Intellect Design Arena Ltd,INTELLECT,Software Services
+KPIT Technologies Ltd,KPITTECH,IT Services & Consulting
+Eclerx Services Ltd,ECLERX,Outsourced services
+Newgen Software Technologies Ltd,NEWGEN,Software Services
+Mastek Ltd,MASTEK,IT Services & Consulting
+R Systems International Ltd,RSYSTEMS,IT Services & Consulting
+Astra Micro Wave Products Ltd,ASTRAMICRO,Communication & Networking
+Nucleus Software Exports Ltd,NUCLEUS,Software Services
+BLS International Services Ltd,BLS,Outsourced services
+Quick Heal Technologies Ltd,QUICKHEAL,IT Services & Consulting
+Cigniti Technologies Ltd,CIGNITITEC,Software Services
+Take Solutions Ltd,TAKE,IT Services & Consulting
+Zen Technologies Ltd,ZENTEC,Electronic Equipments
+3i Infotech Ltd,3IINFOTECH,IT Services & Consulting
+Ramco Systems Ltd,RAMCOSYS,IT Services & Consulting
+Control Print Ltd,CONTROLPR,Electronic Equipments
+Cerebra Integrated Technologies Ltd,CEREBRAINT,Technology Hardware
+D-Link (India) Ltd,DLINKINDIA,Technology Hardware
+Onmobile Global Ltd,ONMOBILE,Software Services
+Allsec Technologies Ltd,ALLSEC,IT Services & Consulting
+Infobeans Technologies Ltd,INFOBEAN,Software Services
+Apollo Micro Systems Ltd,APOLLO,Electronic Equipments
+Saksoft Ltd,SAKSOFT,IT Services & Consulting
+Kellton Tech Solutions Ltd,KELLTONTEC,IT Services & Consulting
+Optiemus Infracom Ltd,OPTIEMUS,Technology Hardware
+TVS Electronics Ltd,TVSELECT,Technology Hardware
 Airan Ltd,AIRAN,IT Services & Consulting
+Xelpmoc Design and Tech Ltd,XELPMOC,IT Services & Consulting
+Cybertech Systems and Software Ltd,CYBERTECH,IT Services & Consulting
+Silver Touch Technologies Ltd,SILVERTUC,IT Services & Consulting
+Aurionpro Solutions Ltd,AURIONPRO,IT Services & Consulting
+Onward Technologies Ltd,ONWARDTEC,Outsourced services
+Genesys International Corporation Ltd,GENESYS,IT Services & Consulting
+Innovana Thinklabs Ltd,INNOVANA,Software Services
 Aksh Optifibre Ltd,AKSHOPTFBR,Communication & Networking
 Allied Digital Services Ltd,ADSL,IT Services & Consulting
-Allsec Technologies Ltd,ALLSEC,IT Services & Consulting
-Anka India Ltd,ANKIN,IT Services & Consulting
-Aplab Ltd,APLAB,Electronic Equipments
-Apollo Micro Systems Ltd,APOLLO,Electronic Equipments
-Archana Software Ltd,SSLFINANCE,Software Services
-Aris International Ltd,ARISINT,IT Services & Consulting
-Astra Micro Wave Products Ltd,ASTRAMICRO,Communication & Networking
-Athena Global Technologies Ltd,ATHENAGLO,IT Services & Consulting
-Atishay Ltd,ATISHAY,Outsourced services
-Aurionpro Solutions Ltd,AURIONPRO,IT Services & Consulting
-Aurum Proptech Ltd,AURUM,IT Services & Consulting
-Avantel Ltd,AVANTEL,Communication & Networking
-BNR Udyog Ltd,BNRUDY,IT Services & Consulting
-Bharat Electronics Ltd,BEL,Electronic Equipments
-Bharatiya Global Infomedia Ltd,BGLOBAL,IT Services & Consulting
-Birlasoft Ltd,BSOFT,IT Services & Consulting
-Black Box Ltd,BBOX,Software Services
-Bls International Services Ltd,BLS,Outsourced services
-Blue Cloud Softech Solutions Ltd,BLUECLOUDS,Software Services
-Bodhtree Consulting Ltd,BODHTREE,IT Services & Consulting
-CE Info Systems Ltd,MAPMYINDIA,Software Services
-CES Ltd,CESL,IT Services & Consulting
-CG VAK Software and Exports Ltd,CGVAK,Software Services
-CMS Info Systems Ltd,CMSINFO,Software Services
-COSYN Ltd,COSYN,IT Services & Consulting
-Cadsys (India) Ltd,CADSYS,IT Services & Consulting
-California Software Company Ltd,CALSOFT,IT Services & Consulting
-Cambridge Technology Enterprises Ltd,CTE,IT Services & Consulting
-Capricorn Systems Global Solutions Ltd,CAPRICORN,IT Services & Consulting
-Catvision Ltd,CATVISION,Communication & Networking
-Ceinsys Tech Ltd,CEINSYSTECH,IT Services & Consulting
-Centum Electronics Ltd,CENTUM,Electronic Equipments
-Cerebra Integrated Technologies Ltd,CEREBRAINT,Technology Hardware
-Cigniti Technologies Ltd,CIGNITITEC,Software Services
-Coforge Ltd,COFORGE,IT Services & Consulting
-Compuage Infocom Ltd,COMPINFO,Technology Hardware
-Computer Point Ltd,COMPUPN,IT Services & Consulting
-Continental Chemicals Ltd,CONTCHM,Software Services
-Control Print Ltd,CONTROLPR,Electronic Equipments
-Creative Newtech Ltd,CREATIVE,Technology Hardware
-Cybertech Systems and Software Ltd,CYBERTECH,IT Services & Consulting
-Cyient Ltd,CYIENT,Software Services
-D Link (India) Limited,DLINKINDIA,Technology Hardware
-DC Infotech and Communication Ltd,DCI,IT Services & Consulting
-DEV Information Technology Ltd,DEVIT,IT Services & Consulting
-DU Digital Global Ltd,DUGLOBAL,IT Services & Consulting
-Danlaw Technologies India Ltd,DANLAW,IT Services & Consulting
-Datamatics Global Services Ltd,DATAMATICS,IT Services & Consulting
-Ducon Infratechnologies Ltd,DUCON,IT Services & Consulting
-Dynacons Systems and Solutions Ltd,DSSL,IT Services & Consulting
-E2E Networks Ltd,E2E,Software Services
-Eclerx Services Ltd,ECLERX,Outsourced services
-Elnet Technologies Ltd,ELNET,IT Services & Consulting
-Erp Soft Systems Ltd,ERPSOFT,Software Services
-Euro Multivision Ltd,EUROMULTI,Technology Hardware
-Expleo Solutions Ltd,EXPLEOSOL,Software Services
-FCS Software Solutions Ltd,FCSSOFT,Software Services
-Fidel Softech Ltd,FIDEL,IT Services & Consulting
-Firstsource Solutions Ltd,FSL,Outsourced services
-Five Core Electronics Ltd,FIVECORE,Electronic Equipments
-Fourth Dimension Solutions Ltd,FOURTHDIM,IT Services & Consulting
-Fourth Generation Information Systems Ltd,4THGEN,IT Services & Consulting
-GSS Infotech Ltd,GSS,Software Services
-Genesys International Corporation Ltd,GENESYS,IT Services & Consulting
-Genus Power Infrastructures Ltd,GENUSPOWER,Electronic Equipments
-Globalspace Technologies Ltd,GSTL,IT Services & Consulting
-Globesecure Technologies Ltd,GSTL,IT Services & Consulting
-Goldstone Technologies Ltd,GOLDTECH,IT Services & Consulting
-HCL Infosystems Ltd,HCL-INSYS,IT Services & Consulting
-HCL Technologies Ltd,HCLTECH,IT Services & Consulting
-HOV Services Ltd,HOVS,Outsourced services
-Happiest Minds Technologies Ltd,HAPPSTMNDS,IT Services & Consulting
-Hinduja Global Solutions Ltd,HGS,Outsourced services
-Honeywell Automation India Ltd,HONAUT,Electronic Equipments
-Hypersoft Technologies Ltd,HYPERSOFT,IT Services & Consulting
-IRIS Business Services Ltd,IRIS,IT Services & Consulting
-Id Info Business Services Ltd,IDINFO,IT Services & Consulting
-Indrayani Biotech Ltd,INDRANIB,Software Services
-Infibeam Avenues Ltd,INFIBEAM,IT Services & Consulting
-Infobeans Technologies Ltd,INFOBEAN,Software Services
-Infosys Ltd,INFY,IT Services & Consulting
-Innovana Thinklabs Ltd,INNOVANA,Software Services
-Innovative Ideals and Services (India) Ltd,INNOVATIVE,Technology Hardware
-Inspirisys Solutions Ltd,INSPIRISYS,IT Services & Consulting
-Integra Telecommunication and Software Ltd,INTELSOFT,Technology Hardware
-Intellect Design Arena Ltd,INTELLECT,Software Services
-Intense Technologies Ltd,INTENTECH,Software Services
-International Data Management Ltd,IDM,IT Services & Consulting
-Izmo Ltd,IZMO,Software Services
-JMG Corp Ltd,JMGCORP,IT Services & Consulting
-Jatalia Global Ventures Ltd,JATALIA,IT Services & Consulting
-Jindal Photo Ltd,JINDALPHOT,Electronic Equipments
-Jointeca Education Solutions Ltd,JOINTECAED,Software Services
-KPIT Technologies Ltd,KPITTECH,IT Services & Consulting
-Kavveri Telecom Products Ltd,KAVVERITEL,Communication & Networking
-Kellton Tech Solutions Ltd,KELLTONTEC,IT Services & Consulting
-Kernex Microsystems (India) Ltd,KERNEX,Software Services
-Khyati Multimedia Entertainment Ltd,KHYATI,Software Services
-Ksolves India Ltd,KSOLVES,IT Services & Consulting
-L&T Technology Services Ltd,LTTS,Software Services
-Larsen & Toubro Infotech Ltd,LTI,IT Services & Consulting
-Latent View Analytics Ltd,LATENTVIEW,IT Services & Consulting
-Lee & Nee Softwares (Exports) Ltd,LEENEE,IT Services & Consulting
-Lex Nimble Solutions Ltd,LEX,IT Services & Consulting
-Likhami Consulting Ltd,LIKHAMI,Outsourced services
-MPS Infotecnics Ltd,VISESHINFO,IT Services & Consulting
-MRO-TEK Reality Ltd,MRO-TEK,Communication & Networking
-Maestros Electronics & Telecommunications Systems Ltd,METSL,Electronic Equipments
-Magellanic Cloud Ltd,MCLOUD,IT Services & Consulting
-Mahaveer Infoway Ltd,MINFY,IT Services & Consulting
-Mastek Ltd,MASTEK,IT Services & Consulting
-Megasoft Ltd,MEGASOFT,IT Services & Consulting
-Megri Soft Ltd,MEGRISOFT,IT Services & Consulting
-Melstar Information Technologies Ltd,MELSTAR,IT Services & Consulting
-Millennium Online Solutions (India) Ltd,MILLENNIUM,Technology Hardware
-MindTree Ltd,MINDTREE,IT Services & Consulting
-Mindpool Technologies Ltd,MINDPOOL,Outsourced services
-Mindteck (India) Ltd,MINDTECK,IT Services & Consulting
-Moschip Technologies Ltd,MOSCHIP,Software Services
-Mphasis Ltd,MPHASIS,IT Services & Consulting
-Munoth Communication Ltd,MCLTD,Technology Hardware
-NINtec Systems Ltd,NINSYS,IT Services & Consulting
-Nelco Ltd,NELCO,Communication & Networking
-Netlink Solutions (India) Ltd,NETLINK,IT Services & Consulting
-Nettlinx Ltd,NETTLINX,IT Services & Consulting
-Network People Services Technologies Ltd,NPST,Software Services
-New Markets Advisory Ltd,NEWMKTADV,IT Services & Consulting
-Newgen Software Technologies Ltd,NEWGEN,Software Services
-Nitiraj Engineers Ltd,NITIRAJ,Electronic Equipments
-Nucleus Software Exports Ltd,NUCLEUS,Software Services
-OTCO International Ltd,OTCO,IT Services & Consulting
-Objectone Information Systems Ltd,OONE,IT Services & Consulting
-Octaware Technologies Ltd,OCTAWARE,Software Services
-Odyssey Technologies Ltd,ODYSSEY,Software Services
-Omni AX's Software Ltd,OMNIAX,Software Services
-One Point One Solutions Ltd,ONEPOINT,Outsourced services
-Onmobile Global Ltd,ONMOBILE,Software Services
-Onward Technologies Ltd,ONWARDTEC,Outsourced services
-Optiemus Infracom Ltd,OPTIEMUS,Technology Hardware
-Oracle Financial Services Software Ltd,OFSS,Software Services
-Orchasp Ltd,ORCHASP,Software Services
-PG Electroplast Ltd,PGEL,Electronic Equipments
-Palred Technologies Ltd,PALREDTEC,IT Services & Consulting
-Panache Digilife Ltd,PANACHE,Technology Hardware
-Persistent Systems Ltd,PERSISTENT,Software Services
-Photoquip (India) Ltd,PHOTOQUP,Electronic Equipments
-Prabhat Technologies (India) Ltd,PTIL,Technology Hardware
-Precision Electronics Ltd,PRECISIO,Communication & Networking
-Pulz Electronics Ltd,PULZ,Electronic Equipments
-Quest Softech (India) Ltd,QUEST,IT Services & Consulting
-Quick Heal Technologies Ltd,QUICKHEAL,IT Services & Consulting
-Quintegra Solutions Ltd,QUINTEGRA,Software Services
-R S Software (India) Ltd,RSSOFTWARE,Software Services
-R Systems International Ltd,RSYSTEMS,IT Services & Consulting
-Railtel Corporation of India Ltd,RAILTEL,Communication & Networking
-Ramco Systems Ltd,RAMCOSYS,IT Services & Consulting
-Raminfo Ltd,RAMINFO,Software Services
-Rategain Travel Technologies Ltd,RATEGAIN,Software Services
-Redington (India) Ltd,REDINGTON,Technology Hardware
-Reliable Data Services Ltd,RELIABLE,Outsourced services
-Riddhi Corporate Services Ltd,RIDDHICORP,IT Services & Consulting
 Rolta India Ltd,ROLTA,IT Services & Consulting
-Route Mobile Ltd,ROUTE,IT Services & Consulting
-Ruttonsha International Rectifier Ltd,RIR,Electronic Equipments
-SBEC Systems (India) Ltd,SBECSYS,IT Services & Consulting
-SOFCOM Systems Ltd,SOFCOM,IT Services & Consulting
-SPEL Semiconductor Ltd,SPELS,Electronic Equipments
-Sabrimala Industries India Ltd,SIIL,Technology Hardware
-Sagar Systech Ltd,SAGARSYST,Software Services
-Sagarsoft (India) Ltd,SAGARSOFT,IT Services & Consulting
-Saksoft Ltd,SAKSOFT,IT Services & Consulting
-Sasken Technologies Ltd,SASKEN,Software Services
-Saven Technologies Ltd,7TEC,IT Services & Consulting
-Scanpoint Geomatics Ltd,SCANPGEOM,IT Services & Consulting
-Securekloud Technologies Ltd,SECURKLOUD,Software Services
-Senthil Infotek Ltd,SENINFO,IT Services & Consulting
-Shilchar Technologies Ltd,SHILCTECH,Electronic Equipments
-Sigma Solve Ltd,SIGMA,IT Services & Consulting
-Silver Touch Technologies Ltd,SILVERTUC,IT Services & Consulting
-Smartlink Holdings Ltd,SMARTLINK,Communication & Networking
-SoftSol India Ltd,SOFTSOL,Software Services
+PG Electroplast Ltd,PGEL,Electronic Equipments
+FCS Software Solutions Ltd,FCSSOFT,Software Services
+Compuage Infocom Ltd,COMPINFO,Technology Hardware
+Intense Technologies Ltd,INTENTECH,IT Services & Consulting
+Panache Digilife Ltd,PANACHE,Technology Hardware
+Nitiraj Engineers Ltd,NITIRAJ,Electronic Equipments
+Mindteck (India) Ltd,MINDTECK,IT Services & Consulting
+DEV Information Technology Ltd,DEVIT,IT Services & Consulting
+HOV Services Ltd,HOVS,Outsourced services
+Aarvi Encon Ltd,AARVI,Outsourced services
 SoftTech Engineers Ltd,SOFTTECH,Software Services
-Sonata Software Ltd,SONATSOFTW,IT Services & Consulting
-Southern Infosys Ltd,SOUTHERNIN,IT Services & Consulting
-Space Incubatrics Technologies Ltd,SPACEINCUBA,IT Services & Consulting
-Starcom Information Technology Ltd,STARCOM,Software Services
-Subex Ltd,SUBEXLTD,Software Services
-Svam Software Ltd,SVAMSOF,Software Services
-Sylph Technologies Ltd,SYLPH,IT Services & Consulting
-TVS Electronics Ltd,TVSELECT,Technology Hardware
-Take Solutions Ltd,TAKE,IT Services & Consulting
-Tanla Platforms Ltd,TANLA,Software Services
-Tata Consultancy Services Ltd,TCS,IT Services & Consulting
-Tata Elxsi Ltd,TATAELXSI,Software Services
-Tech Mahindra Ltd,TECHM,IT Services & Consulting
-TechNVision Ventures Ltd,TECHNVISN,Software Services
+Cambridge Technology Enterprises Ltd,CTE,IT Services & Consulting
+E2E Networks Ltd,E2E,Software Services
 Tera Software Ltd,TERASOFT,IT Services & Consulting
-Titan Intech Ltd,TITANIN,Software Services
+Megasoft Ltd,MEGASOFT,IT Services & Consulting
+One Point One Solutions Ltd,ONEPOINT,Outsourced services
+Reliable Data Services Ltd,RELIABLE,Outsourced services
+DC Infotech and Communication Ltd,DCI,IT Services & Consulting
+Dynacons Systems and Solutions Ltd,DSSL,IT Services & Consulting
+Kernex Microsystems (India) Ltd,KERNEX,Software Services
+Palred Technologies Ltd,PALREDTEC,IT Services & Consulting
+Cadsys ( India ) Ltd,CADSYS,IT Services & Consulting
+Fourth Dimension Solutions Ltd,FOURTHDIM,IT Services & Consulting
+Ksolves India Ltd,KSOLVES,IT Services & Consulting
+Goldstone Technologies Ltd,GOLDTECH,IT Services & Consulting
+Jindal Photo Ltd,JINDALPHOT,Electronic Equipments
 Trejhara Solutions Ltd,TREJHARA,IT Services & Consulting
-Trigyn Technologies Ltd,TRIGYN,IT Services & Consulting
-United Interactive Ltd,UNITEDINT,IT Services & Consulting
-VAMA Industries Ltd,VAMA,Technology Hardware
-VCU Data Management Ltd,VCU,Electronic Equipments
-VXL Instruments Ltd,VXLINSTR,Technology Hardware
-Vakrangee Limited,VAKRANGEE,Outsourced services
-Vedavaag Systems Ltd,VEDAVAAG,Software Services
-Virgo Global Ltd,VIRGOGLOB,IT Services & Consulting
-Virinchi Ltd,VIRINCHI,Software Services
-We Win Ltd,WEWIN,Outsourced services
-WeP Solutions Ltd,WEPSOLN,IT Services & Consulting
-Wipro Ltd,WIPRO,IT Services & Consulting
-Xchanging Solutions Ltd,XCHANGING,IT Services & Consulting
-Xelpmoc Design and Tech Ltd,XELPMOC,IT Services & Consulting
-Xtglobal Infotech Ltd,XTGLOBAL,Software Services
-Zen Technologies Ltd,ZENTEC,Electronic Equipments
-Zensar Technologies Ltd,ZENSARTECH,IT Services & Consulting
+California Software Company Ltd,CALSOFT,IT Services & Consulting
+Pulz Electronics Ltd,PULZ,Electronic Equipments
 Zicom Electronic Security Systems Ltd,ZICOM,Electronic Equipments
-eMudhra Ltd,EMUDHRA,IT Services & Consulting
+Melstar Information Technologies Ltd,MELSTAR,IT Services & Consulting
+Euro Multivision Ltd,EUROMULTI,Technology Hardware

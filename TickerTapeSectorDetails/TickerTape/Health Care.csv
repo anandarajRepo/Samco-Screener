@@ -1,224 +1,87 @@
-﻿Name,Ticker,Sub-Sector
-ANG Lifesciences India Ltd,ANG,Pharmaceuticals
-Aarey Drugs and Pharmaceuticals Ltd,AAREYDRUGS,Pharmaceuticals
-Aarti Drugs Ltd,AARTIDRUGS,Pharmaceuticals
-Abbott India Ltd,ABBOTINDIA,Pharmaceuticals
-Adline Chem Lab Ltd,ADLINE,Pharmaceuticals
-Ajanta Pharma Ltd,AJANTPHARM,Pharmaceuticals
-Ajooni Biotech Ltd,AJOONI,Pharmaceuticals
-Albert David Ltd,ALBERTDAVD,Pharmaceuticals
-Alchemist Ltd,ALCHEM,Pharmaceuticals
-Alembic Ltd,ALEMBICLTD,Pharmaceuticals
-Alembic Pharmaceuticals Ltd,APLLTD,Pharmaceuticals
-Alkem Laboratories Ltd,ALKEM,Pharmaceuticals
-Alpa Laboratories Ltd,ALPA,Pharmaceuticals
-Ambalal Sarabhai Enterprises Ltd,AMBALALSA,Pharmaceuticals
-Ami Organics Ltd,AMIORG,Pharmaceuticals
-Amrutanjan Health Care Ltd,AMRUTANJAN,Pharmaceuticals
-Anuh Pharma Ltd,ANUHPHR,Pharmaceuticals
-Apollo Hospitals Enterprise Ltd,APOLLOHOSP,Hospitals & Diagnostic Centres
-Aspira Pathlab & Diagnostics Ltd,ASPIRA,Hospitals & Diagnostic Centres
-Aster DM Healthcare Ltd,ASTERDM,Hospitals & Diagnostic Centres
-Astrazeneca Pharma India Ltd,ASTRAZEN,Pharmaceuticals
-Auro Laboratories Ltd,AUROLAB,Pharmaceuticals
-Aurobindo Pharma Ltd,AUROPHARMA,Pharmaceuticals
-BDH Industries Ltd,BDH,Pharmaceuticals
-Bacil Pharma Ltd,BACPHAR,Pharmaceuticals
-Bafna Pharmaceuticals Ltd,BAFNAPH,Pharmaceuticals
-Bajaj Healthcare Ltd,BAJAJHCARE,Pharmaceuticals
-Bal Pharma Ltd,BALPHARMA,Pharmaceuticals
-Balaxi Pharmaceuticals Ltd,BALAXI,Health Care Equipment & Supplies
-Beryl Drugs Ltd,BERLDRG,Pharmaceuticals
-Beta Drugs Ltd,BETA,Pharmaceuticals
-Bharat Immunologicals and Biologicals Corporation Ltd,BIBCL,Pharmaceuticals
-Bharat Parenterals Ltd,BPLPHARMA,Pharmaceuticals
-Bijoy Hans Ltd,BIJHANS,Pharmaceuticals
-Bilcare Ltd,BI,Labs & Life Sciences Services
-Biocon Ltd,BIOCON,Biotechnology
-Biofil Chemicals and Pharmaceuticals Ltd,BIOFILCHEM,Pharmaceuticals
-Bliss GVS Pharma Ltd,BLISSGVS,Pharmaceuticals
-Brooks Laboratories Ltd,BROOKS,Labs & Life Sciences Services
-Caplin Point Laboratories Ltd,CAPLIPOINT,Pharmaceuticals
-Centenial Surgical Suture Ltd,CSURGSU,Health Care Equipment & Supplies
-Chennai Meenakshi Multispeciality Hospital Ltd,CMMHOSP,Hospitals & Diagnostic Centres
-Cian Healthcare Ltd,CHCL,Pharmaceuticals
-Cipla Ltd,CIPLA,Pharmaceuticals
-Colinz Laboratories Ltd,COLINZ,Pharmaceuticals
-Concord Drugs Ltd,CONCORD,Pharmaceuticals
-Constronics Infra Ltd,CONSTRONIC,Health Care Equipment & Supplies
-Coral Laboratories Ltd,CORALAB,Pharmaceuticals
-Decipher Labs Ltd,DECIPHER,Pharmaceuticals
-Denis Chem Lab Ltd,DENISCHEM,Pharmaceuticals
-Desh Rakshak Aushdhalaya Ltd,DESHRAK,Pharmaceuticals
-Dhanvantri Jeevan Rekha Ltd,ZDHJERK,Hospitals & Diagnostic Centres
-Dhruv Wellness Ltd,DWL,Pharmaceuticals
-Dishman Carbogen Amcis Ltd,DCAL,Labs & Life Sciences Services
+Name,Ticker,Sub-Sector
+Dr.Reddy's Laboratories Ltd,DRREDDY,Pharmaceuticals
 Divi's Laboratories Ltd,DIVISLAB,Labs & Life Sciences Services
-Dr Agarwal's Eye Hospital Ltd,DRAGARWQ,Hospitals & Diagnostic Centres
-Dr Habeebullah Life Sciences Ltd,DRHABEEB,Labs & Life Sciences Services
-Dr Lalchandani Labs Ltd,DLCL,Hospitals & Diagnostic Centres
-Dr Reddy's Laboratories Ltd,DRREDDY,Pharmaceuticals
-Dr. Lal PathLabs Ltd,LALPATHLAB,Hospitals & Diagnostic Centres
-Equippp Social Impact Technologies Ltd,EQUIPPP,Biotechnology
-Eris Lifesciences Ltd,ERIS,Pharmaceuticals
-Everest Organics Ltd,EVERESTO,Pharmaceuticals
-F D C Ltd,FDC,Pharmaceuticals
-Fermenta Biotech Ltd,FERMENTA,Pharmaceuticals
-Fortis Healthcare Ltd,FORTIS,Hospitals & Diagnostic Centres
-Fortis Malar Hospitals Ltd,FORTISMLR,Hospitals & Diagnostic Centres
-Fredun Pharmaceuticals Ltd,FREDUN,Pharmaceuticals
-GKB Ophthalmics Ltd,GKB,Health Care Equipment & Supplies
-Ganga Pharmaceuticals Ltd,GANGAPHARM,Pharmaceuticals
-Gennex Laboratories Ltd,GENNEX,Pharmaceuticals
-Genomic Valley Biotech Ltd,GVBL,Biotechnology
-Gland Pharma Ltd,GLAND,Pharmaceuticals
-GlaxoSmithKline Pharmaceuticals Ltd,GLAXO,Pharmaceuticals
-Glenmark Life Sciences Ltd,GLS,Pharmaceuticals
-Glenmark Pharmaceuticals Ltd,GLENMARK,Pharmaceuticals
-Godavari Drugs Ltd,GODAVARI,Pharmaceuticals
-Granules India Ltd,GRANULES,Pharmaceuticals
-Gufic Biosciences Ltd,GUFICBIO,Pharmaceuticals
-Gujarat Terce Laboratories Ltd,GUJTERC,Pharmaceuticals
-Gujarat Themis Biosyn Ltd,GUJTHEM,Pharmaceuticals
-Healthcare Global Enterprises Ltd,HCG,Hospitals & Diagnostic Centres
-Hemo Organic Ltd,HEMORGANIC,Pharmaceuticals
-Hester Biosciences Ltd,HESTERBIO,Biotechnology
-Hikal Ltd,HIKAL,Pharmaceuticals
-Hindustan Bio Sciences Ltd,HINDBIO,Biotechnology
-IND Swift Laboratories Ltd,INDSWFTLAB,Pharmaceuticals
-IPCA Laboratories Ltd,IPCALAB,Pharmaceuticals
-Ind Swift Ltd,INDSWFTLTD,Pharmaceuticals
-Indoco Remedies Ltd,INDOCO,Pharmaceuticals
-Indraprastha Medical Corporation Ltd,INDRAMEDCO,Hospitals & Diagnostic Centres
-Ishita Drugs and Industries Ltd,ISHITADR,Pharmaceuticals
-J B Chemicals and Pharmaceuticals Ltd,JBCHEPHARM,Pharmaceuticals
-Jagsonpal Pharmaceuticals Ltd,JAGSNPHARM,Pharmaceuticals
-Jeena Sikho Lifecare Ltd,JSLL,Pharmaceuticals
-Jeevan Scientific Technology Ltd,JSTL,Labs & Life Sciences Services
-Jenburkt Pharmaceuticals Ltd,JENBURPH,Pharmaceuticals
-Jubilant Pharmova Ltd,JUBLPHARMA,Pharmaceuticals
-KMC Speciality Hospitals India Ltd,KMCSHIL,Hospitals & Diagnostic Centres
-KOBO Biotech Ltd,AVONLIFE,Pharmaceuticals
-Kabra Drugs Ltd,KABRADG,Pharmaceuticals
-Kerala Ayurveda Ltd,KERALAYUR,Pharmaceuticals
-Kilitch Drugs (India) Ltd,KILITCH,Pharmaceuticals
-Kimia Biosciences Ltd,KIMIABL,Pharmaceuticals
-Kopran Ltd,KOPRAN,Pharmaceuticals
-Kovai Medical Center and Hospital Ltd,KOVAI,Hospitals & Diagnostic Centres
-Krebs Biochemicals and Industries Ltd,KREBSBIO,Pharmaceuticals
-Krishna Institute of Medical Sciences Ltd,KIMS,Hospitals & Diagnostic Centres
-Krsnaa Diagnostics Ltd,KRSNAA,Hospitals & Diagnostic Centres
-Kwality Pharmaceuticals Ltd,KPL,Pharmaceuticals
-Lactose India Ltd,LACTOSE,Pharmaceuticals
-Lasa Supergenerics Ltd,LASA,Pharmaceuticals
-Laurus Labs Ltd,LAURUSLABS,Pharmaceuticals
-Lincoln Pharmaceuticals Ltd,LINCOLN,Pharmaceuticals
-Looks Health Services Ltd,LOOKS,Health Care Equipment & Supplies
-Lotus Eye Hospital and Institute Ltd,LOTUSEYE,Hospitals & Diagnostic Centres
-Lupin Ltd,LUPIN,Pharmaceuticals
-Lyka Labs Ltd,LYKALABS,Pharmaceuticals
-Maitri Enterprises Ltd,MAITRI,Pharmaceuticals
-Makers Laboratories Ltd,MAKERSL,Pharmaceuticals
-Mangalam Drugs and Organics Ltd,MANGALAM,Pharmaceuticals
-Marksans Pharma Ltd,MARKSANS,Pharmaceuticals
-Max Healthcare Institute Ltd,MAXHEALTH,Hospitals & Diagnostic Centres
-Max India Ltd,MAXIND,Hospitals & Diagnostic Centres
-MediCaps Ltd,MEDICAPQ,Pharmaceuticals
-Medicamen Biotech Ltd,MEDICAMEQ,Pharmaceuticals
-Medico Intercontinental Ltd,MIL,Pharmaceuticals
-Medico Remedies Ltd,MEDICO,Pharmaceuticals
-Medinova Diagnostic Services Ltd,MEDINOV,Hospitals & Diagnostic Centres
-Mercury Laboratories Ltd,MERCURYLAB,Pharmaceuticals
-Metropolis Healthcare Ltd,METROPOLIS,Hospitals & Diagnostic Centres
-Mohini Health & Hygiene Ltd,MHHL,Health Care Equipment & Supplies
-Morepen Laboratories Ltd,MOREPENLAB,Pharmaceuticals
-N G Industries Ltd,NGIND,Hospitals & Diagnostic Centres
-Narayana Hrudayalaya Ltd,NH,Hospitals & Diagnostic Centres
-Natco Pharma Ltd,NATCOPHARM,Pharmaceuticals
-Natural Capsules Ltd,NATCAPSUQ,Pharmaceuticals
-Nectar Lifesciences Ltd,NECLIFE,Pharmaceuticals
-Neuland Laboratories Ltd,NEULANDLAB,Pharmaceuticals
-Ngl Fine Chem Ltd,NGLFINE,Pharmaceuticals
-Nidan Laboratories and Healthcare Ltd,NIDAN,Hospitals & Diagnostic Centres
-Norris Medicines Ltd,NORRIS,Pharmaceuticals
-Novartis India Ltd,NOVARTIND,Pharmaceuticals
-Nureca Ltd,NURECA,Pharmaceuticals
-Opto Circuits (India) Ltd,OPTOCIRCUI,Health Care Equipment & Supplies
-Orchid Pharma Ltd,ORCHPHARMA,Pharmaceuticals
-Ortin Laboratories Ltd,ORTINLAB,Pharmaceuticals
-Panacea Biotec Ltd,PANACEABIO,Biotechnology
-Panchsheel Organics Ltd,PANCHSHEEL,Pharmaceuticals
-Panjon Ltd,PANJON,Pharmaceuticals
-Par Drugs and Chemicals Ltd,PAR,Pharmaceuticals
-Parabolic Drugs Ltd,PARABDRUGS,Pharmaceuticals
-Parenteral Drugs (India) Ltd,PDPL,Pharmaceuticals
-Parnax Lab Ltd,PARNAXLAB,Pharmaceuticals
-Pfizer Ltd,PFIZER,Pharmaceuticals
-Pharmaids Pharmacuticals Ltd,PHARMAID,Pharmaceuticals
-Poly Medicure Ltd,POLYMED,Health Care Equipment & Supplies
-Procter & Gamble Health Ltd,PGHL,Pharmaceuticals
-RPG Life Sciences Limited,RPGLIFE,Pharmaceuticals
-Raaj Medisafe India Ltd,RAAJMEDI,Health Care Equipment & Supplies
-Rainbow Children's Medicare Ltd,RAINBOW,Hospitals & Diagnostic Centres
-SMS Lifesciences India Ltd,SMSLIFE,Pharmaceuticals
-SMS Pharmaceuticals Ltd,SMSPHARMA,Pharmaceuticals
-Sakar Healthcare Ltd,SAKAR,Pharmaceuticals
-Sanjivani Paranteral Ltd,SANJIVIN,Pharmaceuticals
-Sanofi India Ltd,SANOFI,Pharmaceuticals
-Scandent Imaging Ltd,SCANDENT,Hospitals & Diagnostic Centres
-SeQuent Scientific Ltd,SEQUENT,Pharmaceuticals
-Shalby Ltd,SHALBY,Hospitals & Diagnostic Centres
-Shamrock Industrial Company Ltd,SHAMROIN,Pharmaceuticals
-Shilpa Medicare Ltd,SHILPAMED,Pharmaceuticals
-Shree Ganesh Remedies Ltd,SGRL,Pharmaceuticals
-Shree Pacetronix Ltd,SHREEPAC,Health Care Equipment & Supplies
-Shukra Pharmaceuticals Ltd,SHUKRAPHAR,Pharmaceuticals
-Smruthi Organics Ltd,SMRUTHIORG,Pharmaceuticals
-Solara Active Pharma Sciences Ltd,SOLARA,Pharmaceuticals
-Soni Medicare Ltd,SML,Hospitals & Diagnostic Centres
-Source Natural Foods and Herbal Supplements Ltd,SOURCENTRL,Pharmaceuticals
-Strides Pharma Science Ltd,STAR,Pharmaceuticals
-Sun Pharma Advanced Research Co Ltd,SPARC,Pharmaceuticals
-Sun Pharmaceutical Industries Ltd,SUNPHARMA,Pharmaceuticals
-Sunil Healthcare Ltd,SUNLOC,Pharmaceuticals
-Supriya Lifescience Ltd,SUPRIYA,Pharmaceuticals
-Suven Life Sciences Ltd,SUVEN,Pharmaceuticals
-Suven Pharmaceuticals Ltd,SUVENPHAR,Pharmaceuticals
-Syncom Formulations (India) Ltd,SYNCOMF,Pharmaceuticals
-Syngene International Ltd,SYNGENE,Labs & Life Sciences Services
-Syschem (India) Ltd,SYSCHEM,Pharmaceuticals
-TTK Healthcare Ltd,TTKHLTCARE,Pharmaceuticals
-Tarsons Products Ltd,TARSONS,Health Care Equipment & Supplies
-Tejnaksh Healthcare Ltd,TEJNAKSH,Hospitals & Diagnostic Centres
-Themis Medicare Ltd,THEMISMED,Pharmaceuticals
-Thyrocare Technologies Ltd,THYROCARE,Hospitals & Diagnostic Centres
-Tiaan Consumer Ltd,TAHL,Pharmaceuticals
+Cipla Ltd,CIPLA,Pharmaceuticals
+Biocon Ltd,BIOCON,Biotechnology
+Aurobindo Pharma Ltd,AUROPHARMA,Pharmaceuticals
 Torrent Pharmaceuticals Ltd,TORNTPHARM,Pharmaceuticals
-Transgene Biotek Ltd,TRABI,Biotechnology
-Transpact Enterprises Ltd,TRANSPACT,Health Care Equipment & Supplies
-Trimurthi Ltd,TRIMURTHI,Health Care Equipment & Supplies
-Triochem Products Ltd,TRIPR,Pharmaceuticals
-Tyche Industries Ltd,TYCHE,Pharmaceuticals
-Unichem Laboratories Ltd,UNICHEMLAB,Pharmaceuticals
-Universus Photo Imagings Ltd,UNIVPHOTO,Health Care Equipment & Supplies
-Vaidya Sane Ayurved Laboratories Ltd,MADHAVBAUG,Labs & Life Sciences Services
-Vaishali Pharma Ltd,VAISHALI,Pharmaceuticals
-Vanta Bioscience Ltd,VANTABIO,Labs & Life Sciences Services
-Veerhealth Care Ltd,VEERHEALTH,Pharmaceuticals
-Venus Remedies Ltd,VENUSREM,Pharmaceuticals
-Vijaya Diagnostic Centre Ltd,VIJAYA,Hospitals & Diagnostic Centres
-Vikram Thermo (India) Ltd,VIKRAMTH,Pharmaceuticals
-Vimta Labs Ltd,VIMTALABS,Labs & Life Sciences Services
-Vista Pharmaceuticals Ltd,VISTAPH,Pharmaceuticals
-Vivanta Industries Ltd,VIVANTA,Pharmaceuticals
-Vivanza Biosciences Ltd,VIVANZA,Pharmaceuticals
-Vivo Bio Tech Ltd,VIVOBIOT,Biotechnology
-Wanbury Ltd,WANBURY,Pharmaceuticals
-Welcure Drugs and Pharmaceuticals Ltd,WELCURE,Pharmaceuticals
-Windlas Biotech Ltd,WINDLAS,Pharmaceuticals
+Lupin Ltd,LUPIN,Pharmaceuticals
+Abbott India Ltd,ABBOTINDIA,Pharmaceuticals
+Alkem Laboratories Ltd,ALKEM,Pharmaceuticals
+IPCA Laboratories Ltd,IPCALAB,Pharmaceuticals
+Apollo Hospitals Enterprise Ltd,APOLLOHOSP,Hospitals & Diagnostic Centres
+Pfizer Ltd,PFIZER,Pharmaceuticals
+Alembic Pharmaceuticals Ltd,APLLTD,Pharmaceuticals
+Syngene International Ltd,SYNGENE,Labs & Life Sciences Services
+Dr. Lal PathLabs Ltd,LALPATHLAB,Hospitals & Diagnostic Centres
+Natco Pharma Ltd,NATCOPHARM,Pharmaceuticals
+Ajanta Pharma Ltd,AJANTPHARM,Pharmaceuticals
+Glenmark Pharmaceuticals Ltd,GLENMARK,Pharmaceuticals
+Metropolis Healthcare Ltd,METROPOLIS,Hospitals & Diagnostic Centres
+Laurus Labs Ltd,LAURUSLABS,Pharmaceuticals
+Granules India Ltd,GRANULES,Pharmaceuticals
+Suven Pharmaceuticals Ltd,SUVENPHAR,Pharmaceuticals
+Aster DM Healthcare Ltd,ASTERDM,Hospitals & Diagnostic Centres
+Narayana Hrudayalaya Ltd,NH,Hospitals & Diagnostic Centres
+J B Chemicals and Pharmaceuticals Ltd,JBCHEPHARM,Pharmaceuticals
+Eris Lifesciences Ltd,ERIS,Pharmaceuticals
+F D C Ltd,FDC,Pharmaceuticals
+Sun Pharma Advanced Research Co Ltd,SPARC,Pharmaceuticals
+Shilpa Medicare Ltd,SHILPAMED,Pharmaceuticals
+Aarti Drugs Ltd,AARTIDRUGS,Pharmaceuticals
+Poly Medicure Ltd,POLYMED,Health Care Equipment & Supplies
+Thyrocare Technologies Ltd,THYROCARE,Hospitals & Diagnostic Centres
+Caplin Point Laboratories Ltd,CAPLIPOINT,Pharmaceuticals
 Wockhardt Ltd,WOCKPHARMA,Pharmaceuticals
-Zenlabs Ethica Ltd,ZENLABS,Pharmaceuticals
-Zenotech Laboratories Ltd,ZENOTECH,Biotechnology
-Zim Laboratories Ltd,ZIMLAB,Pharmaceuticals
+SeQuent Scientific Ltd,SEQUENT,Pharmaceuticals
+Dishman Carbogen Amcis Ltd,DCAL,Labs & Life Sciences Services
+Indoco Remedies Ltd,INDOCO,Pharmaceuticals
+Solara Active Pharma Sciences Ltd,SOLARA,Pharmaceuticals
+Hikal Ltd,HIKAL,Pharmaceuticals
+Unichem Laboratories Ltd,UNICHEMLAB,Pharmaceuticals
+Panacea Biotec Ltd,PANACEABIO,Biotechnology
+Amrutanjan Health Care Ltd,AMRUTANJAN,Pharmaceuticals
+Healthcare Global Enterprises Ltd,HCG,Hospitals & Diagnostic Centres
+Hester Biosciences Ltd,HESTERBIO,Biotechnology
+Bliss GVS Pharma Ltd,BLISSGVS,Pharmaceuticals
+Morepen Laboratories Ltd,MOREPENLAB,Pharmaceuticals
+Neuland Laboratories Ltd,NEULANDLAB,Pharmaceuticals
+Shalby Ltd,SHALBY,Hospitals & Diagnostic Centres
+Gufic Biosciences Ltd,GUFICBIO,Pharmaceuticals
+SMS Pharmaceuticals Ltd,SMSPHARMA,Pharmaceuticals
+RPG Life Sciences Ltd,RPGLIFE,Pharmaceuticals
+Suven Life Sciences Ltd,SUVEN,Pharmaceuticals
+Indraprastha Medical Corporation Ltd,INDRAMEDCO,Hospitals & Diagnostic Centres
+Nectar Life sciences Ltd,NECLIFE,Pharmaceuticals
+Lincoln Pharmaceuticals Ltd,LINCOLN,Pharmaceuticals
+Themis Medicare Ltd,THEMISMED,Pharmaceuticals
 Zota Health Care Ltd,ZOTA,Pharmaceuticals
-Zydus Lifesciences Ltd,ZYDUSLIFE,Pharmaceuticals
+Opto Circuits (India) Ltd,OPTOCIRCUI,Health Care Equipment & Supplies
+Albert David Ltd,ALBERTDAVD,Pharmaceuticals
+IND Swift Laboratories Ltd,INDSWFTLAB,Pharmaceuticals
+Vimta Labs Ltd,VIMTALABS,Labs & Life Sciences Services
+Lasa Supergenerics Ltd,LASA,Pharmaceuticals
+Kopran Ltd,KOPRAN,Pharmaceuticals
+Universus Photo Imagings Ltd,UNIVPHOTO,Health Care Equipment & Supplies
+Kilitch Drugs (India) Ltd,KILITCH,Pharmaceuticals
+Jagson Pal Pharmaceuticals Ltd,JAGSNPHARM,Pharmaceuticals
+Mangalam Drugs and Organics Ltd,MANGALAM,Pharmaceuticals
+SMS Lifesciences India Ltd,SMSLIFE,Pharmaceuticals
+Venus Remedies Ltd,VENUSREM,Pharmaceuticals
+Beta Drugs Ltd,BETA,Pharmaceuticals
+Brooks Laboratories Ltd,BROOKS,Labs & Life Sciences Services
+Sakar Healthcare Ltd,SAKAR,Pharmaceuticals
+Wanbury Ltd,WANBURY,Pharmaceuticals
+Bal Pharma Ltd,BALPHARMA,Pharmaceuticals
+Lyka Labs Ltd,LYKALABS,Pharmaceuticals
+Vaishali Pharma Ltd,VAISHALI,Pharmaceuticals
+Alpa Laboratories Ltd,ALPA,Pharmaceuticals
+Par Drugs and Chemicals Ltd,PAR,Pharmaceuticals
+Mohini Health & Hygiene Ltd,MHHL,Health Care Equipment & Supplies
+Ortin Laboratories Ltd,ORTINLABSS,Pharmaceuticals
+Parabolic Drugs Ltd,PARABDRUGS,Pharmaceuticals
+Ind Swift Ltd,INDSWFTLTD,Pharmaceuticals
+Ajooni Biotech Ltd,AJOONI,Pharmaceuticals
+Syncom Healthcare Ltd,SYNCOM,Pharmaceuticals
+Alchemist Ltd,ALCHEM,Pharmaceuticals
+Bafna Pharmaceuticals Ltd,BAFNAPH,Pharmaceuticals

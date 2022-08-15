@@ -1,12 +1,13 @@
 import os
-from pprint import pprint
 import csv
 import json
+
+from pprint import pprint
 
 ###########
 # File Path
 ###########
-pathForTickerTapeSector = "TickerTape/"
+pathForTickerTapeSector = "TickerTapeSectorDetails/TickerTape/"
 csvFilePath = 'Resources/EQUITY_L.csv'
 jsonFilePath = 'Output/EQUITY_L.json'
 
@@ -20,7 +21,7 @@ sector = {}
 
 for csvFile in files:
     csvFile = pathForTickerTapeSector + csvFile
-    index_name = csvFile.replace(".csv", "").replace("TickerTape/", "")
+    index_name = csvFile.replace(".csv", "").replace("TickerTapeSectorDetails/TickerTape/", "")
     sector[index_name] = []
     with open(csvFile) as csvFile:
         csvReader = csv.DictReader(csvFile)
@@ -34,7 +35,7 @@ for csvFile in files:
                     listTemp.append(value)
             sector[index_name].append({listTemp[0]:listTemp[1]})
 
-# pprint(sector)
+pprint(sector)
 
 ############################################################
 # Open List of securities (CSV file) and adding TickerTape #
@@ -72,4 +73,4 @@ for nse_company in nse_companies:
 with open(jsonFilePath, "w") as jsonFile:
     jsonFile.write(json.dumps(nse_companies, indent=4))
 
-pprint(nse_companies)
+# pprint(nse_companies)

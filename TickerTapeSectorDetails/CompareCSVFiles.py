@@ -1,6 +1,6 @@
 from pprint import pprint
 
-oldCSVFilePath = "Resources\Old\EQUITY_L.csv"
+oldCSVFilePath = "Resources\OldEquityList\EQUITY_L.csv"
 newCSVFilePath = "Resources\EQUITY_L.csv"
 
 with open(oldCSVFilePath, 'r') as oldcsv, open(newCSVFilePath, 'r') as newcsv:  # Import CSV files

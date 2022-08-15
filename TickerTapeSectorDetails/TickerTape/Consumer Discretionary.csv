@@ -1,695 +1,274 @@
-﻿Name,Ticker,Sub-Sector
-A B Cotspin India Ltd,ABCOTS,Textiles
-AKI India Ltd,AKI,Textiles
-AKM Lace and Embrotex Ltd,AKM,Textiles
-APM Industries Ltd,APMIN,Textiles
-Aananda Lakshmi Spinning Mills Ltd,AANANDALAK,Textiles
+Name,Ticker,Sub-Sector
+Prime Focus Ltd,PFOCUS,Animation
+DQ Entertainment International Ltd,DQE,Animation
+Page Industries Ltd,PAGEIND,Apparel & Accessories
+V I P Industries Ltd,VIPIND,Apparel & Accessories
+Lux Industries Ltd,LUXIND,Apparel & Accessories
+TCNS Clothing Co Ltd,TCNSBRANDS,Apparel & Accessories
+Raymond Ltd,RAYMOND,Apparel & Accessories
+Rupa & Company Ltd,RUPA,Apparel & Accessories
+Kewal Kiran Clothing Ltd,KKCL,Apparel & Accessories
+Safari Industries (India) Ltd,SAFARI,Apparel & Accessories
+Kitex Garments Ltd,KITEX,Apparel & Accessories
+Dollar Industries Ltd,DOLLAR,Apparel & Accessories
+Cantabil Retail India Ltd,CANTABIL,Apparel & Accessories
+Monte Carlo Fashions Ltd,MONTECARLO,Apparel & Accessories
+Zodiac Clothing Company Ltd,ZODIACLOTH,Apparel & Accessories
+Bombay Rayon Fashions Ltd,BRFL,Apparel & Accessories
+S. P. Apparels Ltd,SPAL,Apparel & Accessories
+Gokaldas Exports Ltd,GOKEX,Apparel & Accessories
+Bhartiya International Ltd,BIL,Apparel & Accessories
+Indian Terrain Fashions Ltd,INDTERRAIN,Apparel & Accessories
+SPL Industries Ltd,SPLIL,Apparel & Accessories
+Lovable Lingerie Ltd,LOVABLE,Apparel & Accessories
+Pioneer Embroideries Ltd,PIONEEREMB,Apparel & Accessories
+Banaras Beads Ltd,BANARBEADS,Apparel & Accessories
 Aarvee Denims and Exports Ltd,AARVEEDEN,Apparel & Accessories
-Aaswa Trading and Exports Ltd,ASWTR,Textiles
-Ace Integrated Solutions Ltd,ACEINTEG,Education Services
-Acknit Industries Ltd,ACKNIT,Apparel & Accessories
-Active Clothing Co Ltd,ACTIVE,Textiles
-Adinath Textiles Ltd,ADINATH,Textiles
-Aditya Birla Fashion and Retail Ltd,ABFRL,Retail - Apparel
-Aditya Consumer Marketing Ltd,ACML,Retail - Speciality
-Aditya Vision Ltd,AVL,Retail - Speciality
-Advani Hotels and Resorts (India) Ltd,ADVANIHOTR,"Hotels, Resorts & Cruise Lines"
-Ahlada Engineers Ltd,AHLADA,Home Furnishing
-Ai Champdany Industries Ltd,AICHAMP,Textiles
-Ajwa Fun World and Resort Ltd,AJWAFUN,Theme Parks & Gaming
-Akar Auto Industries Ltd,AAIL,Auto Parts
-Akshar Spintex Ltd,AKSHAR,Textiles
-Alfa Ica India Ltd,ALFAICA,Home Furnishing
-Alicon Castalloy Ltd,ALICON,Auto Parts
-Alok Industries Ltd,ALOKINDS,Textiles
-Alps Industries Ltd,ALPSINDUS,Textiles
-Alstone Textiles (India) Ltd,ALSTONE,Textiles
-Amarjothi Spinning Mills Ltd,AMARJOTHI,Textiles
-Ambassador Intra Holdings Ltd,AIHL,Textiles
+Bang Overseas Ltd,BANG,Apparel & Accessories
+Celebrity Fashions Ltd,CELEBRITY,Apparel & Accessories
+Bhandari Hosiery Exports Ltd,BHANDARI,Apparel & Accessories
+Jet Knitwears Ltd,JETKNIT,Apparel & Accessories
+Nandani Creation Ltd,JAIPURKURT,Apparel & Accessories
+Endurance Technologies Ltd (CN),ENDURANCE,Auto Parts
+Sundram Fasteners Ltd,SUNDRMFAST,Auto Parts
+Minda Industries Ltd,MINDAIND,Auto Parts
+Sundaram Clayton Ltd,SUNCLAYLTD,Auto Parts
+Varroc Engineering Ltd,VARROC,Auto Parts
+Suprajit Engineering Ltd,SUPRAJIT,Auto Parts
+Minda Corporation Ltd,MINDACORP,Auto Parts
+IFB Industries Ltd,IFBIND,Auto Parts
+Shriram Pistons & Rings Ltd,SHRIPISTON,Auto Parts
+Gabriel India Ltd,GABRIEL,Auto Parts
+Sandhar Technologies Ltd,SANDHAR,Auto Parts
+Lumax Industries Ltd,LUMAXIND,Auto Parts
+Jamna Auto Industries Ltd,JAMNAAUTO,Auto Parts
+Subros Ltd,SUBROS,Auto Parts
+Wheels India Ltd,WHEELS,Auto Parts
+Pricol Ltd,PRICOLLTD,Auto Parts
+Lumax AutoTechnologies Ltd,LUMAXTECH,Auto Parts
+Steel Strips Wheels Ltd,SSWL,Auto Parts
+India Motor Parts & Accessories Ltd,IMPAL,Auto Parts
+Shanthi Gears Ltd,SHANTIGEAR,Auto Parts
+India Nippon Electricals Ltd,INDNIPPON,Auto Parts
+Banco Products (India) Ltd,BANCOINDIA,Auto Parts
+Fiem Industries Ltd,FIEMIND,Auto Parts
+Munjal Auto Industries Ltd,MUNJALAU,Auto Parts
+Sharda Motor Industries Ltd,SHARDAMOTR,Auto Parts
+Rane Brake Linings Ltd,RBL,Auto Parts
+Munjal Showa Ltd,MUNJALSHOW,Auto Parts
+GNA Axles Ltd,GNA,Auto Parts
+Jay Bharat Maruti Ltd,JAYBARMARU,Auto Parts
+Rico Auto Industries Ltd,RICOAUTO,Auto Parts
+Dynamatic Technologies Ltd,DYNAMATECH,Auto Parts
+Precision Camshafts Ltd,PRECAM,Auto Parts
+Harita Seating Systems Ltd,HARITASEAT,Auto Parts
+UCAL Fuel Systems Ltd,UCALFUEL,Auto Parts
+Rane (Madras) Ltd,RML,Auto Parts
+Gandhi Special Tubes Ltd,GANDHITUBE,Auto Parts
+Hindustan Composites Ltd,HINDCOMPOS,Auto Parts
+Menon Bearings Ltd,MENONBE,Auto Parts
+JMT Auto Ltd,JMTAUTOLTD,Auto Parts
+Shivam Autotech Ltd,SHIVAMAUTO,Auto Parts
+Rane Engine Valve Ltd,RANEENGINE,Auto Parts
+Setco Automotive Ltd,SETCO,Auto Parts
+Talbros Automotive Components Ltd,TALBROAUTO,Auto Parts
+Sundaram Brake Linings Ltd,SUNDRMBRAK,Auto Parts
+Jullundur Motor Agency (Delhi) Ltd,JMA,Auto Parts
+Omax Autos Ltd,OMAXAUTO,Auto Parts
+Autoline Industries Ltd,AUTOIND,Auto Parts
+Bharat Gears Ltd,BHARATGEAR,Auto Parts
+Remsons Industries Ltd,REMSONSIND,Auto Parts
+Tirupati Forge Ltd,TIRUPATIFL,Auto Parts
+Autolite India Ltd,AUTOLITIND,Auto Parts
+Tube Investments of India Ltd,TIINDIA,Cycles
+NIIT Ltd,NIITLTD,Education Services
+Zee Learn Ltd,ZEELEARN,Education Services
+S Chand and Company Ltd,SCHAND,Education Services
+MT Educare Ltd,MTEDUCARE,Education Services
+Compucom Software Ltd,COMPUSOFT,Education Services
+CL Educate Ltd,CLEDUCATE,Education Services
+Global Education Ltd,GLOBAL,Education Services
+Educomp Solutions Ltd,EDUCOMP,Education Services
+Keerti Knowledge and Skills Ltd,KEERTI,Education Services
+Tree House Education and Accessories Ltd,TREEHOUSE,Education Services
+Usha Martin Education And Solutions Ltd,UMESLTD,Education Services
+Bata India Ltd,BATAINDIA,Footwear
+Relaxo Footwears Ltd,RELAXO,Footwear
+Sreeleathers Ltd,SREEL,Footwear
+Liberty Shoes Ltd,LIBERTSHOE,Footwear
+Khadim India Ltd,KHADIM,Footwear
+Super House Ltd,SUPERHOUSE,Footwear
+Mahindra and Mahindra Ltd,M&M,Four Wheelers
+Tata Motors Ltd - DVR,TATAMTRDVR,Four Wheelers
+Hindustan Motors Ltd,HINDMOTORS,Four Wheelers
+Whirlpool of India Ltd,WHIRLPOOL,Home Electronics & Appliances
+Voltas Ltd,VOLTAS,Home Electronics & Appliances
+Crompton Greaves Consumer Electricals Ltd,CROMPTON,Home Electronics & Appliances
+Dixon Technologies (India) Ltd,DIXON,Home Electronics & Appliances
+TTK Prestige Ltd,TTKPRESTIG,Home Electronics & Appliances
+Symphony Ltd,SYMPHONY,Home Electronics & Appliances
+Bajaj Electricals Ltd,BAJAJELEC,Home Electronics & Appliances
+Blue Star Ltd,BLUESTARCO,Home Electronics & Appliances
 Amber Enterprises India Ltd,AMBER,Home Electronics & Appliances
-Ambika Cotton Mills Ltd,AMBIKCO,Textiles
-Anand Rayons Ltd,ARL,Textiles
-Angel Fibers Ltd,ANGEL,Textiles
-Anjani Foods Ltd,ANJANIFOODS,Restaurants & Cafes
-Anjani Synthetics Ltd,ANJANI,Textiles
-Anshuni Commercials Ltd,ANSHNCO,"Precious Metals, Jewellery & Watches"
-Antony Waste Handling Cell Ltd,AWHCL,Wellness Services
-Anup Engineering Ltd,ANUP,Textiles
-Apollo Sindoori Hotels Ltd,APOLSINHOT,Restaurants & Cafes
-Apollo Tyres Limited,APOLLOTYRE,Tires & Rubber
-Aptech Ltd,APTECHT,Education Services
-Archies Ltd,ARCHIES,Retail - Speciality
-Arex Industries Ltd,AREXMIS,Textiles
-Artedz Fabs Ltd,ARTEDZ,Textiles
-Aruna Hotels Ltd,ARUNAHTEL,"Hotels, Resorts & Cruise Lines"
-Arvind Fashions Ltd,ARVINDFASN,Textiles
-Arvind Ltd,ARVIND,Apparel & Accessories
-Asahi India Glass Ltd,ASAHIINDIA,Auto Parts
-Asahi Industries Ltd,ASAHIIND,Textiles
-Ashapuri Gold Ornament Ltd,AGOL,"Precious Metals, Jewellery & Watches"
-Ashima Ltd,ASHIMASYN,Textiles
-Ashnoor Textile Mills Ltd,ASHNOOR,Textiles
-Ashram Online Com Ltd,ASHRAM,Retail - Online
-Asian Hotels (North) Ltd,ASIANHOTNR,"Hotels, Resorts & Cruise Lines"
+Orient Electric Ltd,ORIENTELEC,Home Electronics & Appliances
+Butterfly Gandhimathi Appliances Ltd,BUTTERFLY,Home Electronics & Appliances
+MIRC Electronics Ltd,MIRCELECTR,Home Electronics & Appliances
+BPL Ltd,BPL,Home Electronics & Appliances
+Wonder Fibromats Ltd,WFL,Home Electronics & Appliances
+Focus Lighting and Fixtures Ltd,FOCUS,Home Electronics & Appliances
+Sheela Foam Ltd,SFL,Home Furnishing
+Praxis Home Retail Ltd,PRAXIS,Home Furnishing
+Parin Furniture Ltd,PARIN,Home Furnishing
+Ahlada Engineers Ltd,AHLADA,Home Furnishing
+Premier Polyfilm Ltd,PREMIERPOL,Home Furnishing
+Marvel Decor Ltd,MDL,Home Furnishing
+Priti International Ltd,PRITI,Home Furnishing
+Omfurn India Ltd,OMFURN,Home Furnishing
+Indian Hotels Company Ltd,INDHOTEL,"Hotels, Resorts & Cruise Lines"
+Chalet Hotels Ltd,CHALET,"Hotels, Resorts & Cruise Lines"
+Mahindra Holidays and Resorts India Ltd,MHRIL,"Hotels, Resorts & Cruise Lines"
+Lemon Tree Hotels Ltd,LEMONTREE,"Hotels, Resorts & Cruise Lines"
+TAJ GVK Hotels and Resorts Ltd,TAJGVK,"Hotels, Resorts & Cruise Lines"
+Oriental Hotels Ltd,ORIENTHOT,"Hotels, Resorts & Cruise Lines"
 Asian Hotels (West) Ltd,AHLWEST,"Hotels, Resorts & Cruise Lines"
 Asian Hotels East Ltd,AHLEAST,"Hotels, Resorts & Cruise Lines"
-Asian Star Co Ltd,ASTAR,"Precious Metals, Jewellery & Watches"
-Atlas Cycles Haryana Ltd,ATLASCYCLE,Cycles
-Atlas Jewellery India Ltd,AJIL,"Precious Metals, Jewellery & Watches"
-Atul Auto Ltd,ATULAUTO,Three Wheelers
-Autoline Industries Ltd,AUTOIND,Auto Parts
-Autolite India Ltd,AUTOLITIND,Auto Parts
-Automotive Axles Ltd,AUTOAXLES,Auto Parts
-Automotive Stampings and Assemblies Ltd,ASAL,Auto Parts
-Autoriders International Ltd,AUTOINT,Tour & Travel Services
-Avenue Supermarts Ltd,DMART,Retail - Department Stores
-Axita Cotton Ltd,AXITA,Textiles
-Aym Syntex Ltd,AYMSYNTEX,Textiles
-BPL Ltd,BPL,Home Electronics & Appliances
-BSL Ltd,BSL,Textiles
-Bajaj Auto Ltd,BAJAJ-AUTO,Two Wheelers
-Bajaj Electricals Ltd,BAJAJELEC,Home Electronics & Appliances
-Balkrishna Industries Ltd,BALKRISIND,Tires & Rubber
-Banaras Beads Ltd,BANARBEADS,Apparel & Accessories
-Banco Products (India) Ltd,BANCOINDIA,Auto Parts
-Bang Overseas Ltd,BANG,Apparel & Accessories
-Bannari Amman Spinning Mills Ltd,BASML,Textiles
-Bansal Multiflex Ltd,BANSAL,Textiles
-Banswara Syntex Ltd,BANSWRAS,Textiles
-Barbeque-Nation Hospitality Ltd,BARBEQUE,Restaurants & Cafes
-Bata India Ltd,BATAINDIA,Footwear
-Bella Casa Fashion & Retail Ltd,BELLACASA,Textiles
-Benara Bearings and Pistons Ltd,BENARA,Auto Parts
-Benares Hotels Ltd,BENARAS,"Hotels, Resorts & Cruise Lines"
-Bengal Tea & Fabrics Ltd,BENGALT,Textiles
-Betex India Ltd,BETXIND,Textiles
-Bhakti Gems and Jewellery Ltd,BGJL,"Precious Metals, Jewellery & Watches"
-Bhalchandram Clothing Ltd,BHALCHANDR,Textiles
-Bhandari Hosiery Exports Ltd,BHANDARI,Apparel & Accessories
-Bharat Gears Ltd,BHARATGEAR,Auto Parts
-Bharat Seats Ltd,BHARATSE,Auto Parts
-Bhartiya International Ltd,BIL,Apparel & Accessories
-Bhilwara Spinners Ltd,BHILSPIN,Textiles
-Binayak Tex Processors Ltd,ZBINTXPP,Textiles
-Bindal Exports Ltd,BINDALEXPO,Textiles
-Birla Tyres Ltd,BIRLATYRE,Tires & Rubber
-Blue Chip Tex Industries Ltd,BLUECHIPT,Textiles
-Blue Coast Hotels Ltd,BLUECOAST,"Hotels, Resorts & Cruise Lines"
-Blue Star Ltd,BLUESTARCO,Home Electronics & Appliances
-Bombay Dyeing and Mfg Co Ltd,BOMDYEING,Textiles
-Bombay Rayon Fashions Ltd,BRFL,Apparel & Accessories
-Borosil Ltd,BOROLTD,Housewares
-Borosil Renewables Ltd,BORORENEW,Housewares
-Bosch Ltd,BOSCHLTD,Auto Parts
-Brand Concepts Ltd,BCONCEPTS,Retail - Department Stores
-Budge Budge Co Ltd,BUDGE BUDGE,Textiles
-Butterfly Gandhimathi Appliances Ltd,BUTTERFLY,Home Electronics & Appliances
-Byke Hospitality Ltd,BYKE,"Hotels, Resorts & Cruise Lines"
-CEAT Ltd,CEATLTD,Tires & Rubber
-CHL Ltd,CHLLTD,"Hotels, Resorts & Cruise Lines"
-CIL Nova Petrochemicals Ltd,CNOVAPETRO,Textiles
-CKP Leisure Ltd,CKPLEISURE,"Hotels, Resorts & Cruise Lines"
-CL Educate Ltd,CLEDUCATE,Education Services
-COSCO India Ltd,COSCO,Theme Parks & Gaming
-Campus Activewear Ltd,CAMPUS,Apparel & Accessories
-Cantabil Retail India Ltd,CANTABIL,Apparel & Accessories
-Career Point Ltd,CAREERP,Education Services
-Castex Technologies Ltd,CASTEXTECH,Auto Parts
-Ceenik Exports (India) Ltd,CEENIK,Textiles
-Celebrity Fashions Ltd,CELEBRITY,Apparel & Accessories
-Century Enka Ltd,CENTENKA,Textiles
-Chalet Hotels Ltd,CHALET,"Hotels, Resorts & Cruise Lines"
-Chandrima Mercantiles Ltd,CHANDRIMA,"Precious Metals, Jewellery & Watches"
-Cheviot Co Ltd,CHEVIOT,Textiles
-Coffee Day Enterprises Ltd,COFFEEDAY,Restaurants & Cafes
-Competent Automobiles Company Ltd,COMPEAU,Retail - Speciality
-Compucom Software Ltd,COMPUSOFT,Education Services
-Country Club Hospitality & Holidays Ltd,CCHHL,"Hotels, Resorts & Cruise Lines"
-Cox & Kings Ltd,COX&KINGS,Tour & Travel Services
-Crompton Greaves Consumer Electricals Ltd,CROMPTON,Home Electronics & Appliances
-D P Abhushan Ltd,DPABHUSHAN,"Precious Metals, Jewellery & Watches"
-DCM Nouvelle Ltd,DCMNVL,Textiles
-DIGJAM Ltd,DIGJAMLMTD,Textiles
-DQ Entertainment International Ltd,DQE,Animation
-Damodar Industries Ltd,DAMODARIND,Textiles
-Deep Diamond India Ltd,DDIL,"Precious Metals, Jewellery & Watches"
-Deepak Spinners Ltd,DEEPAKSP,Textiles
-Delphi World Money Ltd,DELPHIFX,Tour & Travel Services
-Delta Corp Ltd,DELTACORP,Theme Parks & Gaming
-Devyani International Ltd,DEVYANI,Restaurants & Cafes
-Dhanlaxmi Fabrics Ltd,DHANFAB,Textiles
-Dixon Technologies (India) Ltd,DIXON,Home Electronics & Appliances
-Dolfin Rubbers Ltd,DOLFIN,Auto Parts
-Dollar Industries Ltd,DOLLAR,Apparel & Accessories
-Donear Industries Ltd,DONEAR,Textiles
-Duncan Engineering Ltd,DUNCANENG,Auto Parts
-Dynamatic Technologies Ltd,DYNAMATECH,Auto Parts
-E-Land Apparel Ltd,ELAND,Apparel & Accessories
-EIH Associated Hotels Ltd,EIHAHOTELS,"Hotels, Resorts & Cruise Lines"
-EIH Ltd,EIHOTEL,"Hotels, Resorts & Cruise Lines"
-ELGI Rubber Co Ltd,ELGIRUBCO,Tires & Rubber
-EMA India Ltd,EMAINDIA,Auto Parts
-Eastern Silk Industries Ltd,EASTSILK,Textiles
-Eastern Treads Ltd,EASTRED,Tires & Rubber
-Easy Trip Planners Ltd,EASEMYTRIP,Tour & Travel Services
-Educomp Solutions Ltd,EDUCOMP,Education Services
-Emergent Industrial Solutions Ltd,EMERGENT,Education Services
-Endurance Technologies Ltd (CN),ENDURANCE,Auto Parts
-Enkei Wheels (India) Ltd,ENKEIWHEL,Auto Parts
-Enterprise International Ltd,ENTRINT,Textiles
-Ethos Ltd,ETHOSLTD,"Precious Metals, Jewellery & Watches"
-Eureka Industries Ltd,EUREKAI,Textiles
-Eurotex Industries and Exports Ltd,EUROTEXIND,Textiles
-Evergreen Textiles Ltd,EVERTEX,Textiles
-Faze Three Autofab Ltd,FAZE3AUTO,Textiles
-Faze Three Ltd,FAZE3Q,Textiles
-Federal-Mogul Goetze (India) Ltd,FMGOETZE,Auto Parts
-Fiberweb (India) Ltd,FIBERWEB,Textiles
-Fiem Industries Ltd,FIEMIND,Auto Parts
-Filatex India Ltd,FILATEX,Textiles
-Flora Textiles Ltd,FLORATX,Textiles
-Foce India Ltd,FOCE,"Precious Metals, Jewellery & Watches"
-Focus Lighting and Fixtures Ltd,FOCUS,Home Electronics & Appliances
-Force Motors Ltd,FORCEMOT,Four Wheelers
-Future Lifestyle Fashions Ltd,FLFL,Retail - Apparel
-Future Retail Ltd,FRETAIL,Retail - Department Stores
-G. G. Automotive Gears Ltd,GGAUTO,Auto Parts
-G.S. Auto International Ltd,GSAUTO,Auto Parts
-GB Global Ltd,GBGLOBAL,Textiles
-GIR Natureview Resorts Ltd,GIRRESORTS,"Hotels, Resorts & Cruise Lines"
-GNA Axles Ltd,GNA,Auto Parts
-GRP Ltd,GRPLTD,Tires & Rubber
-GTN Industries Ltd,GTNIND,Textiles
-GTN Textiles Ltd,GTNTEX,Textiles
-Gabriel India Ltd,GABRIEL,Auto Parts
-Galaxy Cloud Kitchens Ltd,GCKL,"Hotels, Resorts & Cruise Lines"
-Gandhi Special Tubes Ltd,GANDHITUBE,Auto Parts
-Ganesha Ecosphere Ltd,GANECOS,Textiles
-Gangotri Textiles Ltd,GANGOTRI,Apparel & Accessories
-Garden Silk Mills Ltd,GARDENSILK,Textiles
-Garnet International Ltd,GARNETINT,Textiles
-Garware Synthetics Ltd,GARWSYN,Textiles
-Garware Technical Fibres Ltd,GARFIBRES,Textiles
-Gautam Gems Ltd,GGL,"Precious Metals, Jewellery & Watches"
-Gem Spinners India Ltd,GEMSPIN,Textiles
-Gini Silk Mills Ltd,GINISILK,Textiles
-Ginni Filaments Ltd,GINNIFILA,Textiles
-Global Education Ltd,GLOBAL,Education Services
-Globe Textiles (India) Ltd,GLOBE,Textiles
-Gloster Ltd,GLOSTERLTD,Textiles
-Go Fashion (India) Ltd,GOCOLORS,Apparel & Accessories
-Goenka Diamond And Jewels Ltd,GOENKA,"Precious Metals, Jewellery & Watches"
-Gokaldas Exports Ltd,GOKEX,Apparel & Accessories
-Golden Carpets Ltd,GOLCA,Textiles
-Goldiam International Ltd,GOLDIAM,"Precious Metals, Jewellery & Watches"
-Goodyear India Ltd,GOODYEAR,Tires & Rubber
-Gorani Industries Ltd,GORANIN,Home Electronics & Appliances
-Graviss Hospitality Ltd,GRAVISSHO,"Hotels, Resorts & Cruise Lines"
-Gravity (India) Ltd,GRAVITY,Textiles
-Gretex Industries Ltd,GRETEX,Apparel & Accessories
-Gujarat Cotex Ltd,GUJCOTEX,Textiles
-Gujarat Hotels Ltd,GUJHOTE,"Hotels, Resorts & Cruise Lines"
-H S India Ltd,HOTLSILV,"Hotels, Resorts & Cruise Lines"
-HIM Teknoforge Ltd,HIMTEK,Auto Parts
-HLV Ltd,HLVLTD,"Hotels, Resorts & Cruise Lines"
-Hanman Fit Ltd,HANMAN,Wellness Services
-Haria Apparels Ltd,HARIAAPL,Textiles
-Harita Seating Systems Ltd,HARITASEAT,Auto Parts
-Hawkins Cookers Ltd,HAWKINCOOK,Housewares
-Heads UP Ventures Limited,HEADSUP,Textiles
-Hero MotoCorp Ltd,HEROMOTOCO,Two Wheelers
-Hi-Tech Gears Ltd,HITECHGEAR,Auto Parts
-High Street Filatex Ltd,HIGHSTREE,Textiles
-Himatsingka Seide Ltd,HIMATSEIDE,Textiles
-Hindoostan Mills Ltd,HINDMILL,Textiles
-Hindustan Appliances Ltd,HINDAPL,Textiles
-Hindustan Composites Ltd,HINDCOMPOS,Auto Parts
-Hindustan Motors Ltd,HINDMOTORS,Four Wheelers
-Hindware Home Innovation Ltd,HINDWAREAP,Home Furnishing
-Hira Automobiles Ltd,HIRAUTO,Four Wheelers
-Hisar Spinning Mills Ltd,HISARSP,Textiles
-Hotel Rugby Ltd,HOTELRUGBY,Restaurants & Cafes
-IFB Industries Ltd,IFBIND,Auto Parts
-IFL Enterprises Ltd,IFL,Textiles
-IGC Industries Ltd,IGCIL,Textiles
-IP Rings Ltd,IPRINGLTD,Auto Parts
-Igarashi Motors India Ltd,IGARASHI,Auto Parts
-Imagicaaworld Entertainment Ltd,IMAGICAA,Theme Parks & Gaming
-Indag Rubber Ltd,INDAG,Auto Parts
-India Cements Capital Ltd,INDCEMCAP,Tour & Travel Services
-India Motor Parts & Accessories Ltd,IMPAL,Auto Parts
-India Nippon Electricals Ltd,INDNIPPON,Auto Parts
-India Tourism Development Corp Ltd,ITDC,Tour & Travel Services
-Indian Acrylics Ltd,INDIANACRY,Textiles
-Indian Hotels Company Ltd,INDHOTEL,"Hotels, Resorts & Cruise Lines"
-Indian Terrain Fashions Ltd,INDTERRAIN,Apparel & Accessories
-Indo Cotspin Ltd,ICL,Textiles
-Indo Count Industries Ltd,ICIL,Textiles
-Indo Rama Synthetics (India) Ltd,INDORAMA,Textiles
-Inflame Appliances Ltd,INFLAME,Housewares
-Innovative Tyres & Tubes Ltd,INNOVATIVE,Tires & Rubber
-Integra Essentia Ltd,ESSENTIA,Textiles
-International Travel House Ltd,ITHL,"Hotels, Resorts & Cruise Lines"
-Intrasoft Technologies Ltd,ISFT,Retail - Online
-Investment & Precision Castings Ltd,INVPRECQ,Auto Parts
-Iris Clothings Ltd,IRISDOREME,Retail - Apparel
-Ironwood Education Ltd,IRONWOOD,Education Services
-J C T Ltd,JCTLTD,Textiles
-JBF Industries Ltd,JBFIND,Textiles
-JBM Auto Ltd,JBMA,Auto Parts
-JK Tyre & Industries Ltd,JKTYRE,Tires & Rubber
-JTEKT India Ltd,JTEKTINDIA,Auto Parts
-Jai Corp Ltd,JAICORPLTD,Textiles
-Jaihind Synthetics Ltd,JAIHINDS,Textiles
-Jaipan Industries Ltd,JAIPAN,Home Electronics & Appliances
-Jakharia Fabric Ltd,JAKHARIA,Textiles
-Jamna Auto Industries Ltd,JAMNAAUTO,Auto Parts
-Jasch Industries Ltd,JASCH,Textiles
-Jattashankar Industries Ltd,JATTAINDUS,Textiles
-Jay Bharat Maruti Ltd,JAYBARMARU,Auto Parts
-Jay Ushin Ltd,JAYUSH,Auto Parts
-Jayatma Industries Ltd,JAYIND,Textiles
-Jet Knitwears Ltd,JETKNIT,Apparel & Accessories
-Jetking Infotrain Ltd,JETKINGQ,Education Services
-Jik Industries Ltd,JIKIND,Housewares
-Jindal Cotex Ltd,JINDCOT,Textiles
-Jindal Hotels Ltd,JINDHOT,"Hotels, Resorts & Cruise Lines"
-Jindal Worldwide Ltd,JINDWORLD,Textiles
-Johnson Controls-Hitachi Air Conditioning India Ltd,JCHAC,Home Electronics & Appliances
-Jubilant Foodworks Ltd,JUBLFOOD,Restaurants & Cafes
-Jullundur Motor Agency (Delhi) Ltd,JMA,Auto Parts
-K G Denim Ltd,KGDENIM,Textiles
-KCD Industries India Ltd,KCDGROUP,Textiles
-KCK Industries Ltd,KCK,Textiles
-KDDL Ltd,KDDL,"Precious Metals, Jewellery & Watches"
-KG Petrochem Ltd,KGPETRO,Textiles
-KPR Mill Ltd,KPRMILL,Textiles
-Kakatiya Textiles Ltd,KAKTEX,Textiles
-Kallam Textiles Ltd,KALLAM,Textiles
-Kalyan Jewellers India Ltd,KALYANKJIL,"Precious Metals, Jewellery & Watches"
-Kamadgiri Fashion Ltd,KAMADGIRI,Textiles
-Kamat Hotels (India) Ltd,KAMATHOTEL,"Hotels, Resorts & Cruise Lines"
-Kanani Industries Ltd,KANANIIND,"Precious Metals, Jewellery & Watches"
-Kandagiri Spinning Millis Ltd,KANDAGIRI,Textiles
-Kapil Cotex Ltd,KAPILCO,Textiles
-Katare Spinning Mills Ltd,KATRSPG,Textiles
-Kaya Ltd,KAYA,Wellness Services
-Keerti Knowledge and Skills Ltd,KEERTI,Education Services
-Kemp and Company Ltd,KEMP,Retail - Speciality
-Kesoram Industries Ltd,KESORAMIND,Tires & Rubber
-Kewal Kiran Clothing Ltd,KKCL,Apparel & Accessories
-Khadim India Ltd,KHADIM,Footwear
-Kinetic Engineering Ltd,KINETICENG,Auto Parts
-Kitex Garments Ltd,KITEX,Apparel & Accessories
-Kranti Industries Ltd,KRANTI,Auto Parts
-Krypton Industries Ltd,KRYPTONQ,Tires & Rubber
-Kush Industries Ltd,KUSHIND,Textiles
-LCC Infotech Ltd,LCCINFOTEC,Education Services
-LWS Knitwear Ltd,LWSKNIT,Textiles
-La Opala R G Ltd,LAOPALA,Housewares
-Lagnam Spintex Ltd,LAGNAM,Textiles
-Lahoti Overseas Ltd,LAHOTIOV,Textiles
-Lakshmi Mills Company Ltd,LAKSHMIMIL,Textiles
-Lambodhara Textiles Ltd,LAMBODHARA,Textiles
-Laxmi Cotspin Ltd,LAXMICOT,Textiles
-Laxmi Goldorna House Ltd,LGHL,"Precious Metals, Jewellery & Watches"
-Le Merite Exports Ltd,LEMERITE,Textiles
-Lehar Footwears Ltd,LEHAR,Footwear
-Lemon Tree Hotels Ltd,LEMONTREE,"Hotels, Resorts & Cruise Lines"
-Libas Consumer Products Ltd,LIBAS,Apparel & Accessories
-Liberty Shoes Ltd,LIBERTSHOE,Footwear
-Lords Ishwar Hotels Ltd,LORDSHOTL,"Hotels, Resorts & Cruise Lines"
-Lovable Lingerie Ltd,LOVABLE,Apparel & Accessories
-Loyal Textile Mills Ltd,LOYALTEX,Textiles
-Lucent Industries Ltd,LUCENT,Education Services
-Ludlow Jute & Specialities Ltd,LUDLOWJUT,Textiles
-Lumax AutoTechnologies Ltd,LUMAXTECH,Auto Parts
-Lumax Industries Ltd,LUMAXIND,Auto Parts
-Lux Industries Ltd,LUXIND,Apparel & Accessories
-Lypsa Gems & Jewellery Ltd,LYPSAGEMS,"Precious Metals, Jewellery & Watches"
-MIRC Electronics Ltd,MIRCELECTR,Home Electronics & Appliances
-MITCON Consultancy & Engineering Services Ltd,MITCON,Education Services
-MM Rubber Company Ltd,MMRUBBR-B,Home Furnishing
-MRF Ltd,MRF,Tires & Rubber
-MT Educare Ltd,MTEDUCARE,Education Services
-Mac Charles (India) Ltd,MCCHRLS-B,"Hotels, Resorts & Cruise Lines"
-Mac Hotels Ltd,MACH,"Hotels, Resorts & Cruise Lines"
-Machino Plastics Ltd,MACPLASQ,Auto Parts
-Mafatlal Industries Ltd,MAFATIND,Textiles
-Mahalaxmi Rubtech Ltd,MHLXMIRU,Textiles
-Maharashtra Corp Ltd,MAHACORP,Textiles
-Maharashtra Scooters Ltd,MAHSCOOTER,Two Wheelers
-Mahasagar Travels Ltd,MHSGRMS,Tour & Travel Services
-Mahindra CIE Automotive Ltd,MAHINDCIE,Auto Parts
-Mahindra Holidays and Resorts India Ltd,MHRIL,"Hotels, Resorts & Cruise Lines"
-Mahindra and Mahindra Ltd,M&M,Four Wheelers
-Majestic Auto Ltd,MAJESAUT,Auto Parts
-Manomay Tex India Ltd,MANOMAY,Textiles
-Maral Overseas Ltd,MARALOVER,Textiles
-Maris Spinners Ltd,MARIS,Textiles
-Maruti Suzuki India Ltd,MARUTI,Four Wheelers
-Marvel Decor Ltd,MDL,Home Furnishing
-Master Chemicals Ltd,MASCH,"Precious Metals, Jewellery & Watches"
-Mayur Leather Products Ltd,MAYUR,Footwear
-Mayur Uniquoters Ltd,MAYURUNIQ,Textiles
-Menon Bearings Ltd,MENONBE,Auto Parts
-Menon Pistons Ltd,MENNPIS,Auto Parts
-Metalyst Forgings Ltd,METALFORGE,Auto Parts
-Metro Brands Ltd,METROBRAND,Footwear
-Meyer Apparel Ltd,MAL,Apparel & Accessories
-Mid India Industries Ltd,MIDINDIA,Textiles
-Minaxi Textiles Ltd,MINAXI,Textiles
-Minda Corporation Ltd,MINDACORP,Auto Parts
-Mini Diamonds (India) Ltd,MINID,"Precious Metals, Jewellery & Watches"
-Mirza International Ltd,MIRZAINT,Footwear
-Mittal Life Style Ltd,MITTAL,Textiles
-Modella Woollens Ltd,MODWOOL,Textiles
-Modi Rubber Ltd,MODIRUBBER,Tires & Rubber
-Mohit Industries Ltd,MOHITIND,Textiles
-Mohite Industries Ltd,MOHITE,Textiles
-Mohota Industries Ltd,MOHOTAIND,Textiles
-Moksh Ornaments Ltd,MOKSH,"Precious Metals, Jewellery & Watches"
-Monte Carlo Fashions Ltd,MONTECARLO,Apparel & Accessories
-Morarjee Textiles Ltd,MORARJEE,Textiles
-Munjal Auto Industries Ltd,MUNJALAU,Auto Parts
-Munjal Showa Ltd,MUNJALSHOW,Auto Parts
-NDR Auto Components Ltd,NDRAUTO,Auto Parts
-NIIT Ltd,NIITLTD,Education Services
-Nagreeka Exports Ltd,NAGREEKEXP,Textiles
-Nahar Industrial Enterprises Ltd,NAHARINDUS,Textiles
-Nahar Poly Films Ltd,NAHARPOLY,Textiles
-Nahar Spinning Mills Ltd,NAHARSPING,Textiles
-Nandan Denim Ltd,NDL,Textiles
-Nandani Creation Ltd,JAIPURKURT,Apparel & Accessories
-Narbada Gems and Jewellery Ltd,NARBADA,"Precious Metals, Jewellery & Watches"
-Nazara Technologies Ltd,NAZARA,Theme Parks & Gaming
-Nicco Parks & Resorts Ltd,NICCOPAR,"Hotels, Resorts & Cruise Lines"
-Niraj Ispat Industries Ltd,NIRAJISPAT,Textiles
-Nirbhay Colours India Ltd,PARTIND,Textiles
-Nitin Spinners Ltd,NITINSPIN,Textiles
-Nutech Global Ltd,NUTECGLOB,Textiles
-Omax Autos Ltd,OMAXAUTO,Auto Parts
-Omfurn India Ltd,OMFURN,Home Furnishing
-Opal Luxury Time Products Ltd,OPAL,"Precious Metals, Jewellery & Watches"
-Orbit Exports Ltd,ORBTEXP,Textiles
-Orient Electric Ltd,ORIENTELEC,Home Electronics & Appliances
-Oriental Hotels Ltd,ORIENTHOT,"Hotels, Resorts & Cruise Lines"
-Orosil Smiths India Ltd,OROSMITHS,"Precious Metals, Jewellery & Watches"
-Oscar Global Ltd,OSCARGLO,Apparel & Accessories
-Osia Hyper Retail Ltd,OSIAHYPER,Retail - Department Stores
-Osiajee Texfab Ltd,OSIAJEE,Textiles
-P B M Polytex Ltd,PBMPOLY,Textiles
-PC Jeweller Ltd,PCJEWELLER,"Precious Metals, Jewellery & Watches"
-PDS Limited,PDSL,Textiles
-PPAP Automotive Ltd,PPAP,Auto Parts
-PTL Enterprises Ltd,PTL,Tires & Rubber
-Page Industries Ltd,PAGEIND,Apparel & Accessories
-Parin Furniture Ltd,PARIN,Home Furnishing
-Parmeshwari Silk Mills Ltd,PARMSILK,Textiles
-Parshva Enterprises Ltd,PARSHVA,"Precious Metals, Jewellery & Watches"
-Party Cruisers Ltd,PARTYCRUS,"Hotels, Resorts & Cruise Lines"
-Pasari Spinning Mills Ltd,PASARI,Textiles
-Pashupati Cotspin Ltd,PASHUPATI,Textiles
-Pasupati Acrylon Ltd,PASUPTAC,Textiles
-Pasupati Spinning and Weaving Mills Ltd,PASUSPG,Textiles
-Patdiam Jewellery Ltd,PJL,"Precious Metals, Jewellery & Watches"
-Patspin India Ltd,PATSPINLTD,Textiles
-Pavna Industries Ltd,PAVNAIND,Auto Parts
-Pearl Global Industries Ltd,PGIL,Apparel & Accessories
-Peeti Securities Ltd,PEETISEC,Textiles
-Penta Gold Ltd,PENTAGOLD,"Precious Metals, Jewellery & Watches"
-Perfect Infraengineers Ltd,PERFECT,Home Electronics & Appliances
-Phoenix International Ltd,PHOENXINTL,Footwear
-Phoenix Township Ltd,PHOENIXTN,"Hotels, Resorts & Cruise Lines"
-Pil Italica Lifestyle Ltd,PILITA,Home Furnishing
-Pioneer Embroideries Ltd,PIONEEREMB,Apparel & Accessories
-Porwal Auto Components Ltd,PORWAL,Auto Parts
-Pradip Overseas Ltd,PRADIP,Textiles
-Prag Bosimi Synthetics Ltd,PRAGBOS,Textiles
-Prakash Woollen & Synthetic Mills Ltd,PWASML,Textiles
-Pranavaditya Spinning Mills Ltd,PRANAVSP,Textiles
-Prashant India Ltd,PRSNTIN,Textiles
-Praveg Communications (India) Ltd,PRAVEG,"Hotels, Resorts & Cruise Lines"
-Praxis Home Retail Ltd,PRAXIS,Home Furnishing
-Precision Camshafts Ltd,PRECAM,Auto Parts
-Precot Ltd,PRECOT,Textiles
-Premco Global Ltd,PREMCO,Textiles
-Premier Polyfilm Ltd,PREMIERPOL,Home Furnishing
-Premier Synthetics Ltd,PREMSYN,Textiles
-Pricol Ltd,PRICOLLTD,Auto Parts
-Prima Plastics Ltd,PRIMAPLA,Housewares
-Prime Focus Ltd,PFOCUS,Animation
-Prime Urban Development India Ltd,PRIMEURB,Textiles
-Priti International Ltd,PRITI,Home Furnishing
-Pritika Auto Industries Ltd,PRITIKAUTO,Auto Parts
-Pro Clb Global Ltd,PROCLB,Tour & Travel Services
-Punit Commercials Ltd,PUNITCO,"Precious Metals, Jewellery & Watches"
-RACL Geartech Ltd,RACLGEAR,Auto Parts
-RCL Retail Ltd,RCRL,Retail - Department Stores
-RLF Ltd,RLF,Textiles
-RSC International Ltd,RSCINT,Textiles
-RSWM Ltd,RSWM,Textiles
-Race Eco Chain Ltd,RACE,Textiles
-Radhika Jeweltech Ltd,RADHIKAJWE,"Precious Metals, Jewellery & Watches"
-Rahul Merchandising Ltd,RAHME,Textiles
-Raideep Industries Ltd,RAIDEEPIND,Textiles
-Raj Rayon Industries Ltd,RAJRILTD,Textiles
-Rajapalayam Mills Ltd,RAJPALAYAM,Textiles
-Rajesh Exports Ltd,RAJESHEXPO,"Precious Metals, Jewellery & Watches"
-Rajkamal Synthetics Ltd,RAJKSYN,Textiles
-Rajvir Industries Ltd,RAJVIR,Textiles
-Rane (Madras) Ltd,RML,Auto Parts
-Rane Brake Linings Ltd,RBL,Auto Parts
-Rane Engine Valve Ltd,RANEENGINE,Auto Parts
-Rane Holdings Ltd,RANEHOLDIN,Auto Parts
-Ras Resorts and Apart Hotels Ltd,RASRESOR,"Hotels, Resorts & Cruise Lines"
-Rasandik Engineering Industries India Ltd,RASANDIK,Auto Parts
-Raymond Ltd,RAYMOND,Apparel & Accessories
-Relaxo Footwears Ltd,RELAXO,Footwear
-Reliable Ventures India Ltd,RELIABVEN,"Hotels, Resorts & Cruise Lines"
-Reliance Chemotex Industries Ltd,RELCHEMQ,Textiles
-Remsons Industries Ltd,REMSONSIND,Auto Parts
-Renaissance Global Ltd,RGL,"Precious Metals, Jewellery & Watches"
-Restaurant Brands Asia Ltd,RBA,Restaurants & Cafes
-Riba Textiles Ltd,RIBATEX,Textiles
-Rico Auto Industries Ltd,RICOAUTO,Auto Parts
-Rishi Techtex Ltd,RISHITECH,Textiles
 Royal Orchid Hotels Ltd,ROHLTD,"Hotels, Resorts & Cruise Lines"
-Royale Manor Hotels and Industries Ltd,RAYALEMA,"Hotels, Resorts & Cruise Lines"
-Ruby Mills Ltd,RUBYMILLS,Textiles
-Rupa & Company Ltd,RUPA,Apparel & Accessories
-S Chand and Company Ltd,SCHAND,Education Services
-S K S Textiles Ltd,SKSTEXTILE,Textiles
-S M Gold Ltd,SMGOLD,"Precious Metals, Jewellery & Watches"
-S R Industries Ltd,SRIND,Footwear
-S. P. Apparels Ltd,SPAL,Apparel & Accessories
-SAR Auto Products Ltd,SAPL,Auto Parts
-SBC Exports Ltd,SBC,Apparel & Accessories
-SJS Enterprises Ltd,SJS,Auto Parts
-SK International Export Ltd,SKIEL,Apparel & Accessories
-SPL Industries Ltd,SPLIL,Apparel & Accessories
-STL Global Ltd,SGL,Textiles
-SVP Global Textiles Ltd,SVPGLOB,Textiles
-Sacheta Metals Ltd,SACHEMT,Housewares
-Safari Industries (India) Ltd,SAFARI,Apparel & Accessories
-Saint-Gobain Sekurit India Ltd,SAINTGOBAIN,Auto Parts
-Sal Automotive Ltd,SALAUTO,Auto Parts
-Salona Cotspin Ltd,SALONA,Textiles
-Sambandam Spinning Mills Ltd,SAMBANDAM,Textiles
-Samkrg Pistons and Rings Ltd,SAMKRG,Auto Parts
-Samtex Fashions Ltd,SAMTEX,Apparel & Accessories
-Samvardhana Motherson International Ltd,MOTHERSON,Auto Parts
-Sandhar Technologies Ltd,SANDHAR,Auto Parts
-Sangam (India) Ltd,SANGAMIND,Textiles
-Sanghvi Brands Ltd,SBRANDS,Wellness Services
-Sansera Engineering Ltd,SANSERA,Auto Parts
-Santosh Fine Fab Ltd,SANTOSHF,Textiles
-Sapphire Foods India Ltd,SAPPHIRE,Restaurants & Cafes
-Sarla Performance Fibers Ltd,SARLAPOLY,Textiles
-Savera Industries Ltd,SAVERA,"Hotels, Resorts & Cruise Lines"
-Sayaji Hotels Ltd,SAYAJIHOTL,"Hotels, Resorts & Cruise Lines"
-Schaeffler India Ltd,SCHAEFFLER,Auto Parts
-Scooters India Ltd,SCOOTER,Three Wheelers
-Seasons Textiles Ltd,SEASONST,Textiles
-Sel Manufacturing Company Ltd,SELMC,Textiles
-Setco Automotive Ltd,SETCO,Auto Parts
-Shanthi Gears Ltd,SHANTIGEAR,Auto Parts
-Sharad Fibres and Yarn Processors Ltd,SHARDFI,Textiles
-Sharda Motor Industries Ltd,SHARDAMOTR,Auto Parts
-Sharp India Ltd,SHARP,Home Electronics & Appliances
-Shashank Traders Ltd,SHASHANK,Textiles
-Sheela Foam Ltd,SFL,Home Furnishing
-Shekhawati Poly-Yarn Ltd,SPYL,Textiles
-Sheshadri Industries Ltd,SHESHAINDS,Textiles
-Shigan Quantum Technologies Ltd,SHIGAN,Auto Parts
-Shirpur Gold Refinery Ltd,SHIRPUR-G,"Precious Metals, Jewellery & Watches"
-Shiva Mills Ltd,SHIVAMILLS,Textiles
-Shiva Suitings Ltd,SHVSUIT,Textiles
-Shiva Texyarn Ltd,SHIVATEX,Textiles
-Shivam Autotech Ltd,SHIVAMAUTO,Auto Parts
-Shoppers Stop Ltd,SHOPERSTOP,Retail - Department Stores
-Shree Bhavya Fabrics Ltd,SBFL,Textiles
-Shree Manufacturing Co Ltd,SHRMFGC,Textiles
-Shree Rajasthan Syntex Ltd,SHRAJSYNQ,Textiles
-Shri Bholanath Carpets Ltd,SHRIBCL,Textiles
-Shri Dinesh Mills Ltd,SHRIDINE,Textiles
-Shri Jagdamba Polymers Ltd,SHRJAGP,Textiles
-Shriram Pistons & Rings Ltd,SHRIPISTON,Auto Parts
-Shubham Polyspin Ltd,SHUBHAM,Textiles
-Shubhlaxmi Jewel Art Ltd,SHUBHLAXMI,"Precious Metals, Jewellery & Watches"
-Shukra Jewellery Ltd,SHUKJEW,"Precious Metals, Jewellery & Watches"
-Sibar Auto Parts Ltd,SIBARAUT,Auto Parts
-Silgo Retail Ltd,SILGO,"Precious Metals, Jewellery & Watches"
-Simplex Mills Company Ltd,SIMPLXMIL,Textiles
-Sinclairs Hotels Ltd,SINCLAIR,"Hotels, Resorts & Cruise Lines"
-Singer India Ltd,SINGER,Home Electronics & Appliances
-Siyaram Silk Mills Ltd,SIYSIL,Textiles
-Sky Gold Ltd,SKYGOLD,"Precious Metals, Jewellery & Watches"
-Sky Industries Ltd,SKYIND,Textiles
-Soma Textiles & Industries Ltd,SOMATEX,Textiles
-Sona BLW Precision Forgings Ltd,SONACOMS,Auto Parts
-Sona Hi Sona Jewellers (Gujarat) Ltd,SONAHISONA,"Precious Metals, Jewellery & Watches"
-Sonam Clock Ltd,SONAMCLOCK,"Precious Metals, Jewellery & Watches"
-Source Industries (India) Ltd,SOURCEIND,Textiles
-Sovereign Diamonds Ltd,SOVERDIA,"Precious Metals, Jewellery & Watches"
-Speciality Restaurants Ltd,SPECIALITY,Restaurants & Cafes
-Spencer's Retail Ltd,SPENCERS,Retail - Department Stores
-Spenta International Ltd,SPENTA,Apparel & Accessories
-Spentex Industries Ltd,SPENTEX,Textiles
-Sportking India Ltd,SPORTKING,Textiles
-Sreeleathers Ltd,SREEL,Footwear
-Sri Lakshmi Saraswathi Textiles (Arni) Ltd,SLSTLQ,Textiles
-Sri Nachammai Cotton Mills Ltd,SRINACHA,Textiles
-Standard Industries Ltd,SIL,Textiles
-Steel Strips Wheels Ltd,SSWL,Auto Parts
-Stove Kraft Ltd,STOVEKRAFT,Home Electronics & Appliances
-Subhash Silk Mills Ltd,SUBSM,Textiles
-Subros Ltd,SUBROS,Auto Parts
-Suditi Industries Ltd,SUDTIND-B,Textiles
-Sueryaa Knitwear Ltd,SUERYAAKNI,Textiles
-Sumeet Industries Ltd,SUMEETINDS,Textiles
-Suncity Synthetics Ltd,SUNCITYSY,Textiles
-Sundaram Brake Linings Ltd,SUNDRMBRAK,Auto Parts
-Sundaram Clayton Ltd,SUNCLAYLTD,Auto Parts
-Sundram Fasteners Ltd,SUNDRMFAST,Auto Parts
-Sunraj Diamond Exports Ltd,SUNRAJDI,"Precious Metals, Jewellery & Watches"
-Super Fine Knitters Ltd,SKL,Apparel & Accessories
-Super House Ltd,SUPERHOUSE,Footwear
-Super Spinning Mills Ltd,SUPERSPIN,Textiles
-Super Tannery Ltd,SUPTANERY,Textiles
-Supertex Industries Ltd,SUPERTEX,Textiles
-Supra Trends Ltd,SUPRATRE,Apparel & Accessories
-Suprajit Engineering Ltd,SUPRAJIT,Auto Parts
-Supreme (India) Impex Ltd,SIIL,Textiles
-Surat Textile Mills Ltd,SURATEX,Textiles
-Surbhi Industries Ltd,SURBHIN,Textiles
-Surya Lakshmi Cotton Mills Ltd,SURYALAXMI,Textiles
-Suryaamba Spinning Mills Ltd,SURYAAMBA,Textiles
-Suryalata Spinning Mills Ltd,SURYALA,Textiles
-Suryavanshi Spinning Mills Ltd,SURYVANSP,Textiles
-Sutlej Textiles and Industries Ltd,SUTLEJTEX,Textiles
-Suumaya Industries Ltd,SUULD,Apparel & Accessories
-Swan Energy Ltd,SWANENERGY,Textiles
-Swaraj Suiting Ltd,SWARAJ,Textiles
-Swarnsarita Jewels India Ltd,SWARNSAR,"Precious Metals, Jewellery & Watches"
-Swasti Vinayaka Synthetics Ltd,SWASTIVI,Apparel & Accessories
-Sybly Industries Ltd,SYBLY,Textiles
-Symphony Ltd,SYMPHONY,Home Electronics & Appliances
-T T Ltd,TTL,Textiles
-TAJ GVK Hotels and Resorts Ltd,TAJGVK,"Hotels, Resorts & Cruise Lines"
-TCNS Clothing Co Ltd,TCNSBRANDS,Apparel & Accessories
-TGB Banquets and Hotels Ltd,TGBHOTELS,"Hotels, Resorts & Cruise Lines"
-TTK Prestige Ltd,TTKPRESTIG,Home Electronics & Appliances
-TVS Motor Company Ltd,TVSMOTOR,Two Wheelers
-TVS Srichakra Ltd,TVSSRICHAK,Tires & Rubber
-Talbros Automotive Components Ltd,TALBROAUTO,Auto Parts
-Talbros Engineering Ltd,TALBROSENG,Auto Parts
-Talwalkars Better Value Fitness Ltd,TALWALKARS,Wellness Services
-Talwalkars Healthclubs Ltd,TALWGYM,Wellness Services
-Tata Motors Ltd,TATAMOTORS,Four Wheelers
-Tata Motors Ltd - DVR,TATAMTRDVR,Four Wheelers
-Tatia Global Vennture Ltd,TATIAGLOB,Textiles
-Tavernier Resources Ltd,TAVERNIER,"Precious Metals, Jewellery & Watches"
-Thanga Mayil Jewellery Ltd,THANGAMAYL,"Precious Metals, Jewellery & Watches"
-Thomas Cook (India) Ltd,THOMASCOOK,Tour & Travel Services
-Thomas Scott (India) Ltd,THOMASCOTT,Retail - Apparel
-Timex Group India Ltd,TIMEX,"Precious Metals, Jewellery & Watches"
-Tine Agro Ltd,TINEAGRO,Textiles
-Tinna Rubber and Infrastructure Ltd,TINNARUBR,Tires & Rubber
-Tirupati Foam Ltd,TIRUFOAM,Home Furnishing
-Tirupati Forge Ltd,TIRUPATIFL,Auto Parts
-Tirupati Tyres Ltd,TTIL,Tires & Rubber
-Titaanium Ten Enterprise Ltd,TITAANIUM,Textiles
-Titan Company Ltd,TITAN,"Precious Metals, Jewellery & Watches"
-Tokyo Plast International Ltd,TOKYOPLAST,Housewares
-Tree House Education and Accessories Ltd,TREEHOUSE,Education Services
-Trent Ltd,TRENT,Retail - Apparel
-Tribhovandas Bhimji Zaveri Ltd,TBZ,"Precious Metals, Jewellery & Watches"
-Trident Ltd,TRIDENT,Textiles
-Trident Texofab Ltd,TTFL,Textiles
-Triton Valves Ltd,TRITONV,Auto Parts
-Tube Investments of India Ltd,TIINDIA,Cycles
-Tuni Textile Mills Ltd,TUNITEX,Textiles
-U. P. Hotels Ltd,UPHOT,"Hotels, Resorts & Cruise Lines"
-UCAL Fuel Systems Ltd,UCALFUEL,Auto Parts
-Uday Jewellery Industries Ltd,UDAYJEW,"Precious Metals, Jewellery & Watches"
-Ultra Wiring Connectivity System Ltd,UWCSL,Auto Parts
-Unimode Overseas Ltd,UNIMOVR,Textiles
-Unison Metals Ltd,UNISON,Housewares
-United Leasing & Industries Ltd,UNTTEMI,Textiles
-United Polyfab Gujarat Ltd,UNITEDPOLY,Textiles
-United Textiles Ltd,UNITEDTE,Textiles
-Universal Autofoundry Ltd,UNIAUTO,Auto Parts
-Usha Martin Education And Solutions Ltd,UMESLTD,Education Services
-V I P Industries Ltd,VIPIND,Apparel & Accessories
-V-mart Retail Ltd,VMART,Retail - Department Stores
-V2 Retail Ltd,V2RETAIL,Retail - Apparel
-VIP Clothing Ltd,VIPCLOTHNG,Apparel & Accessories
-VJTF Eduservices Ltd,VJTFEDU,Education Services
-VTM Ltd,VTMLTD,Textiles
-Vaibhav Global Ltd,VAIBHAVGBL,Apparel & Accessories
-Valson Industries Ltd,VALSONQ,Textiles
-Vandana Knitwear Ltd,VANDANA,Apparel & Accessories
-Vardhman Acrylics Ltd,VARDHACRLC,Textiles
-Vardhman Polytex Ltd,VARDMNPOLY,Textiles
-Vardhman Textiles Ltd,VTL,Textiles
-Varroc Engineering Ltd,VARROC,Auto Parts
-Vasa Retail and Overseas Ltd,VASA,Textiles
-Vaxtex Cotfab Ltd,VCL,Textiles
-Vedant Fashions Ltd,MANYAVAR,Textiles
-Veejay Lakshmi Engineering Works Ltd,VJLAXMIE,Textiles
-Vera Synthetic Ltd,VERA,Textiles
-Veranda Learning Solutions Ltd,VERANDA,Education Services
+Kamat Hotels (India) Ltd,KAMATHOTEL,"Hotels, Resorts & Cruise Lines"
+Byke Hospitality Ltd,BYKE,"Hotels, Resorts & Cruise Lines"
+Country Club Hospitality & Holidays Ltd,CCHHL,"Hotels, Resorts & Cruise Lines"
 Viceroy Hotels Ltd,VICEROY,"Hotels, Resorts & Cruise Lines"
-Videocon Industries Ltd,VIDEOIND,Home Electronics & Appliances
-Vijay Textiles Ltd,VIJAYTX,Textiles
-Vinny Overseas Ltd,VINNY,Textiles
-Vippy Spin Pro Ltd,VIPPYSP,Textiles
-Virat Industries Ltd,VIRAT,Apparel & Accessories
-Visagar Polytex Ltd,VIVIDHA,Textiles
-Vishal Fabrics Ltd,VISHAL,Textiles
-Voith Paper Fabrics India Ltd,VOITHPAPR,Textiles
-Voltas Ltd,VOLTAS,Home Electronics & Appliances
-Walchand Peoplefirst Ltd,WALCHPF,Education Services
-Wardwizard Innovations & Mobility Ltd,WARDINMOBI,Two Wheelers
-Weizmann Limited,WEIZMANIND,Textiles
-Welspun India Ltd,WELSPUNIND,Textiles
-Westlife Development Ltd,WESTLIFE,Restaurants & Cafes
-Wheels India Ltd,WHEELS,Auto Parts
-Whirlpool of India Ltd,WHIRLPOOL,Home Electronics & Appliances
-Wim Plast Ltd,WIMPLAST,Housewares
-Winsome Textile Industries Ltd,WINSOMTX,Textiles
-Wonder Fibromats Ltd,WFL,Home Electronics & Appliances
-Wonderla Holidays Ltd,WONDERLA,Theme Parks & Gaming
-Woodsvilla Ltd,WOODSVILA,"Hotels, Resorts & Cruise Lines"
-Yaan Enterprises Ltd,CROWNTOURS,Tour & Travel Services
-Yarn Syndicate Ltd,YARNSYN,Textiles
-York Exports Ltd,YORKEXP,Textiles
-ZF Commercial Vehicle Control Systems India Ltd,ZFCVINDIA,Auto Parts
-ZF Steering Gear (India) Ltd,ZFSTEERING,Auto Parts
-Zee Learn Ltd,ZEELEARN,Education Services
-Zenith Exports Ltd,ZENITHEXPO,Textiles
-Zenith Fibres Ltd,ZENIFIB,Textiles
-Zodiac Clothing Company Ltd,ZODIACLOTH,Apparel & Accessories
+CKP Leisure Ltd,CKPLEISURE,"Hotels, Resorts & Cruise Lines"
+Neopolitan Pizza Ltd,NOE,"Hotels, Resorts & Cruise Lines"
+La Opala R G Ltd,LAOPALA,Housewares
+Tokyo Plast International Ltd,TOKYOPLAST,Housewares
+Jik Industries Ltd,JIKIND,Housewares
+Borosil Ltd,BOROLTD,Housewares
+Rajesh Exports Ltd,RAJESHEXPO,"Precious Metals, Jewellery & Watches"
+PC Jeweller Ltd,PCJEWELLER,"Precious Metals, Jewellery & Watches"
+Thanga Mayil Jewellery Ltd,THANGAMAYL,"Precious Metals, Jewellery & Watches"
+Tribhovandas Bhimji Zaveri Ltd,TBZ,"Precious Metals, Jewellery & Watches"
+Goldiam International Ltd,GOLDIAM,"Precious Metals, Jewellery & Watches"
+KDDL Ltd,KDDL,"Precious Metals, Jewellery & Watches"
+D P Abhushan Ltd,DPABHUSHAN,"Precious Metals, Jewellery & Watches"
+Sonam Clock Ltd,SONAMCLOCK,"Precious Metals, Jewellery & Watches"
+Kanani Industries Ltd,KANANIIND,"Precious Metals, Jewellery & Watches"
+Moksh Ornaments Ltd,MOKSH,"Precious Metals, Jewellery & Watches"
+Goenka Diamond And Jewels Ltd,GOENKA,"Precious Metals, Jewellery & Watches"
+Penta Gold Ltd,PENTAGOLD,"Precious Metals, Jewellery & Watches"
+Silgo Retail Ltd,SILGO,"Precious Metals, Jewellery & Watches"
+Shubhlaxmi Jewel Art Ltd,SHUBHLAXMI,"Precious Metals, Jewellery & Watches"
+Opal Luxury Time Products Ltd,OPAL,"Precious Metals, Jewellery & Watches"
 Zodiac-JRD-MKJ Ltd,ZODJRDMKJ,"Precious Metals, Jewellery & Watches"
-iStreet Network Ltd,ISTRNETWK,Retail - Online
+Lypsa Gems & Jewellery Ltd,LYPSAGEMS,"Precious Metals, Jewellery & Watches"
+Jubilant Foodworks Ltd,JUBLFOOD,Restaurants & Cafes
+Coffee Day Enterprises Ltd,COFFEEDAY,Restaurants & Cafes
+Speciality Restaurants Ltd,SPECIALITY,Restaurants & Cafes
+Apollo Sindoori Hotels Ltd,APOLSINHOT,Restaurants & Cafes
+Hotel Rugby Ltd,HOTELRUGBY,Restaurants & Cafes
+A B N Intercorp Ltd,ABNINT,Restaurants & Cafes
+Future Lifestyle Fashions Ltd,FLFL,Retail - Apparel
+Thomas Scott (India) Ltd,THOMASCOTT,Retail - Apparel
+Avenue Supermarts Ltd,DMART,Retail - Department Stores
+Future Retail Ltd,FRETAIL,Retail - Department Stores
+V-mart Retail Ltd,VMART,Retail - Department Stores
+Spencer's Retail Ltd,SPENCERS,Retail - Department Stores
+Brand Concepts Ltd,BCONCEPTS,Retail - Department Stores
+Intrasoft Technologies Ltd,ISFT,Retail - Online
+SRF Ltd,SRF,Textiles
+Alok Industries Ltd,ALOKINDS,Textiles
+Welspun India Ltd,WELSPUNIND,Textiles
+Swan Energy Ltd,SWANENERGY,Textiles
+KPR Mill Ltd,KPRMILL,Textiles
+Jai Corp Ltd,JAICORPLTD,Textiles
+Vishal Fabrics Ltd,VISHAL,Textiles
+Bombay Dyeing and Mfg Co Ltd,BOMDYEING,Textiles
+Indo Count Industries Ltd,ICIL,Textiles
+Arvind Fashions Ltd,ARVINDFASN,Textiles
+Mayur Uniquoters Ltd,MAYURUNIQ,Textiles
+Jindal Worldwide Ltd,JINDWORLD,Textiles
+Himatsingka Seide Ltd,HIMATSEIDE,Textiles
+Siyaram Silk Mills Ltd,SIYSIL,Textiles
+Filatex India Ltd,FILATEX,Textiles
+Ganesha Ecosphere Ltd,GANECOS,Textiles
+Anup Engineering Ltd,ANUP,Textiles
+Indo Rama Synthetics (India) Ltd,INDORAMA,Textiles
+Century Enka Ltd,CENTENKA,Textiles
+Ambika Cotton Mills Ltd,AMBIKCO,Textiles
+Sutlej Textiles and Industries Ltd,SUTLEJTEX,Textiles
+Ruby Mills Ltd,RUBYMILLS,Textiles
+Vardhman Acrylics Ltd,VARDHACRLC,Textiles
+Nitin Spinners Ltd,NITINSPIN,Textiles
+Sangam (India) Ltd,SANGAMIND,Textiles
+Orbit Exports Ltd,ORBTEXP,Textiles
+Sarla Performance Fibers Ltd,SARLAPOLY,Textiles
+Donear Industries Ltd,DONEAR,Textiles
+Bannari Amman Spinning Mills Ltd,BASML,Textiles
+Nahar Spinning Mills Ltd,NAHARSPING,Textiles
+Banswara Syntex Ltd,BANSWRAS,Textiles
+Shiva Texyarn Ltd,SHIVATEX,Textiles
+Nahar Industrial Enterprises Ltd,NAHARINDUS,Textiles
+Pashupati Cotspin Ltd,PASHUPATI,Textiles
+JBF Industries Ltd,JBFIND,Textiles
+Ginni Filaments Ltd,GINNIFILA,Textiles
+T T Ltd,TTL,Textiles
+Mittal Life Style Ltd,MITTAL,Textiles
+Jakharia Fabric Ltd,JAKHARIA,Textiles
+Standard Industries Ltd,SIL,Textiles
+Damodar Industries Ltd,DAMODARIND,Textiles
+Globe Textiles (India) Ltd,GLOBE,Textiles
+DCM Nouvelle Ltd,DCMNVL,Textiles
+Maral Overseas Ltd,MARALOVER,Textiles
+Sel Manufacturing Company Ltd,SELMCL,Textiles
+Garden Silk Mills Ltd,GARDENSILK,Textiles
+Morarjee Textiles Ltd,MORARJEE,Textiles
+Vinny Overseas Ltd,VINNY,Textiles
+Vera Synthetic Ltd,VERA,Textiles
+Salona Cotspin Ltd,SALONA,Textiles
+Surya Lakshmi Cotton Mills Ltd,SURYALAXMI,Textiles
+Lambodhara Textiles Ltd,LAMBODHARA,Textiles
+DIGJAM Ltd,DIGJAMLTD,Textiles
+BSL Ltd,BSL,Textiles
+Super Spinning Mills Ltd,SUPERSPIN,Textiles
+Mandhana Retail Ventures Ltd,TMRVL,Textiles
+Shiva Mills Ltd,SHIVAMILLS,Textiles
+Sumeet Industries Ltd,SUMEETINDS,Textiles
+Zenith Exports Ltd,ZENITHEXPO,Textiles
+Patspin India Ltd,PATSPINLTD,Textiles
+Nagreeka Exports Ltd,NAGREEKEXP,Textiles
+Lagnam Spintex Ltd,LAGNAM,Textiles
+CIL Nova Petrochemicals Ltd,CNOVAPETRO,Textiles
+Vaxtex Cotfab Ltd,VCL,Textiles
+Shekhawati Poly-Yarn Ltd,SPYL,Textiles
+Visagar Polytex Ltd,VIVIDHA,Textiles
+STI India Ltd,STINDIA,Textiles
+Soma Textiles & Industries Ltd,SOMATEX,Textiles
+S K S Textiles Ltd,SKSTEXTILE,Textiles
+Eurotex Industries and Exports Ltd,EUROTEXIND,Textiles
+GTN Textiles Ltd,GTNTEX,Textiles
+Spentex Industries Ltd,SPENTEX,Textiles
+United Polyfab Gujarat Ltd,UNITEDPOLY,Textiles
+Mohit Industries Ltd,MOHITIND,Textiles
+Alps Industries Ltd,ALPSINDUS,Textiles
+Vasa Retail and Overseas Ltd,VASA,Textiles
+Pradip Overseas Ltd,PRADIP,Textiles
+Blue Blends India Ltd,BLUEBLENDS,Textiles
+Bansal Multiflex Ltd,BANSAL,Textiles
+Bhalchandram Clothing Ltd,BHALCHANDR,Textiles
+Wonderla Holidays Ltd,WONDERLA,Theme Parks & Gaming
+Atul Auto Ltd,ATULAUTO,Three Wheelers
+MRF Ltd,MRF,Tires & Rubber
+Balkrishna Industries Ltd,BALKRISIND,Tires & Rubber
+Apollo Tyres Limited,APOLLOTYRE,Tires & Rubber
+CEAT Ltd,CEATLTD,Tires & Rubber
+Kesoram Industries Ltd,KESORAMIND,Tires & Rubber
+Birla Tyres Ltd,BIRLATYRE,Tires & Rubber
+PTL Enterprises Ltd,PTL,Tires & Rubber
+GRP Ltd,GRPLTD,Tires & Rubber
+ELGI Rubber Co Ltd,ELGIRUBCO,Tires & Rubber
+Innovative Tyres & Tubes Ltd,INNOVATIVE,Tires & Rubber
+India Tourism Development Corp Ltd,ITDC,Tour & Travel Services
+Thomas Cook (India) Ltd,THOMASCOOK,Tour & Travel Services
+Bajaj Auto Ltd,BAJAJ-AUTO,Two Wheelers
+Maharashtra Scooters Ltd,MAHSCOOTER,Two Wheelers
+Kaya Ltd,KAYA,Wellness Services
+Talwalkars Better Value Fitness Ltd,TALWALKARS,Wellness Services
