@@ -1,3 +1,4 @@
+from asyncio.windows_events import NULL
 import os
 import csv
 import json
@@ -56,6 +57,11 @@ with open(jsonFilePath, "w") as jsonFile:
 # read the data from a json file
 with open(jsonFilePath, 'r') as infile:
     nse_companies = json.load(infile)
+
+# Making all sector & subsector null before mapping sector details
+for nse_company in nse_companies:
+    nse_company['SECTOR'] = None
+    nse_company['SUBSECTOR'] = None
 
 # Iterate json stock list
 for nse_company in nse_companies:

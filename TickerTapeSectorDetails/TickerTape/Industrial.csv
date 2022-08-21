@@ -1,273 +1,736 @@
 Name,Ticker,Sub-Sector
-Larsen & Toubro Ltd,LT,Construction & Engineering
-Eicher Motors Ltd,EICHERMOT,Trucks & Buses
-Siemens Ltd,SIEMENS,Conglomerates
-Havells India Ltd,HAVELLS,Electrical Components & Equipments
-Interglobe Aviation Ltd,INDIGO,Airlines
-Hindustan Aeronautics Ltd,HAL,Aerospace & Defense Equipments
-Container Corporation of India Ltd,CONCOR,Logistics
+3M India Limited,3MINDIA,Stationery
+A B Infrabuild Ltd,ABINFRA,Construction & Engineering
+A Infrastructure Ltd,AINFRA,Industrial Machinery
+A2Z INFRA ENGINEERING LIMITED,A2ZINFRA,Construction & Engineering
+ABB India Limited,ABB,Heavy Electrical Equipments
+ABC India Ltd,ABCINDQ,Logistics
+AGS Transact Technologies Ltd,AGSTRA,Business Support Services
 AIA Engineering Ltd,AIAENG,Industrial Machinery
-L&T Technology Services Ltd,LTTS,Construction & Engineering
-Ashok Leyland Ltd,ASHOKLEY,Trucks & Buses
-GMR Infrastructure Ltd,GMRINFRA,Construction & Engineering
-Bharat Heavy Electricals Ltd,BHEL,Heavy Electrical Equipments
-Polycab India Ltd,POLYCAB,Electrical Components & Equipments
-Amara Raja Batteries Ltd,AMARAJABAT,Batteries
-Thermax Limited,THERMAX,Industrial Machinery
-V Guard Industries Ltd,VGUARD,Electrical Components & Equipments
-Bharat Dynamics Ltd,BDL,Aerospace & Defense Equipments
-KEC International Ltd,KEC,Construction & Engineering
-Kajaria Ceramics Ltd,KAJARIACER,Building Products - Ceramics
-RITES Ltd,RITES,Business Support Services
-GMM Pfaudler Ltd,GMMPFAUDLR,Industrial Machinery
-Finolex Industries Ltd,FINPIPE,Building Products - Pipes
-Grindwell Norton Ltd,GRINDWELL,Industrial Machinery
-Blue Dart Express Ltd,BLUEDART,Logistics
-Westlife Development Ltd,WESTLIFE,Commodities Trading
-Quess Corp Ltd,QUESS,Employment Services
-Ratnamani Metals and Tubes Ltd,RATNAMANI,Building Products - Pipes
-Carborundum Universal Ltd,CARBORUNIV,Industrial Machinery
-APL Apollo Tubes Ltd,APLAPOLLO,Building Products - Pipes
-Cochin Shipyard Ltd,COCHINSHIP,Shipbuilding
-Engineers India Ltd,ENGINERSIN,Construction & Engineering
-Ircon International Ltd,IRCON,Construction & Engineering
-IRB Infrastructure Developers Ltd,IRB,Construction & Engineering
-Finolex Cables Ltd,FINCABLES,Cables
-Dilip Buildcon Ltd,DBL,Construction & Engineering
-Gujarat Pipavav Port Ltd,GPPL,Ports
-PNC Infratech Ltd,PNCINFRA,Construction & Engineering
-Suzlon Energy Ltd,SUZLON,Renewable Energy Equipment & Services
-KEI Industries Ltd,KEI,Cables
-TeamLease Services Ltd,TEAMLEASE,Employment Services
-HEG Ltd,HEG,Electrical Components & Equipments
-Lakshmi Machine Works Ltd,LAXMIMACH,Industrial Machinery
-KNR Constructions Ltd,KNRCON,Construction & Engineering
-Cera Sanitaryware Ltd,CERA,Building Products - Ceramics
-MMTC Ltd,MMTC,Commodities Trading
-shipping corporation of India Ltd,SCI,Logistics
-Elgi Equipments Ltd,ELGIEQUIP,Industrial Machinery
-TCI Express Ltd,TCIEXP,Logistics
-IRB InvIT Fund,IRBINVIT,Roads
-Responsive Industries Ltd,RESPONIND,Building Products - Granite
-Garden Reach Shipbuilders & Engineers Ltd,GRSE,Shipbuilding
-Mahindra Logistics Ltd,MAHLOG,Logistics
-ESAB India Ltd,ESABINDIA,Industrial Machinery
-Triveni Turbine Ltd,TRITURBINE,Heavy Electrical Equipments
-HMT Ltd,HMT,Industrial Machinery
-Balmer Lawrie and Company Ltd,BALMLAWRIE,Conglomerates
-Ingersoll-Rand (India) Ltd,INGERRAND,Industrial Machinery
-Techno Electric & Engineering Company Ltd,TECHNOE,Construction & Engineering
-Schneider Electric Infrastructure Ltd,SCHNEIDER,Heavy Electrical Equipments
-Vesuvius India Ltd,VESUVIUS,Industrial Machinery
-Swaraj Engines Ltd,SWARAJENG,Tractors
-Greenlam Industries Ltd,GREENLAM,Building Products - Laminates
-Kirloskar Oil Engines Ltd,KIRLOSENG,Industrial Machinery
-Ashoka Buildcon Ltd,ASHOKA,Construction & Engineering
-PSP Projects Ltd,PSPPROJECT,Construction & Engineering
-Maharashtra Seamless Ltd,MAHSEAMLES,Building Products - Pipes
-Ahluwalia Contracts (India) Ltd,AHLUCONT,Construction & Engineering
-VRL Logistics Ltd,VRLLOG,Logistics
-Transport Corporation of India Ltd,TCI,Logistics
-HG Infra Engineering Ltd (Part IX),HGINFRA,Construction & Engineering
-VST Tillers Tractors Ltd,VSTTILLERS,Tractors
-Apar Industries Ltd,APARINDS,Electrical Components & Equipments
-Praj Industries Ltd,PRAJIND,Construction & Engineering
-Prince Pipes and Fittings Ltd,PRINCEPIPE,Building Products - Pipes
-MSTC Ltd,MSTCLTD,Commodities Trading
-Gateway Distriparks Ltd,GDL,Logistics
-Voltamp Transformers Ltd,VOLTAMP,Heavy Electrical Equipments
-Kirloskar Brothers Ltd,KIRLOSBROS,Industrial Machinery
-Hindustan Construction Company Ltd,HCC,Construction & Engineering
-Eveready Industries India Ltd,EVEREADY,Batteries
-Sadbhav Engineering Ltd,SADBHAV,Construction & Engineering
-JMC Projects (India) Ltd,JMCPROJECT,Construction & Engineering
-Inox Wind Ltd,INOXWIND,Heavy Electrical Equipments
-Shankara Building Products Ltd,SHANKARA,Building Products - Pipes
-Asian Granito India Ltd,ASIANTILES,Building Products - Granite
-Dredging Corporation of India Ltd,DREDGECORP,Dredging
-NRB Bearings Ltd,NRBBEARING,Industrial Machinery
-LG Balakrishnan & Bros Ltd,LGBBROSLTD,Industrial Machinery
-Jaiprakash Associates Ltd,JPASSOCIAT,Conglomerates
-Capacite Infraprojects Ltd,CAPACITE,Construction & Engineering
-J Kumar Infraprojects Ltd,JKIL,Construction & Engineering
-Action Construction Equipment Ltd,ACE,Heavy Machinery
-Power Mech Projects Ltd,POWERMECH,Construction & Engineering
-Electrosteel Castings Ltd,ELECTCAST,Building Products - Pipes
-Sterling Tools Ltd,STERTOOLS,Industrial Machinery
-Sadbhav Infrastructure Projects Ltd,SADBHIN,Roads
-Texmaco Rail & Engineering Ltd,TEXRAIL,Rail
-Patel Engineering Ltd,PATELENG,Construction & Engineering
-Technocraft Industries (India) Ltd,TIIL,Industrial Machinery
-Future Supply Chain Solutions Ltd,FSC,Logistics
-Jain Irrigation Systems Ltd - DVR,JISLDVREQS,Agricultural & Farm Machinery
-Jain Irrigation Systems Ltd,JISLJALEQS,Agricultural & Farm Machinery
-Wendt India Ltd,WENDT,Industrial Machinery
-Snowman Logistics Ltd,SNOWMAN,Logistics
-Titagarh Wagons Ltd,TWL,Rail
-Ramkrishna Forgings Ltd,RKFORGE,Rail
-Repro India Ltd,REPRO,Stationery
-Man Infraconstruction Ltd,MANINFRA,Construction & Engineering
-IFGL Refractories Ltd,IFGLEXPOR,Industrial Machinery
-Bharat Bijlee Ltd,BBL,Heavy Electrical Equipments
-HBL Power Systems Ltd,HBLPOWER,Batteries
-Navkar Corporation Ltd,NAVKARCORP,Logistics
-Universal Cables Ltd,UNIVCABLES,Cables
-Apollo Pipes Ltd,APOLLOPIPE,Building Products - Pipes
-GVK Power & Infrastructure Ltd,GVKPIL,Airports
-Jet Airways (India) Ltd,JETAIRWAYS,Airlines
-MEP Infrastructure Developers Ltd,MEP,Roads
-Mahindra EPC Irrigation Ltd,MAHEPC,Agricultural & Farm Machinery
-Shakti Pumps India Ltd,SHAKTIPUMP,Industrial Machinery
-TD Power Systems Ltd,TDPOWERSYS,Heavy Electrical Equipments
-Sanghvi Movers Ltd,SANGHVIMOV,Business Support Services
-Bharat Road Network Ltd,BRNL,Roads
-State Trading Corporation of India Ltd,STCINDIA,Commodities Trading
-Gayatri Projects Ltd,GAYAPROJ,Construction & Engineering
-BGR Energy Systems Ltd,BGRENERGY,Construction & Engineering
-Elecon Engineering Company Ltd,ELECON,Heavy Electrical Equipments
-GKW Ltd,GKWLIMITED,Logistics
-Ramky Infrastructure Ltd,RAMKY,Construction & Engineering
-Oricon Enterprises Ltd,ORICONENT,Logistics
-Akash Infra-Projects Ltd,AKASH,Construction & Engineering
-Hercules Hoists Ltd,HERCULES,Industrial Machinery
-Precision Wires India Ltd,PRECWIRE,Electrical Components & Equipments
-Artemis Medicare Services Ltd,ARTEMISMED,Business Support Services
-Maheshwari Logistics Ltd,MAHESHWARI,Logistics
-Marine Electricals (India) Ltd,MARINE,Electrical Components & Equipments
-HPL Electric & Power Ltd,HPL,Electrical Components & Equipments
-Jaypee Infratech Ltd,JPINFRATEC,Construction & Engineering
-Walchandnagar Industries Ltd,WALCHANNAG,Industrial Machinery
-Hind Rectifiers Ltd,HIRECT,Electrical Components & Equipments
-Kothari Products Ltd,KOTHARIPRO,Commodities Trading
-Sintercom India Ltd,SINTERCOM,Industrial Machinery
-Eimco Elecon India Ltd,EIMCOELECO,Industrial Machinery
-Thejo Engineering Ltd,THEJO,Construction & Engineering
-Jash Engineering Ltd,JASH,Construction & Engineering
-Rushil Decor Ltd,RUSHIL,Building Products - Laminates
-Kabra Extrusion Technik Ltd,KABRAEXTRU,Industrial Machinery
-Transformers and Rectifiers (India) Ltd,TRIL,Heavy Electrical Equipments
-Vascon Engineers Ltd,VASCONEQ,Construction & Engineering
-Essar Shipping Ltd,ESSARSHPNG,Logistics
-Urja Global Ltd,URJA,Renewable Energy Equipment & Services
-TIL Ltd,TIL,Heavy Machinery
-Sakuma Exports Ltd,SAKUMA,Commodities Trading
-Salzer Electronics Ltd,SALZERELEC,Electrical Components & Equipments
-B L Kashyap and Sons Ltd,BLKASHYAP,Construction & Engineering
-RPP Infra Projects Ltd,RPPINFRA,Construction & Engineering
-Mazda Ltd,MAZDA,Industrial Machinery
-Revathi Equipment Ltd,REVATHI,Heavy Machinery
-Hi-Tech Pipes Ltd,HITECH,Building Products - Pipes
-Paramount Communications Ltd,PARACABLES,Cables
-DRS Dilip Roadlines Ltd,DRSDILIP,Logistics
-Hexa Tradex Ltd,HEXATRADEX,Commodities Trading
-McNally Bharat Engg Co Ltd,MBECL,Construction & Engineering
-Indo Tech Transformers Ltd,INDOTECH,Heavy Electrical Equipments
-RKEC Projects Ltd,RKEC,Construction & Engineering
-Mold-Tek Technologies Ltd,MOLDTECH,Construction & Engineering
-VETO Switch Gears And Cables Ltd,VETO,Electrical Components & Equipments
-TRF Ltd,TRF,Industrial Machinery
-Windsor Machines Ltd,WINDMACHIN,Industrial Machinery
-North Eastern Carrying Corporation Ltd,NECCLTD,Logistics
-Murudeshwar Ceramics Ltd,MURUDCERA,Building Products - Ceramics
-Global Vectra Helicorp Ltd,GLOBALVECT,Airlines
-Lloyds Steels Industries Ltd,LSIL,Industrial Machinery
-Atlanta Ltd,ATLANTA,Construction & Engineering
-GPT Infraprojects Ltd,GPTINFRA,Construction & Engineering
-Emkay Taps And Cutting Tools Ltd,EMKAYTOOLS,Industrial Machinery
-Kirloskar Electric Company Ltd,KECL,Heavy Electrical Equipments
-Prakash Pipes Ltd,PPL,Building Products - Pipes
-MBL Infrastructures Ltd,MBLINFRA,Construction & Engineering
-Noida Toll Bridge Company Ltd,NOIDATOLL,Roads
-Ice Make Refrigeration Ltd,ICEMAKE,Electrical Components & Equipments
-Shree Vasu Logistics Ltd,SVLL,Logistics
-Shiv Aum Steels Ltd,SHIVAUM,Commodities Trading
-Bigbloc Construction Ltd,BIGBLOC,Building Products - Granite
-Accuracy Shipping Ltd,ACCURACY,Logistics
-Gillanders Arbuthnot & Co Ltd,GILLANDERS,Conglomerates
-LGB Forge Ltd,LGBFORGE,Industrial Machinery
-Punj Lloyd Ltd,PUNJLLOYD,Construction & Engineering
-Bhagyanagar India Ltd,BHAGYANGR,Electrical Components & Equipments
-Uravi T & Wedge Lamps Ltd,URAVI,Electrical Components & Equipments
-Macpower CNC Machines Ltd,MACPOWER,Industrial Machinery
-CMI Ltd,CMICABLES,Cables
-Tara Chand Logistic Solutions Ltd,TARACHAND,Business Support Services
-IL&FS Transportation Networks Ltd,IL&FSTRANS,Roads
-Sicagen India Ltd,SICAGEN,Building Products - Pipes
-Rama Steel Tubes Ltd,RAMASTEEL,Building Products - Pipes
-Indosolar Ltd,INDOSOLAR,Renewable Energy Equipment & Services
-Lokesh Machines Ltd,LOKESHMACH,Industrial Machinery
-Cords Cable Industries Ltd,CORDSCABLE,Cables
-Lexus Granito (India) Ltd,LEXUS,Building Products - Ceramics
-Indian Card Clothing Company Ltd,INDIANCARD,Industrial Machinery
-AVG Logistics Ltd,AVG,Logistics
-Supreme Infrastructure India Ltd,SUPREMEINF,Construction & Engineering
-Univastu India Ltd,UNIVASTU,Construction & Engineering
-Prajay Engineers Syndicate Ltd,PRAENG,Construction & Engineering
-Servotech Power Systems Ltd,SERVOTECH,Electrical Components & Equipments
-RM Drip & Sprinklers Systems Ltd,RMDRIP,Agricultural & Farm Machinery
-Aro Granite Industries Ltd,AROGRANITE,Building Products - Granite
-DCM Ltd,DCM,Conglomerates
-Total Transport Systems Ltd,TOTAL,Logistics
-Salasar Exteriors and Contour Ltd,SECL,Construction & Engineering
-Patel Integrated Logistics Ltd,PATINTLOG,Logistics
-Banka BioLoo Ltd,BANKA,Business Support Services
-AiroLam Ltd,AIROLAM,Building Products - Laminates
-ARSS Infrastructure Projects Ltd,ARSSINFRA,Construction & Engineering
-Manugraph India Ltd,MANUGRAPH,Industrial Machinery
-Godha Cabcon & Insulation Ltd,GODHA,Cables
-Bright Solar Ltd,BRIGHT,Industrial Machinery
-BC Power Controls Ltd,BCP,Cables
+AJR INFRA AND TOLLING LIMITED,AJRINFRA,Construction & Engineering
 AKG Exim Ltd,AKG,Commodities Trading
-Nitin Fire Protection Industries Ltd,NITINFIRE,Business Support Services
-KHFM Hospitality and Facility Managementservices Ltd,KHFM,Business Support Services
-Kshitij Polyline Ltd,KSHITIJPOL,Stationery
-Aaron Industries Ltd,AARON,Heavy Electrical Equipments
-Beardsell Ltd,BEARDSELL,Building Products - Prefab Structures
-Bil Energy Systems Ltd,BILENERGY,Industrial Machinery
-MIC Electronics Ltd,MIC,Electrical Components & Equipments
-Madhav Marbles and Granites Ltd,MADHAV,Building Products - Granite
-Latteys Industries Ltd,LATTEYS,Industrial Machinery
-Prakash Steelage Ltd,PRAKASHSTL,Building Products - Pipes
-Globe International Carriers Ltd,GICL,Logistics
-Surani Steel Tubes Ltd,SURANI,Building Products - Pipes
-Madhucon Projects Ltd,MADHUCON,Construction & Engineering
-Somi Conveyor Beltings Ltd,SOMICONVEY,Industrial Machinery
 ANI Integrated Services Ltd,AISL,Construction & Engineering
-Diamond Power Infrastructure Ltd,DIAPOWER,Electrical Components & Equipments
-Tijaria Polypipes Ltd,TIJARIA,Building Products - Pipes
-JITF Infralogistics Ltd,JITFINFRA,Shipbuilding
-NRB Industrial Bearings Ltd,NIBL,Industrial Machinery
-EON Electric Ltd,EON,Electrical Components & Equipments
-Zodiac Energy Ltd,ZODIAC,Renewable Energy Equipment & Services
-Jet Freight Logistics Ltd,JETFREIGHT,Logistics
-Shri Ram Switchgears Ltd,SRIRAM,Electrical Components & Equipments
-Hisar Metal Industries Ltd,HISARMETAL,Building Products - Pipes
-Hilton Metal Forging Ltd,HILTON,Industrial Machinery
-Unity Infraprojects Ltd,UNITY,Construction & Engineering
-Solex Energy Ltd,SOLEX,Industrial Machinery
-S S Infrastructure Development Consultants Ltd,SSINFRA,Construction & Engineering
-Mukand Engineers Ltd,MUKANDENGG,Construction & Engineering
-SecUR Credentials Ltd,SECURCRED,Employment Services
-Consolidated Construction Consortium Ltd,CCCL,Construction & Engineering
-Technofab Engineering Ltd,TECHNOFAB,Construction & Engineering
-Gayatri Highways Ltd,GAYAHWS,Construction & Engineering
-CKP Products Ltd,CKPPRODUCT,Commodities Trading
-EMCO Ltd,EMCO,Heavy Electrical Equipments
-Marshall Machines Ltd,MARSHALL,Industrial Machinery
-Crown Lifters Ltd,CROWN,Heavy Machinery
-Soni Soya Products Ltd,SONISOYA,Commodities Trading
-Husys Consulting Ltd,HUSYSLTD,Employment Services
-Sanco Industries Ltd,SANCO,Building Products - Pipes
-Transwind Infrastructures Ltd,TRANSWIND,Construction & Engineering
-C & C Constructions Ltd,CANDC,Construction & Engineering
-Tantia Constructions Ltd,TANTIACONS,Construction & Engineering
-Jalan Transolutions (India) Ltd,JALAN,Logistics
+APL Apollo Tubes Ltd,APLAPOLLO,Building Products - Pipes
+ARSS Infrastructure Projects Ltd,ARSSINFRA,Construction & Engineering
 ASL Industries Ltd,ASLIND,Industrial Machinery
+ATV Projects India Ltd,ATVPR,Industrial Machinery
+AVG Logistics Ltd,AVG,Logistics
+AVI Polymers Ltd,AVI,Commodities Trading
+GE Power India Limited,GEPIL,Commodities Trading
+Aaron Industries Ltd,AARON,Heavy Electrical Equipments
+Aartech Solonics Ltd,AARTECH,Electrical Components & Equipments
+Abans Enterprises Ltd,ABANSENT,Commodities Trading
+Abhishek Infraventures Ltd,ABHIINFRA,Construction & Engineering
+Abhishek Integrations Ltd,AILIMITED,Construction & Engineering
+Accuracy Shipping Ltd,ACCURACY,Logistics
+Acrow India Ltd,ACROW,Industrial Machinery
+Acrysil Ltd,ACRYSIL,Building Products - Granite
+Action Construction Equipment Ltd,ACE,Heavy Machinery
+Adani Enterprises Limited,ADANIENT,Commodities Trading
+Adani Ports and Special Economic Zone Limited,ADANIPORTS,Ports
+Adarsh Mercantile Ltd,ADARSH,Commodities Trading
+Adarsh Plant Protect Ltd,ADARSHPL,Agricultural & Farm Machinery
+Ador Fontech Ltd,ADORFO,Industrial Machinery
+Ador Welding Limited,ADORWELD,Industrial Machinery
+Advance Metering Technology Ltd,AMTL,Electrical Components & Equipments
+Agrimony Commodities Ltd,AGRIMONY,Commodities Trading
+Ahluwalia Contracts (India) Ltd,AHLUCONT,Construction & Engineering
+Ahmedabad Steel Craft Ltd,AHMDSTE,Commodities Trading
+AiroLam Ltd,AIROLAM,Building Products - Laminates
+Akash Infra-Projects Ltd,AKASH,Construction & Engineering
+Alfa Transformers Ltd,ALFATRAN,Heavy Electrical Equipments
+Alfred Herbert (India) Ltd,ALFREDHE,Industrial Machinery
+Allcargo Logistics Limited,ALLCARGO,Logistics
+Amalgamated Electricity Company Ltd,AMALGAM,Electrical Components & Equipments
+Amara Raja Batteries Ltd,AMARAJABAT,Batteries
+Amba Enterprises Ltd,AEL,Electrical Components & Equipments
+Ambition Mica Ltd,AMBITION,Building Products - Laminates
+Amerise Biosciences Ltd,AMERISE,Commodities Trading
+Amit International Ltd,AMITINT,Commodities Trading
+Amrapali Industries Ltd,AMRAPLIN,Commodities Trading
+Amraworld Agrico Ltd,AMRAAGRI,Commodities Trading
+Anand Projects Ltd,ANANDPROJ,Construction & Engineering
+Anik Industries Limited,ANIKINDS,Commodities Trading
+Anmol India Ltd,ANMOL,Commodities Trading
+Apar Industries Ltd,APARINDS,Electrical Components & Equipments
+Apollo Pipes Ltd,APOLLOPIPE,Building Products - Pipes
+Aro Granite Industries Ltd,AROGRANITE,Building Products - Granite
+Arshiya Limited,ARSHIYA,Logistics
+Artefact Projects Ltd,ARTEFACT,Construction & Engineering
+Artemis Electricals and Projects Ltd,AEPL,Electrical Components & Equipments
+Artemis Medicare Services Ltd,ARTEMISMED,Business Support Services
+Artson Engineering Ltd,ARTSONEN,Construction & Engineering
+Ashish Polyplast Ltd,ASHISHPO,Building Products - Pipes
+Ashok Leyland Ltd,ASHOKLEY,Trucks & Buses
+Ashoka Buildcon Ltd,ASHOKA,Construction & Engineering
+Abhishek Corporation Limited,ABHISHEK,Commodities Trading
+Asian Granito India Ltd,ASIANTILES,Building Products - Granite
+Astral Limited,ASTRAL,Building Products - Pipes
+Atal Realtech Ltd,ATALREAL,Construction & Engineering
+Atharv Enterprises Ltd,ATHARVENT,Commodities Trading
+Atlanta Ltd,ATLANTA,Construction & Engineering
+Ausom Enterprise Limited,AUSOMENT,Commodities Trading
+Austin Engineering Company Ltd,AUSTENG,Industrial Machinery
+Automobile Corp Of Goa Ltd,ACGL,Trucks & Buses
+Aviva Industries Ltd,AVIVA,Building Products - Glass
+AXISCADES Technologies Limited,AXISCADES,Construction & Engineering
+Axtel Industries Ltd,AXTEL,Industrial Machinery
+B L Kashyap and Sons Ltd,BLKASHYAP,Construction & Engineering
+BC Power Controls Ltd,BCP,Cables
+BCPL Railway Infrastructure Ltd,BCPL,Construction & Engineering
+BEML Limited,BEML,Rail
+BEW Engineering Ltd,BEWLTD,Industrial Machinery
+BGR Energy Systems Ltd,BGRENERGY,Construction & Engineering
+Bajaj Steel Industries Ltd,BAJAJST,Industrial Machinery
+Balmer Lawrie Investments Ltd,BLIL,Conglomerates
+Balmer Lawrie and Company Ltd,BALMLAWRIE,Conglomerates
+Balu Forge Industries Ltd,BALUFORGE,Industrial Machinery
+Balurghat Technologies Ltd,BALTE,Logistics
+Banka BioLoo Ltd,BANKA,Business Support Services
+Baroda Extrusion Ltd,BAROEXT,Industrial Machinery
+Batliboi Ltd,BATLIBOI,Industrial Machinery
+Beardsell Ltd,BEARDSELL,Building Products - Prefab Structures
+Bemco Hydraulics Ltd,BEMHY,Industrial Machinery
+Bhagyanagar India Ltd,BHAGYANGR,Electrical Components & Equipments
+Bharat Bijlee Ltd,BBL,Heavy Electrical Equipments
+Bharat Dynamics Ltd,BDL,Aerospace & Defense Equipments
+Bharat Heavy Electricals Ltd,BHEL,Heavy Electrical Equipments
+Bharat Road Network Ltd,BRNL,Roads
+Bhilwara Technical Textiles Ltd,BTTL,Commodities Trading
+Bigbloc Construction Ltd,BIGBLOC,Building Products - Granite
+Bil Energy Systems Ltd,BILENERGY,Industrial Machinery
+Bimetal Bearings Ltd,BIMETAL,Industrial Machinery
+Birla Precision Technologies Ltd,BIRLAPREC,Industrial Machinery
+Black Rose Industries Ltd,BLACKROSE,Conglomerates
+Blue Dart Express Ltd,BLUEDART,Logistics
+Blue Pearl Texspin Ltd,BPTEX,Commodities Trading
+Bombay Cycle and Motor Agency Ltd,BOMBCYC,Conglomerates
+Bombay Metrics Supply Chain Ltd,BMETRICS,Logistics
+Bombay Oxygen Investments Ltd,BOMOXY-B1,Conglomerates
+Bombay Potteries and Tiles Ltd,BOMBPOT,Building Products - Ceramics
+Brahmaputra Infrastructure Ltd,BRAHMINFRA,Construction & Engineering
+Bright Solar Ltd,BRIGHT,Industrial Machinery
+C & C Constructions Ltd,CANDC,Construction & Engineering
+CCL International Ltd,CCLINTER,Construction & Engineering
+CG Power and Industrial Solutions Limited,CGPOWER,Heavy Electrical Equipments
+CHD Chemicals Ltd,CHDCHEM,Commodities Trading
+CKP Products Ltd,CKPPRODUCT,Commodities Trading
+CMI Ltd,CMICABLES,Cables
 CMM Infraprojects Ltd,CMMIPL,Construction & Engineering
-Manav Infra Projects Ltd,MANAV,Construction & Engineering
-W.S. Industries (India) Ltd,WSI,Industrial Machinery
-Kaushalya Infrastructure Development Corporation Ltd,KAUSHALYA,Construction & Engineering
+Calcom Vision Ltd,CALCOM,Electrical Components & Equipments
+Candour Techtex Ltd,CANDOUR,Industrial Machinery
+Capacite Infraprojects Ltd,CAPACITE,Construction & Engineering
+Captain Polyplast Ltd,CPL,Industrial Machinery
+Captain Technocast Ltd,CTCL,Industrial Machinery
+Carborundum Universal Ltd,CARBORUNIV,Industrial Machinery
+Caspian Corporate Services Ltd,CASPIAN,Business Support Services
+Cenlub Industries Ltd,CENLUB,Industrial Machinery
+Cera Sanitaryware Ltd,CERA,Building Products - Ceramics
+Chandni Machines Ltd,CHANDNIMACH,Commodities Trading
+Chartered Logistics Ltd,CHLOGIST,Logistics
+Chemplast Sanmar Ltd,CHEMPLASTS,Building Products - Pipes
+Chemtech Industrial Valves Ltd,CHEMTECH,Commodities Trading
+Chowgule Steamships Ltd,CHOWGULSTM,Logistics
+Cimmco Limited,CIMMCO,Rail
+Classic Electricals Ltd,CLASELE,Electrical Components & Equipments
+Cochin Shipyard Ltd,COCHINSHIP,Shipbuilding
+Comfort Commotrade Ltd,COMCL,Commodities Trading
+Consolidated Construction Consortium Ltd,CCCL,Construction & Engineering
+Container Corporation of India Ltd,CONCOR,Logistics
+Continental Controls Ltd,CONTICON,Electrical Components & Equipments
+Cords Cable Industries Ltd,CORDSCABLE,Cables
+Coromandel Engineering Company Ltd,COROENGG,Construction & Engineering
+Craftsman Automation Ltd,CRAFTSMAN,Industrial Machinery
+Cravatex Ltd,CRAVATEX,Commodities Trading
+Crown Lifters Ltd,CROWN,Heavy Machinery
+Cummins India Limited,CUMMINSIND,Industrial Machinery
+D & H India Ltd,DHINDIA,Industrial Machinery
+DCM Ltd,DCM,Conglomerates
+DECO MICA Ltd,DECOMIC,Building Products - Laminates
+DHP India Ltd,DHPIND,Industrial Machinery
+DISA India Ltd,DISAQ,Industrial Machinery
+DRS Dilip Roadlines Ltd,DRSDILIP,Logistics
+Data Patterns (India) Ltd,DATAPATTNS,Aerospace & Defense Equipments
+De Nora India Limited,DENORA,Electrical Components & Equipments
+Debock Industries Limited,DIL,Agricultural & Farm Machinery
+Deccan Bearings Ltd,DECANBRG,Industrial Machinery
+Delhivery Ltd,DELHIVERY,Logistics
+Delta Manufacturing Limited,DELTAMAGNT,Industrial Machinery
+Destiny Logistics & Infra Ltd,DESTINY,Logistics
+Devine Impex Ltd,DEVINE,Commodities Trading
+Dhabriya Polywood Ltd,DHABRIYA,Building Products - Laminates
+Dhruv Consultancy Services Ltd,DHRUV,Construction & Engineering
+Diamond Power Infrastructure Ltd,DIAPOWER,Electrical Components & Equipments
+Dilip Buildcon Ltd,DBL,Construction & Engineering
+Divyashakti Ltd,DIVSHKT,Building Products - Granite
+Dredging Corporation of India Ltd,DREDGECORP,Dredging
+Dugar Housing Developments Ltd,DUGARHOU,Construction & Engineering
+Dutron Polymers Ltd,DUTRON,Building Products - Pipes
+Dynamic Cables Ltd,DYCL,Cables
+Dynamic Services & Security Ltd,DYNAMIC,Employment Services
+ELANTAS Beck India Ltd,ELANTAS,Electrical Components & Equipments
+EMCO Ltd,EMCO,Heavy Electrical Equipments
+EPIC Energy Ltd,EPIC,Electrical Components & Equipments
+ESAB India Ltd,ESABINDIA,Industrial Machinery
+Eco Recycling Ltd,ECORECO,Business Support Services
+Ecoboard Industries Ltd,ECOBOAR,Building Products - Laminates
+Eicher Motors Ltd,EICHERMOT,Trucks & Buses
+Eimco Elecon India Ltd,EIMCOELECO,Industrial Machinery
+Ekansh Concepts Ltd,EKANSH,Construction & Engineering
+Elecon Engineering Company Ltd,ELECON,Heavy Electrical Equipments
+Electrosteel Castings Ltd,ELECTCAST,Building Products - Pipes
+Elegant Marbles and Grani Industries Ltd,ELEMARB,Building Products - Granite
+Elgi Equipments Ltd,ELGIEQUIP,Industrial Machinery
+Emkay Taps and Cutting Tools Ltd,EMKAYTOOLS,Industrial Machinery
+Engineers India Ltd,ENGINERSIN,Construction & Engineering
+Escorts Kubota Limited,ESCORTS,Tractors
+Essar Shipping Ltd,ESSARSHPNG,Logistics
 Euro Ceramics Ltd,EUROCERA,Building Products - Ceramics
-Lakshmi Precision Screws Ltd,LAKPRE,Industrial Machinery
+Evans Electric Ltd,EVANS,Business Support Services
+Eveready Industries India Ltd,EVEREADY,Batteries
+Everest Industries Limited,EVERESTIND,Building Products - Prefab Structures
+Excel Realty N Infra Limited,EXCEL,Construction & Engineering
+Exide Industries Limited,EXIDEIND,Batteries
+Exxaro Tiles Ltd,EXXARO,Building Products - Ceramics
+F G P Ltd,FGP,Business Support Services
+Fervent Synergies Ltd,FERVENTSYN,Conglomerates
+Finolex Cables Ltd,FINCABLES,Cables
+Finolex Industries Ltd,FINPIPE,Building Products - Pipes
+Fluidomat Ltd,FLUIDOM,Industrial Machinery
+Forbes & Company Ltd,FORBESCO,Conglomerates
+Frontier Springs Ltd,FRONTSP,Industrial Machinery
+Fsn E-Commerce Ventures Ltd,NYKAA,Business Support Services
+FUTURE ENTERPRISES LIMITED,FEL,Conglomerates
+Future Enterprises Limited,FELDVR,Conglomerates
+Future Supply Chain Solutions Ltd,FSC,Logistics
+G R Infraprojects Ltd,GRINFRA,Construction & Engineering
+GEE Ltd,GEE,Industrial Machinery
+GG Dandekar Machine Works Ltd,GGDANDE,Industrial Machinery
 GI Engineering Solutions Ltd,GISOLUTION,Construction & Engineering
+GKW Ltd,GKWLIMITED,Logistics
+GMM Pfaudler Ltd,GMMPFAUDLR,Industrial Machinery
+GMR Infrastructure Ltd,GMRINFRA,Construction & Engineering
+GPT Infraprojects Ltd,GPTINFRA,Construction & Engineering
+GTV Engineering Ltd,GTV,Construction & Engineering
+GVK Power & Infrastructure Ltd,GVKPIL,Airports
+Gala Global Products Ltd,GGPL,Business Support Services
+Galada Power and Telecommunication Ltd,GALADA,Electrical Components & Equipments
+Galaxy Agrico Exports Ltd,GALAGEX,Industrial Machinery
+Galaxy Bearings Ltd,GALXBRG,Heavy Machinery
+Garden Reach Shipbuilders & Engineers Ltd,GRSE,Shipbuilding
+Garware Marine Industries Ltd,GARWAMAR,Shipbuilding
+Gateway Distriparks Ltd,GATEWAY,Logistics
+GATI Limited,GATI,Logistics
+Gayatri Highways Ltd,GAYAHWS,Construction & Engineering
+Gayatri Projects Ltd,GAYAPROJ,Construction & Engineering
+Gayatri Tissue and Papers Ltd,GYTRIPA,Construction & Engineering
+GE Power India Limited,GEPIL,Construction & Engineering
+GE T&D India Limited,GET&D,Heavy Electrical Equipments
+Generic Engineering Construction and Projects Ltd,GENCON,Construction & Engineering
+Genpharmasec Ltd,GENPHARMA,Commodities Trading
+Gillanders Arbuthnot & Co Ltd,GILLANDERS,Conglomerates
+Giriraj Civil Developers Ltd,GIRIRAJ,Construction & Engineering
+Glittek Granites Ltd,GLITTEKG,Building Products - Granite
+Global Vectra Helicorp Ltd,GLOBALVECT,Airlines
+Globe Commercials Ltd,GLCL,Commodities Trading
+Globe International Carriers Ltd,GICL,Logistics
+Godha Cabcon & Insulation Ltd,GODHA,Cables
+Goldstar Power Ltd,GOLDSTAR,Batteries
+Goyal Aluminiums Ltd,GOYALALUM,Commodities Trading
+Graphite India Limited,GRAPHITE,Electrical Components & Equipments
+Gratex Industries Ltd,GRATEXI,Commodities Trading
+Greaves Cotton Limited,GREAVESCOT,Industrial Machinery
+Greenlam Industries Ltd,GREENLAM,Building Products - Laminates
+Grindwell Norton Ltd,GRINDWELL,Industrial Machinery
+Gujarat Apollo Industries Limited,GUJAPOLLO,Industrial Machinery
+Gujarat Pipavav Port Ltd,GPPL,Ports
+Gujarat Toolroom Ltd,GUJTLRM,Construction & Engineering
+HBL Power Systems Ltd,HBLPOWER,Batteries
+HEC Infra Projects Ltd,HECPROJECT,Electrical Components & Equipments
+HEG Ltd,HEG,Electrical Components & Equipments
+HG Infra Engineering Ltd (Part IX),HGINFRA,Construction & Engineering
+HLE Glascoat Ltd,HLEGLAS,Industrial Machinery
+HMT Ltd,HMT,Industrial Machinery
+HPL Electric & Power Ltd,HPL,Electrical Components & Equipments
+Halder Venture Ltd,HALDER,Commodities Trading
+Hardwyn India Ltd,HARDWYN,Building Products - Glass
+Haria Exports Ltd,HARIAEXPO,Commodities Trading
+Hariom Pipe Industries Ltd,HARIOMPIPE,Building Products - Pipes
+Harish Textile Engineers Ltd,HARISH,Industrial Machinery
+Hariyana Ship Breakers Ltd,HRYNSHP,Commodities Trading
+Hariyana Ventures Ltd,HVL,Commodities Trading
+Havells India Ltd,HAVELLS,Electrical Components & Equipments
+Hercules Hoists Ltd,HERCULES,Industrial Machinery
+Hexa Tradex Ltd,HEXATRADEX,Commodities Trading
+Hi-Tech Pipes Ltd,HITECH,Building Products - Pipes
+Hilton Metal Forging Ltd,HILTON,Industrial Machinery
+Hind Commerce Ltd,HCLTD,Commodities Trading
+Hind Rectifiers Ltd,HIRECT,Electrical Components & Equipments
+Hindustan Aeronautics Ltd,HAL,Aerospace & Defense Equipments
+Hindustan Construction Company Ltd,HCC,Construction & Engineering
+Hindustan Housing Company Ltd,ZHINDHSG,Business Support Services
+Hindusthan Udyog Ltd,ZHINUDYP,Industrial Machinery
+Hindusthan Urban Infrastructure Ltd,HUIL,Heavy Electrical Equipments
+Hisar Metal Industries Ltd,HISARMETAL,Building Products - Pipes
+Hitachi Energy India Limited,POWERINDIA,Heavy Electrical Equipments
+Hittco Tools Ltd,HITTCO,Industrial Machinery
+Honda India Power Products Limited,HONDAPOWER,Industrial Machinery
+Husys Consulting Ltd,HUSYSLTD,Employment Services
+IEL Ltd,INDXTRA,Commodities Trading
+IFGL Refractories Ltd,IFGLEXPOR,Industrial Machinery
+IL&FS Engineering and Construction Company Limited,IL&FSENGG,Construction & Engineering
+IL&FS Transportation Networks Ltd,IL&FSTRANS,Roads
+IMP Powers Limited,INDLMETER,Heavy Electrical Equipments
+IRB Infrastructure Developers Ltd,IRB,Construction & Engineering
+IRB InvIT Fund,IRBINVIT,Roads
+IST Ltd,ISTLTD,Industrial Machinery
+ITD Cementation India Limited,ITDCEM,Construction & Engineering
+ITL Industries Ltd,ITL,Industrial Machinery
+Ice Make Refrigeration Ltd,ICEMAKE,Electrical Components & Equipments
+Inani Marbles and Industries Ltd,INANI,Building Products - Granite
+Incon Engineers Ltd,INCON,Industrial Machinery
+Ind Renewable Energy Ltd,INDRENEW,Renewable Energy Equipment & Services
+Indian Card Clothing Company Ltd,INDIANCARD,Industrial Machinery
+Indinfravit Trust,INDINFR,Roads
+Indo-National Limited,NIPPOBATRY,Batteries
+Indo Tech Transformers Ltd,INDOTECH,Heavy Electrical Equipments
+Indosolar Ltd,INDOSOLAR,Renewable Energy Equipment & Services
+Indoworth Holdings Ltd,UNIWSEC,Commodities Trading
+Ingersoll-Rand (India) Ltd,INGERRAND,Industrial Machinery
+Innovators Facade Systems Ltd,INNOVATORS,Construction & Engineering
+Inox Wind Energy Ltd,IWEL,Heavy Electrical Equipments
+Inox Wind Ltd,INOXWIND,Heavy Electrical Equipments
+Integra Engineering India Ltd,INTEGRAEN,Industrial Machinery
+Integrated Capital Services Ltd,ICSL,Business Support Services
+Integrated Technologies Ltd,INTECH,Electrical Components & Equipments
+Interglobe Aviation Ltd,INDIGO,Airlines
+International Combustion (India) Ltd,INTLCOMBQ,Industrial Machinery
+International Conveyors Ltd,INTLCONV,Industrial Machinery
+Interstate Oil Carrier Ltd,INTSTOIL,Logistics
+Ircon International Ltd,IRCON,Construction & Engineering
+Isgec Heavy Engineering Ltd,ISGEC,Heavy Machinery
+Iykot Hitech Toolroom,IYKOTHITE,Industrial Machinery
+J Kumar Infraprojects Ltd,JKIL,Construction & Engineering
+JITF Infralogistics Ltd,JITFINFRA,Shipbuilding
+JMC Projects (India) Ltd,JMCPROJECT,Construction & Engineering
 Jaihind Projects Ltd,JAIHINDPRO,Construction & Engineering
+Jain Irrigation Systems Ltd,JISLJALEQS,Agricultural & Farm Machinery
+Jain Irrigation Systems Ltd - DVR,JISLDVREQS,Agricultural & Farm Machinery
+Jain Marmo Industries Ltd,JAINMARMO,Building Products - Granite
+Jaiprakash Associates Ltd,JPASSOCIAT,Conglomerates
+Jalan Transolutions (India) Ltd,JALAN,Logistics
+Jash Engineering Ltd,JASH,Construction & Engineering
+Jayatma Enterprises Ltd,JAYATMA,Business Support Services
+Jaypee Infratech Ltd,JPINFRATEC,Construction & Engineering
+Jet Airways (India) Ltd,JETAIRWAYS,Airlines
+Jet Freight Logistics Ltd,JETFREIGHT,Logistics
+Jigar Cables Ltd,JIGAR,Cables
+Jindal Saw Limited,JINDALSAW,Building Products - Pipes
+John Cockerill India Ltd,COCKERILL,Industrial Machinery
+Jolly Merchants Ltd,RGRL,Agricultural & Farm Machinery
+Jupiter Wagons Limited,JWL,Rail
+Jyoti Ltd,JYOTI,Heavy Electrical Equipments
+K&R Rail Engineering Ltd,KRRAIL,Construction & Engineering
+KEC International Ltd,KEC,Construction & Engineering
+KEI Industries Ltd,KEI,Cables
+KNR Constructions Ltd,KNRCON,Construction & Engineering
+KPT Industries Ltd,KPT,Industrial Machinery
+Ksb Limited,KSB,Industrial Machinery
+Kabra Commercial Ltd,KCL,Commodities Trading
+Kabra Extrusion Technik Ltd,KABRAEXTRU,Industrial Machinery
+Kajaria Ceramics Ltd,KAJARIACER,Building Products - Ceramics
+Kama Holdings Ltd,KAMAHOLD,Conglomerates
+Kapston Services Limited,KAPSTON,Business Support Services
+Karnimata Cold Storage Ltd,KCSL,Logistics
+Kaushalya Infrastructure Development Corporation Ltd,KAUSHALYA,Construction & Engineering
+Kaycee Industries Ltd,KAYCEEI,Electrical Components & Equipments
+Kcl Infra Projects Ltd,KCLINFRA,Construction & Engineering
+Kedia Construction Co Ltd,KEDIACN,Business Support Services
+Kennametal India Limited,KENNAMET,Industrial Machinery
+Khemani Distributors & Marketing Ltd,KDML,Commodities Trading
+Khfm Hospitality and Facility Management Services Ltd,KHFM,Business Support Services
+Kilburn Engineering Ltd,KLBRENG-B,Industrial Machinery
+Kiran Print Pack Ltd,KIRANPR,Stationery
+Kirloskar Brothers Ltd,KIRLOSBROS,Industrial Machinery
+Kirloskar Electric Company Ltd,KECL,Heavy Electrical Equipments
+Kirloskar Oil Engines Ltd,KIRLOSENG,Industrial Machinery
+Kirloskar Pneumatic Company Ltd,KIRLPNU,Industrial Machinery
+Kisan Mouldings Ltd,KISAN,Building Products - Pipes
+Kokuyo Camlin Limited,KOKUYOCMLN,Stationery
+Konndor Industries Ltd,KONNDOR,Commodities Trading
+Kothari Products Ltd,KOTHARIPRO,Commodities Trading
+Kotia Enterprises Ltd,KEL,Industrial Machinery
+Kratos Energy & Infrastructure Ltd,KRATOSENER,Conglomerates
+Krishna Defence & Allied Industries Ltd,KRISHNADEF,Industrial Machinery
+Kriti Industries (India) Limited,KRITIIND,Building Products - Pipes
+Kshitij Polyline Ltd,KSHITIJPOL,Stationery
+Kunststofe Industries Ltd,KUNSTOFF,Building Products - Pipes
+Kusam Electrical Industries Ltd,KUSUMEL,Electrical Components & Equipments
+LG Balakrishnan & Bros Ltd,LGBBROSLTD,Industrial Machinery
+LGB Forge Ltd,LGBFORGE,Industrial Machinery
+LOYAL EQUIPMENTS Ltd,LOYAL,Industrial Machinery
+Lakshmi Electrical Control Systems Ltd,LAKSELEC,Electrical Components & Equipments
+Lakshmi Machine Works Ltd,LAXMIMACH,Industrial Machinery
+Lakshmi Precision Screws Ltd,LAKPRE,Industrial Machinery
+Lancer Container Lines Ltd,LANCER,Logistics
+Larsen & Toubro Ltd,LT,Construction & Engineering
+Latteys Industries Ltd,LATTEYS,Industrial Machinery
+Laxmipati Engineering Works Ltd,LAXMIPATI,Industrial Machinery
+Lesha Industries Ltd,LESHAIND,Commodities Trading
+Lexus Granito (India) Ltd,LEXUS,Building Products - Ceramics
+Likhitha Infrastructure Ltd,LIKHITHA,Construction & Engineering
+Linc Limited,LINC,Stationery
+Lippi Systems Ltd,LIPPISYS,Industrial Machinery
+Lloyds Steels Industries Ltd,LSIL,Industrial Machinery
+Lokesh Machines Ltd,LOKESHMACH,Industrial Machinery
+Lynx Machinery and Commercials Ltd,LYNMC,Business Support Services
+M Lakhamsi Industries Ltd,MLINDLTD,Business Support Services
+MBL Infrastructures Ltd,MBLINFRA,Construction & Engineering
+MEP Infrastructure Developers Ltd,MEP,Roads
+MIC Electronics Ltd,MICEL,Electrical Components & Equipments
+MIG Media Neurons Ltd,MMNL,Business Support Services
+MMTC Ltd,MMTC,Commodities Trading
+MPF Systems Ltd,MPFSL,Electrical Components & Equipments
+MRC Exim Ltd,MRCEXIM,Commodities Trading
+MSTC Ltd,MSTCLTD,Commodities Trading
+MTAR Technologies Ltd,MTARTECH,Industrial Machinery
+Macpower CNC Machines Ltd,MACPOWER,Industrial Machinery
+Madhav Infra Projects Ltd,MADHAVIPL,Construction & Engineering
+Madhav Marbles and Granites Ltd,MADHAV,Building Products - Granite
+Madhucon Projects Ltd,MADHUCON,Construction & Engineering
+Maharashtra Seamless Ltd,MAHSEAMLES,Building Products - Pipes
+Maheshwari Logistics Ltd,MAHESHWARI,Logistics
+Mahindra EPC Irrigation Ltd,MAHEPC,Agricultural & Farm Machinery
+Mahindra Logistics Ltd,MAHLOG,Logistics
+Mallcom (India) Ltd,MALLCOM,Business Support Services
+Man Industries (India) Limited,MANINDS,Building Products - Pipes
+Man Infraconstruction Ltd,MANINFRA,Construction & Engineering
+Manav Infra Projects Ltd,MANAV,Construction & Engineering
+Manugraph India Ltd,MANUGRAPH,Industrial Machinery
+Marine Electricals (India) Ltd,MARINE,Electrical Components & Equipments
+Marshall Machines Ltd,MARSHALL,Industrial Machinery
+Marsons Ltd,MARSONS,Heavy Electrical Equipments
+Maruti Infrastructure Ltd,MAINFRA,Construction & Engineering
+MaxAlert Systems Ltd,MASL,Building Products - Granite
+Maximus International Ltd,MAXIMUS,Commodities Trading
+Mayur Floorings Ltd,MAYURFL,Building Products - Granite
+Mazagon Dock Shipbuilders Ltd,MAZDOCK,Shipbuilding
+Mazda Ltd,MAZDA,Industrial Machinery
+McNally Bharat Engg Co Ltd,MBECL,Construction & Engineering
+Meera Industries Ltd,MEERA,Industrial Machinery
+Mehai Technology Ltd,MEHAI,Electrical Components & Equipments
+Mercator Limited,MERCATOR,Logistics
+Mercury Metals Ltd,MERMETL,Commodities Trading
+Metroglobal Ltd,METROGLOBL,Commodities Trading
+Mihika Industries Ltd,MIHIKA,Commodities Trading
+Milestone Furniture Ltd,MILEFUR,Business Support Services
+Mirch Technologies (India) Ltd,MIRCH,Industrial Machinery
+Mishka Exim Ltd,MISHKA,Commodities Trading
+Mitshi India Ltd,MITSHI,Conglomerates
+Miven Machine Tools Ltd,MIVENMACH,Industrial Machinery
+Modern Insulators Ltd,MODINSU,Electrical Components & Equipments
+Modison Ltd,MODISNME,Electrical Components & Equipments
+Modulex Construction Technologies Ltd,MODULEX,Construction & Engineering
+Mold-Tek Technologies Ltd,MOLDTECH,Construction & Engineering
+Morganite Crucible (India) Ltd,MORGANITE,Industrial Machinery
+Motherson Sumi Wiring India Ltd,MSUMI,Cables
+Mukand Engineers Ltd,MUKANDENGG,Construction & Engineering
+Mukat Pipes Ltd,MUKATPIP,Building Products - Pipes
+Mukta Agriculture Ltd,MUKTA,Commodities Trading
+Murudeshwar Ceramics Ltd,MURUDCERA,Building Products - Ceramics
+Muzali Arts Ltd,MUZALI,Commodities Trading
+NBCC (INDIA) LIMITED,NBCC,Construction & Engineering
+NCC Limited,NCC,Construction & Engineering
+NMS Resources Global Ltd,NMSRESRC,Construction & Engineering
+NRB Bearings Ltd,NRBBEARING,Industrial Machinery
+NRB Industrial Bearings Ltd,NIBL,Industrial Machinery
+Narmada Macplast Drip Irrigation Systems Ltd,NARMP,Agricultural & Farm Machinery
+National Highways Infra Trust,NHIT,Roads
+National Plywood Industries Ltd,NATPLY,Building Products - Laminates
+Natura Hue Chem Ltd,NATHUEC,Ports
+Navkar Corporation Ltd,NAVKARCORP,Logistics
+Neelkanth Rock-Minerals Ltd,NEELKAN,Building Products - Granite
+Niraj Cement Structurals Ltd,NIRAJ,Construction & Engineering
+Nitco Limited,NITCO,Building Products - Ceramics
+Nitin Fire Protection Industries Ltd,NITINFIRE,Business Support Services
+Nivaka Fashions Ltd,NIVAKA,Commodities Trading
+Noida Toll Bridge Company Ltd,NOIDATOLL,Roads
+North Eastern Carrying Corporation Ltd,NECCLTD,Logistics
+Northlink Fiscal and Capital Services Ltd,NORTHLINK,Construction & Engineering
+OK Play India Ltd,OKPLA,Industrial Machinery
+Olectra Greentech Limited,OLECTRA,Electrical Components & Equipments
+OM INFRA LIMITED,OMINFRAL,Construction & Engineering
+Oricon Enterprises Ltd,ORICONENT,Logistics
+Orient Bell Limited,ORIENTBELL,Building Products - Ceramics
+Oriental InfraTrust,OSEINTRUST,Construction & Engineering
+Oriental Rail Infrastructure Ltd,ORIRAIL,Building Products - Laminates
+Orissa Bengal Carrier Ltd,OBCL,Logistics
+Oseaspre Consultants Ltd,OSEASPR,Electrical Components & Equipments
+Ozone World Ltd,OZONEWORLD,Commodities Trading
+P M Telelinnks Ltd,PMTELELIN,Commodities Trading
+PBA Infrastructure Limited,PBAINFRA,Construction & Engineering
+PIX Transmissions Ltd,PIXTRANS,Industrial Machinery
+PNC Infratech Ltd,PNCINFRA,Construction & Engineering
+PSP Projects Ltd,PSPPROJECT,Construction & Engineering
+PAE Limited,PAEL,Batteries
+Pagaria Energy Ltd,WOMENNET,Commodities Trading
+Pan Electronics India Ltd,PANELEC,Electrical Components & Equipments
+Panache Innovations Ltd,PANACHE,Commodities Trading
+Panasonic Carbon India Co Ltd,PANCARBON,Batteries
+Panasonic Energy India Co Ltd,PANAENERG,Batteries
+Panth Infinity Ltd,PANTH,Commodities Trading
+Paramount Communications Ltd,PARACABLES,Cables
+Paras Defence and Space Technologies Ltd,PARAS,Aerospace & Defense Equipments
+Parle Industries Ltd,PARLESOFT,Commodities Trading
+Patel Engineering Ltd,PATELENG,Construction & Engineering
+Patel Integrated Logistics Ltd,PATINTLOG,Logistics
+Patels Airtemp (India) Ltd,PATELSAI,Industrial Machinery
+Pervasive Commodities Ltd,PERVASIVE,Electrical Components & Equipments
+Pitti Engineering Limited,PITTIENG,Industrial Machinery
+Polycab India Ltd,POLYCAB,Electrical Components & Equipments
+Power Mech Projects Ltd,POWERMECH,Construction & Engineering
+Praj Industries Ltd,PRAJIND,Construction & Engineering
+Prajay Engineers Syndicate Ltd,PRAENG,Construction & Engineering
+Prakash Pipes Ltd,PPL,Building Products - Pipes
+Prakash Steelage Ltd,PRAKASHSTL,Building Products - Pipes
+Precision Wires India Ltd,PRECWIRE,Electrical Components & Equipments
+Premier Capital Services Ltd,PREMCAP,Business Support Services
+Premier Limited,PREMIER,Industrial Machinery
+Prime Fresh Ltd,PRIMEFRESH,Business Support Services
+Prince Pipes and Fittings Ltd,PRINCEPIPE,Building Products - Pipes
+Punj Lloyd Ltd,PUNJLLOYD,Construction & Engineering
+Purohit Construction Ltd,PUROHITCON,Construction & Engineering
+Quadpro Ites Ltd,QUADPRO,Business Support Services
+Quantum Digital Vision (India) Ltd,QUANTDIA,Construction & Engineering
+Quess Corp Ltd,QUESS,Employment Services
+R J Shah and Company Ltd,RJSHAH,Construction & Engineering
+RITES Ltd,RITES,Business Support Services
+RKEC Projects Ltd,RKEC,Construction & Engineering
+RM Drip & Sprinklers Systems Ltd,RMDRIP,Agricultural & Farm Machinery
+RMC Switchgears Ltd,RMC,Electrical Components & Equipments
+RPP Infra Projects Ltd,RPPINFRA,Construction & Engineering
+RR Metalmakers India Ltd,RRMETAL,Commodities Trading
+Rachana Infrastructure Ltd,RILINFRA,Construction & Engineering
+Rajasthan Petro Synthetics Ltd,RAJSPTR,Logistics
+Rajeswari Infrastructure Ltd,RAJINFRA,Construction & Engineering
+Rajoo Engineers Ltd,RAJOOENG,Industrial Machinery
+Ram Ratna Wires Ltd,RAMRAT,Electrical Components & Equipments
+Rama Steel Tubes Ltd,RAMASTEEL,Building Products - Pipes
+Ramasigns Industries Ltd,RAMASIGNS,Stationery
+Ramgopal Polytex Ltd,RAMGOPOLY,Commodities Trading
+Ramkrishna Forgings Ltd,RKFORGE,Rail
+Ramky Infrastructure Ltd,RAMKY,Construction & Engineering
+Ranjeet Mechatronics Ltd,RANJEET,Business Support Services
+Rapicut Carbides Ltd,RAPICUT,Industrial Machinery
+Ratnamani Metals and Tubes Ltd,RATNAMANI,Building Products - Pipes
+Ravindra Energy Ltd,RELTD,Electrical Components & Equipments
+Regency Ceramics Ltd,REGENCERAM,Building Products - Ceramics
+Reliance Naval and Engineering Limited,RNAVAL,Shipbuilding
+Relicab Cable Manufacturing Ltd,RELICAB,Cables
+Repro India Ltd,REPRO,Stationery
+Responsive Industries Ltd,RESPONIND,Building Products - Granite
+Restile Ceramics Ltd,RESTILE,Building Products - Ceramics
+Revathi Equipment Ltd,REVATHI,Heavy Machinery
+Rex Pipes and Cables Industries Ltd,REXPIPES,Building Products - Pipes
+Rexnord Electronics and Controls Ltd,REXNORD,Industrial Machinery
+Richa Industries Ltd,RICHAIND,Construction & Engineering
+Riddhi Siddhi Gluco Biols Ltd,RIDDHI,Commodities Trading
+Ridings Consulting Engineers India Ltd,RIDINGS,Business Support Services
+Ritco Logistics Ltd,RITCO,Logistics
+Rithwik Facility Management Services Ltd,RITHWIKFMS,Business Support Services
+Rolcon Engineering Company Ltd,ROLCOEN,Industrial Machinery
+Rolex Rings Ltd,ROLEXRINGS,Industrial Machinery
+Rose Merc Ltd,ROSEMER,Commodities Trading
+Roto Pumps Ltd,ROTO,Industrial Machinery
+Rts Power Corporation Ltd,RTSPOWR,Heavy Electrical Equipments
+Rungta Irrigation Ltd,RUNGTAIR,Building Products - Pipes
+Rushil Decor Ltd,RUSHIL,Building Products - Laminates
+S & S Power Switchgear Ltd,S&SPOWER,Electrical Components & Equipments
+S G N Telecoms Ltd,SGNTE,Electrical Components & Equipments
+S S Infrastructure Development Consultants Ltd,SSINFRA,Construction & Engineering
+SAB Industries Ltd,SAB,Conglomerates
+SEPC Limited,SEPC,Construction & Engineering
+SIS LIMITED,SIS,Business Support Services
+SKF India Limited,SKFINDIA,Industrial Machinery
+SKP Bearing Industries Ltd,SKP,Industrial Machinery
+SML Isuzu Limited,SMLISUZU,Trucks & Buses
+SNL Bearings Ltd,SNL,Industrial Machinery
+SORIL Infra Resources Limited,SORILINFRA,Business Support Services
+SPML Infra Limited,SPMLINFRA,Construction & Engineering
+SVA India Ltd,SVAINDIA,Commodities Trading
+Sadbhav Engineering Ltd,SADBHAV,Construction & Engineering
+Sadbhav Infrastructure Projects Ltd,SADBHIN,Roads
+Sakuma Exports Ltd,SAKUMA,Commodities Trading
+Salasar Exteriors and Contour Ltd,SECL,Construction & Engineering
+Salzer Electronics Ltd,SALZERELEC,Electrical Components & Equipments
+Sanblue Corporation Ltd,SANBLUE,Commodities Trading
+Sanco Industries Ltd,SANCO,Building Products - Pipes
+Sanco Trans Ltd,SANCTRN,Logistics
+Sanghvi Movers Ltd,SANGHVIMOV,Business Support Services
+Sanmitra Commercial Ltd,ZSANMCOM,Commodities Trading
+Sarthak Industries Ltd,SARTHAKIND,Commodities Trading
+Sarthak Metals Ltd,SMLT,Electrical Components & Equipments
+Sarvamangal Marcantile Company Ltd,ZSARVAMA,Commodities Trading
+Sat Industries Ltd,SATINDLTD,Commodities Trading
+Scan Projects Ltd,SCANPRO,Industrial Machinery
+Schneider Electric Infrastructure Ltd,SCHNEIDER,Heavy Electrical Equipments
+Scoobee Day Garments (India) Ltd,SCOOBEEDAY,Conglomerates
+Secur Credentials Ltd,SECURCRED,Employment Services
+Sejal Glass Ltd,SEJALLTD,Building Products - Glass
+Servotech Power Systems Ltd,SERVOTECH,Electrical Components & Equipments
+Setubandhan Infrastructure Limited,SETUINFRA,Construction & Engineering
+Shaily Engineering Plastics Ltd,SHAILY,Industrial Machinery
+Shakti Pumps India Ltd,SHAKTIPUMP,Industrial Machinery
+Shalimar Wires Industries Ltd,SHALIWIR,Electrical Components & Equipments
+Shankar Lal Rampal Dye-Chem Ltd,SRD,Commodities Trading
+Shankara Building Products Ltd,SHANKARA,Building Products - Pipes
+Shashijit Infraprojects Ltd,SHASHIJIT,Construction & Engineering
+Shelter Infra Projects Ltd,SIPL,Construction & Engineering
+Shilp Gravures Ltd,SHILGRAVQ,Industrial Machinery
+Shiv Aum Steels Ltd,SHIVAUM,Commodities Trading
+Shiva Granito Export Ltd,SHIVAEXPO,Building Products - Granite
+Shivagrico Implements Ltd,SHIVAGR,Agricultural & Farm Machinery
+Shree Global Tradefin Ltd,SHRGLTR,Commodities Trading
+Shree Vasu Logistics Ltd,SVLL,Logistics
+Shreeji Translogistics Ltd,STL,Logistics
+Shrem Invit,SHREMINVIT,Roads
+Shreyas Shipping & Logistics Limited,SHREYAS,Logistics
+Shri Ram Switchgears Ltd,SRIRAM,Electrical Components & Equipments
+Shristi Infrastructure Development Corporation Ltd,SHRISTI,Construction & Engineering
+Sicagen India Ltd,SICAGEN,Building Products - Pipes
+Sical Logistics Limited,SICAL,Logistics
+Siddhika Coatings Ltd,SIDDHIKA,Construction & Engineering
+Siemens Ltd,SIEMENS,Conglomerates
+Sika Interplant Systems Ltd,SIKA,Aerospace & Defense Equipments
+Silveroak Commercials Ltd,SILVERO,Construction & Engineering
+Simmonds Marshall Ltd,SIMMOND,Industrial Machinery
+Simplex Infrastructures Limited,SIMPLEXINF,Construction & Engineering
+Sindu Valley Technologies Ltd,SINDUVA,Business Support Services
+Sintercom India Ltd,SINTERCOM,Industrial Machinery
+SKIL Infrastructure Limited,SKIL,Construction & Engineering
+Snowman Logistics Ltd,SNOWMAN,Logistics
+Solex Energy Ltd,SOLEX,Industrial Machinery
+Solitaire Machine Tools Ltd,SOLIMAC,Industrial Machinery
+Somany Ceramics Limited,SOMANYCERA,Building Products - Ceramics
+Somi Conveyor Beltings Ltd,SOMICONVEY,Industrial Machinery
+Soni Soya Products Ltd,SONISOYA,Commodities Trading
+Sonu Infratech Ltd,SONUINFRA,Construction & Engineering
+Sparc Electrex Ltd,SPAR,Electrical Components & Equipments
+Spectrum Electrical Industries Ltd,SPECTRUM,Electrical Components & Equipments
+Spicejet Ltd,SPICEJET,Airlines
+Sprayking Agro Equipment Ltd,SPRAYKING,Agricultural & Farm Machinery
+Sree Jayalakshmi Autospin Ltd,SREEJAYA,Commodities Trading
+Sri KPR Industries Ltd,SRIKPRIND,Building Products - Pipes
+Star Delta Transformers Ltd,STARDELTA,Heavy Electrical Equipments
+Starlit Power Systems Ltd,STARLIT,Batteries
+Starlite Components Ltd,STARLITE,Electrical Components & Equipments
+Starlog Enterprises Ltd,STARLOG,Construction & Engineering
+State Trading Corporation of India Ltd,STCINDIA,Commodities Trading
+Sterling Tools Ltd,STERTOOLS,Industrial Machinery
+Sterling and Wilson Renewable Energy Limited,SWSOLAR,Renewable Energy Equipment & Services
+Stovec Industries Ltd,STOVACQ,Industrial Machinery
+Sturdy Industries Ltd,STURDY,Agricultural & Farm Machinery
+Stylam Industries Ltd,STYLAMIND,Construction & Engineering
+Suncare Traders Ltd,SCTL,Commodities Trading
+Sunedison Infrastructure Ltd,SUNEDISON,Renewable Energy Equipment & Services
+Super Sales India Ltd,SUPER,Conglomerates
+Supreme Infrastructure India Ltd,SUPREMEINF,Construction & Engineering
+SURANA SOLAR LIMITED,SURANASOL,Renewable Energy Equipment & Services
+Surana Telecom and Power Limited,SURANAT&P,Cables
+Surani Steel Tubes Ltd,SURANI,Building Products - Pipes
+Suvidha Infraestate Corporation Ltd,SICL,Construction & Engineering
+Suyog Telematics Ltd,SUYOG,Construction & Engineering
+Suzlon Energy Ltd,SUZLON,Renewable Energy Equipment & Services
+Svaraj Trading and Agencies Ltd,ZSVARAJT,Commodities Trading
+Swaraj Engines Ltd,SWARAJENG,Tractors
+Swelect Energy Systems Limited,SWELECTES,Electrical Components & Equipments
+Switching Technologies Gunther Ltd,SWITCHTE,Electrical Components & Equipments
+Synergy Green Industries Ltd,SGIL,Industrial Machinery
+T Spiritual World Ltd,TSPIRITUAL,Commodities Trading
+TAAL Enterprises Ltd,TAALENT,Conglomerates
+TCI Express Ltd,TCIEXP,Logistics
+TCI Industries Ltd,TCIIND,Commodities Trading
+TD Power Systems Ltd,TDPOWERSYS,Heavy Electrical Equipments
+TIL Ltd,TIL,Heavy Machinery
+TRF Ltd,TRF,Industrial Machinery
+Tamboli Capital Ltd,TAMBOLI,Industrial Machinery
+Tamil Nadu Steel Tubes Ltd,TNSTLTU,Building Products - Pipes
+Taneja Aerospace and Aviation Ltd,TANAA,Aerospace & Defense Equipments
+Tantia Constructions Ltd,TANTIACONS,Construction & Engineering
+Taparia Tools Ltd,TAPARIA,Industrial Machinery
+Tara Chand Logistic Solutions Ltd,TARACHAND,Business Support Services
+Tarapur Transformers Ltd,TARAPUR,Heavy Electrical Equipments
+Tarmat Limited,TARMAT,Construction & Engineering
+Taylormade Renewables Ltd,TRL,Renewable Energy Equipment & Services
+TeamLease Services Ltd,TEAMLEASE,Employment Services
+Techno Electric & Engineering Company Ltd,TECHNOE,Construction & Engineering
+Technocraft Industries (India) Ltd,TIIL,Industrial Machinery
+Technofab Engineering Ltd,TECHNOFAB,Construction & Engineering
+Technojet Consultants Ltd,TECHCON,Business Support Services
+Tega Industries Ltd,TEGA,Industrial Machinery
+Texel Industries Ltd,TEXELIN,Agricultural & Farm Machinery
+Texmaco Rail & Engineering Ltd,TEXRAIL,Rail
+The Indian Link Chain Manufactrers Ltd,INLCM,Commodities Trading
+Thejo Engineering Ltd,THEJO,Construction & Engineering
+Thermax Limited,THERMAX,Industrial Machinery
+Thirdwave Financial Intermediaries Ltd,THIRDFIN,Commodities Trading
+Tiger Logistics (India) Ltd,TIGERLOGS,Logistics
+Tijaria Polypipes Ltd,TIJARIA,Building Products - Pipes
+Timescan Logistics India Ltd,TIMESCAN,Logistics
+Timken India Ltd,TIMKEN,Industrial Machinery
+Titagarh Wagons Ltd,TWL,Rail
+Tivoli Construction Ltd,TVOLCON,Construction & Engineering
+Total Transport Systems Ltd,TOTAL,Logistics
+Trans Freight Containers Ltd,TRANSFRE,Industrial Machinery
+Transformers and Rectifiers (India) Ltd,TRIL,Heavy Electrical Equipments
+Transport Corporation of India Ltd,TCI,Logistics
+Transwind Infrastructures Ltd,TRANSWIND,Construction & Engineering
+Triveni Enterprises Ltd,TRIVENIENT,Commodities Trading
+Triveni Glass Ltd,TRIVENIGQ,Building Products - Glass
+Triveni Turbine Ltd,TRITURBINE,Heavy Electrical Equipments
+Trivikrama Industries Ltd,TRIVIKRAMA,Commodities Trading
+Unitech International Ltd,UNITINT,Commodities Trading
+Unity Infraprojects Ltd,UNITY,Construction & Engineering
+Univastu India Ltd,UNIVASTU,Construction & Engineering
+Universal Cables Ltd,UNIVCABLES,Cables
+Universal Office Automation Ltd,UNIOFFICE,Industrial Machinery
+Uravi T & Wedge Lamps Ltd,URAVI,Electrical Components & Equipments
+Urja Global Ltd,URJA,Renewable Energy Equipment & Services
+V Guard Industries Ltd,VGUARD,Electrical Components & Equipments
+V-Marc India Ltd,VMARCIND,Electrical Components & Equipments
+VETO Switch Gears And Cables Ltd,VETO,Electrical Components & Equipments
+VMS Industries Ltd,VMS,Shipbuilding
+VRL Logistics Ltd,VRLLOG,Logistics
+VSF Projects Ltd,VSFPROJ,Construction & Engineering
+VST Tillers Tractors Ltd,VSTTILLERS,Tractors
+Vaarad Ventures Ltd,VAARAD,Conglomerates
+Vallabh Steels Ltd,VALLABHSQ,Building Products - Pipes
+Vardhman Concrete Ltd,VARDHMAN,Construction & Engineering
+Varun Mercantile Ltd,VARUNME,Commodities Trading
+Vascon Engineers Ltd,VASCONEQ,Construction & Engineering
+Veljan Denison Ltd,VELJAN,Industrial Machinery
+Veritas (India) Ltd,VERITAS,Commodities Trading
+Vesuvius India Ltd,VESUVIUS,Industrial Machinery
+Viaan Industries Ltd,VIAANINDUS,Commodities Trading
+Vishal Bearings Ltd,VISHALBL,Industrial Machinery
+Vivid Mercantile Ltd,VIVIDM,Commodities Trading
+Voltamp Transformers Ltd,VOLTAMP,Heavy Electrical Equipments
+W H Brady & Company Ltd,WHBRADY,Heavy Machinery
+W S Industries (India) Ltd,WSI,Industrial Machinery
+WPIL Ltd,WPIL,Industrial Machinery
+Walchandnagar Industries Ltd,WALCHANNAG,Industrial Machinery
+Websol Energy System Limited,WEBELSOLAR,Renewable Energy Equipment & Services
+Welspun Enterprises Limited,WELENT,Construction & Engineering
+Wendt (India) Limited,WENDT,Industrial Machinery
+Windsor Machines Ltd,WINDMACHIN,Industrial Machinery
+Wires and Fabriks (SA) Ltd,WIREFABR,Industrial Machinery
+Worldwide Aluminium Ltd,WWALUM,Commodities Trading
+Yaari Digital Integrated Services Limited,YAARI,Business Support Services
+Yamuna Syndicate Ltd,YSL,Commodities Trading
+Yash Chemex Ltd,YASHCHEM,Commodities Trading
+Yogi Infra Projects Ltd,YOGISUNG,Construction & Engineering
+Yuken India Ltd,YUKEN,Industrial Machinery
+Zenith Steel Pipes & Industries Limited,ZENITHSTL,Building Products - Pipes
+Zodiac Energy Ltd,ZODIAC,Renewable Energy Equipment & Services
+ZUARI INDUSTRIES LIMITED,ZUARIIND,Conglomerates
+shipping corporation of India Ltd,SCI,Logistics

@@ -35,7 +35,7 @@ except FileNotFoundError as error:
 ### Creating new temp CSV file with new symbol change and replacing the existing CSV file
 for csvFile in files:
     csvFile = pathForTickerTapeSector + csvFile
-    with open(csvFile, 'r') as fread, open('tempcsv.csv', 'w') as ftemp:
+    with open(csvFile, 'r', encoding='cp1252') as fread, open('tempcsv.csv', 'w') as ftemp:
         csvReader = csv.DictReader(fread)
         csvWriter = csv.DictWriter(ftemp,
                         delimiter=",",
@@ -43,8 +43,8 @@ for csvFile in files:
                         fieldnames=['Name', 'Ticker', 'Sub-Sector'])
         csvWriter.writeheader()
         for csvRow in csvReader:
-            if csvRow['Ticker'] in symbolChange_dict:
-                if csvRow['Ticker'].strip() != symbolChange_dict[csvRow['Ticker'].strip()]:
+            if csvRow['Ticker'] in symbolChange_dict \
+                and csvRow['Ticker'].strip() != symbolChange_dict[csvRow['Ticker'].strip()]:
                     print(csvFile, csvRow['Ticker'].strip(), symbolChange_dict[csvRow['Ticker'].strip()], sep="---")
                     row = {'Name': csvRow['Name'],
                             'Ticker': symbolChange_dict[csvRow['Ticker'].strip()],
@@ -73,10 +73,11 @@ try:
 except FileNotFoundError as error:
     print("CSV file not found error: ", error)
 
+
 ### Creating new temp CSV file with new stock name change and replacing the existing CSV file
 for csvFile in files:
     csvFile = pathForTickerTapeSector + csvFile
-    with open(csvFile, 'r') as fread, open('tempcsv.csv', 'w') as ftemp:
+    with open(csvFile, 'r', encoding='cp1252') as fread, open('tempcsv.csv', 'w') as ftemp:
         csvReader = csv.DictReader(fread)
         csvWriter = csv.DictWriter(ftemp,
                         delimiter=",",
@@ -84,8 +85,8 @@ for csvFile in files:
                         fieldnames=['Name', 'Ticker', 'Sub-Sector'])
         csvWriter.writeheader()
         for csvRow in csvReader:
-            if csvRow['Ticker'] in nameChange_dict:
-                if csvRow['Name'].strip().lower() != nameChange_dict[csvRow['Ticker'].strip()].lower():
+            if csvRow['Ticker'] in nameChange_dict \
+                and csvRow['Name'].strip().lower() != nameChange_dict[csvRow['Ticker'].strip()].lower():
                     print(csvFile, csvRow['Ticker'], csvRow['Name'].strip(), nameChange_dict[csvRow['Ticker'].strip()], sep="---")
                     row = {'Name': nameChange_dict[csvRow['Ticker'].strip()],
                             'Ticker': csvRow['Ticker'],

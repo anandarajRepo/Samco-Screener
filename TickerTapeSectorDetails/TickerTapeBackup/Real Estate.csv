@@ -1,61 +1,169 @@
-Name,Ticker,Sub-Sector
-DLF Ltd,DLF,Real Estate
-Embassy Office Parks REIT,EMBASSY,Real Estate
-Godrej Properties Ltd,GODREJPROP,Real Estate
-Oberoi Realty Ltd,OBEROIRLTY,Real Estate
-Phoenix Mills Ltd,PHOENIXLTD,Real Estate
-Prestige Estates Projects Ltd,PRESTIGE,Real Estate
-Nesco Ltd,NESCO,Real Estate
-Brigade Enterprises Ltd,BRIGADE,Real Estate
-Sunteck Realty Ltd,SUNTECK,Real Estate
-Indiabulls Real Estate Ltd,IBREALEST,Real Estate
-Sobha Ltd,SOBHA,Real Estate
-Omaxe Ltd,OMAXE,Real Estate
-Kolte-Patil Developers Ltd,KOLTEPATIL,Real Estate
-Mahindra Lifespace Developers Ltd,MAHLIFE,Real Estate
-Puravankara Ltd,PURVA,Real Estate
-Anant Raj Ltd,ANANTRAJ,Real Estate
-Ashiana Housing Ltd,ASHIANA,Real Estate
-Unitech Ltd,UNITECH,Real Estate
-Texmaco Infrastructure & Holdings Ltd,TEXINFRA,Real Estate
-Indiabulls Integrated Services Ltd,IBULISL,Real Estate
-Karda Constructions Ltd,KARDA,Real Estate
-Arvind Smartspaces Ltd,ARVSMART,Real Estate
-Ajmera Realty & Infra India Ltd,AJMERA,Real Estate
-Oswal Greentech Ltd,BINDALAGRO,Real Estate
-Marathon Nextgen Realty Ltd,MARATHON,Real Estate
-Prozone Intu Properties Ltd,PROZONINTU,Real Estate
-D B Realty Ltd,DBREALTY,Real Estate
-Vipul Ltd,VIPULLTD,Real Estate
-Nila Infrastructures Ltd,NILAINFRA,Real Estate
-GeeCee Ventures Ltd,GEECEE,Real Estate
-Housing Development and Infrastructure Ltd,HDIL,Real Estate
-Parsvnath Developers Ltd,PARSVNATH,Real Estate
-Oswal Agro Mills Ltd,OSWALAGRO,Real Estate
-Peninsula Land Ltd,PENINLAND,Real Estate
-Ganesh Housing Corp Ltd,GANESHHOUC,Real Estate
-Future Market Networks Ltd,FMNL,Real Estate
-TCI Developers Ltd,TCIDEVELOP,Real Estate
-Poddar Housing and Development Ltd,PODDARHOUS,Real Estate
-Emami Realty Ltd,EMAMIREAL,Real Estate
-Coral India Finance and Housing Ltd,CORALFINAC,Real Estate
-Arihant Superstructures Ltd,ARIHANTSUP,Real Estate
-AMJ Land Holdings Ltd,AMJLAND,Real Estate
-Hubtown Ltd,HUBTOWN,Real Estate
-Motor and General Finance Ltd,MOTOGENFIN,Real Estate
-Bhagyanagar Properties Ltd,BHAGYAPROP,Real Estate
-Rudrabhishek Enterprises Ltd,REPL,Real Estate
-Cineline India Ltd,CINELINE,Real Estate
-Ansal Properties and Infrastructure Ltd,ANSALAPI,Real Estate
-Nila Spaces Ltd,NILASPACES,Real Estate
-Sumit Woods Ltd,SUMIT,Real Estate
-Shradha Infraprojects Ltd,SHRADHA,Real Estate
-Ansal Housing Ltd,ANSALHSG,Real Estate
-Landmark Property Development Co Ltd,LPDC,Real Estate
+﻿Name,Ticker,Sub-Sector
 3P Land Holdings Ltd,3PLAND,Real Estate
+AGI Infra Ltd,AGIIL,Real Estate
+AMJ Land Holdings Ltd,AMJLAND,Real Estate
+Aarcon Facilities Ltd,RBGUPTA,Real Estate
+Ajmera Realty & Infra India Ltd,AJMERA,Real Estate
+Alpine Housing Development Corporation Limited,ALPINEHOU,Real Estate
+Anant Raj Ltd,ANANTRAJ,Real Estate
+Anna Infrastructures Ltd,ANNAINFRA,Real Estate
+Ansal Buildwell Ltd,ANSALBU,Real Estate
+Ansal Housing Ltd,ANSALHSG,Real Estate
+Ansal Properties and Infrastructure Ltd,ANSALAPI,Real Estate
+Antariksh Industries Ltd,ANTARIKSH,Real Estate
 Arihant Foundations & Housing Ltd,ARIHANT,Real Estate
-Country Condo's Ltd,COUNCODOS,Real Estate
+Arihant Superstructures Ltd,ARIHANTSUP,Real Estate
+Art Nirman Ltd,ARTNIRMAN,Real Estate
+Arvind Smartspaces Ltd,ARVSMART,Real Estate
+Ashiana Housing Ltd,ASHIANA,Real Estate
+Asia Pack Ltd,ASIAPAK,Real Estate
+Athena Constructions Ltd,ATHCON,Real Estate
+BDR Buildcon Ltd,BDR,Real Estate
 BSEL Infrastructure Realty Ltd,BSELINFRA,Real Estate
-Techindia Nirman Ltd,TECHIN,Real Estate
-Pushpanjali Realms and Infratech Ltd,PUSHPREALM,Real Estate
+Bhagyanagar Properties Ltd,BHAGYAPROP,Real Estate
+Bhanderi Infracon Ltd,BHANDERI,Real Estate
+Binny Ltd,BINNY,Real Estate
+Brigade Enterprises Ltd,BRIGADE,Real Estate
+Brookfield India Real Estate Trust REIT,BIRET,Real Estate
+Cineline India Ltd,CINELINE,Real Estate
+Coral India Finance and Housing Ltd,CORALFINAC,Real Estate
+Country Condo's Ltd,COUNCODOS,Real Estate
+Croissance Ltd,CROISSANCE,Real Estate
+D B Realty Ltd,DBREALTY,Real Estate
+DLF Ltd,DLF,Real Estate
+Decorous Investment and Trading Co Ltd,DITCO,Real Estate
+Devoted Construction Ltd,DCL,Real Estate
+Dhanuka Realty Ltd,DRL,Real Estate
+ETT Ltd,ETT,Real Estate
+East Buildtech Ltd,EASTBUILD,Real Estate
+Eldeco Housing and Industries Ltd,ELDEHSG,Real Estate
+Elpro International Ltd,ELPROINTL,Real Estate
+Emami Realty Ltd,EMAMIREAL,Real Estate
+Embassy Office Parks REIT,EMBASSY,Real Estate
+Epsom Properties Ltd,EPSOMPRO,Real Estate
+Fundviser Capital (India) Ltd,FUNDVISER,Real Estate
+Future Market Networks Ltd,FMNL,Real Estate
+Ganesh Housing Corp Ltd,GANESHHOUC,Real Estate
+GeeCee Ventures Ltd,GEECEE,Real Estate
+Genus Prime Infra Ltd,GENUSPRIME,Real Estate
+Godrej Properties Ltd,GODREJPROP,Real Estate
+Grovy India Ltd,GROVY,Real Estate
+Gujarat Credit Corporation Ltd,GUJCRED,Real Estate
+HB Estate Developers Ltd,HBESD,Real Estate
+HCKK Ventures Ltd,HCKKVENTURE,Real Estate
+Hemisphere Properties India Ltd,HEMIPROP,Real Estate
+Housing Development and Infrastructure Ltd,HDIL,Real Estate
+Hubtown Ltd,HUBTOWN,Real Estate
+IITL Projects Ltd,IITLPROJ,Real Estate
+Indiabulls Real Estate Ltd,IBREALEST,Real Estate
 International Constructions Ltd,SUBCAPCITY,Real Estate
+Jet infraventure Ltd,JETINFRA,Real Estate
+Joy Realty Ltd,JOYREALTY,Real Estate
+KBC Global Ltd,KBCGLOBAL,Real Estate
+KMF Builders and Developers Ltd,KMFBLDR,Real Estate
+Kings Infra Ventures Ltd,KINGSINFR,Real Estate
+Kolte-Patil Developers Ltd,KOLTEPATIL,Real Estate
+Krishna Ventures Ltd,KRISHNA,Real Estate
+Ladam Affordable Housing Ltd,LAHL,Real Estate
+Lancor Holdings Ltd,LANCORHOL,Real Estate
+Landmark Property Development Co Ltd,LPDC,Real Estate
+Luharuka Media & Infra Ltd,LUHARUKA,Real Estate
+MPDLLtd,MONNETPRO,Real Estate
+Macrotech Developers Ltd,LODHA,Real Estate
+Mahindra Lifespace Developers Ltd,MAHLIFE,Real Estate
+Manas Properties Ltd,MANAS,Real Estate
+Manjeera Constructions Ltd,MANJEERA,Real Estate
+Marathon Nextgen Realty Ltd,MARATHON,Real Estate
+Martin Burn Ltd,MARBU,Real Estate
+Max Heights Infrastructure Ltd,MAXHEIGHTS,Real Estate
+Mercantile Ventures Ltd,MERCANTILE,Real Estate
+Mindspace Business Parks REIT,MINDSPACE,Real Estate
+Modipon Ltd,MODIPON,Real Estate
+Motor & General Finance Ltd,MOTOGENFIN,Real Estate
+National Standard (India) Ltd,NATIONSTD,Real Estate
+Neo Infracon Ltd,NEOINFRA,Real Estate
+Nesco Ltd,NESCO,Real Estate
+Nila Infrastructures Ltd,NILAINFRA,Real Estate
+Nila Spaces Ltd,NILASPACES,Real Estate
+Nimbus Projects Ltd,NIMBSPROJ,Real Estate
+Nirlon Ltd,NIRLON,Real Estate
+Nyssa Corporation Ltd,NYSSACORP,Real Estate
+Oberoi Realty Ltd,OBEROIRLTY,Real Estate
+Omaxe Ltd,OMAXE,Real Estate
+Oswal Agro Mills Ltd,OSWALAGRO,Real Estate
+Oswal Greentech Ltd,BINDALAGRO,Real Estate
+P.E. Analytics Ltd,PROPEQUITY,Real Estate
+PVP Ventures Ltd,PVP,Real Estate
+Pansari Developers Ltd,PANSARI,Real Estate
+Parshwanath Corp Ltd,PARSHWANA,Real Estate
+Parsvnath Developers Ltd,PARSVNATH,Real Estate
+Patidar Buildcon Ltd,PATIDAR,Real Estate
+Peninsula Land Ltd,PENINLAND,Real Estate
+Phoenix Mills Ltd,PHOENIXLTD,Real Estate
+Poddar Housing and Development Ltd,PODDARHOUS,Real Estate
+Prerna Infrabuild Ltd,PRERINFRA,Real Estate
+Prestige Estates Projects Ltd,PRESTIGE,Real Estate
+Prime Industries Ltd,PRIMIND,Real Estate
+Prime Property Development Corp Ltd,PRIMEPRO,Real Estate
+Prozone Intu Properties Ltd,PROZONINTU,Real Estate
+Puravankara Ltd,PURVA,Real Estate
+Pushpanjali Realms and Infratech Ltd,PUSHPREALM,Real Estate
+RAP Media Ltd,RAP,Real Estate
+RDB Realty & Infrastructure Ltd,RDBRIL,Real Estate
+RTCL Ltd,RAGHUTOB,Real Estate
+Raghunath International Ltd,RAGHUNAT,Real Estate
+Rainbow Foundations Ltd,RAINBOWF,Real Estate
+Raja Bahadur International Ltd,RAJABAH,Real Estate
+Rander Corp Ltd,RANDER,Real Estate
+Ratnabhumi Developers Ltd,RATNABHUMI,Real Estate
+Ravinder Heights Ltd,RVHL,Real Estate
+Real Eco Energy Ltd,REALECO,Real Estate
+Ridhi Synthetics Ltd,RIDHISYN,Real Estate
+Ritesh Properties and Industries Ltd,RPIL,Real Estate
+Rodium Realty Ltd,RODIUM,Real Estate
+Rudrabhishek Enterprises Ltd,REPL,Real Estate
+S V Global Mill Ltd,SVGLOBAL,Real Estate
+SSPDL Ltd,SSPDL,Real Estate
+SVP Housing Ltd,SVPHOUSING,Real Estate
+Sanathnagar Enterprises Ltd,SEL,Real Estate
+Sanmit Infra Ltd,SANINFRA,Real Estate
+Satra Properties (India) Ltd,SATRAPROP,Real Estate
+Shaival Reality Ltd,SHAIVAL,Real Estate
+Sheraton Properties and Finance Ltd,ZSHERAPR,Real Estate
+Shervani Industrial Syndicate Ltd,SHERVANI,Real Estate
+Shradha Infraprojects Ltd,SHRADHA,Real Estate
+Shree Krishna Infrastructure Ltd,SKIFL,Real Estate
+Shree Precoated Steels Ltd,SPSL,Real Estate
+Shreeshay Engineers Ltd,SHREESHAY,Real Estate
+Shri Krishna Devcon Ltd,SHRIKRISH,Real Estate
+Shricon Industries Ltd,SHRICON,Real Estate
+Shriram Properties Ltd,SHRIRAMPPS,Real Estate
+Sikozy Realtors Ltd,SIKOZY,Real Estate
+Simplex Realty Ltd,SIMPLXREA,Real Estate
+Skyline Millars Ltd,SKYLMILAR,Real Estate
+Sobha Ltd,SOBHA,Real Estate
+Square Four Projects India Ltd,SFPIL,Real Estate
+Sterling Greenwoods Ltd,STRGRENWO,Real Estate
+Sumit Woods Ltd,SUMIT,Real Estate
+Sunteck Realty Ltd,SUNTECK,Real Estate
+Supreme Holdings & Hospitality (India) Ltd,SUPREME,Real Estate
+Surya India Ltd,SURYAINDIA,Real Estate
+Swagtam Trading and Services Ltd,SWAGTAM,Real Estate
+Swasti Vinayaka Art and Heritage Corporation Ltd,SVARTCORP,Real Estate
+TCI Developers Ltd,TCIDEVELOP,Real Estate
+Tarc Ltd,TARC,Real Estate
+Techindia Nirman Ltd,TECHIN,Real Estate
+Terraform Magnum Ltd,TERRAFORM,Real Estate
+Terraform Realstate Ltd,TERRAREAL,Real Estate
+Texmaco Infrastructure & Holdings Ltd,TEXINFRA,Real Estate
+Thakkers Developers Ltd,THAKDEV,Real Estate
+The Victoria Mills Ltd,VICTMILL,Real Estate
+Tirupati Sarjan Ltd,TIRSARJ,Real Estate
+Tradewell Holdings Ltd,TRADEWELL,Real Estate
+Trans Financial Resources Ltd,TRANSFIN,Real Estate
+Trescon Ltd,TRESCON,Real Estate
+Tulive Developers Ltd,TULIVE,Real Estate
+Unitech Ltd,UNITECH,Real Estate
+Vaghani Techno Build Ltd,VAGHANI,Real Estate
+Vipul Ltd,VIPULLTD,Real Estate
+Zodiac Ventures Ltd,ZODIACVEN,Real Estate

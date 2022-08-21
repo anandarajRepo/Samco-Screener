@@ -1,27 +1,139 @@
 Name,Ticker,Sub-Sector
-Axis Gold ETF,AXISGOLD,Gold
-Edelweiss Bharat Bond ETFApril 2023 ETF,EBBETF0423,Debt
-Edelweiss Bharat Bond ETFApril 2030 ETF,EBBETF0430,Debt
-Bharat 22 ETF,ICICIB22,Equity
-HDFC Gold ETF,HDFCMFGETF,Gold
-Kotak Gold ETF,KOTAKGOLD,Gold
-UTI Gold ETF,GOLDSHARE,Gold
-HDFC Nifty 50 ETF,HDFCNIFETF,Equity
-UTI Nifty Next 50 ETF,UTINEXT50,Equity
-Mirae Asset Nifty 50 ETF,MAN50ETF,Equity
-Quantum Gold ETF,QGOLDHALF,Gold
-IDBI Gold ETF,IDBIGOLD,Gold
-HDFC Sensex 30 ETF,HDFCSENETF,Equity
-ICICI Prudential Nifty Next 50 ETF,ICICINXT50,Equity
+Aditya Birla Sun Life Gold ETF - Growth,BSLGOLDETF,Gold
+Aditya Birla Sun Life Nifty ETF - Growth,BSLNIFTY,Equity
+Aditya BSL Sensex 30 ETF,BSLSENETFG,Equity
+Aditya Birla Sun Life NIFTY Healthcare ETF,HEALTHY,Equity
 Aditya Birla Sun Life Nifty Bank ETF,ABSLBANETF,Equity
-SBI 10 year Gilt ETF,SETF10GILT,Debt
-SBI Nifty 200 Quality 30 ETF,SBIETFQLTY,Equity
-Indiabulls Nifty 50 ETF,IBMFNIFTY,Equity
-Nippon India ETF Nifty IT,ITBEES,Equity
-UTI Sensex Next 50 ETF,UTISXN50,Equity
-IDFC Nifty 50 ETF,IDFNIFTYET,Equity
-ICICI Prudential BSE 500 ETF,ICICI500,Equity
+Aditya Birla Sun Life Nifty IT ETF,TECH,Equity
 Aditya Birla Sun Life Nifty Next 50 ETF,ABSLNN50ET,Equity
-Tata Nifty 50 ETF,NETF,Equity
-Tata Nifty Private Bank ETF,NPBET,Equity
+Aditya Birla Sun Life Silver ETF,SILVER,Equity
+AXIS MUTUAL FUND - Axis Nifty AAA Bond Plus SDL Apr 2026 50-50 ETF,AXISBPSETF,Debt
+AXIS MUTUAL FUND - Axis NIFTY Bank ETF,AXISBNKETF,Equity
+AXIS MUTUAL FUND - Axis NIFTY India Consumption ETF,AXISCETF,Equity
+Axis Gold ETF,AXISGOLD,Gold
+AXIS MUTUAL FUND - Axis NIFTY Healthcare ETF,AXISHCETF,Equity
+AXIS MUTUAL FUND - Axis NIFTY 50 ETF,AXISNIFTY,Equity
+AXIS MUTUAL FUND - AXIS NIFTY IT ETF,AXISTECETF,Equity
+Bharat 22 ETF,ICICIB22,Equity
+Bharat Bond ETF - April 2032,BBETF0432,Debt
+CPSE ETF,CPSEETF,Equity
+DSP LIQUID ETF,LIQUIDETF,Debt
+DSP Nifty 50 ETF,DSPN50ETF,Equity
+DSP Nifty 50 Equal Weight ETF,DSPNEWETF,Equity
+DSP Nifty Midcap 150 Quality 50 ETF,DSPQ50ETF,Equity
+Edelweiss Bharat Bond ETF-April 2023 ETF,EBBETF0423,Debt
+Edelweiss Bharat Bond ETF-April 2025 ETF,EBBETF0425,Debt
+Edelweiss Bharat Bond ETF-April 2030 ETF,EBBETF0430,Debt
+Edelweiss Bharat Bond ETF-April 2031 ETF,EBBETF0431,Debt
+Edelweiss ETF - Nifty 50,NIFTYEES,Equity
+Edelweiss ETF - Nifty Bank,EBANK,Equity
+HDFC Banking ETF,HBANKETF,Equity
+HDFC Gold ETF,HDFCMFGETF,Gold
+HDFC Nifty 50 ETF,HDFCNIFETF,Equity
+HDFC Sensex 30 ETF,HDFCSENETF,Equity
+ICICI Prudential Nifty 5 Yr Benchmark G-SEC ETF,ICICI5GSEC,Debt
+ICICI Prudential Nifty Alpha Low Volatility 30 ETF,ICICIALPLV,Equity
+ICICI Prudential BSE 500 ETF,ICICI500,Equity
+ICICI Prudential Nifty India Consumption ETF,ICICICONSU,Equity
+ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty FMCG ETF,ICICIFMCG,Equity
+ICICI Prudential Gold ETF,ICICIGOLD,Gold
+ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty Healthcare ETF,ICICIPHARM,Equity
+ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty IT ETF,ICICITECH,Equity
+ICICI Prudential S&P BSE Liquid Rate ETF,ICICILIQ,Debt
+ICICI Prudential NV20 ETF,ICICINV20,Equity
+ICICI Prudential Nifty 100 ETF,ICICINF100,Equity
+ICICI Prudential Nifty Low Vol 30 ETF,ICICILOVOL,Equity
+ICICI Prudential Nifty 200 Momentum 30 ETF,ICICIMOM30,Equity
+ICICI Prudential Nifty ETF,ICICINIFTY,Equity
+ICICI Prudential Nifty Auto ETF,ICICIAUTO,Equity
+ICICI Prudential Nifty Bank ETF - NIFTY BANK INDEX,ICICIBANKN,Equity
+ICICI PRUDENTIAL MUTUAL FUND - ICICI Prudential Nifty Midcap 150 ETF,ICICIM150,Equity
+ICICI Prudential Nifty Next 50 ETF,ICICINXT50,Equity
+ICICI Prudential Nifty Private Bank ETF - NIFTY PRIVATE BANK INDEX,ICICIBANKP,Equity
+ICICI Prudential Sensex ETF,ICICISENSX,Equity
+ICICI Prudential Midcap Select ETF,ICICIMCAP,Equity
+ICICI Prudential Silver ETF,ICICISILVE,Equity
+IDBI Gold ETF,IDBIGOLD,Gold
+IDFC Nifty 50 ETF,IDFNIFTYET,Equity
+IDFC Sensex 30 ETF,IDFSENSEXE,Equity
+Indiabulls Nifty 50 ETF,IBMFNIFTY,Equity
+Invesco India Gold Exchange Traded Fund,IVZINGOLD,Gold
+Invesco India Nifty Exchange Traded Fund,IVZINNIFTY,Equity
+Kotak Gold ETF,KOTAKGOLD,Gold
+Kotak Nifty IT ETF,KOTAKIT,Equity
+Kotak Nifty Midcap 50 ETF,KOTAKMID50,Equity
+Kotak Nifty 50 value 20 ETF,KOTAKNV20,Equity
+Kotak Nifty 100 Low Volatility 30 ETF,KOTAKLOVOL,Equity
+Kotak Nifty 50 ETF,KOTAKNIFTY,Equity
+Kotak Nifty Alpha 50 ETF,KOTAKALPHA,Equity
+Kotak Nifty Bank ETF,KOTAKBKETF,Equity
+Kotak Nifty PSU Bank ETF,KOTAKPSUBK,Equity
+Kotak Sensex 30 ETF,KTKSENSEX,Equity
+LIC MF - LIC MF G-sec LT ETF - GO,LICNETFGSC,Debt
+LIC MF - LIC MF ETF - Nifty 100,LICNFNHGP,Equity
+LIC MF - LIC MF EXCHANGE TRADED FUND - NIFTY 50,LICNETFN50,Equity
+LIC Mutual Fund - LIC MF EXCHANGE TRADED FUND - SENSEX,LICNETFSEN,Equity
+MIRAE ASSET MUTUAL FUND - Mirae Asset Nifty 100 ESG Sector Leaders ETF,MAESGETF,Equity
+Mirae Asset Hang Seng TECH ETF,MAHKTECH,Equity
+Mirae Asset NYSE FANG+ ETF,MAFANG,Equity
+Mirae Asset Nifty 50 ETF,MAN50ETF,Equity
+Mirae Asset Nifty Financial Services ETF - RG,MAFSETF,Equity
+Mirae Asset Nifty India Manufacturing ETF,MAMFGETF,Equity
+Mirae Asset Nifty Midcap 150 ETF,MAM150ETF,Equity
 Mirae Asset Nifty Next 50 ETF,MANXT50,Equity
+Mirae Asset S&P 500 Top 50 ETF,MASPTOP50,Equity
+Motilal Oswal 5 Year G-Sec ETF,MOGSEC,Debt
+Motilal Oswal Mutual Fund - Motilal Oswal NASDAQ 100 ETF,MON100,Equity
+Motilal Oswal Nasdaq Q 50 ETF,MONQ50,Equity
+Motilal Oswal Nifty 200 Momentum 30 ETF,MOMOMENTUM,Equity
+Motilal Oswal Mutual Fund - Motilal Oswal M50 ETF,MOM50,Equity
+Motilal Oswal Mutual Fund - Motilal Oswal Midcap 100 ETF,MOM100,Equity
+Motilal Oswal S&P BSE Healthcare ETF,MOHEALTH,Equity
+Motilal Oswal S&P BSE Low Volatility ETF,MOLOWVOL,Equity
+NIPPON INDIA ETF NIFTY 5 YR BENCHMARK GSEC,GILT5YBEES,Debt
+Nippon India ETF Nifty CPSE Bond Plus SDL Sep 2024 50-50,SDL24BEES,Debt
+Nippon India ETF Nifty IT,ITBEES,Equity
+Nippon India ETF Nifty SDL Apr 2026 Top 20 Equal Weight,SDL26BEES,Debt
+Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt,LTGILTBEES,Debt
+NIPPON INDIA ETF GOLD BEES,GOLDBEES,Gold
+NIPPON INDIA ETF HANG SENG BEES,HNGSNGBEES,Equity
+NIPPON INDIA ETF JUNIOR BEES,JUNIORBEES,Equity
+NIPPON INDIA ETF LIQUID BEES,LIQUIDBEES,Debt
+Nippon India NIFTY Pharma ETF Growth Plan,PHARMABEES,Equity
+NIPPON INDIA ETF NV20,NV20BEES,Equity
+NIPPON INDIA ETF NIFTY 100,NIF100BEES,Equity
+NIPPON INDIA ETF NIFTY BEES,NIFTYBEES,Equity
+Nippon India Nifty Auto ETF,AUTOBEES,Equity
+NIPPON INDIA ETF BANK BEES,BANKBEES,Equity
+Nippon India ETF Nifty Dividend Opportunities 50,DIVOPPBEES,Equity
+NIPPON INDIA ETF CONSUMPTION,CONSUMBEES,Equity
+NIPPON INDIA ETF INFRA BEES,INFRABEES,Equity
+NIPPON INDIA ETF NIFTY MIDCAP 150,MID150BEES,Equity
+NIPPON INDIA ETF PSU BANK BEES,PSUBNKBEES,Equity
+NIPPON INDIA ETF SHARIAH BEES,SHARIABEES,Equity
+Nippon India Sensex 30 ETF,SENSEXBEES,Equity
+Nippon India Sensex Next 50 ETF,SNXT50BEES,Equity
+Nippon India Silver ETF,SILVERBEES,Equity
+Quantum Gold ETF,QGOLDHALF,Gold
+Quantum Nifty ETF,QNIFTY,Equity
+SBI 10 year Gilt ETF,SETF10GILT,Debt
+SBI BSE 100 ETF,SETFBSE100,Equity
+SBI ETF Consumption,SBIETFCON,Equity
+SBI ETF IT,SBIETFIT,Equity
+SBI ETF Private Bank,SBIETFPB,Equity
+SBI-ETF Gold,SETFGOLD,Gold
+SBI Nifty 200 Quality 30 ETF,SBIETFQLTY,Equity
+SBI-ETF Nifty 50,SETFNIF50,Equity
+SBI-ETF Nifty Bank,SETFNIFBK,Equity
+SBI-ETF Nifty Next 50,SETFNN50,Equity
+SBI Sensex 30 ETF,SBISENSEX,Equity
+SBI Sensex Next 50 ETF,SETFSN50,Equity
+Tata Nifty 50 ETF,NETF,Equity
+Tata Nifty India Digital ETF,TNIDETF,Equity
+Tata Nifty Private Bank ETF,NPBET,Equity
+UTI Nifty Bank ETF,UTIBANKETF,Equity
+UTI Gold ETF,GOLDSHARE,Gold
+UTI Nifty 50 ETF,UTINIFTETF,Equity
+UTI Nifty Next 50 ETF,UTINEXT50,Equity
+UTI S&P BSE Sensex ETF,UTISENSETF,Equity
+UTI Sensex Next 50 ETF,UTISXN50,Equity

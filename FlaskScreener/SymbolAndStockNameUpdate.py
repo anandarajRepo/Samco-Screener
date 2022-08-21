@@ -51,7 +51,7 @@ try:
         if record['symbol'].strip() in symbolChange_dict:
             if record['symbol'].strip() != symbolChange_dict[record['symbol']]:
                 print(record['symbol'], symbolChange_dict[record['symbol']])
-                # conn.execute("""UPDATE instruments SET symbol = '{0}' WHERE symbol = '{1}'""".format(symbolChange_dict[record['symbol']], record['symbol']))
+                conn.execute("""UPDATE instruments SET symbol = '{0}' WHERE symbol = '{1}'""".format(symbolChange_dict[record['symbol']], record['symbol']))
 
     db.commit()
 except Exception as e:
@@ -85,7 +85,7 @@ try:
         if record['nameofcompany'].strip() in stockNameChange_dict:
             if record['nameofcompany'].strip() != stockNameChange_dict[record['nameofcompany']]:
                 print(record['nameofcompany'], stockNameChange_dict[record['nameofcompany']])
-                # conn.execute("""UPDATE instruments SET nameofcompany = '{0}' WHERE nameofcompany = '{1}'""".format(stockNameChange_dict[record['nameofcompany']], record['nameofcompany']))
+                conn.execute("""UPDATE instruments SET nameofcompany = '{0}' WHERE nameofcompany = '{1}'""".format(stockNameChange_dict[record['nameofcompany']], record['nameofcompany']))
 
     db.commit()
 except Exception as e:
