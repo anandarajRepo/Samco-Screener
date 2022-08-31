@@ -5144,8 +5144,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE341R01014",
         "FACEVALUE": "10",
-        "SECTOR": null,
-        "SUBSECTOR": null
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Tea & Coffee"
     },
     {
         "SYMBOL": "DUCON",
@@ -9164,8 +9164,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE570A01014",
         "FACEVALUE": "10",
-        "SECTOR": null,
-        "SUBSECTOR": null
+        "SECTOR": "Industrials",
+        "SUBSECTOR": "Environmental Services"
     },
     {
         "SYMBOL": "IPCALAB",
@@ -12596,8 +12596,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE737D01021",
         "FACEVALUE": "1",
-        "SECTOR": null,
-        "SUBSECTOR": null
+        "SECTOR": "Industrials",
+        "SUBSECTOR": "Electrical Components & Equipments"
     },
     {
         "SYMBOL": "MOHITIND",
@@ -13137,7 +13137,7 @@
         "ISINNUMBER": "INE725A01022",
         "FACEVALUE": "2",
         "SECTOR": null,
-        "SUBSECTOR": null
+        "SUBSECTOR": "Conglomerates"
     },
     {
         "SYMBOL": "NAVINFLUOR",
@@ -19520,8 +19520,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE869Y20010",
         "FACEVALUE": "10",
-        "SECTOR": null,
-        "SUBSECTOR": null
+        "SECTOR": "Materials",
+        "SUBSECTOR": "Iron & Steel"
     },
     {
         "SYMBOL": "TERASOFT",
@@ -20529,7 +20529,7 @@
         "ISINNUMBER": "INE405E01023",
         "FACEVALUE": "2",
         "SECTOR": null,
-        "SUBSECTOR": null
+        "SUBSECTOR": "Auto Parts"
     },
     {
         "SYMBOL": "UPL",

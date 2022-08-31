@@ -1,0 +1,44 @@
+[
+	{
+		"SYMBOL": "DTIL",
+		"NAMEOFCOMPANY": "Dhunseri Tea & Industries Limited",
+		"SECTOR": "Consumer Staples",
+		"SUBSECTOR": "Tea & Coffee"
+	},
+	{
+		"SYMBOL": "IONEXCHANG",
+		"NAMEOFCOMPANY": "ION Exchange (India) Limited",
+		"SECTOR": "Industrials",
+		"SUBSECTOR": "Environmental Services"
+	},
+	{
+		"SYMBOL": "KRITI",
+		"NAMEOFCOMPANY": "Kriti Industries (India) Limited",
+		"SECTOR": null,
+		"SUBSECTOR": null
+	},
+	{
+		"SYMBOL": "MODISONLTD",
+		"NAMEOFCOMPANY": "MODISON LIMITED",
+		"SECTOR": "Industrials",
+		"SUBSECTOR": "Electrical Components & Equipments"
+	},
+	{
+		"SYMBOL": "NAVA",
+		"NAMEOFCOMPANY": "NAVA LIMITED",
+		"SECTOR": null,
+		"SUBSECTOR": "Conglomerates"
+	},
+	{
+		"SYMBOL": "TEMBO-RE",
+		"NAMEOFCOMPANY": "Tembo Global Ind Ltd-RE",
+		"SECTOR": "Materials",
+		"SUBSECTOR": "Iron & Steel"
+	},
+	{
+		"SYMBOL": "UNOMINDA",
+		"NAMEOFCOMPANY": "UNO Minda Limited",
+		"SECTOR": null,
+		"SUBSECTOR": "Auto Parts"
+	}
+]
