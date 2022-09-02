@@ -20,7 +20,7 @@ pd.set_option('display.width', None)
 ### Session Token ###
 #####################
 samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="643faa113dd027dc0a12ef25eaa5876b")
+samco.set_session_token(sessionToken="759a8f43d26d830772456cc9cd3b5519")
 
 #################
 ### File Path ###
@@ -73,13 +73,13 @@ try:
 
     for nse_company in nse_companies:
         # if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
-        conn.execute("""SELECT id FROM instruments WHERE active = TRUE AND isinnumber = '{0}'""".format(nse_company['ISINNUMBER']))
+        conn.execute("""SELECT id FROM instruments WHERE active = TRUE AND symbol = '{0}'""".format(nse_company['SYMBOL']))
         instrument_id = conn.fetchone()
         print(nse_company["SYMBOL"])
-        time.sleep(1)
-        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2022-07-16', to_date='2022-08-12')
+        # time.sleep(1)
+        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2022-08-12', to_date='2022-08-30')
         dictHistoricalData = json.loads(HistoricalCandleData)
-        if dictHistoricalData["status"] == "Success" and instrument_id:
+        if dictHistoricalData["status"] == "Success" and instrument_id[0]:
             for eachDayEod in dictHistoricalData['historicalCandleData']:
                 conn.execute("""INSERT INTO eod (instruments_id, date, open, high, low, close, ltp, volume) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}')""".format(instrument_id[0],
                                                                                                                          eachDayEod['date'],
