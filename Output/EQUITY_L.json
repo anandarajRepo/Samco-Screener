@@ -60,6 +60,18 @@
         "SUBSECTOR": "Real Estate"
     },
     {
+        "SYMBOL": "4THDIM",
+        "NAMEOFCOMPANY": "Fourth Dimension Solutions Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "06-SEP-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE382T01022",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "5PAISA",
         "NAMEOFCOMPANY": "5Paisa Capital Limited",
         "SERIES": "EQ",
@@ -94,6 +106,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Construction & Engineering"
+    },
+    {
+        "SYMBOL": "AAATECH",
+        "NAMEOFCOMPANY": "AAA Technologies Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "28-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0D0U01013",
+        "FACEVALUE": "10",
+        "SECTOR": "Information Technology",
+        "SUBSECTOR": "IT Services & Consulting"
     },
     {
         "SYMBOL": "AAKASH",
@@ -336,16 +360,28 @@
         "SUBSECTOR": "Heavy Machinery"
     },
     {
-        "SYMBOL": "ACRYSIL",
-        "NAMEOFCOMPANY": "Acrysil Limited",
+        "SYMBOL": "ACEINTEG",
+        "NAMEOFCOMPANY": "Ace Integrated Solutions Limited",
         "SERIES": "EQ",
-        "DATEOFLISTING": "14-JAN-2021",
+        "DATEOFLISTING": "04-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE543V01017",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Discretionary",
+        "SUBSECTOR": "Education Services"
+    },
+    {
+        "SYMBOL": "ACI",
+        "NAMEOFCOMPANY": "Archean Chemical Industries Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "21-NOV-2022",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE482D01024",
+        "ISINNUMBER": "INE128X01021",
         "FACEVALUE": "2",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Building Products - Granite"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "ADANIENT",
@@ -446,7 +482,7 @@
     {
         "SYMBOL": "ADROITINFO",
         "NAMEOFCOMPANY": "Adroit Infotech Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "13-AUG-1997",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -554,7 +590,7 @@
     {
         "SYMBOL": "AGRITECH",
         "NAMEOFCOMPANY": "Agri-Tech (India) Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "28-JAN-2014",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -688,12 +724,24 @@
         "NAMEOFCOMPANY": "Ajooni Biotech Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "07-MAY-2021",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE820Y01013",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE820Y01021",
+        "FACEVALUE": "2",
         "SECTOR": "Health Care",
         "SUBSECTOR": "Pharmaceuticals"
+    },
+    {
+        "SYMBOL": "AJOONI-RE",
+        "NAMEOFCOMPANY": "Ajooni Biotech Limited-RE",
+        "SERIES": "BE",
+        "DATEOFLISTING": "07-DEC-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE820Y20013",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "AJRINFRA",
@@ -710,7 +758,7 @@
     {
         "SYMBOL": "AKASH",
         "NAMEOFCOMPANY": "Akash Infra-Projects Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "11-OCT-2019",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -734,7 +782,7 @@
     {
         "SYMBOL": "AKSHAR",
         "NAMEOFCOMPANY": "Akshar Spintex Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "23-MAY-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -938,7 +986,7 @@
     {
         "SYMBOL": "ALPSINDUS",
         "NAMEOFCOMPANY": "Alps Industries Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "24-APR-1996",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -1142,7 +1190,7 @@
     {
         "SYMBOL": "ANKITMETAL",
         "NAMEOFCOMPANY": "Ankit Metal & Power Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "14-MAR-2013",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -1166,7 +1214,7 @@
     {
         "SYMBOL": "ANSALAPI",
         "NAMEOFCOMPANY": "Ansal Properties & Infrastructure Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "27-JAN-2006",
         "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
@@ -1176,21 +1224,9 @@
         "SUBSECTOR": "Real Estate"
     },
     {
-        "SYMBOL": "ANSALHSG",
-        "NAMEOFCOMPANY": "Ansal Housing Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "06-OCT-2006",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE880B01015",
-        "FACEVALUE": "10",
-        "SECTOR": "Real Estate",
-        "SUBSECTOR": "Real Estate"
-    },
-    {
         "SYMBOL": "ANTGRAPHIC",
         "NAMEOFCOMPANY": "Antarctica Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "31-DEC-1997",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -1538,7 +1574,7 @@
     {
         "SYMBOL": "ARVEE",
         "NAMEOFCOMPANY": "Arvee Laboratories (India) Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "22-MAR-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -1850,7 +1886,7 @@
     {
         "SYMBOL": "ATLANTA",
         "NAMEOFCOMPANY": "Atlanta  Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "25-SEP-2006",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -2068,10 +2104,10 @@
         "NAMEOFCOMPANY": "Axita Cotton Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "21-JUN-2022",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE02EZ01014",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE02EZ01022",
+        "FACEVALUE": "1",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Textiles"
     },
@@ -2152,10 +2188,10 @@
         "NAMEOFCOMPANY": "Bajaj Finserv Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "26-MAY-2008",
-        "PAIDUPVALUE": "5",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE918I01018",
-        "FACEVALUE": "5",
+        "ISINNUMBER": "INE918I01026",
+        "FACEVALUE": "1",
         "SECTOR": "Financials",
         "SUBSECTOR": "Insurance"
     },
@@ -2246,7 +2282,7 @@
     {
         "SYMBOL": "BALKRISHNA",
         "NAMEOFCOMPANY": "Balkrishna Paper Mills Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "28-JUL-2015",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -2266,6 +2302,18 @@
         "FACEVALUE": "2",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Tires & Rubber"
+    },
+    {
+        "SYMBOL": "BALLARPUR",
+        "NAMEOFCOMPANY": "Ballarpur Industries Limited",
+        "SERIES": "BZ",
+        "DATEOFLISTING": "31-MAR-2008",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE294A01037",
+        "FACEVALUE": "2",
+        "SECTOR": "Materials",
+        "SUBSECTOR": "Paper Products"
     },
     {
         "SYMBOL": "BALMLAWRIE",
@@ -2404,10 +2452,10 @@
         "NAMEOFCOMPANY": "Banswara Syntex Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "11-APR-2007",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE629D01012",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE629D01020",
+        "FACEVALUE": "5",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Textiles"
     },
@@ -2422,18 +2470,6 @@
         "FACEVALUE": "5",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Restaurants & Cafes"
-    },
-    {
-        "SYMBOL": "BARTRONICS",
-        "NAMEOFCOMPANY": "Bartronics India Limited",
-        "SERIES": "BZ",
-        "DATEOFLISTING": "12-JAN-2006",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE855F01034",
-        "FACEVALUE": "10",
-        "SECTOR": "Financials",
-        "SUBSECTOR": "Payment Infrastructure"
     },
     {
         "SYMBOL": "BASF",
@@ -2520,6 +2556,18 @@
         "SUBSECTOR": "Tea & Coffee"
     },
     {
+        "SYMBOL": "BBTCL",
+        "NAMEOFCOMPANY": "B&B Triplewall Containers Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "23-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE01EE01011",
+        "FACEVALUE": "10",
+        "SECTOR": "Materials",
+        "SUBSECTOR": "Packaging"
+    },
+    {
         "SYMBOL": "BCG",
         "NAMEOFCOMPANY": "Brightcom Group Limited",
         "SERIES": "EQ",
@@ -2546,7 +2594,7 @@
     {
         "SYMBOL": "BCONCEPTS",
         "NAMEOFCOMPANY": "Brand Concepts Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "11-JAN-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -2856,9 +2904,21 @@
         "SUBSECTOR": "Building Products - Granite"
     },
     {
+        "SYMBOL": "BIKAJI",
+        "NAMEOFCOMPANY": "Bikaji Foods International Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "16-NOV-2022",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE00E101023",
+        "FACEVALUE": "1",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "BIL",
         "NAMEOFCOMPANY": "Bhartiya International Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "12-APR-2000",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -3048,6 +3108,18 @@
         "SUBSECTOR": "Commodity Chemicals"
     },
     {
+        "SYMBOL": "BOHRAIND",
+        "NAMEOFCOMPANY": "Bohra Industries Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "27-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE802W01023",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "BOMDYEING",
         "NAMEOFCOMPANY": "Bombay Dyeing & Mfg Company Limited",
         "SERIES": "EQ",
@@ -3158,7 +3230,7 @@
     {
         "SYMBOL": "BROOKS",
         "NAMEOFCOMPANY": "Brooks Laboratories Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "05-SEP-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -3182,19 +3254,19 @@
     {
         "SYMBOL": "BSHSL",
         "NAMEOFCOMPANY": "Bombay Super Hybrid Seeds Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "28-OCT-2020",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE032Z01012",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE032Z01020",
+        "FACEVALUE": "1",
         "SECTOR": "Consumer Staples",
         "SUBSECTOR": "Seeds"
     },
     {
         "SYMBOL": "BSL",
         "NAMEOFCOMPANY": "BSL Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "27-JUL-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -3218,7 +3290,7 @@
     {
         "SYMBOL": "BURNPUR",
         "NAMEOFCOMPANY": "Burnpur Cement Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "03-JAN-2008",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -3242,7 +3314,7 @@
     {
         "SYMBOL": "BVCL",
         "NAMEOFCOMPANY": "Barak Valley Cements Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "23-NOV-2007",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -3322,18 +3394,6 @@
         "FACEVALUE": "10",
         "SECTOR": "Financials",
         "SUBSECTOR": "Public Banks"
-    },
-    {
-        "SYMBOL": "CANDC",
-        "NAMEOFCOMPANY": "C & C Constructions Limited",
-        "SERIES": "BZ",
-        "DATEOFLISTING": "26-FEB-2007",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE874H01015",
-        "FACEVALUE": "10",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Construction & Engineering"
     },
     {
         "SYMBOL": "CANFINHOME",
@@ -3444,6 +3504,18 @@
         "SUBSECTOR": "Online Services"
     },
     {
+        "SYMBOL": "CARYSIL",
+        "NAMEOFCOMPANY": "CARYSIL LIMITED",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "14-JAN-2021",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE482D01024",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "CASTROLIND",
         "NAMEOFCOMPANY": "Castrol India Limited",
         "SERIES": "EQ",
@@ -3454,18 +3526,6 @@
         "FACEVALUE": "5",
         "SECTOR": "Materials",
         "SUBSECTOR": "Commodity Chemicals"
-    },
-    {
-        "SYMBOL": "CCCL",
-        "NAMEOFCOMPANY": "Consolidated Construction Consortium Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "15-OCT-2007",
-        "PAIDUPVALUE": "2",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE429I01024",
-        "FACEVALUE": "2",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Construction & Engineering"
     },
     {
         "SYMBOL": "CCHHL",
@@ -4214,7 +4274,7 @@
     {
         "SYMBOL": "CROWN",
         "NAMEOFCOMPANY": "Crown Lifters Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "08-FEB-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -4408,10 +4468,10 @@
         "NAMEOFCOMPANY": "Dangee Dums Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "13-NOV-2020",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE688Y01014",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE688Y01022",
+        "FACEVALUE": "1",
         "SECTOR": "Consumer Staples",
         "SUBSECTOR": "FMCG - Foods"
     },
@@ -4464,9 +4524,21 @@
         "SUBSECTOR": "Construction & Engineering"
     },
     {
+        "SYMBOL": "DBOL",
+        "NAMEOFCOMPANY": "Dhampur Bio Organics Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "08-SEP-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0I3401014",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "DBREALTY",
         "NAMEOFCOMPANY": "D B Realty Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "24-FEB-2010",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -4510,6 +4582,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Financials",
         "SUBSECTOR": "Private Banks"
+    },
+    {
+        "SYMBOL": "DCI",
+        "NAMEOFCOMPANY": "Dc Infotech And Communication Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "19-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0A1101019",
+        "FACEVALUE": "10",
+        "SECTOR": "Information Technology",
+        "SUBSECTOR": "IT Services & Consulting"
     },
     {
         "SYMBOL": "DCM",
@@ -4582,6 +4666,18 @@
         "FACEVALUE": "2",
         "SECTOR": "Materials",
         "SUBSECTOR": "Commodity Chemicals"
+    },
+    {
+        "SYMBOL": "DCXINDIA",
+        "NAMEOFCOMPANY": "DCX Systems Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "11-NOV-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0KL801015",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "DECCANCE",
@@ -4720,10 +4816,10 @@
         "NAMEOFCOMPANY": "Dev Information Technology Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "15-FEB-2022",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE060X01018",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE060X01026",
+        "FACEVALUE": "5",
         "SECTOR": "Information Technology",
         "SUBSECTOR": "IT Services & Consulting"
     },
@@ -4812,33 +4908,21 @@
         "SUBSECTOR": "Fertilizers & Agro Chemicals"
     },
     {
-        "SYMBOL": "DHANVARSHA",
-        "NAMEOFCOMPANY": "Dhanvarsha Finvest Limited",
+        "SYMBOL": "DHARMAJ",
+        "NAMEOFCOMPANY": "Dharmaj Crop Guard Limited",
         "SERIES": "EQ",
-        "DATEOFLISTING": "10-MAY-2022",
-        "PAIDUPVALUE": "2",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE615R01029",
-        "FACEVALUE": "2",
-        "SECTOR": "Financials",
-        "SUBSECTOR": "Consumer Finance"
-    },
-    {
-        "SYMBOL": "DHARAMSI",
-        "NAMEOFCOMPANY": "The Dharamsi Morarji Chemical Company Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "01-DEC-2021",
+        "DATEOFLISTING": "08-DEC-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE505A01010",
+        "ISINNUMBER": "INE00OQ01016",
         "FACEVALUE": "10",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Diversified Chemicals"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "DHARSUGAR",
-        "NAMEOFCOMPANY": "Dharani Sugars & Chemicals Limited",
-        "SERIES": "BE",
+        "NAMEOFCOMPANY": "Dharani Sugars&Chemicals Limited",
+        "SERIES": "BZ",
         "DATEOFLISTING": "22-MAY-1996",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -4956,6 +5040,18 @@
         "SUBSECTOR": "Home Electronics & Appliances"
     },
     {
+        "SYMBOL": "DJML",
+        "NAMEOFCOMPANY": "DJ Mediaprint & Logistics Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "05-DEC-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0B1K01014",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "DLF",
         "NAMEOFCOMPANY": "DLF Limited",
         "SERIES": "EQ",
@@ -4992,9 +5088,21 @@
         "SUBSECTOR": "Retail - Department Stores"
     },
     {
+        "SYMBOL": "DMCC",
+        "NAMEOFCOMPANY": "DMCC SPECIALITY CHEMICALS LIMITED",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "01-DEC-2021",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE505A01010",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "DNAMEDIA",
         "NAMEOFCOMPANY": "Diligent Media Corporation Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "11-DEC-2017",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -5090,7 +5198,7 @@
     {
         "SYMBOL": "DRCSYSTEMS",
         "NAMEOFCOMPANY": "DRC Systems India Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "10-MAR-2021",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -5098,6 +5206,18 @@
         "FACEVALUE": "1",
         "SECTOR": "Communication Services",
         "SUBSECTOR": "Advertising"
+    },
+    {
+        "SYMBOL": "DREAMFOLKS",
+        "NAMEOFCOMPANY": "Dreamfolks Services Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "06-SEP-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0JS101016",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "DREDGECORP",
@@ -5126,7 +5246,7 @@
     {
         "SYMBOL": "DSSL",
         "NAMEOFCOMPANY": "Dynacons Systems & Solutions Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "01-DEC-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -5144,8 +5264,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE341R01014",
         "FACEVALUE": "10",
-        "SECTOR": "Consumer Staples",
-        "SUBSECTOR": "Tea & Coffee"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "DUCON",
@@ -5236,10 +5356,10 @@
         "NAMEOFCOMPANY": "Easy Trip Planners Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "19-MAR-2021",
-        "PAIDUPVALUE": "2",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE07O001018",
-        "FACEVALUE": "2",
+        "ISINNUMBER": "INE07O001026",
+        "FACEVALUE": "1",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Tour & Travel Services"
     },
@@ -5254,18 +5374,6 @@
         "FACEVALUE": "2",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Textiles"
-    },
-    {
-        "SYMBOL": "EASUNREYRL",
-        "NAMEOFCOMPANY": "Easun Reyrolle Limited",
-        "SERIES": "BZ",
-        "DATEOFLISTING": "23-JUL-1997",
-        "PAIDUPVALUE": "2",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE268C01029",
-        "FACEVALUE": "2",
-        "SECTOR": "Utilities",
-        "SUBSECTOR": "Power Transmission & Distribution"
     },
     {
         "SYMBOL": "ECLERX",
@@ -5496,6 +5604,18 @@
         "SUBSECTOR": "Real Estate"
     },
     {
+        "SYMBOL": "EMIL",
+        "NAMEOFCOMPANY": "Electronics Mart India Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "17-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE02YR01019",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "EMKAY",
         "NAMEOFCOMPANY": "Emkay Global Financial Services Limited",
         "SERIES": "EQ",
@@ -5592,6 +5712,18 @@
         "SUBSECTOR": "Packaging"
     },
     {
+        "SYMBOL": "EQUIPPP",
+        "NAMEOFCOMPANY": "Equippp Social Impact Technologies Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "19-MAY-2021",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE217G01035",
+        "FACEVALUE": "1",
+        "SECTOR": "Health Care",
+        "SUBSECTOR": "Biotechnology"
+    },
+    {
         "SYMBOL": "EQUITAS",
         "NAMEOFCOMPANY": "Equitas Holdings Limited",
         "SERIES": "EQ",
@@ -5676,18 +5808,6 @@
         "SUBSECTOR": "Logistics"
     },
     {
-        "SYMBOL": "ESSENTIA",
-        "NAMEOFCOMPANY": "Integra Essentia Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "20-AUG-2013",
-        "PAIDUPVALUE": "1",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE418N01035",
-        "FACEVALUE": "1",
-        "SECTOR": "Consumer Discretionary",
-        "SUBSECTOR": "Textiles"
-    },
-    {
         "SYMBOL": "ESTER",
         "NAMEOFCOMPANY": "Ester Industries Limited",
         "SERIES": "EQ",
@@ -5714,7 +5834,7 @@
     {
         "SYMBOL": "EUROTEXIND",
         "NAMEOFCOMPANY": "Eurotex Industries and Exports Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "31-JAN-1996",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -5752,10 +5872,10 @@
         "NAMEOFCOMPANY": "Excel Realty N Infra Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "03-AUG-2009",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE688J01015",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE688J01023",
+        "FACEVALUE": "1",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Construction & Engineering"
     },
@@ -5830,6 +5950,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Materials",
         "SUBSECTOR": "Specialty Chemicals"
+    },
+    {
+        "SYMBOL": "FAZE3Q",
+        "NAMEOFCOMPANY": "Faze Three Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "18-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE963C01033",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Discretionary",
+        "SUBSECTOR": "Textiles"
     },
     {
         "SYMBOL": "FCL",
@@ -6000,9 +6132,21 @@
         "SUBSECTOR": "Building Products - Pipes"
     },
     {
+        "SYMBOL": "FIVESTAR",
+        "NAMEOFCOMPANY": "Five-Star Business Finance Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "21-NOV-2022",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE128S01021",
+        "FACEVALUE": "1",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "FLEXITUFF",
         "NAMEOFCOMPANY": "Flexituff Ventures International Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "19-OCT-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -6014,7 +6158,7 @@
     {
         "SYMBOL": "FLFL",
         "NAMEOFCOMPANY": "Future Lifestyle Fashions Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "01-OCT-2013",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -6074,7 +6218,7 @@
     {
         "SYMBOL": "FOODSIN",
         "NAMEOFCOMPANY": "Foods & Inns Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "16-NOV-2021",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -6120,18 +6264,6 @@
         "SUBSECTOR": "Specialty Chemicals"
     },
     {
-        "SYMBOL": "FRETAIL",
-        "NAMEOFCOMPANY": "Future Retail Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "29-AUG-2016",
-        "PAIDUPVALUE": "2",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE752P01024",
-        "FACEVALUE": "2",
-        "SECTOR": "Consumer Discretionary",
-        "SUBSECTOR": "Retail - Department Stores"
-    },
-    {
         "SYMBOL": "FSC",
         "NAMEOFCOMPANY": "Future Supply Chain Solutions Limited",
         "SERIES": "BE",
@@ -6154,6 +6286,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Information Technology",
         "SUBSECTOR": "Outsourced services"
+    },
+    {
+        "SYMBOL": "FUSION",
+        "NAMEOFCOMPANY": "Fusion Micro Finance Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "15-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE139R01012",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "GABRIEL",
@@ -6217,7 +6361,7 @@
     },
     {
         "SYMBOL": "GALLANTT",
-        "NAMEOFCOMPANY": "Gallantt Metal Limited",
+        "NAMEOFCOMPANY": "Gallantt Ispat Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "04-APR-2006",
         "PAIDUPVALUE": "10",
@@ -6350,7 +6494,7 @@
     {
         "SYMBOL": "GAYAPROJ",
         "NAMEOFCOMPANY": "Gayatri Projects Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "22-AUG-2011",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -6398,7 +6542,7 @@
     {
         "SYMBOL": "GENESYS",
         "NAMEOFCOMPANY": "Genesys International Corporation Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "23-JAN-2003",
         "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
@@ -6490,18 +6634,6 @@
         "FACEVALUE": "1",
         "SECTOR": "Materials",
         "SUBSECTOR": "Specialty Chemicals"
-    },
-    {
-        "SYMBOL": "GFSTEELS",
-        "NAMEOFCOMPANY": "Grand Foundry Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "22-JUL-2019",
-        "PAIDUPVALUE": "4",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE534A01028",
-        "FACEVALUE": "4",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Iron & Steel"
     },
     {
         "SYMBOL": "GHCL",
@@ -6650,12 +6782,12 @@
     {
         "SYMBOL": "GLOBAL",
         "NAMEOFCOMPANY": "Global Education Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "07-DEC-2020",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE291W01011",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE291W01029",
+        "FACEVALUE": "5",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Education Services"
     },
@@ -6745,7 +6877,7 @@
     },
     {
         "SYMBOL": "GMRINFRA",
-        "NAMEOFCOMPANY": "GMR Infrastructure Limited",
+        "NAMEOFCOMPANY": "GMR Airports Infrastructure Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "21-AUG-2006",
         "PAIDUPVALUE": "1",
@@ -6950,7 +7082,7 @@
     {
         "SYMBOL": "GOLDENTOBC",
         "NAMEOFCOMPANY": "Golden Tobacco Limited",
-        "SERIES": "BE",
+        "SERIES": "BZ",
         "DATEOFLISTING": "08-FEB-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -7006,6 +7138,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Tires & Rubber"
+    },
+    {
+        "SYMBOL": "GOYALALUM",
+        "NAMEOFCOMPANY": "Goyal Aluminiums Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "04-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE705X01018",
+        "FACEVALUE": "10",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Commodities Trading"
     },
     {
         "SYMBOL": "GPIL",
@@ -7186,6 +7330,18 @@
         "FACEVALUE": "5",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Construction & Engineering"
+    },
+    {
+        "SYMBOL": "GRMOVER",
+        "NAMEOFCOMPANY": "GRM Overseas Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "07-SEP-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE192H01020",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "GROBTEA",
@@ -7488,6 +7644,18 @@
         "SUBSECTOR": "Agro Products"
     },
     {
+        "SYMBOL": "HARSHA",
+        "NAMEOFCOMPANY": "Harsha Engineers International Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "26-SEP-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0JUS01029",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "HATHWAY",
         "NAMEOFCOMPANY": "Hathway Cable & Datacom Limited",
         "SERIES": "EQ",
@@ -7682,7 +7850,7 @@
     {
         "SYMBOL": "HECPROJECT",
         "NAMEOFCOMPANY": "HEC Infra Projects Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "30-DEC-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -8068,10 +8236,10 @@
         "NAMEOFCOMPANY": "HLE Glascoat Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "22-FEB-2021",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE461D01010",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE461D01028",
+        "FACEVALUE": "2",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Industrial Machinery"
     },
@@ -8114,7 +8282,7 @@
     {
         "SYMBOL": "HNDFDS",
         "NAMEOFCOMPANY": "Hindustan Foods Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "19-AUG-2019",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -8179,6 +8347,18 @@
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
         "ISINNUMBER": "INE0GSL01016",
+        "FACEVALUE": "10",
+        "SECTOR": "Materials",
+        "SUBSECTOR": "Diversified Chemicals"
+    },
+    {
+        "SYMBOL": "HPIL",
+        "NAMEOFCOMPANY": "Hindprakash Industries Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "07-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE05X901010",
         "FACEVALUE": "10",
         "SECTOR": "Materials",
         "SUBSECTOR": "Diversified Chemicals"
@@ -8254,6 +8434,18 @@
         "FACEVALUE": "2",
         "SECTOR": "Materials",
         "SUBSECTOR": "Packaging"
+    },
+    {
+        "SYMBOL": "HYBRIDFIN",
+        "NAMEOFCOMPANY": "Hybrid Financial Services Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "05-DEC-2022",
+        "PAIDUPVALUE": "5",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE965B01022",
+        "FACEVALUE": "5",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "IBREALEST",
@@ -8616,18 +8808,6 @@
         "SUBSECTOR": "Auto Parts"
     },
     {
-        "SYMBOL": "IMPEXFERRO",
-        "NAMEOFCOMPANY": "Impex Ferro Tech Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "03-FEB-2005",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE691G01015",
-        "FACEVALUE": "10",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Iron & Steel"
-    },
-    {
         "SYMBOL": "INCREDIBLE",
         "NAMEOFCOMPANY": "INCREDIBLE INDUSTRIES LIMITED",
         "SERIES": "EQ",
@@ -8762,7 +8942,7 @@
     {
         "SYMBOL": "INDLMETER",
         "NAMEOFCOMPANY": "IMP Powers Limited",
-        "SERIES": "BE",
+        "SERIES": "BZ",
         "DATEOFLISTING": "10-JAN-1996",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -8834,7 +9014,7 @@
     {
         "SYMBOL": "INDOSTAR",
         "NAMEOFCOMPANY": "IndoStar Capital Finance Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "21-MAY-2018",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -8858,7 +9038,7 @@
     {
         "SYMBOL": "INDOTHAI",
         "NAMEOFCOMPANY": "Indo Thai Securities Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "02-NOV-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -8882,7 +9062,7 @@
     {
         "SYMBOL": "INDRAMEDCO",
         "NAMEOFCOMPANY": "Indraprastha Medical Corporation Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "17-APR-1997",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -8990,7 +9170,7 @@
     {
         "SYMBOL": "INFOMEDIA",
         "NAMEOFCOMPANY": "Infomedia Press Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "12-OCT-2006",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -9022,6 +9202,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Industrial Machinery"
+    },
+    {
+        "SYMBOL": "INOXGREEN",
+        "NAMEOFCOMPANY": "Inox Green Energy Services Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "23-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE510W01014",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "INOXLEISUR",
@@ -9062,7 +9254,7 @@
     {
         "SYMBOL": "INSPIRISYS",
         "NAMEOFCOMPANY": "Inspirisys Solutions Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "30-OCT-2006",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -9164,8 +9356,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE570A01014",
         "FACEVALUE": "10",
-        "SECTOR": "Industrials",
-        "SUBSECTOR": "Environmental Services"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "IPCALAB",
@@ -9470,7 +9662,7 @@
     {
         "SYMBOL": "JAIPURKURT",
         "NAMEOFCOMPANY": "Nandani Creation Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "02-SEP-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -9566,7 +9758,7 @@
     {
         "SYMBOL": "JBFIND",
         "NAMEOFCOMPANY": "JBF Industries Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "25-FEB-2004",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -9698,7 +9890,7 @@
     {
         "SYMBOL": "JINDWORLD",
         "NAMEOFCOMPANY": "Jindal Worldwide Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "25-NOV-2010",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -9864,6 +10056,18 @@
         "SUBSECTOR": "Conglomerates"
     },
     {
+        "SYMBOL": "JPINFRATEC",
+        "NAMEOFCOMPANY": "Jaypee Infratech Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "21-MAY-2010",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE099J01015",
+        "FACEVALUE": "10",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Construction & Engineering"
+    },
+    {
         "SYMBOL": "JPOLYINVST",
         "NAMEOFCOMPANY": "Jindal Poly Investment and Finance Company Limited",
         "SERIES": "EQ",
@@ -9972,16 +10176,16 @@
         "SUBSECTOR": "Auto Parts"
     },
     {
-        "SYMBOL": "JTLINFRA",
-        "NAMEOFCOMPANY": "JTL Infra Limited",
+        "SYMBOL": "JTLIND",
+        "NAMEOFCOMPANY": "JTL INDUSTRIES LIMITED",
         "SERIES": "EQ",
         "DATEOFLISTING": "23-DEC-2021",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
         "ISINNUMBER": "INE391J01024",
         "FACEVALUE": "2",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Iron & Steel"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "JUBLFOOD",
@@ -10308,6 +10512,18 @@
         "SUBSECTOR": "Wellness Services"
     },
     {
+        "SYMBOL": "KAYNES",
+        "NAMEOFCOMPANY": "Kaynes Technology India Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "22-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE918Z01012",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "KBCGLOBAL",
         "NAMEOFCOMPANY": "KBC Global Limited",
         "SERIES": "EQ",
@@ -10392,18 +10608,6 @@
         "SUBSECTOR": "Publishing"
     },
     {
-        "SYMBOL": "KEERTI",
-        "NAMEOFCOMPANY": "Keerti Knowledge and Skills Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "13-NOV-2020",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE586X01012",
-        "FACEVALUE": "10",
-        "SECTOR": "Consumer Discretionary",
-        "SUBSECTOR": "Education Services"
-    },
-    {
         "SYMBOL": "KEI",
         "NAMEOFCOMPANY": "KEI Industries Limited",
         "SERIES": "EQ",
@@ -10418,7 +10622,7 @@
     {
         "SYMBOL": "KELLTONTEC",
         "NAMEOFCOMPANY": "Kellton Tech Solutions Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "02-MAR-2016",
         "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
@@ -10502,7 +10706,7 @@
     {
         "SYMBOL": "KHAITANLTD",
         "NAMEOFCOMPANY": "Khaitan (India) Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "20-DEC-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -10694,7 +10898,7 @@
     {
         "SYMBOL": "KOHINOOR",
         "NAMEOFCOMPANY": "Kohinoor Foods Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "20-OCT-1999",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -10900,12 +11104,24 @@
         "NAMEOFCOMPANY": "Kritika Wires Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "04-MAY-2022",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE00Z501011",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE00Z501029",
+        "FACEVALUE": "2",
         "SECTOR": "Materials",
         "SUBSECTOR": "Iron & Steel"
+    },
+    {
+        "SYMBOL": "KRITINUT",
+        "NAMEOFCOMPANY": "Kriti Nutrients Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "07-OCT-2022",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE798K01010",
+        "FACEVALUE": "1",
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Agro Products"
     },
     {
         "SYMBOL": "KRSNAA",
@@ -10948,10 +11164,10 @@
         "NAMEOFCOMPANY": "Kshitij Polyline Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "27-JUL-2022",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE013801019",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE013801027",
+        "FACEVALUE": "2",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Stationery"
     },
@@ -10966,6 +11182,18 @@
         "FACEVALUE": "5",
         "SECTOR": "Materials",
         "SUBSECTOR": "Iron & Steel"
+    },
+    {
+        "SYMBOL": "KSOLVES",
+        "NAMEOFCOMPANY": "Ksolves India Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "23-SEP-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0D6I01015",
+        "FACEVALUE": "10",
+        "SECTOR": "Information Technology",
+        "SUBSECTOR": "IT Services & Consulting"
     },
     {
         "SYMBOL": "KTKBANK",
@@ -11078,7 +11306,7 @@
     {
         "SYMBOL": "LASA",
         "NAMEOFCOMPANY": "Lasa Supergenerics Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "21-SEP-2017",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -11248,10 +11476,10 @@
         "NAMEOFCOMPANY": "Likhitha Infrastructure Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "15-OCT-2020",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE060901019",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE060901027",
+        "FACEVALUE": "5",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Construction & Engineering"
     },
@@ -11318,7 +11546,7 @@
     {
         "SYMBOL": "LOTUSEYE",
         "NAMEOFCOMPANY": "Lotus Eye Hospital and Institute Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "11-JUL-2008",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -11388,16 +11616,16 @@
         "SUBSECTOR": "Construction & Engineering"
     },
     {
-        "SYMBOL": "LTI",
-        "NAMEOFCOMPANY": "Larsen & Toubro Infotech Limited",
+        "SYMBOL": "LTIM",
+        "NAMEOFCOMPANY": "LTIMindtree Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "21-JUL-2016",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
         "ISINNUMBER": "INE214T01019",
         "FACEVALUE": "1",
-        "SECTOR": "Information Technology",
-        "SUBSECTOR": "IT Services & Consulting"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "LTTS",
@@ -11486,7 +11714,7 @@
     {
         "SYMBOL": "LYPSAGEMS",
         "NAMEOFCOMPANY": "Lypsa Gems & Jewellery Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "05-NOV-2013",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -12180,8 +12408,20 @@
         "SUBSECTOR": "Fertilizers & Agro Chemicals"
     },
     {
+        "SYMBOL": "MBECL",
+        "NAMEOFCOMPANY": "Mcnally Bharat Engineering Company Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "06-OCT-2006",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE748A01016",
+        "FACEVALUE": "10",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Construction & Engineering"
+    },
+    {
         "SYMBOL": "MBLINFRA",
-        "NAMEOFCOMPANY": "MBL Infrastructures Limited",
+        "NAMEOFCOMPANY": "MBL Infrastructure Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "11-JAN-2010",
         "PAIDUPVALUE": "10",
@@ -12240,6 +12480,18 @@
         "SUBSECTOR": "Stock Exchanges & Ratings"
     },
     {
+        "SYMBOL": "MEDANTA",
+        "NAMEOFCOMPANY": "Global Health Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "16-NOV-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE474Q01031",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "MEDICAMEQ",
         "NAMEOFCOMPANY": "Medicamen Biotech Limited",
         "SERIES": "EQ",
@@ -12254,7 +12506,7 @@
     {
         "SYMBOL": "MEDICO",
         "NAMEOFCOMPANY": "Medico Remedies Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "26-MAY-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -12278,7 +12530,7 @@
     {
         "SYMBOL": "MEGASOFT",
         "NAMEOFCOMPANY": "Megasoft Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "19-JUL-2007",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -12298,6 +12550,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Consumer Staples",
         "SUBSECTOR": "Packaged Foods & Meats"
+    },
+    {
+        "SYMBOL": "MELSTAR",
+        "NAMEOFCOMPANY": "Melstar Information Technologies Limited",
+        "SERIES": "BZ",
+        "DATEOFLISTING": "07-MAR-2000",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE817A01019",
+        "FACEVALUE": "10",
+        "SECTOR": "Information Technology",
+        "SUBSECTOR": "IT Services & Consulting"
     },
     {
         "SYMBOL": "MENONBE",
@@ -12444,6 +12708,18 @@
         "SUBSECTOR": "Hotels, Resorts & Cruise Lines"
     },
     {
+        "SYMBOL": "MICEL",
+        "NAMEOFCOMPANY": "MIC Electronics Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "17-DEC-2021",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE287C01037",
+        "FACEVALUE": "2",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Electrical Components & Equipments"
+    },
+    {
         "SYMBOL": "MIDHANI",
         "NAMEOFCOMPANY": "Mishra Dhatu Nigam Limited",
         "SERIES": "EQ",
@@ -12475,18 +12751,6 @@
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
         "ISINNUMBER": "INE110B01017",
-        "FACEVALUE": "10",
-        "SECTOR": "Information Technology",
-        "SUBSECTOR": "IT Services & Consulting"
-    },
-    {
-        "SYMBOL": "MINDTREE",
-        "NAMEOFCOMPANY": "MindTree Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "07-MAR-2007",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE018I01017",
         "FACEVALUE": "10",
         "SECTOR": "Information Technology",
         "SUBSECTOR": "IT Services & Consulting"
@@ -12596,8 +12860,8 @@
         "MARKETLOT": "1",
         "ISINNUMBER": "INE737D01021",
         "FACEVALUE": "1",
-        "SECTOR": "Industrials",
-        "SUBSECTOR": "Electrical Components & Equipments"
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "MOHITIND",
@@ -13080,6 +13344,18 @@
         "SUBSECTOR": "Asset Management"
     },
     {
+        "SYMBOL": "NARMADA",
+        "NAMEOFCOMPANY": "Narmada Agrobase Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "27-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE117Z01011",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Agro Products"
+    },
+    {
         "SYMBOL": "NATCOPHARM",
         "NAMEOFCOMPANY": "Natco Pharma Limited",
         "SERIES": "EQ",
@@ -13116,6 +13392,18 @@
         "SUBSECTOR": "Metals - Aluminium"
     },
     {
+        "SYMBOL": "NATNLSTEEL",
+        "NAMEOFCOMPANY": "National Steel And Agro Industries Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "26-SEP-2002",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE088B01015",
+        "FACEVALUE": "10",
+        "SECTOR": "Materials",
+        "SUBSECTOR": "Iron & Steel"
+    },
+    {
         "SYMBOL": "NAUKRI",
         "NAMEOFCOMPANY": "Info Edge (India) Limited",
         "SERIES": "EQ",
@@ -13137,7 +13425,7 @@
         "ISINNUMBER": "INE725A01022",
         "FACEVALUE": "2",
         "SECTOR": null,
-        "SUBSECTOR": "Conglomerates"
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "NAVINFLUOR",
@@ -13406,7 +13694,7 @@
     {
         "SYMBOL": "NEXTMEDIA",
         "NAMEOFCOMPANY": "Next Mediaworks Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "04-APR-2001",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -13622,7 +13910,7 @@
     {
         "SYMBOL": "NKIND",
         "NAMEOFCOMPANY": "NK Industries Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "07-JUL-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -13886,7 +14174,7 @@
     {
         "SYMBOL": "OILCOUNTUB",
         "NAMEOFCOMPANY": "Oil Country Tubular Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "30-AUG-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -13946,7 +14234,7 @@
     {
         "SYMBOL": "OMKARCHEM",
         "NAMEOFCOMPANY": "Omkar Speciality Chemicals Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "10-FEB-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -13958,7 +14246,7 @@
     {
         "SYMBOL": "ONELIFECAP",
         "NAMEOFCOMPANY": "Onelife Capital Advisors Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "17-OCT-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -14162,7 +14450,7 @@
     {
         "SYMBOL": "ORISSAMINE",
         "NAMEOFCOMPANY": "The Orissa Minerals Development Company Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "29-SEP-2010",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -14194,6 +14482,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Health Care",
         "SUBSECTOR": "Pharmaceuticals"
+    },
+    {
+        "SYMBOL": "OSIAHYPER",
+        "NAMEOFCOMPANY": "Osia Hyper Retail Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "01-DEC-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE06IR01013",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Discretionary",
+        "SUBSECTOR": "Retail - Department Stores"
     },
     {
         "SYMBOL": "OSWALAGRO",
@@ -14318,7 +14618,7 @@
     {
         "SYMBOL": "PARACABLES",
         "NAMEOFCOMPANY": "Paramount Communications Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "03-JAN-2007",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -14436,18 +14736,6 @@
         "SUBSECTOR": "Online Services"
     },
     {
-        "SYMBOL": "PBAINFRA",
-        "NAMEOFCOMPANY": "PBA Infrastructure Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "24-NOV-2005",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE160H01019",
-        "FACEVALUE": "10",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Construction & Engineering"
-    },
-    {
         "SYMBOL": "PCBL",
         "NAMEOFCOMPANY": "PCBL LIMITED",
         "SERIES": "EQ",
@@ -14488,10 +14776,10 @@
         "NAMEOFCOMPANY": "PDS Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "21-OCT-2014",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE111Q01013",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE111Q01021",
+        "FACEVALUE": "2",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Textiles"
     },
@@ -14606,7 +14894,7 @@
     {
         "SYMBOL": "PFS",
         "NAMEOFCOMPANY": "PTC India Financial Services Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "30-MAR-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -14618,7 +14906,7 @@
     {
         "SYMBOL": "PGEL",
         "NAMEOFCOMPANY": "PG Electroplast Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "26-SEP-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -14858,7 +15146,7 @@
     {
         "SYMBOL": "PODDARHOUS",
         "NAMEOFCOMPANY": "Poddar Housing and Development Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "10-APR-2017",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -15022,6 +15310,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Building Products - Pipes"
+    },
+    {
+        "SYMBOL": "PPLPHARMA",
+        "NAMEOFCOMPANY": "Piramal Pharma Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "19-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0DK501011",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "PRAENG",
@@ -15314,7 +15614,7 @@
     {
         "SYMBOL": "PTC",
         "NAMEOFCOMPANY": "PTC India Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "07-APR-2004",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -15346,18 +15646,6 @@
         "FACEVALUE": "10",
         "SECTOR": "Materials",
         "SUBSECTOR": "Diversified Chemicals"
-    },
-    {
-        "SYMBOL": "PUNJLLOYD",
-        "NAMEOFCOMPANY": "Punj Lloyd Limited",
-        "SERIES": "BZ",
-        "DATEOFLISTING": "06-JAN-2006",
-        "PAIDUPVALUE": "2",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE701B01021",
-        "FACEVALUE": "2",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Construction & Engineering"
     },
     {
         "SYMBOL": "PURVA",
@@ -15520,10 +15808,10 @@
         "NAMEOFCOMPANY": "Rajnandini Metal Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "16-FEB-2021",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE00KV01014",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE00KV01022",
+        "FACEVALUE": "1",
         "SECTOR": "Materials",
         "SUBSECTOR": "Metals - Diversified"
     },
@@ -15554,7 +15842,7 @@
     {
         "SYMBOL": "RAJTV",
         "NAMEOFCOMPANY": "Raj Television Network Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "16-MAR-2007",
         "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
@@ -15604,10 +15892,10 @@
         "NAMEOFCOMPANY": "Rama Steel Tubes Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "19-AUG-2015",
-        "PAIDUPVALUE": "5",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE230R01027",
-        "FACEVALUE": "5",
+        "ISINNUMBER": "INE230R01035",
+        "FACEVALUE": "1",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Building Products - Pipes"
     },
@@ -15792,18 +16080,6 @@
         "SUBSECTOR": "Fertilizers & Agro Chemicals"
     },
     {
-        "SYMBOL": "RCOM",
-        "NAMEOFCOMPANY": "Reliance Communications Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "06-MAR-2006",
-        "PAIDUPVALUE": "5",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE330H01018",
-        "FACEVALUE": "5",
-        "SECTOR": "Communication Services",
-        "SUBSECTOR": "Telecom Services"
-    },
-    {
         "SYMBOL": "RECLTD",
         "NAMEOFCOMPANY": "REC Limited",
         "SERIES": "EQ",
@@ -15817,7 +16093,7 @@
     },
     {
         "SYMBOL": "REDINGTON",
-        "NAMEOFCOMPANY": "Redington (India) Limited",
+        "NAMEOFCOMPANY": "Redington Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "15-FEB-2007",
         "PAIDUPVALUE": "2",
@@ -15862,18 +16138,6 @@
         "FACEVALUE": "1",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Footwear"
-    },
-    {
-        "SYMBOL": "RELCAPITAL",
-        "NAMEOFCOMPANY": "Reliance Capital Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "29-NOV-1995",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE013A01015",
-        "FACEVALUE": "10",
-        "SECTOR": "Financials",
-        "SUBSECTOR": "Diversified Financials"
     },
     {
         "SYMBOL": "RELCHEMQ",
@@ -16202,7 +16466,7 @@
     {
         "SYMBOL": "ROLTA",
         "NAMEOFCOMPANY": "Rolta India Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "01-MAR-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -16452,6 +16716,18 @@
         "SUBSECTOR": "Building Products - Laminates"
     },
     {
+        "SYMBOL": "RUSTOMJEE",
+        "NAMEOFCOMPANY": "Keystone Realtors Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "24-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE263M01029",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "RVHL",
         "NAMEOFCOMPANY": "Ravinder Heights Limited",
         "SERIES": "EQ",
@@ -16478,7 +16754,7 @@
     {
         "SYMBOL": "S&SPOWER",
         "NAMEOFCOMPANY": "S&S Power Switchgears Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "27-SEP-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -16490,7 +16766,7 @@
     {
         "SYMBOL": "SABEVENTS",
         "NAMEOFCOMPANY": "Sab Events & Governance Now Media Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "15-SEP-2016",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -16498,6 +16774,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Communication Services",
         "SUBSECTOR": "Publishing"
+    },
+    {
+        "SYMBOL": "SABTN",
+        "NAMEOFCOMPANY": "Sri Adhikari Brothers Television Network Limited",
+        "SERIES": "BE",
+        "DATEOFLISTING": "16-NOV-2007",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE416A01036",
+        "FACEVALUE": "10",
+        "SECTOR": "Communication Services",
+        "SUBSECTOR": "TV Channels & Broadcasters"
     },
     {
         "SYMBOL": "SADBHAV",
@@ -16574,7 +16862,7 @@
     {
         "SYMBOL": "SAKAR",
         "NAMEOFCOMPANY": "Sakar Healthcare Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "11-APR-2019",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -16600,10 +16888,10 @@
         "NAMEOFCOMPANY": "Saksoft Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "09-MAY-2005",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE667G01015",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE667G01023",
+        "FACEVALUE": "1",
         "SECTOR": "Information Technology",
         "SUBSECTOR": "IT Services & Consulting"
     },
@@ -16678,18 +16966,6 @@
         "FACEVALUE": "1",
         "SECTOR": "Communication Services",
         "SUBSECTOR": "Publishing"
-    },
-    {
-        "SYMBOL": "SANCO",
-        "NAMEOFCOMPANY": "Sanco Industries Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "22-NOV-2016",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE782L01012",
-        "FACEVALUE": "10",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Building Products - Pipes"
     },
     {
         "SYMBOL": "SANDESH",
@@ -16848,6 +17124,18 @@
         "SUBSECTOR": "Textiles"
     },
     {
+        "SYMBOL": "SARVESHWAR",
+        "NAMEOFCOMPANY": "Sarveshwar Foods Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "08-DEC-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE324X01018",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Packaged Foods & Meats"
+    },
+    {
         "SYMBOL": "SASKEN",
         "NAMEOFCOMPANY": "Sasken Technologies Limited",
         "SERIES": "EQ",
@@ -16894,6 +17182,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Financials",
         "SUBSECTOR": "Consumer Finance"
+    },
+    {
+        "SYMBOL": "SATINDLTD",
+        "NAMEOFCOMPANY": "Sat Industries Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "21-NOV-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE065D01027",
+        "FACEVALUE": "2",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Commodities Trading"
     },
     {
         "SYMBOL": "SBC",
@@ -16958,7 +17258,7 @@
     {
         "SYMBOL": "SCAPDVR",
         "NAMEOFCOMPANY": "Stampede Capital Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "10-OCT-2017",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -17016,6 +17316,18 @@
         "SUBSECTOR": "Logistics"
     },
     {
+        "SYMBOL": "SCPL",
+        "NAMEOFCOMPANY": "Sheetal Cool Products Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "22-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE501Y01019",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Packaged Foods & Meats"
+    },
+    {
         "SYMBOL": "SDBL",
         "NAMEOFCOMPANY": "Som Distilleries & Breweries Limited",
         "SERIES": "EQ",
@@ -17040,9 +17352,21 @@
         "SUBSECTOR": "Oil & Gas - Equipment & Services"
     },
     {
+        "SYMBOL": "SECURCRED",
+        "NAMEOFCOMPANY": "SecUR Credentials Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "17-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE195Y01010",
+        "FACEVALUE": "10",
+        "SECTOR": "Industrial",
+        "SUBSECTOR": "Employment Services"
+    },
+    {
         "SYMBOL": "SECURKLOUD",
         "NAMEOFCOMPANY": "SECUREKLOUD TECHNOLOGIES LIMITED",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "29-JAN-2014",
         "PAIDUPVALUE": "5",
         "MARKETLOT": "1",
@@ -17162,7 +17486,7 @@
     {
         "SYMBOL": "SETUINFRA",
         "NAMEOFCOMPANY": "Setubandhan Infrastructure Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "04-OCT-2011",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -17282,7 +17606,7 @@
     {
         "SYMBOL": "SHANTI",
         "NAMEOFCOMPANY": "Shanti Overseas (India) Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "16-SEP-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -17544,18 +17868,6 @@
         "SUBSECTOR": "Auto Parts"
     },
     {
-        "SYMBOL": "SHRIRAMCIT",
-        "NAMEOFCOMPANY": "Shriram City Union Finance Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "04-APR-2005",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE722A01011",
-        "FACEVALUE": "10",
-        "SECTOR": "Financials",
-        "SUBSECTOR": "Consumer Finance"
-    },
-    {
         "SYMBOL": "SHRIRAMPPS",
         "NAMEOFCOMPANY": "Shriram Properties Limited",
         "SERIES": "EQ",
@@ -17594,7 +17906,7 @@
     {
         "SYMBOL": "SHYAMTEL",
         "NAMEOFCOMPANY": "Shyam Telecom Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "06-NOV-2006",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -17602,18 +17914,6 @@
         "FACEVALUE": "10",
         "SECTOR": "Communication Services",
         "SUBSECTOR": "Telecom Equipments"
-    },
-    {
-        "SYMBOL": "SICAL",
-        "NAMEOFCOMPANY": "Sical Logistics Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "28-APR-1999",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE075B01012",
-        "FACEVALUE": "10",
-        "SECTOR": "Industrial",
-        "SUBSECTOR": "Logistics"
     },
     {
         "SYMBOL": "SIEMENS",
@@ -17654,7 +17954,7 @@
     {
         "SYMBOL": "SIKKO",
         "NAMEOFCOMPANY": "Sikko Industries Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "22-OCT-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -17702,7 +18002,7 @@
     {
         "SYMBOL": "SILLYMONKS",
         "NAMEOFCOMPANY": "Silly Monks Entertainment Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "08-JUL-2020",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -17750,7 +18050,7 @@
     {
         "SYMBOL": "SINTERCOM",
         "NAMEOFCOMPANY": "Sintercom India Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "07-OCT-2020",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -17966,7 +18266,7 @@
     {
         "SYMBOL": "SOFTTECH",
         "NAMEOFCOMPANY": "Softtech Engineers Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "25-FEB-2022",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -18076,10 +18376,10 @@
         "NAMEOFCOMPANY": "Savita Oil Technologies Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "28-JUN-1995",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE035D01012",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE035D01020",
+        "FACEVALUE": "2",
         "SECTOR": "Materials",
         "SUBSECTOR": "Commodity Chemicals"
     },
@@ -18180,18 +18480,6 @@
         "SUBSECTOR": "Retail - Department Stores"
     },
     {
-        "SYMBOL": "SPENTEX",
-        "NAMEOFCOMPANY": "Spentex Industries Limited",
-        "SERIES": "BZ",
-        "DATEOFLISTING": "20-DEC-2006",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE376C01020",
-        "FACEVALUE": "10",
-        "SECTOR": "Consumer Discretionary",
-        "SUBSECTOR": "Textiles"
-    },
-    {
         "SYMBOL": "SPIC",
         "NAMEOFCOMPANY": "Southern Petrochemicals Industries Corporation  Limited",
         "SERIES": "EQ",
@@ -18242,7 +18530,7 @@
     {
         "SYMBOL": "SPMLINFRA",
         "NAMEOFCOMPANY": "SPML Infra Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "14-FEB-1996",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -18250,6 +18538,18 @@
         "FACEVALUE": "2",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Construction & Engineering"
+    },
+    {
+        "SYMBOL": "SPORTKING",
+        "NAMEOFCOMPANY": "Sportking India Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "24-AUG-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE885H01011",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Discretionary",
+        "SUBSECTOR": "Textiles"
     },
     {
         "SYMBOL": "SPTL",
@@ -18262,18 +18562,6 @@
         "FACEVALUE": "1",
         "SECTOR": "Materials",
         "SUBSECTOR": "Plastic Products"
-    },
-    {
-        "SYMBOL": "SPYL",
-        "NAMEOFCOMPANY": "Shekhawati Poly-Yarn Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "12-JAN-2011",
-        "PAIDUPVALUE": "1",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE268L01020",
-        "FACEVALUE": "1",
-        "SECTOR": "Consumer Discretionary",
-        "SUBSECTOR": "Textiles"
     },
     {
         "SYMBOL": "SREEL",
@@ -18326,7 +18614,7 @@
     {
         "SYMBOL": "SRPL",
         "NAMEOFCOMPANY": "Shree Ram Proteins Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "23-SEP-2020",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -18352,10 +18640,10 @@
         "NAMEOFCOMPANY": "Steel Strips Wheels Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "06-JUN-2005",
-        "PAIDUPVALUE": "5",
+        "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE802C01025",
-        "FACEVALUE": "5",
+        "ISINNUMBER": "INE802C01033",
+        "FACEVALUE": "1",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Auto Parts"
     },
@@ -18530,7 +18818,7 @@
     {
         "SYMBOL": "SUBCAPCITY",
         "NAMEOFCOMPANY": "International Constructions Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "10-JUL-1996",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -18576,6 +18864,18 @@
         "SUBSECTOR": "Diversified Chemicals"
     },
     {
+        "SYMBOL": "SUKHJITS",
+        "NAMEOFCOMPANY": "Sukhjit Starch & Chemicals Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "07-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE450E01011",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Staples",
+        "SUBSECTOR": "Agro Products"
+    },
+    {
         "SYMBOL": "SUMEETINDS",
         "NAMEOFCOMPANY": "Sumeet Industries Limited",
         "SERIES": "EQ",
@@ -18602,7 +18902,7 @@
     {
         "SYMBOL": "SUMIT",
         "NAMEOFCOMPANY": "Sumit Woods Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "30-JUL-2019",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -18806,7 +19106,7 @@
     {
         "SYMBOL": "SUPREMEINF",
         "NAMEOFCOMPANY": "Supreme Infrastructure India Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "18-OCT-2007",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -19032,6 +19332,18 @@
         "SUBSECTOR": "Home Electronics & Appliances"
     },
     {
+        "SYMBOL": "SYNCOMF",
+        "NAMEOFCOMPANY": "Syncom Formulations (India) Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "18-NOV-2022",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE312C01025",
+        "FACEVALUE": "1",
+        "SECTOR": "Health Care",
+        "SUBSECTOR": "Pharmaceuticals"
+    },
+    {
         "SYMBOL": "SYNGENE",
         "NAMEOFCOMPANY": "Syngene International Limited",
         "SERIES": "EQ",
@@ -19042,6 +19354,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Health Care",
         "SUBSECTOR": "Labs & Life Sciences Services"
+    },
+    {
+        "SYMBOL": "SYRMA",
+        "NAMEOFCOMPANY": "Syrma SGS Technology Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "26-AUG-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0DYJ01015",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "TAINWALCHM",
@@ -19356,18 +19680,6 @@
         "SUBSECTOR": "Logistics"
     },
     {
-        "SYMBOL": "TCIDEVELOP",
-        "NAMEOFCOMPANY": "TCI Developers Limited",
-        "SERIES": "EQ",
-        "DATEOFLISTING": "19-APR-2011",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE662L01016",
-        "FACEVALUE": "10",
-        "SECTOR": "Real Estate",
-        "SUBSECTOR": "Real Estate"
-    },
-    {
         "SYMBOL": "TCIEXP",
         "NAMEOFCOMPANY": "TCI Express Limited",
         "SERIES": "EQ",
@@ -19420,10 +19732,10 @@
         "NAMEOFCOMPANY": "TD Power Systems Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "08-SEP-2011",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE419M01019",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE419M01027",
+        "FACEVALUE": "2",
         "SECTOR": "Industrial",
         "SUBSECTOR": "Heavy Electrical Equipments"
     },
@@ -19507,18 +19819,6 @@
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
         "ISINNUMBER": "INE869Y01010",
-        "FACEVALUE": "10",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Iron & Steel"
-    },
-    {
-        "SYMBOL": "TEMBO-RE",
-        "NAMEOFCOMPANY": "Tembo Global Ind Ltd-RE",
-        "SERIES": "BE",
-        "DATEOFLISTING": "22-AUG-2022",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE869Y20010",
         "FACEVALUE": "10",
         "SECTOR": "Materials",
         "SUBSECTOR": "Iron & Steel"
@@ -19754,7 +20054,7 @@
     {
         "SYMBOL": "TIL",
         "NAMEOFCOMPANY": "TIL Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "27-SEP-1995",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -19766,7 +20066,7 @@
     {
         "SYMBOL": "TIMESGTY",
         "NAMEOFCOMPANY": "Times Guaranty Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "11-JUN-2002",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -19810,6 +20110,18 @@
         "FACEVALUE": "10",
         "SECTOR": "Materials",
         "SUBSECTOR": "Iron & Steel"
+    },
+    {
+        "SYMBOL": "TIPSFILMS",
+        "NAMEOFCOMPANY": "Tips Films Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "06-OCT-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0LQS01015",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "TIPSINDLTD",
@@ -19858,6 +20170,18 @@
         "FACEVALUE": "1",
         "SECTOR": "Consumer Discretionary",
         "SUBSECTOR": "Precious Metals, Jewellery & Watches"
+    },
+    {
+        "SYMBOL": "TMB",
+        "NAMEOFCOMPANY": "Tamilnad Mercantile Bank Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "15-SEP-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE668A01016",
+        "FACEVALUE": "10",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "TNPETRO",
@@ -19960,17 +20284,29 @@
         "NAMEOFCOMPANY": "TPL Plastech Limited",
         "SERIES": "EQ",
         "DATEOFLISTING": "20-MAY-2015",
-        "PAIDUPVALUE": "10",
+        "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
-        "ISINNUMBER": "INE413G01014",
-        "FACEVALUE": "10",
+        "ISINNUMBER": "INE413G01022",
+        "FACEVALUE": "2",
         "SECTOR": "Materials",
         "SUBSECTOR": "Plastic Products"
     },
     {
+        "SYMBOL": "TRACXN",
+        "NAMEOFCOMPANY": "Tracxn Technologies Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "20-OCT-2022",
+        "PAIDUPVALUE": "1",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE0HMF01019",
+        "FACEVALUE": "1",
+        "SECTOR": null,
+        "SUBSECTOR": null
+    },
+    {
         "SYMBOL": "TREEHOUSE",
         "NAMEOFCOMPANY": "Tree House Education & Accessories Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "26-AUG-2011",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -20006,7 +20342,7 @@
     {
         "SYMBOL": "TRF",
         "NAMEOFCOMPANY": "TRF Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "26-MAR-2010",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -20074,6 +20410,18 @@
         "FACEVALUE": "1",
         "SECTOR": "Consumer Staples",
         "SUBSECTOR": "Sugar"
+    },
+    {
+        "SYMBOL": "TRU",
+        "NAMEOFCOMPANY": "TruCap Finance Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "10-MAY-2022",
+        "PAIDUPVALUE": "2",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE615R01029",
+        "FACEVALUE": "2",
+        "SECTOR": null,
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "TTKHLTCARE",
@@ -20186,7 +20534,7 @@
     {
         "SYMBOL": "TVVISION",
         "NAMEOFCOMPANY": "TV Vision Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "15-SEP-2016",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -20378,7 +20726,7 @@
     {
         "SYMBOL": "UMESLTD",
         "NAMEOFCOMPANY": "Usha Martin Education & Solutions Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "12-JUL-2010",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -20529,7 +20877,7 @@
         "ISINNUMBER": "INE405E01023",
         "FACEVALUE": "2",
         "SECTOR": null,
-        "SUBSECTOR": "Auto Parts"
+        "SUBSECTOR": null
     },
     {
         "SYMBOL": "UPL",
@@ -20578,18 +20926,6 @@
         "FACEVALUE": "10",
         "SECTOR": "Financials",
         "SUBSECTOR": "Asset Management"
-    },
-    {
-        "SYMBOL": "UTTAMSTL",
-        "NAMEOFCOMPANY": "Uttam Galva Steels Limited",
-        "SERIES": "BE",
-        "DATEOFLISTING": "25-MAY-1995",
-        "PAIDUPVALUE": "10",
-        "MARKETLOT": "1",
-        "ISINNUMBER": "INE699A01011",
-        "FACEVALUE": "10",
-        "SECTOR": "Materials",
-        "SUBSECTOR": "Iron & Steel"
     },
     {
         "SYMBOL": "UTTAMSUGAR",
@@ -20822,7 +21158,7 @@
     {
         "SYMBOL": "VERTOZ",
         "NAMEOFCOMPANY": "Vertoz Advertising Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "14-MAY-2020",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -20930,7 +21266,7 @@
     {
         "SYMBOL": "VIKASLIFE",
         "NAMEOFCOMPANY": "Vikas Lifecare Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "08-MAY-2019",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -20942,7 +21278,7 @@
     {
         "SYMBOL": "VIKASPROP",
         "NAMEOFCOMPANY": "Vikas Proppant & Granite Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "19-AUG-2019",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -21012,9 +21348,21 @@
         "SUBSECTOR": "Specialty Chemicals"
     },
     {
+        "SYMBOL": "VINNY",
+        "NAMEOFCOMPANY": "Vinny Overseas Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "28-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE01KI01019",
+        "FACEVALUE": "10",
+        "SECTOR": "Consumer Discretionary",
+        "SUBSECTOR": "Textiles"
+    },
+    {
         "SYMBOL": "VINYLINDIA",
         "NAMEOFCOMPANY": "Vinyl Chemicals (India) Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "21-JUL-2008",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -21074,7 +21422,7 @@
     {
         "SYMBOL": "VISASTEEL",
         "NAMEOFCOMPANY": "Visa Steel Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "17-MAR-2006",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -21086,7 +21434,7 @@
     {
         "SYMBOL": "VISESHINFO",
         "NAMEOFCOMPANY": "Visesh Infotecnics Limited",
-        "SERIES": "EQ",
+        "SERIES": "BE",
         "DATEOFLISTING": "14-JAN-2000",
         "PAIDUPVALUE": "1",
         "MARKETLOT": "1",
@@ -21146,7 +21494,7 @@
     {
         "SYMBOL": "VIVIMEDLAB",
         "NAMEOFCOMPANY": "Vivimed Labs Limited",
-        "SERIES": "EQ",
+        "SERIES": "BZ",
         "DATEOFLISTING": "17-AUG-2005",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -21409,7 +21757,7 @@
     },
     {
         "SYMBOL": "WESTLIFE",
-        "NAMEOFCOMPANY": "Westlife Development Ltd",
+        "NAMEOFCOMPANY": "WESTLIFE FOODWORLD LIMITED",
         "SERIES": "EQ",
         "DATEOFLISTING": "19-AUG-2019",
         "PAIDUPVALUE": "2",
@@ -21614,7 +21962,7 @@
     {
         "SYMBOL": "XPROINDIA",
         "NAMEOFCOMPANY": "Xpro India Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "27-APR-2004",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -21626,7 +21974,7 @@
     {
         "SYMBOL": "YAARI",
         "NAMEOFCOMPANY": "Yaari Digital Integrated Services Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "18-AUG-2011",
         "PAIDUPVALUE": "2",
         "MARKETLOT": "1",
@@ -21710,7 +22058,7 @@
     {
         "SYMBOL": "ZENITHSTL",
         "NAMEOFCOMPANY": "Zenith Steel Pipes & Industries Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "30-APR-2007",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",
@@ -21756,9 +22104,21 @@
         "SUBSECTOR": "Auto Parts"
     },
     {
+        "SYMBOL": "ZIMLAB",
+        "NAMEOFCOMPANY": "Zim Laboratories Limited",
+        "SERIES": "EQ",
+        "DATEOFLISTING": "25-NOV-2022",
+        "PAIDUPVALUE": "10",
+        "MARKETLOT": "1",
+        "ISINNUMBER": "INE518E01015",
+        "FACEVALUE": "10",
+        "SECTOR": "Health Care",
+        "SUBSECTOR": "Pharmaceuticals"
+    },
+    {
         "SYMBOL": "ZODIAC",
         "NAMEOFCOMPANY": "Zodiac Energy Limited",
-        "SERIES": "BE",
+        "SERIES": "EQ",
         "DATEOFLISTING": "14-DEC-2021",
         "PAIDUPVALUE": "10",
         "MARKETLOT": "1",

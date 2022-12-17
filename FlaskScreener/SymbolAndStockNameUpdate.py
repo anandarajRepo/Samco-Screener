@@ -3,18 +3,20 @@
 import csv
 import traceback
 import psycopg2
+import json
 
 from configparser import ConfigParser
 from psycopg2.extras import RealDictCursor
 from pprint import pprint
 
 ### File Path
-symbolChangeFilePath = 'Resources/symbolchange.csv'
-nameChangeFilePath = 'Resources/namechange.csv'
+symbolChangeFilePath = '../Resources/symbolchange.csv'
+nameChangeFilePath = '../Resources/namechange.csv'
+jsonFilePath = '../Output/EQUITY_L.json'
 
 ### Get inputs from config file
 config = ConfigParser()
-config.read('config.ini')
+config.read('../config.ini')
 
 ### DB config
 databaseName = config.get('Database', 'databaseName')
@@ -52,6 +54,7 @@ try:
             if record['symbol'].strip() != symbolChange_dict[record['symbol']]:
                 print(record['symbol'], symbolChange_dict[record['symbol']])
                 conn.execute("""UPDATE instruments SET symbol = '{0}' WHERE symbol = '{1}'""".format(symbolChange_dict[record['symbol']], record['symbol']))
+                print("""UPDATE instruments SET symbol = '{0}' WHERE symbol = '{1}'""".format(symbolChange_dict[record['symbol']], record['symbol']))
 
     db.commit()
 except Exception as e:
@@ -86,7 +89,40 @@ try:
             if record['nameofcompany'].strip() != stockNameChange_dict[record['nameofcompany']]:
                 print(record['nameofcompany'], stockNameChange_dict[record['nameofcompany']])
                 conn.execute("""UPDATE instruments SET nameofcompany = '{0}' WHERE nameofcompany = '{1}'""".format(stockNameChange_dict[record['nameofcompany']], record['nameofcompany']))
+                print("""UPDATE instruments SET nameofcompany = '{0}' WHERE nameofcompany = '{1}'""".format(stockNameChange_dict[record['nameofcompany']], record['nameofcompany']))
 
+    db.commit()
+except Exception as e:
+    db.rollback()
+    print(e)
+    print(traceback.print_exc())
+
+###################################
+### Update Inactive Instruments ###
+###################################
+
+### Open json stock data to write in DB
+try:
+    f = open(jsonFilePath)
+    nse_companies = json.load(f)
+    f.close()
+except FileNotFoundError as error:
+    print("Json file not found error: ", error)
+
+### Update active column in instrument table to False when instrument is not available in EQUITY_L.json
+try:
+    conn = db.cursor()
+    conn.execute("""SELECT symbol FROM instruments""")
+    records = conn.fetchall()
+
+    # Converting the nse_companies json object to list of symbol
+    symbol_list = [i['SYMBOL'] for i in nse_companies]
+
+    # for row in records:
+    for record in records:
+        if not (record[0] in symbol_list):
+            print(record[0])
+            conn.execute("""UPDATE instruments SET active = FALSE WHERE symbol = '{0}'""".format(record[0]))
     db.commit()
 except Exception as e:
     db.rollback()

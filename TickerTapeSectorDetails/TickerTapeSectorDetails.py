@@ -4,13 +4,14 @@ import csv
 import json
 
 from pprint import pprint
+from collections import OrderedDict
 
 ###########
 # File Path
 ###########
-pathForTickerTapeSector = "TickerTapeSectorDetails/TickerTape/"
-csvFilePath = 'Resources/EQUITY_L.csv'
-jsonFilePath = 'Output/EQUITY_L.json'
+pathForTickerTapeSector = "../TickerTapeSectorDetails/TickerTape/"
+csvFilePath = '../Resources/EQUITY_L.csv'
+jsonFilePath = '../Output/EQUITY_L.json'
 
 # Read all files from directory
 files = os.listdir(pathForTickerTapeSector)
@@ -22,7 +23,7 @@ sector = {}
 
 for csvFile in files:
     csvFile = pathForTickerTapeSector + csvFile
-    index_name = csvFile.replace(".csv", "").replace("TickerTapeSectorDetails/TickerTape/", "")
+    index_name = csvFile.replace(".csv", "").replace("../TickerTapeSectorDetails/TickerTape/", "")
     sector[index_name] = []
     with open(csvFile) as csvFile:
         csvReader = csv.DictReader(csvFile)
@@ -44,11 +45,14 @@ pprint(sector)
 ############################################################
 stockList = []
 
-# read the from CSV and convert it to List
+# read the instruments from CSV and convert it to List
 with open(csvFilePath) as csvFile:
-    csvReader = csv.DictReader(csvFile)
+    csvReader = csv.DictReader(csvFile, skipinitialspace=True)
     for csvRow in csvReader:
-        stockList.append(csvRow)
+        od = OrderedDict()
+        for k, v in csvRow.items():
+            od[k.strip().replace(" ", "")] = v
+        stockList.append(od)
 
 # write the data to a json file
 with open(jsonFilePath, "w") as jsonFile:

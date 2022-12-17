@@ -28,7 +28,7 @@ app = Flask(__name__)
 ### Global Variable ###
 #######################
 startDate = '2022-01-01'
-endDate = '2022-05-06'
+endDate = '2022-12-06'
 sector = 'Technology Services'
 nameOfCompany = 'Peninsula Land Limited'
 
@@ -333,7 +333,7 @@ if __name__ == '__main__':
     ### Get inputs from config file ###
     ###################################
     config = ConfigParser()
-    config.read("config.ini")
+    config.read("../config.ini")
 
     #################
     ### DB config ###

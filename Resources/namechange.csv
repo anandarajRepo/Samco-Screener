@@ -14,6 +14,7 @@ ABCIL,Bihar Caustics and Chemicals Ltd,Aditya Birla Chemicals (India) Limited,09
 ABFRL,Pantaloons Fashion & Retail Limited,Aditya Birla Fashion and Retail Limited,29-Jan-16
 ABHISHEK,Abhishek Mills Ltd,Abhishek Corporation Limited,26-Jun-08
 ABIRLANUVO,Indian Rayon & Industries Ltd.,Aditya Birla Nuvo Limited,07-Dec-05
+ABSLBANETF,Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life Banking ETF,Aditya Birla Sun Life Nifty Bank ETF,09-Sep-22
 ACC,Associated Cement Co. Ltd,ACC Limited,04-Oct-06
 ACCELYA,Accelya Kale Solutions Limited,Accelya Solutions India Limited,03-Jun-19
 ADANIENT,Adani Exports Ltd,Adani Enterprises Limited,20-Sep-06
@@ -366,6 +367,7 @@ BSLIQPIIDP,Birla SL Int. IF - QP - SI - IPDP,Aditya Birla SL Int. IF - QP - SI -
 BSLIQPIIG,Birla SL Int. IF - QP - SI - IPG,Aditya Birla SL Int. IF - QP - SI - IPG,28-Sep-17
 BSLIQPIRDP,Birla SL Int. IF - QP - SI - RPDP,Aditya Birla SL Int. IF - QP - SI - RPDP,28-Sep-17
 BSLIQPIRG,Birla SL Int. IF - QP - SI - RPG,Aditya Birla SL Int. IF - QP - SI - RPG,28-Sep-17
+BSLNIFTY,Aditya Birla Sun Life Nifty ETF - Growth,Aditya Birla Sun Life Nifty 50 ETF,09-Sep-22
 BSLNIFTY,Birla Sun Life Mutual Fund - Birla Sun Life Nifty ETF - Growth,Aditya Birla Sun Life Nifty ETF - Growth,28-Sep-17
 BSLQ14DD,Birla Sun Life QIF  S- 4- DPDO,Aditya Birla Sun Life QIF  S- 4- DPDO,28-Sep-17
 BSLQ14DG,Birla Sun Life QIF  S- 4- DPG,Aditya Birla Sun Life QIF  S- 4- DPG,28-Sep-17
@@ -389,11 +391,13 @@ BSLRIFS4DD,Birla Sun Life Resurgent India Fund - Series 4 - DPDP,Aditya Birla Su
 BSLRIFS4DG,Birla Sun Life Resurgent India Fund - Series 4 DPG,Aditya Birla Sun Life Resurgent India Fund - Series 4 DPG,28-Sep-17
 BSLRIFS4RD,Birla Sun Life Resurgent India Fund - Series 4 - RPDP,Aditya Birla Sun Life Resurgent India Fund - Series 4 - RPDP,28-Sep-17
 BSLRIFS4RG,Birla Sun Life Resurgent India Fund - Series 4 - RPG,Aditya Birla Sun Life Resurgent India Fund - Series 4 - RPG,28-Sep-17
+BSLSENETFG,Aditya Birla Sun Life Mutual Fund - Aditya Birla Sun Life SENSEX ETF,Aditya Birla Sun Life S&P BSE Sensex ETF,09-Sep-22
 BSOFT,KPIT Technologies Limited,BIRLASOFT LIMITED,26-Feb-19
 CAPF,Future Capital Holdings Limited,Capital First Limited,06-Dec-12
 CAREERP,Career Point Infosystems Limited,Career Point Limited,16-Nov-11
 CARERATING,Credit Analysis And Research Limited,CARE Ratings Limited,06-Jul-17
 CAROLINFO,Wockhardt Life Sciences Limited,Carol Info Services Limited,27-Sep-04
+CARYSIL,Acrysil Limited,CARYSIL LIMITED,18-Nov-22
 CASTEXTECH,Amtek India Limited,Castex Technologies Limited,11-Jun-15
 CEATFIN,Ceat Financial Services Ltd,CFL Capital Financial Services Limited,01-Oct-01
 CELESTIAL,Celestial Labs Limited,Celestial Biolabs Limited,17-Mar-10
@@ -467,6 +471,7 @@ DIGITALEQP,Digital Equipment (india) Ltd.,Digital GlobalSoft Limited,24-Aug-01
 DIGJAM,Birla VXL Limited,Digjam Limited,28-Apr-08
 DIL,Debock Sales And Marketing Limited,Debock Industries Limited,14-Jan-22
 DIVOPPBEES,NIPPON INDIA ETF DIVIDEND OPPORTUNITIES,Nippon India ETF Nifty Dividend Opportunities 50,08-Jul-22
+DMCC,The Dharamsi Morarji Chemical Company Limited,DMCC SPECIALITY CHEMICALS LIMITED,02-Nov-22
 DOLATALGO,Dolat Investments Limited,Dolat Algotech Limited,20-Dec-21
 DRBECK,Dr Beck & Co (I) Ltd,Schenectady Beck India Limited,11-Aug-99
 DRDATSONS,Aanjaneya Lifecare Limited,Dr. Datson's Labs Limited,02-Sep-13
@@ -828,6 +833,7 @@ FORTIS,Fortis Healthcare (India) Limited,Fortis Healthcare Limited,02-Apr-12
 FSS,Hughes Software Systems Limited,Flextronics Software Systems Limited,17-Mar-05
 FULLERKCP,Fuller K C P Ltd,Fuller India Limited,19-Aug-97
 GAIL,Gas Authority of India Limited,GAIL (India) Limited,30-Mar-04
+GALLANTT,Gallantt Metal Limited,Gallantt Ispat Limited,06-Sep-22
 GANESHHOUC,Ganesh Housing Finance Corpn. Ltd.,Ganesh Housing Corporation Limited,02-Mar-07
 GARFIBRES,Garware  Wall Ropes Limited,Garware Technical Fibres Limited,13-Aug-18
 GATI,Gati Corporation Limited,GATI Limited,06-Oct-06
@@ -853,6 +859,7 @@ GLAXO,Glaxo (India) Ltd.,GlaxoSmithKline Pharmaceuticals Limited,22-Oct-01
 GLOBOFFS,Garware Offshore Services Limited,Global Offshore Services Limited,07-Jun-11
 GLODYNE,Paradyne Infotech Limited,Glodyne Technoserve Limited,19-Nov-07
 GMRINDSTRS,GMR Technologies & Industries Limited,GMR Industries Limited,28-Apr-06
+GMRINFRA,GMR Infrastructure Limited,GMR Airports Infrastructure Limited,17-Oct-22
 GNFC,Gujarat Narmada Valley Fertilizer Company Limited,Gujarat Narmada Valley Fertilizers and Chemicals Limited,20-Nov-12
 GOCLCORP,Gulf Oil Corporation Limited,GOCL CORPORATION LIMITED,10-Nov-15
 GODAVRFERT,Godavari Fertilizers & Chemicals Ltd,Godavari Fertilisers And Chemicals Limited,10-Oct-06
@@ -945,6 +952,12 @@ IIFL,IIFL Holdings Limited,IIFL Finance Limited,04-Jun-19
 IIFLFIN,India Infoline Investment Services Limited,India Infoline Finance Limited,27-Aug-12
 IL&FSENGG,Maytas Infra Limited,IL&FS Engineering and Construction Company Limited,08-Feb-11
 IMAGICAA,Adlabs Entertainment Limited,Imagicaaworld Entertainment Limited,22-Apr-20
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
+INCRED,Incred Financial Services Limited,InCred Prime Finance Limited,06-Sep-22
 INCREDIBLE,Adhunik Industries Limited,INCREDIBLE INDUSTRIES LIMITED,20-May-21
 INDIAPHOTO,INDIA PHOTOGRAPHIC CO. LTD.,Kodak India Limited,04-Jul-96
 INDLMETER,Industrial Meters Limited,IMP Powers Limited,01-Dec-98
@@ -992,6 +1005,7 @@ JSWISPL,Monnet Ispat & Energy Limited,JSW Ispat Special Products Limited,12-Oct-
 JSWSTEEL,Jindal Vijayanagar Steel Limited,JSW Steel Limited,16-Sep-05
 JTEKTINDIA,Sona Koyo Steering Systems Limited,JTEKT India Limited,23-Apr-18
 JTEKTINDIA,Sona Koyo Steering Systems Limited,Jtekt India Limited,23-Apr-18
+JTLIND,JTL Infra Limited,JTL INDUSTRIES LIMITED,21-Nov-22
 JUBLPHARMA,Jubilant Life Sciences Limited,Jubilant Pharmova Limited,12-Feb-21
 JUNIORBEES,NIPPON INDIA ETF JUNIOR BEES,Nippon India ETF Nifty Next 50 Junior BeES,08-Jul-22
 JUNIORBEES,Reliance ETF Junior BeES,NIPPON INDIA ETF JUNIOR BEES,30-Oct-19
@@ -1116,6 +1130,7 @@ LTFMPS6ED,Fidelity Mutual Fund - Fidelity Fixed Maturity Plan -SVI- PlanE- DP,L&
 LTFMPS6EG,Fidelity Mutual Fund - Fidelity Fixed Maturity Plan -SVI- PlanE-Growth,L&T Fixed Maturity Plane Series - VI Plan E,14-Jan-13
 LTFMPS6FG,Fidelity Mutual Fund - Fidelity Fixed Maturity Plan -SVI-Plan F-Growth,L&T Fixed Maturity Plan Series - VI Plan F,14-Feb-13
 LTGILTBEES,NIPPON INDIA ETF LONG TERM GILT,Nippon India ETF Nifty 8-13 yr G-Sec Long Term Gilt,08-Jul-22
+LTIM,Larsen & Toubro Infotech Limited,LTIMindtree Limited,05-Dec-22
 MAANALU,Man Aluminium Limited,Maan Aluminium Limited,16-Mar-11
 MADURACOAT,Coats Viyella India Ltd,Madura Coats Limited,14-Jul-98
 MAESGETF,Mirae Asset Mutual Fund -Mirae Asset ESG Sector Leaders ETF,MIRAE ASSET MUTUAL FUND - Mirae Asset Nifty 100 ESG Sector Leaders ETF,01-Jul-22
@@ -1130,6 +1145,7 @@ MARICO,Marico Industries Ltd.,Marico Limited,14-Jun-05
 MARKSANS,Tasc Pharmaceuticals Limited,Marksans Pharma Limited,14-Nov-05
 MARNITPOLY,Marnite Polycast Ltd,MPL Corporation Limited,23-Jun-98
 MARUTI,Maruti Udyog Limited,Maruti Suzuki India Limited,29-Oct-07
+MBLINFRA,MBL Infrastructures Limited,MBL Infrastructure Limited,22-Sep-22
 MCDOWELL-N,Mcdowell & Company Limited,United Spirits Limited,27-Dec-06
 MERCATOR,Mercator Lines Limited,Mercator Limited,08-Dec-11
 METALFORGE,Ahmednagar Forgings Limited,Metalyst Forgings Limited,01-Jun-15
@@ -1141,8 +1157,9 @@ MID150BEES,Reliance Mutual Fund - Reliance ETF Nifty Midcap 150 - Reliance ETF N
 MINDTREE,MindTree Consulting Limited,MindTree Limited,06-May-08
 MIRZAINT,Mirza Tanners Ltd.,Mirza International Limited,05-Jul-06
 MODERNWOOL,Modern Woollens Ltd.,Modern Terry Towels Limited,26-Jun-96
-MODITHREAD,MODI THREADS LTD.,MODI TELEFIBERS LTD.,05-Jul-96
+MODISONLTD,Modison Metals Limited,MODISON LIMITED,16-Aug-22
 MODITHREAD,MODI THREADS LTD.,Modi Telefibers Limited,05-Jul-96
+MODITHREAD,MODI THREADS LTD.,MODI TELEFIBERS LTD.,05-Jul-96
 MOHINI,Mohini Fibers Limited,Mohini Health & Hygiene Limited,06-Oct-17
 MOHOTAIND,Raisaheb Reckhchand Mohota Spinning & Weaving Mills Limited,Mohota Industries Limited,26-Dec-17
 MOM100,Motilal Oswal Mutual Fund - Motilal Oswal MOSt Shares M100 ETF GO,Motilal Oswal Mutual Fund - Motilal Oswal Midcap 100 ETF,16-Jun-21
@@ -1161,9 +1178,9 @@ NAM-INDIA,Reliance Nippon Life Asset Management Limited,Nippon Life India Asset 
 NARMADASUG,Narmada Sugar Ltd,Girdharilal Sugar and Allied Industries Limited,18-Aug-98
 NATNLSTEEL,National Steel Industries Ltd,National Steel And Agro Industries Limited,26-Sep-02
 NAVA,Nava Bharat Ventures Limited,NAVA LIMITED,29-Jul-22
+NAVA,Nava Bharat Ferro Alloys Ltd,Nava Bharat Ventures Limited,31-Jul-06
 NAVNETEDUL,Navneet Publications India Limited,Navneet Education Limited,19-Sep-13
 NBCC,National Buildings Construction Corporation Limited,NBCC (INDIA) LIMITED,07-Jun-16
-NBVENTURES,Nava Bharat Ferro Alloys Ltd,Nava Bharat Ventures Limited,31-Jul-06
 NCC,Nagarjuna Construction Company Limited,NCC Limited,15-Mar-11
 NDAFDVHDR,Reliance Mutual Fund - Reliance Dual Advantage FTF V- Plan H - DPDPO,NIPPON INDIA MUTUAL FUND - NIPPON INDIA Dual Ad FTF V- Plan H - DPDPO,30-Oct-19
 NDAFDVHGR,Reliance Mutual Fund - Reliance Dual Advantage FTF V- Plan H - DPGO,NIPPON INDIA MUTUAL FUND - NIPPON INDIA Dual Ad FTF V- Plan H - DPGO,30-Oct-19
@@ -1568,6 +1585,7 @@ RCOM,Reliance Communication Ventures Limited,Reliance Communications Limited,30-
 RCPOFSR1,Religare Mutual Fund - Religare CPOF - Series I,Religare Invesco Capital Protection Oriented Fund - Series I,04-Jul-13
 RECKCOLMAN,Reckitt & Colman India Ltd.,Reckitt Benckiser (India) Limited,21-Feb-01
 RECLTD,Rural Electrification Corporation Limited,Rec Limited,25-Oct-18
+REDINGTON,Redington (India) Limited,Redington Limited,21-Sep-22
 REFEX,Refex Refrigerants Limited,Refex Industries Limited,02-Dec-14
 RELBANK,R* Shares Banking Exchange Traded Fund,R* Shares Banking ETF,17-Jan-13
 RELGOLD,R* Shares Gold Exchange Traded Fund,R* Shares Gold ETF,17-Jan-13
@@ -1823,6 +1841,7 @@ TORRENTSEC,Surat Electricity Co. Ltd,Torrent Power SEC Limited,07-Jun-05
 TRENT,Lakme Ltd,Trent Limited,11-Aug-99
 TRIDENT,Abhishek Industries Limited,Trident Limited,03-May-11
 TRIGYN,Leading Edge Systems Ltd.,Trigyn Technologies Limited,02-Aug-00
+TRU,Dhanvarsha Finvest Limited,TruCap Finance Limited,01-Sep-22
 TTKPHARMA,TTK Pharma Ltd.,TTK Healthcare Limited,31-May-00
 TTML,Hughes Tele.com (India) Limited,Tata Teleservices (Maharashtra) Limited,25-Jun-03
 TULIP,Tulip IT Services Limited,Tulip Telecom Limited,21-May-08
@@ -1849,6 +1868,7 @@ ULTRACEMCO,Ultratech Cemco Limited,UltraTech Cement Limited,17-Dec-04
 UMESL,Usha Martin Infotech Limited,Usha Martin Education & Solutions Limited,07-Jan-10
 UNITEDCARB,United Carbon Ltd,Cabot India Limited,16-Oct-96
 UNITEDPHOS,United Phosphorous Limited,UPL Limited,23-Oct-13
+UNIVAFOODS,Hotel Rugby Limited,Univa Foods Limited,23-Nov-22
 UNOMINDA,Minda Industries Limited,UNO Minda Limited,05-Aug-22
 UPL,United Phosphorus Limited,UPL Limited,23-Oct-13
 USHAMART,Usha Beltron Limited,Usha Martin Limited,20-Oct-04
@@ -1898,6 +1918,7 @@ WELDFLUX,Weldflux (I) Ltd,UBE Industries Limited,11-Jul-96
 WELENT,Welspun Projects Limited,Welspun Enterprises Limited,24-Jun-15
 WELSPUNPOL,WELSPUN POLYESTER (I) LTD.,Welspun India Limited,04-Jul-96
 WESTERNBIO,WESTERN BIO SYSTEMS LTD,Western Bio Systems Limited,11-Aug-99
+WESTLIFE,Westlife Development Ltd,WESTLIFE FOODWORLD LIMITED,11-Nov-22
 WEWIN,Surevin BPO Services Limited,WE WIN LIMITED,01-Jul-20
 WINDSOR,DGP Windsor India Ltd.,Windsor Machines Limited,05-Apr-05
 WINPRO,Jump Networks Limited,WinPro Industries Limited,22-Dec-21
@@ -1917,6 +1938,6 @@ ZEEMEDIA,Zee News Limited,Zee Media Corporation Limited,30-Jul-13
 ZENITHSTL,Zenith Birla (India) Limited,Zenith Steel Pipes & Industries Limited,19-Aug-20
 ZENSARTECH,Fujitsu ICIM Ltd,Zensar Technologies Limited,03-Dec-01
 ZFCVINDIA,WABCO India Limited,ZF Commercial Vehicle Control Systems India Limited,01-Apr-22
-ZUARIGLOB,Zuari Industries Limited,ZUARI GLOBAL LIMITED,25-Sep-12
 ZUARIIND,Zuari Global Limited,ZUARI INDUSTRIES LIMITED,04-Jul-22
+ZUARIIND,Zuari Industries Limited,ZUARI GLOBAL LIMITED,25-Sep-12
 ZYDUSLIFE,Cadila Healthcare Limited,Zydus Lifesciences Limited,07-Mar-22

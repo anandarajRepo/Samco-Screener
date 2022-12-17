@@ -20,18 +20,18 @@ pd.set_option('display.width', None)
 ### Session Token ###
 #####################
 samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="759a8f43d26d830772456cc9cd3b5519")
+samco.set_session_token(sessionToken="fa7537a21205f3c51f5bc8a80e6ae2e7")
 
 #################
 ### File Path ###
 #################
-jsonFilePath = 'Output/EQUITY_L.json'
+jsonFilePath = '../Output/EQUITY_L.json'
 
 ###################################
 ### Get inputs from config file ###
 ###################################
 config = ConfigParser()
-config.read('config.ini')
+config.read('../config.ini')
 
 #################
 ### DB config ###
@@ -65,9 +65,7 @@ except FileNotFoundError as error:
 #     print(nse_company["SYMBOL"])
 #     print(df)
 
-
-### Insert instrument eod data to DB
-
+### Update EOD data to DB
 try:
     conn = db.cursor()
 
@@ -77,7 +75,7 @@ try:
         instrument_id = conn.fetchone()
         print(nse_company["SYMBOL"])
         # time.sleep(1)
-        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2022-08-12', to_date='2022-08-30')
+        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2021-12-08', to_date='2022-12-09')
         dictHistoricalData = json.loads(HistoricalCandleData)
         if dictHistoricalData["status"] == "Success" and instrument_id[0]:
             for eachDayEod in dictHistoricalData['historicalCandleData']:

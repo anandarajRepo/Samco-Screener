@@ -5,8 +5,8 @@ from pprint import pprint
 ###########
 # File Path
 ###########
-jsonFilePath = 'Output/EQUITY_L.json'
-jsonFilePathOfNullSectorStocks = 'Output/StockNeedSectorDetails.json'
+jsonFilePath = '../Output/EQUITY_L.json'
+jsonFilePathOfNullSectorStocks = '../Output/StockNeedSectorDetails.json'
 
 stockWithNullSectorArr = []
 stockWithNullSectorJson = {}
