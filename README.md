@@ -9,16 +9,16 @@
 
 Pending work --> After StockNeedsSectorDetailsAfterSelenium.json generated I need to update the files under TickerTapeSectorDetails/TickerTape folder. Instead, I directly udpated the Equity_L.json file by running the UpdateNullSectorSecurities.py file for now
 
-# To update the sector and subsector details to Output/Equity_L.json file and the source is Reources/Equity_L.csv
+# To update the sector and subsector details to Output/Equity_L.json file and the source is Resources/Equity_L.csv
 1. Download the Equity_L.csv file from NSE official site
 2. Then run the TickerTapeSectorDetails/TickerTapeSectorDetails.py
 
 # Steps for updating changed stock name and symbol by SEBI
 1. Download the change in symbols and change in company name csv files from following NSE official site -> https://www.nseindia.com/market-data/securities-available-for-trading
-2. Place the downloaded file in Reources folder
+2. Place the downloaded file in Resources folder
 3. Then run the SymbolAndStockNameUpdate.py
 4. Then finally run SectorAndActiveSecuritiesUpdate.py
-Note: Dont run above steps causing some duplicate stocks getting getting inserted in instruments table
+Note: Dont run above steps causing some duplicate stocks getting inserted in instruments table
 
 # Steps to execute Flask Screener
 1. Run TokenGenerator.py to get the new Samco token

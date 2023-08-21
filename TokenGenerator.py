@@ -16,7 +16,5 @@ yob = config.get('Samco', 'yob')
 
 samco = StocknoteAPIPythonBridge()
 
-# login = samco.login(body={"userId": 'DA43319', 'password': 'max#8021972', 'yob': '1988'})
 login = samco.login(body={"userId": userId, 'password': password, 'yob': yob})
 print("Login details", login)  # this will return a user details and generated session token
-
