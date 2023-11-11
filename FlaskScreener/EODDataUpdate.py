@@ -7,6 +7,8 @@ import time
 from snapi_py_client.snapi_bridge import StocknoteAPIPythonBridge
 from pprint import pprint
 from configparser import ConfigParser
+from datetime import datetime, timedelta
+from datetime import date
 
 ################################################################
 ### Options to display complete set of data frame in console ###
@@ -20,7 +22,7 @@ pd.set_option('display.width', None)
 ### Session Token ###
 #####################
 samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="fa7537a21205f3c51f5bc8a80e6ae2e7")
+samco.set_session_token(sessionToken="b9c19d109fb0bf2f2ad478125a489825")
 
 #################
 ### File Path ###
@@ -54,6 +56,7 @@ try:
 except FileNotFoundError as error:
     print("Json file not found error: ", error)
 
+
 ##############################################
 ### Iterating retrieving historic EOD Data ###
 ##############################################
@@ -65,28 +68,51 @@ except FileNotFoundError as error:
 #     print(nse_company["SYMBOL"])
 #     print(df)
 
+def get_previous_weekday():
+    today = datetime.today()
+    one_day = timedelta(days=1)
+
+    while True:
+        yesterday = today - one_day
+        if yesterday.weekday() < 5:  # Monday to Friday are considered weekdays (0 to 4)
+            return yesterday
+        today -= one_day
+
+
 ### Update EOD data to DB
 try:
     conn = db.cursor()
 
+    max_data_result_set = conn.execute("""SELECT max(date) as max_date FROM eod""")
+    if not max_data_result_set:
+        max_date = today = date.today() - timedelta(days=365)
+    else:
+        max_date = conn.fetchone()[0] + timedelta(days=1)
+    print("Start Date:", max_date)
+
+    yesterday = get_previous_weekday()
+    print(f"Yesterday's Date: {yesterday.strftime('%Y-%m-%d')}")
+
     for nse_company in nse_companies:
         # if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
-        conn.execute("""SELECT id FROM instruments WHERE active = TRUE AND symbol = '{0}'""".format(nse_company['SYMBOL']))
-        instrument_id = conn.fetchone()
+        conn.execute("""SELECT id, symbol FROM instruments WHERE active = TRUE AND symbol = '{0}'""".format(nse_company['SYMBOL']))
+        instrument_row = conn.fetchone()
         print(nse_company["SYMBOL"])
-        # time.sleep(1)
-        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date='2021-12-08', to_date='2022-12-09')
+        time.sleep(0.1)
+        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date=max_date, to_date=yesterday.strftime('%Y-%m-%d'))
         dictHistoricalData = json.loads(HistoricalCandleData)
-        if dictHistoricalData["status"] == "Success" and instrument_id[0]:
+        if dictHistoricalData["status"] == "Success" and instrument_row[0]:
             for eachDayEod in dictHistoricalData['historicalCandleData']:
-                conn.execute("""INSERT INTO eod (instruments_id, date, open, high, low, close, ltp, volume) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}')""".format(instrument_id[0],
-                                                                                                                         eachDayEod['date'],
-                                                                                                                         eachDayEod['open'],
-                                                                                                                         eachDayEod['high'],
-                                                                                                                         eachDayEod['low'],
-                                                                                                                         eachDayEod['close'],
-                                                                                                                         eachDayEod['ltp'],
-                                                                                                                         eachDayEod['volume']))
+                conn.execute("""INSERT INTO eod (instruments_id, instrument_symbol, date, open, high, low, close, ltp, volume) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')""".format(
+                        instrument_row[0],
+                        instrument_row[1],
+                        eachDayEod['date'],
+                        eachDayEod['open'],
+                        eachDayEod['high'],
+                        eachDayEod['low'],
+                        eachDayEod['close'],
+                        eachDayEod['ltp'],
+                        eachDayEod['volume']))
         else:
             print(f"No Records for instrument: {nse_company['NAMEOFCOMPANY']}")
     db.commit()

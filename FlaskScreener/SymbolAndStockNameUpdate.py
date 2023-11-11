@@ -43,7 +43,7 @@ except FileNotFoundError as error:
 
 # pprint(symbolChange_dict)
 
-### Insert new instrument to DB and update the sector & sub-sector details
+### Update new symbol in DB
 try:
     conn = db.cursor(cursor_factory=RealDictCursor)
     conn.execute("""SELECT symbol FROM instruments""")

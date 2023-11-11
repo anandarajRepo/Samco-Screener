@@ -41,11 +41,12 @@ try:
             print(row)
             if row > 0:
                 if "SECTOR" in nse_company or "SUBSECTOR" in nse_company:
-                    conn.execute("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE WHERE symbol = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['SYMBOL']))
-                    print("""UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE  WHERE symbol = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['SYMBOL']))
+                    updateQuery = """UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE WHERE symbol = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['SYMBOL'])
+                    conn.execute(updateQuery)
+                    print(updateQuery)
             else:
                 # if "SECTOR" in nse_company and "SUBSECTOR" in nse_company:
-                conn.execute("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', NULLIF('{8}', 'None'), NULLIF('{9}', 'None'), TRUE)""".format(
+                insertQuery = """INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', NULLIF('{8}', 'None'), NULLIF('{9}', 'None'), TRUE)""".format(
                         nse_company['SYMBOL'],
                         nse_company['NAMEOFCOMPANY'].replace("'", ""),
                         nse_company['SERIES'],
@@ -55,18 +56,9 @@ try:
                         nse_company['ISINNUMBER'],
                         nse_company['FACEVALUE'],
                         nse_company['SECTOR'],
-                        nse_company['SUBSECTOR']))
-                print("""INSERT INTO instruments (symbol, nameofcompany, series, dateoflistings, paidvalue, marketlot, isinnumber, facevalue, sector, subsector, active) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', NULLIF('{8}', 'None'), NULLIF('{9}', 'None'), TRUE)""".format(
-                        nse_company['SYMBOL'],
-                        nse_company['NAMEOFCOMPANY'].replace("'", ""),
-                        nse_company['SERIES'],
-                        nse_company['DATEOFLISTING'],
-                        nse_company['PAIDUPVALUE'].replace(".", ""),
-                        nse_company['MARKETLOT'],
-                        nse_company['ISINNUMBER'],
-                        nse_company['FACEVALUE'],
-                        nse_company['SECTOR'],
-                        nse_company['SUBSECTOR']))
+                        nse_company['SUBSECTOR'])
+                conn.execute(insertQuery)
+                print(insertQuery)
     db.commit()
 except Exception as e:
     db.rollback()

@@ -10,20 +10,6 @@
     white-space: nowrap;
 }
 
-.sticky-header {
-    position: sticky;
-    top:0;
-    background: white;
-    z-index: 1;
-}
-
-.sticky-header-company {
-    position: sticky;
-    left:0;
-    background: white;
-    z-index: 2;
-}
-
 .positive {
     color:green;
     font-weight:bold;
@@ -34,40 +20,36 @@
     font-weight:bold;
 }
 
-table thead th {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  background: white;
-}
-
-table thead th:first-child {
-  position: sticky;
-  left: 0;
-  z-index: 3;
-}
-
-table thead th:nth-child(2) {
-  position: sticky;
-  top: 0;
-  z-index: 2;
-}
-
+table thead th:first-child,
 table tbody th:first-child {
   position: sticky;
   left: 0;
   background: white;
-  z-index: 1;
 }
 
-
+.overlapStock {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 3;
+}
 </style>
+
+<script>
+    function addRemoveCSS() {
+        const boxes = document.getElementsByClassName("changeZIndex");
+        for(const box of boxes) {
+            box.classList.toggle("overlapStock");
+        }
+    }
+</script>
+
 <body>
 <table class="table table-light">
     <thead>
         <tr>
-            <th scope="col">Company</th>
-            <th scope="col">Performance</th>
+            <th scope="col" onclick="addRemoveCSS()">Company</th>
+            <th scope="col" onclick="addRemoveCSS()" class="changeZIndex">Performance</th>
             {% for column in columns %}
                 <th scope="col" class="column-nowrap">{{column}}</th>
             {% endfor %}
@@ -76,8 +58,8 @@ table tbody th:first-child {
     <tbody>
         {% for company, date in performance.items() %}
             <tr>
-                <th scope="row">{{company}}</th>
-                <th scope="row">
+                <th scope="row" onclick="addRemoveCSS()">{{company}}</th>
+                <th scope="row" onclick="addRemoveCSS()" class="changeZIndex">
                     <div class="left">OpenClosePercent</div>
                     <div class="left">HighLowPercent</div>
                     <div class="left">PrevClosePercent</div>

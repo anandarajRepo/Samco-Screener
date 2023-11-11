@@ -27,8 +27,8 @@ app = Flask(__name__)
 #######################
 ### Global Variable ###
 #######################
-startDate = '2022-01-01'
-endDate = '2022-12-06'
+startDate = '2023-01-01'
+endDate = '2023-12-06'
 sector = 'Technology Services'
 nameOfCompany = 'Peninsula Land Limited'
 
@@ -92,8 +92,8 @@ def getDateIntervals():
     # print(one_year)
     # print('----------')
 
-    dictOfDateIntervals = {'today': today, 'one_day': one_day, 'one_week': one_week, 'one_month': one_month, 'three_month': three_month, 'six_month': six_month,
-                           'one_year': one_year}
+    dictOfDateIntervals = {'today': today, '1D': one_day, '1W': one_week, '1M': one_month, '3M': three_month,
+                           '6M': six_month, '1Y': one_year}
     # print('Before Adjustment')
     # pprint(dictOfDateIntervals)
 
@@ -120,140 +120,41 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
     for listOfStock in listOfStocks:
 
-        # conn.execute("""SELECT
-        #                     (SELECT close FROM eod WHERE date = '{1}' and instruments_id = '{0}') as todayClose,
-        #                     (SELECT close FROM eod WHERE date = '{2}' and instruments_id = '{0}') as oneWeekClose,
-        #                     (SELECT close FROM eod WHERE date = '{3}' and instruments_id = '{0}') as oneMonthClose,
-        #                     (SELECT close FROM eod WHERE date = '{4}' and instruments_id = '{0}') as threeMonthClose,
-        #                     (SELECT close FROM eod WHERE date = '{5}' and instruments_id = '{0}') as sixMonthClose
-        #                 FROM
-        #                     eod""".format(listOfStock['id'],
-        #                                 dictOfDateIntervalsAdj['today'],
-        #                                 dictOfDateIntervalsAdj['one_week'],
-        #                                 dictOfDateIntervalsAdj['one_month'],
-        #                                 dictOfDateIntervalsAdj['three_month'],
-        #                                 dictOfDateIntervalsAdj['six_month']))
-        #
-        # closePrice = conn.fetchone()
+        # Define the list of time intervals and their corresponding keys
+        time_intervals = ['today', '1D', '1W', '1M', '3M', '6M', '1Y']
 
-        if dictOfDateIntervalsAdj['today']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['today'], listOfStock['id']))
-            todayClose = conn.fetchone()
-        else:
-            todayClose = None
+        # Initialize a dictionary to store the fetched close prices
+        close_prices = {}
 
-        if dictOfDateIntervalsAdj['one_day']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_day'], listOfStock['id']))
-            prevDayClose = conn.fetchone()
-        else:
-            prevDayClose = None
+        # Loop over the time intervals and fetch the close prices
+        for interval in time_intervals:
+            if interval in dictOfDateIntervalsAdj:
+                if dictOfDateIntervalsAdj[interval]:
+                    query = """SELECT close FROM eod WHERE date = '{0}' AND instruments_id = '{1}'""".format(dictOfDateIntervalsAdj[interval], listOfStock['id'])
+                    # print(query)
+                    conn.execute(query)
+                    close_price = conn.fetchone()
+                    if close_price:
+                        close_prices[interval] = close_price['close']
+                    else:
+                        close_prices[interval] = None
 
-        if dictOfDateIntervalsAdj['one_week']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_week'], listOfStock['id']))
-            oneWeekClose = conn.fetchone()
-        else:
-            oneWeekClose = None
+        if close_prices['today']:
+            listOfStock['LTP'] = close_prices['today']
 
-        if dictOfDateIntervalsAdj['one_month']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_month'], listOfStock['id']))
-            oneMonthClose = conn.fetchone()
-        else:
-            oneMonthClose = None
-
-        if dictOfDateIntervalsAdj['three_month']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['three_month'], listOfStock['id']))
-            threeMonthClose = conn.fetchone()
-        else:
-            threeMonthClose = None
-
-        if dictOfDateIntervalsAdj['six_month']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['six_month'], listOfStock['id']))
-            sixMonthClose = conn.fetchone()
-        else:
-            sixMonthClose = None
-
-        if dictOfDateIntervalsAdj['one_year']:
-            conn.execute("""SELECT close FROM eod WHERE date = '{0}' and instruments_id = '{1}'""".format(dictOfDateIntervalsAdj['one_year'], listOfStock['id']))
-            oneYearClose = conn.fetchone()
-        else:
-            oneYearClose = None
-
-        if todayClose:
-            listOfStock['LTP'] = todayClose['close']
-
-        if todayClose and prevDayClose:
-            diff = todayClose['close'] - prevDayClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
+        for interval in time_intervals:
+            if close_prices['today'] and interval in close_prices and close_prices[interval]:
+                diff = close_prices['today'] - close_prices[interval]
+                percentChange = ((diff * 100) / close_prices[interval])
+                listOfStock[interval] = int(percentChange)
+                if interval == '1D':
+                    listOfStocksWithReturns.append(listOfStock)
             else:
-                percentChange = ((diff * 100) / prevDayClose['close'])
-            listOfStock['1D'] = percentChange
-            listOfStocksWithReturns.append(listOfStock)
-        else:
-            listOfStock['1D'] = "-"
-            listOfStocksWithoutReturns.append(listOfStock)
+                listOfStock[interval] = "-"
+                if interval == '1D':
+                    listOfStocksWithoutReturns.append(listOfStock)
 
-        if todayClose and oneWeekClose:
-            diff = todayClose['close'] - oneWeekClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
-            else:
-                percentChange = ((diff * 100) / oneWeekClose['close'])
-            listOfStock['1W'] = int(percentChange)
-            # listOfStocksWithReturns.append(listOfStock)
-        else:
-            listOfStock['1W'] = "-"
-            # listOfStocksWithoutReturns.append(listOfStock)
-
-        if todayClose and oneMonthClose:
-            diff = todayClose['close'] - oneMonthClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
-            else:
-                percentChange = ((diff * 100) / oneMonthClose['close'])
-            listOfStock['1M'] = int(percentChange)
-            # listOfStocksWithReturns.append(listOfStock))
-        else:
-            listOfStock['1M'] = "-"
-            # listOfStocksWithoutReturns.append(listOfStock)
-
-        if todayClose and threeMonthClose:
-            diff = todayClose['close'] - threeMonthClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
-            else:
-                percentChange = ((diff * 100) / threeMonthClose['close'])
-            listOfStock['3M'] = int(percentChange)
-            # listOfStocksWithReturns.append(listOfStock)
-        else:
-            listOfStock['3M'] = "-"
-            # listOfStocksWithoutReturns.append(listOfStock)
-
-        if todayClose and sixMonthClose:
-            diff = todayClose['close'] - sixMonthClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
-            else:
-                percentChange = ((diff * 100) / sixMonthClose['close'])
-            listOfStock['6M'] = int(percentChange)
-            # listOfStocksWithReturns.append(listOfStock)
-        else:
-            listOfStock['6M'] = "-"
-            # listOfStocksWithoutReturns.append(listOfStock)
-
-        if todayClose and oneYearClose:
-            diff = todayClose['close'] - oneYearClose['close']
-            if diff >= 0:
-                percentChange = ((diff * 100) / todayClose['close'])
-            else:
-                percentChange = ((diff * 100) / oneYearClose['close'])
-            listOfStock['1Y'] = int(percentChange)
-            # listOfStocksWithReturns.append(listOfStock)
-        else:
-            listOfStock['1Y'] = "-"
-            # listOfStocksWithoutReturns.append(listOfStock)
-
-    listOfStocksWithReturns.sort(key=lambda x: x['1W'], reverse=True)
+    listOfStocksWithReturns.sort(key=lambda x: x['1M'], reverse=True)
     listOfStocksWithReturns.sort(key=lambda x: x['subsector'])
     listOfStocksWithReturns.extend(listOfStocksWithoutReturns)
 
@@ -262,8 +163,8 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
 
 
 def getSectors():
-    conn.execute("""SELECT DISTINCT(sector) as sector FROM instruments WHERE sector NOT IN (SELECT DISTINCT(sector) as sector FROM instruments WHERE sector IN ('', 
-    'None')) ORDER BY sector ASC""")
+    conn.execute("""SELECT DISTINCT(sector) as sector FROM instruments WHERE sector NOT IN (SELECT DISTINCT(sector) as sector FROM instruments WHERE sector IN ('', 'None', 
+    'N/A')) ORDER BY sector ASC""")
     listOfSectors = conn.fetchall()
     return listOfSectors
 
@@ -295,7 +196,8 @@ def insert():
         print(event)
 
         try:
-            conn.execute("""UPDATE instruments SET favourite = '{1}' WHERE id = '{0}'""".format(int(checkedStockId), event))
+            conn.execute(
+                """UPDATE instruments SET favourite = '{1}' WHERE id = '{0}'""".format(int(checkedStockId), event))
             db.commit()
         except Exception as e:
             print(e)
