@@ -18,12 +18,6 @@ pd.set_option('display.max_columns', None)
 pd.set_option('display.width', None)
 # pd.set_option('display.max_colwidth', -1)
 
-#####################
-### Session Token ###
-#####################
-samco = StocknoteAPIPythonBridge()
-samco.set_session_token(sessionToken="b9c19d109fb0bf2f2ad478125a489825")
-
 #################
 ### File Path ###
 #################
@@ -45,6 +39,12 @@ host = config.get('Database', 'host')
 port = config.get('Database', 'port')
 
 db = psycopg2.connect(database=databaseName, user=user, password=password, host=host, port=port)
+
+#####################
+### Session Token ###
+#####################
+samco = StocknoteAPIPythonBridge()
+samco.set_session_token(sessionToken=config.get('Samco', 'token'))
 
 ###########################################
 ### Open json stock data to write in DB ###
@@ -83,11 +83,12 @@ def get_previous_weekday():
 try:
     conn = db.cursor()
 
-    max_data_result_set = conn.execute("""SELECT max(date) as max_date FROM eod""")
+    conn.execute("""SELECT max(date) as max_date FROM eod""")
+    max_data_result_set = conn.fetchone()
     if not max_data_result_set:
         max_date = today = date.today() - timedelta(days=365)
     else:
-        max_date = conn.fetchone()[0] + timedelta(days=1)
+        max_date = max_data_result_set[0] + timedelta(days=1)
     print("Start Date:", max_date)
 
     yesterday = get_previous_weekday()
@@ -98,12 +99,14 @@ try:
         conn.execute("""SELECT id, symbol FROM instruments WHERE active = TRUE AND symbol = '{0}'""".format(nse_company['SYMBOL']))
         instrument_row = conn.fetchone()
         print(nse_company["SYMBOL"])
-        time.sleep(0.1)
-        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date=max_date, to_date=yesterday.strftime('%Y-%m-%d'))
+        time.sleep(0.2)
+        HistoricalCandleData = samco.get_historical_candle_data(symbol_name=nse_company["SYMBOL"], exchange=samco.EXCHANGE_NSE, from_date=max_date,
+                                                                to_date=yesterday.strftime('%Y-%m-%d'))
         dictHistoricalData = json.loads(HistoricalCandleData)
         if dictHistoricalData["status"] == "Success" and instrument_row[0]:
             for eachDayEod in dictHistoricalData['historicalCandleData']:
-                conn.execute("""INSERT INTO eod (instruments_id, instrument_symbol, date, open, high, low, close, ltp, volume) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')""".format(
+                conn.execute(
+                    """INSERT INTO eod (instruments_id, instrument_symbol, date, open, high, low, close, ltp, volume) VALUES ( '{0}', '{1}', '{2}', '{3}', '{4}', '{5}', '{6}', '{7}', '{8}')""".format(
                         instrument_row[0],
                         instrument_row[1],
                         eachDayEod['date'],

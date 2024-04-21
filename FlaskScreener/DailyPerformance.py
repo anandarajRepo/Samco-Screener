@@ -127,7 +127,7 @@ if __name__ == '__main__':
     ### DB config ###
     #################
     databaseName = config.get('Database', 'databaseName')
-    user = config.get('Database', 'user')
+    user = config.get('Database', 'user')   
     password = config.get('Database', 'password')
     host = config.get('Database', 'host')
     port = config.get('Database', 'port')

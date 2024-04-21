@@ -59,18 +59,34 @@ def get_sector_financial_modeling_prep(symbol):
     headers = {'User-Agent': 'Mozilla/5.0'}
     time.sleep(1)
     response = requests.get(url, headers=headers)
-    sector = []
+    summary = []
 
     # Check if the request was successful (status code 200)
     if response.status_code == 200:
         html_content = response.content
         soup = BeautifulSoup(html_content, 'html.parser')
-        div = soup.find('div', {'id': 'company-profile-wrapper'})
-        wrapper = div.find('div', {'class': 'wrapper'})
-        listOfItems = wrapper.find_all('div', {'class': 'info'})
-        for item in listOfItems:
-            sector.append(item.text.strip())
-        return sector[1], sector[2]
+
+        div = soup.find('div', {'class': 'global_fccs__H36ba'})
+        # wrapper = div.find('div', {'class': 'wrapper'})
+        listOfAboutSectionItems = div.find_all('div', {'class': 'global_fcss__ZrDvn'})
+
+        for item in listOfAboutSectionItems:
+            h4 = item.find('h4', {'class': 'text_h4__Fs_dF'})
+            p = item.find('p', {'class': 'text_p__pUIto'})
+            if h4 is not None and h4.text.strip().casefold() == "sector":
+                summary.append(p.text.strip())
+            elif h4 is not None and h4.text.strip().casefold() == "industry":
+                summary.append(p.text.strip())
+
+        div = soup.find('div', {'class': 'SummaryTable_root__kQuSO'})
+        listOfSummarySectionItems = div.find_all('div', {'class': 'SummaryTable_col__ZtZNE'})
+
+        for item in listOfSummarySectionItems:
+            h4 = item.find('h4', {'class': 'text_h4__Fs_dF'})
+            p = item.find('p', {'class': 'text_p__pUIto'})
+            if h4 is not None and h4.text.strip().casefold() == "market cap":
+                summary.append(p.text.strip())
+        return summary[0], summary[1], summary[2]
     else:
         print(f"Failed to retrieve the webpage. Status code: {response.status_code}")
 
@@ -102,6 +118,7 @@ with open(jsonFilePath, 'r') as infile:
 for nse_company in nse_companies:
     nse_company['SECTOR'] = None
     nse_company['SUBSECTOR'] = None
+    nse_company['MARKETCAP'] = None
 
 # Iterate json stock list
 # New Code
@@ -110,10 +127,11 @@ for nse_company in nse_companies:
         if nse_company['SYMBOL'].strip() is not None:
             # sector, industry = get_sector_and_industry(nse_company['SYMBOL'].strip() + ".NS")
             # sector, industry = get_sector_screener_in(nse_company['SYMBOL'].strip())
-            sector, industry = get_sector_financial_modeling_prep(nse_company['SYMBOL'].strip())
+            sector, industry, marketcap = get_sector_financial_modeling_prep(nse_company['SYMBOL'].strip())
             nse_company['SECTOR'] = sector
             nse_company['SUBSECTOR'] = industry
-            print(f"SYMBOL : {nse_company['SYMBOL'].strip()}, SECTOR: {sector}, SUBSECTOR: {industry}")
+            nse_company['MARKETCAP'] = marketcap
+            print(f"SYMBOL : {nse_company['SYMBOL'].strip()}, SECTOR: {sector}, SUBSECTOR: {industry}, MARKETCAP: {marketcap}")
     except Exception as e:
         print(e)
 

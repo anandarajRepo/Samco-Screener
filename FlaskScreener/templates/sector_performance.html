@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title></title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<style>
+
+.column-nowrap {
+    white-space: nowrap;
+}
+
+.positive {
+    color:green;
+    font-weight:bold;
+}
+
+.negative {
+    color:#CD5C5C;
+    font-weight:bold;
+}
+
+table thead th:first-child,
+table tbody th:first-child {
+  position: sticky;
+  left: 0;
+  background: white;
+}
+
+.overlapStock {
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 3;
+}
+
+.hidden {
+    display: none;
+}
+</style>
+
+<script>
+    // Toggles the 'overlapStock' class for all elements with the 'changeZIndex' class.
+    function addRemoveCSS() {
+        // Get all elements with the 'changeZIndex' class.
+        const boxes = document.getElementsByClassName("changeZIndex");
+
+        // Toggle the 'overlapStock' class for each element.
+        for(const box of boxes) {
+            box.classList.toggle("overlapStock");
+        }
+    }
+</script>
+
+<body>
+<table class="table table-light">
+    <thead>
+        <tr>
+            <th scope="col">Sector</th>
+            <th scope="col">Sub-Sector</th>
+            <th scope="col">Symbol</th>
+            {% for column in columnTitle %}
+                <th scope="col" class="column-nowrap">{{column}}</th>
+            {% endfor %}
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+        {% for key, value in sectorPerformance.items() %}
+            {% if key == 'sectorName' %} <td scope="row"><b> {{ value }} </b></td>{% endif %}
+            {% if key == 'subSectorName' %}<td scope="row"><b> {{ value }} </b></td>{% endif %}
+            {% if key == 'subSectorPerformance' %}
+                {% for date, performance in value.items() %}
+                <td>
+                    <div {% if performance is number and performance>= 0 %} class="text-success" {% endif %}
+                        {% if performance is number and performance<= 0 %} class="text-danger" {% endif %}><b>{{performance}}</b></div>
+                </td>
+                {% endfor %}
+            {% endif %}
+        {% endfor %}
+        </tr>
+    </tbody>
+</table>
+
+<script>
+    // Add click event listener to each clickable row
+    document.querySelectorAll('.clickable-row').forEach(row => {
+        row.addEventListener('click', () => {
+            // Get the index of the clicked row
+            const index = row.getAttribute('data-index');
+            // Select the corresponding hidden row and toggle its visibility
+            document.querySelector('.extra-info[data-index="${index}"]').classList.toggle('hidden');
+        });
+    });
+</script>
+
+</body>
+</html>

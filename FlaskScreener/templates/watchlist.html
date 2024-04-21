@@ -30,7 +30,7 @@
 
 <body>
     <br />
-    <form class="form-inline" method="POST" action="{{ url_for('home') }}">
+    <form id="form-watchlist" class="form-inline" method="POST" action="{{ url_for('home') }}">
         <div class="row g-3 align-items-center">
             <div class="col-auto mb-3">
                 <select class="form-select form-select-sm" id="sector-dropdown" name="sector-dropdown"
@@ -55,10 +55,26 @@
             <div class="col-auto mb-3">
                 <button type="submit" class="btn btn-outline-primary btn-sm">Search</button>
             </div>
+            <div class="col-lg-4 col-lg-offset-4 mb-3 form-group has-feedback has-search">
+                <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                <input type="text" class="form-control" placeholder="Search Company Name Here" id="search-bar" name="search-bar">
+            </div>
         </div>
-
     </form>
     <br />
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+        document.getElementById("search-bar").addEventListener("keypress", function (event) {
+            // If the user presses the "Enter" key on the keyboard
+            // (13 is the "Enter" key code), run myFunction
+            if (event.keyCode === 13) {
+                event.preventDefault();
+                document.getElementById("form-watchlist").submit();
+            }
+        });
+    });
+    </script>
 
     <table id="stocktable" class="table table-bordered table-sm sortable">
         <thead>
@@ -68,6 +84,8 @@
                 <th scope="col">Company</th>
                 <th scope="col">Sector</th>
                 <th scope="col">Sub-Sector</th>
+                <th scope="col">DateOfListing</th>
+                <th scope="col">MktCap (in Cr)</th>
                 <th scope="col">LTP</th>
                 <th scope="col">1D %</th>
                 <th scope="col">1W %</th>
@@ -80,12 +98,13 @@
         <tbody>
             {% for stockDetails in listOfStocks %}
             <tr {% if stockDetails['favourite']==true %} class="table-secondary" {% endif %}>
-                <td><input type="checkbox" class="get_value" name="insturmentId" value="{{stockDetails['id']}}" {% if
-                        stockDetails['favourite']==true %} checked {% endif %}></td>
+                <td><input type="checkbox" class="get_value" name="insturmentId" value="{{stockDetails['id']}}" {% if stockDetails['favourite']==true %} checked {% endif %}></td>
                 <td scope="row"><b>{{stockDetails['symbol']}}</b></td>
                 <td scope="row"><b>{{stockDetails['nameofcompany']}}</b></td>
                 <td scope="row">{{stockDetails['sector']}}</td>
                 <td scope="row">{{stockDetails['subsector']}}</td>
+                <td scope="row">{{stockDetails['dateoflistings']}}</td>
+                <td scope="row" data-value="{{stockDetails['marketcapincrs']}}">{{stockDetails['marketcap']}}</td>
                 <td scope="row">{{stockDetails['LTP']}}</td>
                 <td scope="row" {% if stockDetails['1D'] is number and stockDetails['1D']>= 0 %} class="text-success" {%
                     endif %} {% if stockDetails['1D'] is number and stockDetails['1D'] <= 0 %} class="text-danger" {%

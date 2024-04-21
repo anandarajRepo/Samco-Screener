@@ -36,14 +36,17 @@ nameOfCompany = 'Peninsula Land Limited'
 ######################
 ### List of Stocks ###
 ######################
-def getTheListOfStocks(sectorFilter, subSectorFilter):
+def getTheListOfStocks(sectorFilter, subSectorFilter, searchText):
     instrument_query_template = """
-        SELECT id, symbol, nameofcompany, sector, subsector, favourite
+        SELECT id, symbol, nameofcompany, sector, subsector, favourite, dateoflistings, marketcap
         FROM instruments
-        {% if sectorFilter %}
-        WHERE sector = {{ sectorFilter }} AND active = TRUE
+        {% if searchText %}
+        WHERE nameofcompany ILIKE {{ searchText }}
         {% else %}
         WHERE favourite = true AND active = TRUE
+        {% endif %}
+        {% if sectorFilter %}
+        WHERE sector = {{ sectorFilter }} AND active = TRUE
         {% endif %}
         {% if subSectorFilter %}
         AND subsector = {{ subSectorFilter }}
@@ -52,16 +55,24 @@ def getTheListOfStocks(sectorFilter, subSectorFilter):
     """
 
     instrument_query_template_data = {
+        "searchText": searchText,
         "sectorFilter": sectorFilter,
-        "subSectorFilter": subSectorFilter
+        "subSectorFilter": subSectorFilter,
     }
 
     query, bind_params = jinjaSql.prepare_query(instrument_query_template, instrument_query_template_data)
     conn.execute(query, bind_params)
     listOfStocks = conn.fetchall()
 
-    # for listOfStock in listOfStocks:
-    #     pprint(listOfStock['id'])
+    for index, listOfStock in enumerate(listOfStocks):
+        if listOfStock['marketcap'] is not None and 'T' in listOfStock['marketcap']:
+            listOfStocks[index]['marketcapincrs'] = int((float(listOfStock['marketcap'].replace('T', '')) * 100000))
+        elif listOfStock['marketcap'] is not None and 'B' in listOfStock['marketcap']:
+            listOfStocks[index]['marketcapincrs'] = int((float(listOfStock['marketcap'].replace('B', '')) * 100))
+        elif listOfStock['marketcap'] is not None and 'M' in listOfStock['marketcap']:
+            listOfStocks[index]['marketcapincrs'] = int((float(listOfStock['marketcap'].replace('M', '')) / 10))
+        elif listOfStock['marketcap'] is not None and 'k' in listOfStock['marketcap']:
+            listOfStocks[index]['marketcapincrs'] = int((float(listOfStock['marketcap'].replace('k', ''))))
 
     context = {'listOfStocks': listOfStocks}
     return listOfStocks
@@ -139,11 +150,11 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
                     else:
                         close_prices[interval] = None
 
-        if close_prices['today']:
+        if 'today' in close_prices:
             listOfStock['LTP'] = close_prices['today']
 
         for interval in time_intervals:
-            if close_prices['today'] and interval in close_prices and close_prices[interval]:
+            if 'today' in close_prices and interval in close_prices and close_prices[interval] and close_prices['today'] not in [None, '']:
                 diff = close_prices['today'] - close_prices[interval]
                 percentChange = ((diff * 100) / close_prices[interval])
                 listOfStock[interval] = int(percentChange)
@@ -154,7 +165,7 @@ def calculatePerformance(listOfStocks, dictOfDateIntervalsAdj):
                 if interval == '1D':
                     listOfStocksWithoutReturns.append(listOfStock)
 
-    listOfStocksWithReturns.sort(key=lambda x: x['1M'], reverse=True)
+    # listOfStocksWithReturns.sort(key=lambda x: x['1M'], reverse=True)
     listOfStocksWithReturns.sort(key=lambda x: x['subsector'])
     listOfStocksWithReturns.extend(listOfStocksWithoutReturns)
 
@@ -196,8 +207,7 @@ def insert():
         print(event)
 
         try:
-            conn.execute(
-                """UPDATE instruments SET favourite = '{1}' WHERE id = '{0}'""".format(int(checkedStockId), event))
+            conn.execute("""UPDATE instruments SET favourite = '{1}' WHERE id = '{0}'""".format(int(checkedStockId), event))
             db.commit()
         except Exception as e:
             print(e)
@@ -216,8 +226,12 @@ def insert():
 def home():
     sectorFilter = request.form.get('sector-dropdown')
     subSectorFilter = request.form.get('sub-category-dropdown')
+    if request.form.get('search-bar') is not None:
+        searchText = "%{}%".format(request.form.get('search-bar'))
+    else:
+        searchText = None
 
-    listOfStocks = getTheListOfStocks(sectorFilter, subSectorFilter)
+    listOfStocks = getTheListOfStocks(sectorFilter, subSectorFilter, searchText)
     dictOfDateIntervalsAdj = getDateIntervals()
     listOfStocksWithReturns = calculatePerformance(listOfStocks, dictOfDateIntervalsAdj)
     listOfSectors = getSectors()

@@ -18,3 +18,12 @@ samco = StocknoteAPIPythonBridge()
 
 login = samco.login(body={"userId": userId, 'password': password, 'yob': yob})
 print("Login details", login)  # this will return a user details and generated session token
+
+# config['Samco']['token'] = login['sessionToken']
+#
+# # Write the changes back to the file
+# with open('config.ini', 'w') as configfile:
+#     config.write(configfile)
+
+
+

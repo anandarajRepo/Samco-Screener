@@ -41,7 +41,7 @@ try:
             print(row)
             if row > 0:
                 if "SECTOR" in nse_company or "SUBSECTOR" in nse_company:
-                    updateQuery = """UPDATE instruments SET sector = '{0}', subsector = '{1}', active = TRUE WHERE symbol = '{2}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['SYMBOL'])
+                    updateQuery = """UPDATE instruments SET sector = '{0}', subsector = '{1}', marketcap = '{2}', active = TRUE WHERE symbol = '{3}'""".format(nse_company['SECTOR'], nse_company['SUBSECTOR'], nse_company['MARKETCAP'], nse_company['SYMBOL'])
                     conn.execute(updateQuery)
                     print(updateQuery)
             else:
