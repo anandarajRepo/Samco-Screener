@@ -15,6 +15,7 @@
     <!-- Favourite Stock Notification Style -->
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/watchlist/favouritestock.css') }}">
 </head>
+
 <!-- JQuery -->
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"
     integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
@@ -29,107 +30,170 @@
 <script src="{{ url_for('static', filename='js/watchlist/SubsectorGenrator.js') }}"></script>
 
 <body>
-    <br />
-    <form id="form-watchlist" class="form-inline" method="POST" action="{{ url_for('home') }}">
-        <div class="row g-3 align-items-center">
-            <div class="col-auto mb-3">
-                <select class="form-select form-select-sm" id="sector-dropdown" name="sector-dropdown"
-                    aria-label="Default select example">
-                    <option value="">Choose Sector</option>
-                    {% for sectorDetails in listOfSectors %}
-                    <option {% if selectedSector==sectorDetails['sector'] %} Selected {% endif %}
-                        value="{{sectorDetails['sector']}}">{{sectorDetails['sector']}}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            <div class="col-auto mb-3">
-                <select class="form-select form-select-sm" id="sub-category-dropdown" name="sub-category-dropdown"
-                    aria-label="Default select example">
-                    <option value="">Choose Sub-Sector</option>
-                    {% for subSectorDetails in listOfSubSectors %}
-                    <option {% if selectedSubSector==subSectorDetails['subsector'] %} Selected {% endif %}
-                        value="{{subSectorDetails['subsector']}}">{{subSectorDetails['subsector']}}</option>
-                    {% endfor %}
-                </select>
-            </div>
-            <div class="col-auto mb-3">
-                <button type="submit" class="btn btn-outline-primary btn-sm">Search</button>
-            </div>
-            <div class="col-lg-4 col-lg-offset-4 mb-3 form-group has-feedback has-search">
-                <span class="glyphicon glyphicon-search form-control-feedback"></span>
-                <input type="text" class="form-control" placeholder="Search Company Name Here" id="search-bar" name="search-bar">
+    <!-- Navigation Header -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <i class="fa fa-line-chart"></i> Stock Screener
+            </a>
+            <div class="navbar-nav ms-auto">
+                <button type="button" class="btn btn-outline-primary" onclick="navigateToDailyPerformance()">
+                    <i class="fa fa-bar-chart"></i> Daily Performance Analysis
+                </button>
             </div>
         </div>
-    </form>
-    <br />
+    </nav>
 
-    <script>
-    document.addEventListener("DOMContentLoaded", function () {
-        document.getElementById("search-bar").addEventListener("keypress", function (event) {
-            // If the user presses the "Enter" key on the keyboard
-            // (13 is the "Enter" key code), run myFunction
-            if (event.keyCode === 13) {
-                event.preventDefault();
-                document.getElementById("form-watchlist").submit();
-            }
-        });
-    });
-    </script>
+    <div class="container-fluid mt-3">
+        <!-- Filter Section -->
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fa fa-filter"></i> Filters
+                </h5>
+            </div>
+            <div class="card-body">
+                <form id="form-watchlist" class="form-inline" method="POST" action="{{ url_for('home') }}">
+                    <div class="row g-3 align-items-center">
+                        <div class="col-auto mb-3">
+                            <label for="sector-dropdown" class="form-label">Sector:</label>
+                            <select class="form-select form-select-sm" id="sector-dropdown" name="sector-dropdown"
+                                aria-label="Select Sector">
+                                <option value="">All Sectors</option>
+                                {% for sectorDetails in listOfSectors %}
+                                <option {% if selectedSector==sectorDetails['sector'] %} selected {% endif %}
+                                    value="{{sectorDetails['sector']}}">{{sectorDetails['sector']}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <label for="sub-category-dropdown" class="form-label">Sub-Sector:</label>
+                            <select class="form-select form-select-sm" id="sub-category-dropdown" name="sub-category-dropdown"
+                                aria-label="Select Sub-Sector">
+                                <option value="">All Sub-Sectors</option>
+                                {% for subSectorDetails in listOfSubSectors %}
+                                <option {% if selectedSubSector==subSectorDetails['subsector'] %} selected {% endif %}
+                                    value="{{subSectorDetails['subsector']}}">{{subSectorDetails['subsector']}}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <div class="col-auto mb-3">
+                            <button type="submit" class="btn btn-primary btn-sm">
+                                <i class="fa fa-search"></i> Filter
+                            </button>
+                        </div>
+                        <div class="col-lg-4 col-lg-offset-4 mb-3 form-group has-feedback has-search">
+                            <span class="glyphicon glyphicon-search form-control-feedback"></span>
+                            <input type="text" class="form-control form-control-sm" placeholder="Search Company Name..."
+                                   id="search-bar" name="search-bar">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
 
-    <table id="stocktable" class="table table-bordered table-sm sortable">
-        <thead>
-            <tr>
-                <th scope="col">ID</th>
-                <th scope="col">Symbol</th>
-                <th scope="col">Company</th>
-                <th scope="col">Sector</th>
-                <th scope="col">Sub-Sector</th>
-                <th scope="col">DateOfListing</th>
-                <th scope="col">MktCap (in Cr)</th>
-                <th scope="col">LTP</th>
-                <th scope="col">1D %</th>
-                <th scope="col">1W %</th>
-                <th scope="col">1M %</th>
-                <th scope="col">3M %</th>
-                <th scope="col">6M %</th>
-                <th scope="col">1Y %</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for stockDetails in listOfStocks %}
-            <tr {% if stockDetails['favourite']==true %} class="table-secondary" {% endif %}>
-                <td><input type="checkbox" class="get_value" name="insturmentId" value="{{stockDetails['id']}}" {% if stockDetails['favourite']==true %} checked {% endif %}></td>
-                <td scope="row"><b>{{stockDetails['symbol']}}</b></td>
-                <td scope="row"><b>{{stockDetails['nameofcompany']}}</b></td>
-                <td scope="row">{{stockDetails['sector']}}</td>
-                <td scope="row">{{stockDetails['subsector']}}</td>
-                <td scope="row">{{stockDetails['dateoflistings']}}</td>
-                <td scope="row" data-value="{{stockDetails['marketcapincrs']}}">{{stockDetails['marketcap']}}</td>
-                <td scope="row">{{stockDetails['LTP']}}</td>
-                <td scope="row" {% if stockDetails['1D'] is number and stockDetails['1D']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['1D'] is number and stockDetails['1D'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['1D']}}</b></td>
-                <td scope="row" {% if stockDetails['1W'] is number and stockDetails['1W']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['1W'] is number and stockDetails['1W'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['1W']}}</b></td>
-                <td scope="row" {% if stockDetails['1M'] is number and stockDetails['1M']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['1M'] is number and stockDetails['1M'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['1M']}}</b></td>
-                <td scope="row" {% if stockDetails['3M'] is number and stockDetails['3M']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['3M'] is number and stockDetails['3M'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['3M']}}</b></td>
-                <td scope="row" {% if stockDetails['6M'] is number and stockDetails['6M']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['6M'] is number and stockDetails['6M'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['6M']}}</b></td>
-                <td scope="row" {% if stockDetails['1Y'] is number and stockDetails['1Y']>= 0 %} class="text-success" {%
-                    endif %} {% if stockDetails['1Y'] is number and stockDetails['1Y'] <= 0 %} class="text-danger" {%
-                        endif %}><b>{{stockDetails['1Y']}}</b></td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+        <!-- Current Filter Display -->
+        {% if selectedSector or selectedSubSector %}
+        <div class="alert alert-info d-flex justify-content-between align-items-center">
+            <div>
+                <strong>Current Filters:</strong>
+                {% if selectedSector %}
+                    Sector: <span class="badge bg-primary">{{ selectedSector }}</span>
+                {% endif %}
+                {% if selectedSubSector %}
+                    Sub-Sector: <span class="badge bg-secondary">{{ selectedSubSector }}</span>
+                {% endif %}
+            </div>
+            <button type="button" class="btn btn-success btn-sm" onclick="navigateToDailyPerformance()">
+                <i class="fa fa-bar-chart"></i> Analyze Performance
+            </button>
+        </div>
+        {% endif %}
 
-    <!-- Favorite Stock Notification -->
+        <!-- Stock Table -->
+        <div class="card">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fa fa-list"></i> Stock Watchlist
+                    <small class="text-muted">({{ listOfStocks|length }} stocks)</small>
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table id="stocktable" class="table table-bordered table-sm sortable mb-0">
+                        <thead class="table-light">
+                            <tr>
+                                <th scope="col"><i class="fa fa-star"></i></th>
+                                <th scope="col">Symbol</th>
+                                <th scope="col">Company</th>
+                                <th scope="col">Sector</th>
+                                <th scope="col">Sub-Sector</th>
+                                <th scope="col">Listed</th>
+                                <th scope="col">MktCap (₹Cr)</th>
+                                <th scope="col">LTP (₹)</th>
+                                <th scope="col">1D %</th>
+                                <th scope="col">1W %</th>
+                                <th scope="col">1M %</th>
+                                <th scope="col">3M %</th>
+                                <th scope="col">6M %</th>
+                                <th scope="col">1Y %</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for stockDetails in listOfStocks %}
+                            <tr {% if stockDetails['favourite']==true %} class="table-secondary" {% endif %}>
+                                <td>
+                                    <input type="checkbox" class="get_value" name="insturmentId"
+                                           value="{{stockDetails['id']}}"
+                                           {% if stockDetails['favourite']==true %} checked {% endif %}>
+                                </td>
+                                <td scope="row"><strong>{{stockDetails['symbol']}}</strong></td>
+                                <td scope="row"><strong>{{stockDetails['nameofcompany']}}</strong></td>
+                                <td scope="row">{{stockDetails['sector']}}</td>
+                                <td scope="row">{{stockDetails['subsector']}}</td>
+                                <td scope="row">{{stockDetails['dateoflistings']}}</td>
+                                <td scope="row" data-value="{{stockDetails['marketcapincrs']}}">{{stockDetails['marketcap']}}</td>
+                                <td scope="row">{{stockDetails['LTP']}}</td>
+                                <td scope="row"
+                                    {% if stockDetails['1D'] is number and stockDetails['1D'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['1D'] is number and stockDetails['1D'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['1D']}}</strong>
+                                </td>
+                                <td scope="row"
+                                    {% if stockDetails['1W'] is number and stockDetails['1W'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['1W'] is number and stockDetails['1W'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['1W']}}</strong>
+                                </td>
+                                <td scope="row"
+                                    {% if stockDetails['1M'] is number and stockDetails['1M'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['1M'] is number and stockDetails['1M'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['1M']}}</strong>
+                                </td>
+                                <td scope="row"
+                                    {% if stockDetails['3M'] is number and stockDetails['3M'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['3M'] is number and stockDetails['3M'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['3M']}}</strong>
+                                </td>
+                                <td scope="row"
+                                    {% if stockDetails['6M'] is number and stockDetails['6M'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['6M'] is number and stockDetails['6M'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['6M']}}</strong>
+                                </td>
+                                <td scope="row"
+                                    {% if stockDetails['1Y'] is number and stockDetails['1Y'] >= 0 %} class="text-success" {% endif %}
+                                    {% if stockDetails['1Y'] is number and stockDetails['1Y'] < 0 %} class="text-danger" {% endif %}>
+                                    <strong>{{stockDetails['1Y']}}</strong>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Favorite Stock Notifications -->
     <div id="alert-favourite-success" class="alert alert-success alert-dismissible fade hide" role="alert">
         <div id="result-success"></div>
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
@@ -140,18 +204,86 @@
         <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
     </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
-    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
         crossorigin="anonymous"></script>
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script> -->
 
-    <!--DataTable Sorting reference-->
-    <!--https://github.com/drvic10k/bootstrap-sortable
-        https://hdtuto.com/article/bootstrap-sortable-table-columns-example-->
+    <script>
+        // Search functionality
+        document.addEventListener("DOMContentLoaded", function () {
+            document.getElementById("search-bar").addEventListener("keypress", function (event) {
+                if (event.keyCode === 13) {
+                    event.preventDefault();
+                    document.getElementById("form-watchlist").submit();
+                }
+            });
+        });
+
+        // Navigation to Daily Performance
+        function navigateToDailyPerformance() {
+            const sector = document.getElementById('sector-dropdown').value;
+            const subsector = document.getElementById('sub-category-dropdown').value;
+
+            // Build URL with current filters
+            let url = '/daily-performance?';
+            const params = new URLSearchParams();
+
+            if (sector) {
+                params.append('sector', sector);
+            }
+            if (subsector) {
+                params.append('subsector', subsector);
+            }
+
+            // Add default date range (last 30 days)
+            const endDate = new Date().toISOString().split('T')[0];
+            const startDate = new Date(Date.now() - 30 * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+            params.append('start_date', startDate);
+            params.append('end_date', endDate);
+
+            url += params.toString();
+
+            // Show loading indicator
+            const button = event.target.closest('button');
+            const originalText = button.innerHTML;
+            button.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Loading...';
+            button.disabled = true;
+
+            // Navigate after short delay to show loading state
+            setTimeout(() => {
+                window.location.href = url;
+            }, 500);
+        }
+
+        // Enhanced filter display
+        function updateFilterDisplay() {
+            const sector = document.getElementById('sector-dropdown').value;
+            const subsector = document.getElementById('sub-category-dropdown').value;
+
+            // Update navigation button text based on filters
+            const navButtons = document.querySelectorAll('button[onclick="navigateToDailyPerformance()"]');
+            navButtons.forEach(button => {
+                if (sector || subsector) {
+                    button.classList.remove('btn-outline-primary');
+                    button.classList.add('btn-success');
+                    button.innerHTML = '<i class="fa fa-bar-chart"></i> Analyze Selected Filters';
+                } else {
+                    button.classList.remove('btn-success');
+                    button.classList.add('btn-outline-primary');
+                    button.innerHTML = '<i class="fa fa-bar-chart"></i> Daily Performance Analysis';
+                }
+            });
+        }
+
+        // Update display when filters change
+        document.addEventListener('DOMContentLoaded', function() {
+            updateFilterDisplay();
+
+            document.getElementById('sector-dropdown').addEventListener('change', updateFilterDisplay);
+            document.getElementById('sub-category-dropdown').addEventListener('change', updateFilterDisplay);
+        });
+    </script>
 </body>
 
 </html>

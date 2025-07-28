@@ -1,30 +1,40 @@
 <!DOCTYPE html>
 <html>
 <head>
- <title></title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Daily Performance Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
 </head>
-<style>
 
+<style>
 .column-nowrap {
     white-space: nowrap;
 }
 
 .positive {
-    color:green;
-    font-weight:bold;
+    color: green;
+    font-weight: bold;
 }
 
 .negative {
-    color:#CD5C5C;
-    font-weight:bold;
+    color: #CD5C5C;
+    font-weight: bold;
 }
 
 table thead th:first-child,
 table tbody th:first-child {
-  position: sticky;
-  left: 0;
-  background: white;
+    position: sticky;
+    left: 0;
+    background: white;
+    z-index: 2;
+}
+
+table thead th {
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 1;
 }
 
 .overlapStock {
@@ -33,76 +43,272 @@ table tbody th:first-child {
     background: white;
     z-index: 3;
 }
+
+.filter-info {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.performance-header {
+    background: #f8f9fa;
+    border-bottom: 2px solid #dee2e6;
+}
+
+.metric-label {
+    font-size: 0.85em;
+    color: #6c757d;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
 </style>
 
-<script>
-    function addRemoveCSS() {
-        const boxes = document.getElementsByClassName("changeZIndex");
-        for(const box of boxes) {
-            box.classList.toggle("overlapStock");
-        }
-    }
-</script>
-
 <body>
-<table class="table table-light">
-    <thead>
-        <tr>
-            <th scope="col" onclick="addRemoveCSS()">Company</th>
-            <th scope="col" onclick="addRemoveCSS()" class="changeZIndex">Performance</th>
-            {% for column in columns %}
-                <th scope="col" class="column-nowrap">{{column}}</th>
-            {% endfor %}
-        </tr>
-    </thead>
-    <tbody>
-        {% for company, date in performance.items() %}
-            <tr>
-                <th scope="row" onclick="addRemoveCSS()">{{company}}</th>
-                <th scope="row" onclick="addRemoveCSS()" class="changeZIndex">
-                    <div class="left">OpenClosePercent</div>
-                    <div class="left">HighLowPercent</div>
-                    <div class="left">PrevClosePercent</div>
-                    <div class="left">VolPercent</div>
-                    <div class="left">GapUpPercent</div>
-                    <div class="left">GapDownPercent</div>
-                </th>
-                {% for column in columns %}
-                <td>
-                    {% for date, performance in date.items() %}
-                        {% if performance is not number and column == date %}
-                            {% for key, value in performance.items() %}
-                                {% if 'volPercent' == key %}
-                                    {% if value >= 100 %}
-                                        <div class="positive">{{value}}</div>
-                                    {% elif value <= 0 and value|abs >= 50 %}
-                                        <div class="negative">{{value}}</div>
-                                    {% else %}
-                                        <div>{{value}}</div>
-                                    {% endif %}
-                                {% elif 'gapUp' == key %}
-                                    {% if value > 0 %}
-                                        <div  class="positive">{{value}}</div>
-                                    {% else %}
-                                        <div>-</div>
-                                    {% endif %}
-                                {% elif 'gapDown' == key %}
-                                    {% if value < 0 %}
-                                        <div class="negative">{{value}}</div>
-                                    {% else %}
-                                        <div>-</div>
-                                    {% endif %}
-                                {% elif 'openClosePercent' == key or 'highLowPercent' == key or 'prevClosePercent' == key %}
-                                    <div>{{value}}</div>
-                                {% endif %}
-                            {% endfor %}
+    <!-- Back to Watchlist Button -->
+    <div class="back-button">
+        <a href="/watchlist" class="btn btn-primary">
+            <i class="fa fa-arrow-left"></i> Back to Watchlist
+        </a>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <!-- Header and Filter Information -->
+        <div class="filter-info">
+            <div class="row align-items-center">
+                <div class="col-md-8">
+                    <h2 class="mb-2">
+                        <i class="fa fa-bar-chart"></i> Daily Performance Analysis
+                    </h2>
+                    <p class="mb-0">
+                        <strong>Analysis Period:</strong> {{ filter_info.start_date }} to {{ filter_info.end_date }}
+                        {% if filter_info.sector %}
+                            | <strong>Sector:</strong> {{ filter_info.sector }}
                         {% endif %}
-                    {% endfor %}
-                </td>
-            {% endfor %}
-            </tr>
-        {% endfor %}
-    </tbody>
-</table>
+                        {% if filter_info.subsector %}
+                            | <strong>Sub-Sector:</strong> {{ filter_info.subsector }}
+                        {% endif %}
+                    </p>
+                </div>
+                <div class="col-md-4 text-right">
+                    <div class="btn-group" role="group">
+                        <button type="button" class="btn btn-light btn-sm" onclick="window.print()">
+                            <i class="fa fa-print"></i> Print
+                        </button>
+                        <button type="button" class="btn btn-light btn-sm" onclick="exportToCSV()">
+                            <i class="fa fa-download"></i> Export
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Performance Metrics Legend -->
+        <div class="card mb-3">
+            <div class="card-header">
+                <h5 class="card-title mb-0">
+                    <i class="fa fa-info-circle"></i> Performance Metrics Guide
+                </h5>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-2">
+                        <strong>Open-Close %:</strong> Daily price change from open to close
+                    </div>
+                    <div class="col-md-2">
+                        <strong>High-Low %:</strong> Intraday volatility range
+                    </div>
+                    <div class="col-md-2">
+                        <strong>Prev Close %:</strong> Change from previous day's close
+                    </div>
+                    <div class="col-md-2">
+                        <strong>Volume %:</strong> Volume change from previous day
+                    </div>
+                    <div class="col-md-2">
+                        <strong>Gap Up %:</strong> Opening gap above previous high
+                    </div>
+                    <div class="col-md-2">
+                        <strong>Gap Down %:</strong> Opening gap below previous low
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Performance Data Table -->
+        <div class="card">
+            <div class="card-header performance-header">
+                <h5 class="card-title mb-0">
+                    <i class="fa fa-table"></i> Daily Performance Data
+                    <small class="text-muted">({{ performance|length }} companies)</small>
+                </h5>
+            </div>
+            <div class="card-body p-0">
+                <div class="table-responsive">
+                    <table class="table table-sm table-hover mb-0">
+                        <thead class="thead-light">
+                            <tr>
+                                <th scope="col" onclick="toggleSticky()" style="cursor: pointer;">
+                                    <i class="fa fa-building"></i> Company
+                                </th>
+                                <th scope="col" onclick="toggleSticky()" class="changeZIndex" style="cursor: pointer;">
+                                    <i class="fa fa-line-chart"></i> Performance Metrics
+                                </th>
+                                {% for column in columns %}
+                                    <th scope="col" class="column-nowrap text-center">
+                                        {{ column.strftime('%d-%m-%Y') if column else column }}
+                                    </th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for company, date_data in performance.items() %}
+                                <tr>
+                                    <th scope="row" onclick="toggleSticky()" class="bg-light">
+                                        <strong>{{ company }}</strong>
+                                    </th>
+                                    <th scope="row" onclick="toggleSticky()" class="changeZIndex bg-light">
+                                        <div class="metric-label">Open-Close %</div>
+                                        <div class="metric-label">High-Low %</div>
+                                        <div class="metric-label">Prev Close %</div>
+                                        <div class="metric-label">Volume %</div>
+                                        <div class="metric-label">Gap Up %</div>
+                                        <div class="metric-label">Gap Down %</div>
+                                    </th>
+                                    {% for column in columns %}
+                                    <td class="text-center">
+                                        {% set day_performance = date_data.get(column) %}
+                                        {% if day_performance %}
+                                            <!-- Open-Close Percent -->
+                                            <div class="{% if day_performance.openClosePercent > 0 %}positive{% elif day_performance.openClosePercent < 0 %}negative{% endif %}">
+                                                {{ day_performance.openClosePercent }}%
+                                            </div>
+                                            <!-- High-Low Percent -->
+                                            <div>{{ day_performance.highLowPercent }}%</div>
+                                            <!-- Previous Close Percent -->
+                                            <div class="{% if day_performance.prevClosePercent > 0 %}positive{% elif day_performance.prevClosePercent < 0 %}negative{% endif %}">
+                                                {{ day_performance.prevClosePercent }}%
+                                            </div>
+                                            <!-- Volume Percent -->
+                                            <div class="{% if day_performance.volPercent >= 100 %}positive{% elif day_performance.volPercent <= -50 %}negative{% endif %}">
+                                                {{ day_performance.volPercent }}%
+                                            </div>
+                                            <!-- Gap Up -->
+                                            <div class="{% if day_performance.gapUp > 0 %}positive{% else %}text-muted{% endif %}">
+                                                {% if day_performance.gapUp > 0 %}{{ day_performance.gapUp }}%{% else %}-{% endif %}
+                                            </div>
+                                            <!-- Gap Down -->
+                                            <div class="{% if day_performance.gapDown < 0 %}negative{% else %}text-muted{% endif %}">
+                                                {% if day_performance.gapDown < 0 %}{{ day_performance.gapDown }}%{% else %}-{% endif %}
+                                            </div>
+                                        {% else %}
+                                            <div class="text-muted">-</div>
+                                            <div class="text-muted">-</div>
+                                            <div class="text-muted">-</div>
+                                            <div class="text-muted">-</div>
+                                            <div class="text-muted">-</div>
+                                            <div class="text-muted">-</div>
+                                        {% endif %}
+                                    </td>
+                                    {% endfor %}
+                                </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        {% if not performance %}
+        <div class="alert alert-warning text-center">
+            <h4><i class="fa fa-exclamation-triangle"></i> No Data Available</h4>
+            <p>No performance data found for the selected criteria. Please try different filters or date range.</p>
+            <a href="/watchlist" class="btn btn-primary">
+                <i class="fa fa-arrow-left"></i> Back to Watchlist
+            </a>
+        </div>
+        {% endif %}
+    </div>
+
+    <script>
+        // Toggle sticky positioning for company columns
+        function toggleSticky() {
+            const elements = document.getElementsByClassName("changeZIndex");
+            for(const element of elements) {
+                element.classList.toggle("overlapStock");
+            }
+        }
+
+        // Export functionality
+        function exportToCSV() {
+            const table = document.querySelector('table');
+            const rows = Array.from(table.querySelectorAll('tr'));
+
+            let csvContent = "data:text/csv;charset=utf-8,";
+
+            rows.forEach(row => {
+                const cols = Array.from(row.querySelectorAll('th, td'));
+                const rowData = cols.map(col => {
+                    // Clean up the text content
+                    return '"' + col.textContent.trim().replace(/"/g, '""') + '"';
+                }).join(',');
+                csvContent += rowData + "\r\n";
+            });
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", "daily_performance_{{ filter_info.start_date }}_to_{{ filter_info.end_date }}.csv");
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        // Keyboard shortcuts
+        document.addEventListener('keydown', function(event) {
+            // Ctrl/Cmd + P for print
+            if ((event.ctrlKey || event.metaKey) && event.key === 'p') {
+                event.preventDefault();
+                window.print();
+            }
+
+            // Ctrl/Cmd + E for export
+            if ((event.ctrlKey || event.metaKey) && event.key === 'e') {
+                event.preventDefault();
+                exportToCSV();
+            }
+
+            // Escape to go back
+            if (event.key === 'Escape') {
+                window.history.back();
+            }
+        });
+
+        // Add loading animation for back button
+        document.querySelector('.back-button a').addEventListener('click', function(e) {
+            const button = e.target.closest('a');
+            const originalText = button.innerHTML;
+            button.innerHTML = '<i class="fa fa-spinner fa-spin"></i> Loading...';
+
+            // Let the navigation proceed normally
+        });
+
+        // Print styles
+        const printStyle = document.createElement('style');
+        printStyle.textContent = `
+            @media print {
+                .back-button { display: none !important; }
+                .card { border: none !important; box-shadow: none !important; }
+                .filter-info { background: white !important; color: black !important; }
+                table { font-size: 10px !important; }
+            }
+        `;
+        document.head.appendChild(printStyle);
+    </script>
 </body>
 </html>
